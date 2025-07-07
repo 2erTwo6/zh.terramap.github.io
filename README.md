@@ -1,7 +1,7 @@
 # TerraMap：泰拉瑞亚世界地图查看器（简体中文分支）
 
 国内网络建议通过 [https://tr.泥嚎.top/](https://tr.xn--p8rt33c.top/) 访问
-由Github托管的页面 [https://2ertwo6.github.io/zh.terramap.github.io/]([https://terramap.github.io/windows.html](https://2ertwo6.github.io/zh.terramap.github.io/))
+由Github托管的页面 [https://2ertwo6.github.io/zh.terramap.github.io/](https://2ertwo6.github.io/zh.terramap.github.io/)
 
 ## 中文版
 

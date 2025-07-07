@@ -42,15 +42,15 @@ var panzoom = $("#panzoomContainer").panzoom({
   increment: 0.3,
 });
 
-$("#status").html("Checking File APIs...");
+$("#status").html("正在检查文件API...");
 
 // Check for the various File API support.
 if (window.File && window.FileReader && window.FileList && window.Blob) {
   $("#file").css("visibility", "visible");
   $("#file").on('change', fileNameChanged);
-	$("#status").html("Please choose a Terraria .wld file.");
+    $("#status").html("请选择一个泰拉瑞亚 .wld 文件。");
 } else {
-	$("#status").html("The File APIs are not fully supported in this browser.");
+    $("#status").html("当前浏览器不支持完整的文件API。");
 }
 
 resizeCanvases();
@@ -141,7 +141,7 @@ function addTileSelectOptions() {
     tile.isTile = true;
 
     var option = document.createElement("option");
-    option.text = `${tile.Name} (Tile ${i})`;
+    option.text = `${tile.Name} (方块 ${i})`;
     option.value = i;
     options.push(option);
 
@@ -170,7 +170,7 @@ function addTileSelectOptions() {
           option.text = `${frame.Variety} - ${option.text}`;
         }
 
-        option.text += ` (Tile ${i})`;
+        option.text += ` (方块 ${i})`;
 
         options.push(option);
       }
@@ -185,7 +185,7 @@ function addItemSelectOptions() {
     item.isItem = true;
 
     var option = document.createElement("option");
-    option.text = `${item.Name} (Item ${item.Id})`;
+    option.text = `${item.Name} (物品 ${item.Id})`;
     option.value = `item${item.Id}`;
     options.push(option);
   }
@@ -198,7 +198,7 @@ function addWallSelectOptions() {
     wall.isWall = true;
 
     var option = document.createElement("option");
-    option.text = `${wall.Name} (Wall)`;
+    option.text = `${wall.Name} (墙壁)`;
     option.value = `wall${wall.Id}`;
     options.push(option);
   }
@@ -764,7 +764,7 @@ function drawSelectionIndicator() {
 }
 
 function getTileText (tile) {
-  var text = "Nothing";
+  var text = "无";
 
   if(!tile) {
     return text;
@@ -808,7 +808,7 @@ function getTileText (tile) {
           break;
         case 2: // logic sensor
           let checkType = tile.info.CheckTypes[tileEntity.logicCheckType];
-          let on = tileEntity.on ? "On" : "Off";
+          let on = tileEntity.on ? "开" : "关";
           text = `${text} - ${checkType}, ${on}`;
           break;
       }
@@ -819,38 +819,38 @@ function getTileText (tile) {
       text = `${settings.Walls[tile.WallType].Name} (${tile.WallType})`;
     }
     else {
-      text = `Unknown Wall (${tile.WallType})`;
+      text = `未知墙壁 (${tile.WallType})`;
     }
   }
   
   if (tile.IsLiquidPresent) {
-    if (text === "Nothing") text = "";
+    if (text === "无") text = "";
 
     if(tile.IsLiquidLava) {
-      text += text ? " Lava" : "Lava";
+      text += text ? " 熔岩" : "熔岩";
     }
     else if (tile.IsLiquidHoney) {
-      text += text ? " Honey" : "Honey";
+      text += text ? " 蜂蜜" : "蜂蜜";
     }
     else if (tile.Shimmer) {
-      text += text ? " Shimmer" : "Shimmer";
+      text += text ? " 微光" : "微光";
     }
     else {
-      text += text ? " Water" : "Water";
+      text += text ? " 水" : "水";
     }
   }
 
   if(tile.IsRedWirePresent)
-    text += " (Red Wire)";
+    text += " (红线)";
 
   if(tile.IsGreenWirePresent)
-    text += " (Green Wire)";
+    text += " (绿线)";
 
   if(tile.IsBlueWirePresent)
-    text += " (Blue Wire)";
+    text += " (蓝线)";
 
   if(tile.IsYellowWirePresent)
-    text += " (Yellow Wire)";
+    text += " (黄线)";
 
   return text;
 }
@@ -875,23 +875,23 @@ function onWorldLoaderWorkerMessage(e) {
     $("#status").html(e.data.status);
 
   if(e.data.tiles) {
-	  let xlimit = e.data.x + e.data.tiles.length / world.height;
-	  let i = 0;
-	  for(let x = e.data.x; x < xlimit; x++) {
-	    for(let y = 0; y < world.height; y++) {
-	      let tile = e.data.tiles[i++];
-	      if(tile) {
-	        tile.info = getTileInfo(tile);
-	        world.tiles.push(tile);
+      let xlimit = e.data.x + e.data.tiles.length / world.height;
+      let i = 0;
+      for(let x = e.data.x; x < xlimit; x++) {
+        for(let y = 0; y < world.height; y++) {
+          let tile = e.data.tiles[i++];
+          if(tile) {
+            tile.info = getTileInfo(tile);
+            world.tiles.push(tile);
 
-	        var c = getTileColor(y, tile, world);
-	        if(!c) c = {"r": 0, "g": 0, "b": 0 };
+            var c = getTileColor(y, tile, world);
+            if(!c) c = {"r": 0, "g": 0, "b": 0 };
 
-	        ctx.fillStyle = `rgb(${c.r}, ${c.g}, ${c.b})`;
-	        ctx.fillRect(x, y, 1, 1);
-	      }
-	    }
-		}
+            ctx.fillStyle = `rgb(${c.r}, ${c.g}, ${c.b})`;
+            ctx.fillRect(x, y, 1, 1);
+          }
+        }
+        }
   }
 
   if(e.data.chests) {
@@ -989,7 +989,7 @@ function addNpcs(npcs) {
 
     var npcText = npc.name;
     if(npc.type != npc.name) {
-      npcText = `${npcText} the ${npc.type}`;
+      npcText = `${npcText} - ${npc.type}`;
     }
 
     $("#npcList").append(`<li><a href="#" onclick="selectPoint(${npc.x}, ${npc.y})">${npcText}</a></li>`);

@@ -7,10 +7,10 @@
   <meta name="description" content="TerraMap 是一个交互式的泰拉瑞亚 v1.4.4 世界地图查看器，加载迅速，允许您平移、缩放、查找方块、矿石、箱子中的物品、地牢、NPC等。">
   <meta name="author" content="Jason Coon">
   <link rel="icon" href="favicon.ico">
-  <title>TerraMap | 关于</title>
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <!-- Custom styles for this template -->
+  <title>泰拉地图 | 关于</title>
+  <!-- Bootstrap 核心 CSS (现在从本地加载) -->
+  <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+  <!-- 本模板的自定义样式 -->
   <link rel="stylesheet" href="resources/css/styles.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -103,7 +103,7 @@
           TerraMap 为每个方块、物块、墙壁、物品等仅使用一个像素和颜色。它不使用游戏纹理。为此，我强烈推荐出色的 <a href="http://seancode.com/terrafirma">Terrafirma</a>。
         </p>
         <p>
-          它使用 <a href="http://www.w3schools.com/js">JavaScript</a>、<a href="http://www.w3schools.com/jquery">JQuery</a> 和 <a href="http://getbootstrap.com">Bootstrap</a> 构建。
+          它使用 <a href="http://www.w3schools.com/js">JavaScript</a>、<a href="http://www.w3schools.com/jquery">JQuery</a> 和 <a href="http://getbootstrap.com">Bootstrap (v3.4.1)</a> 构建。
           它使用 <a href="http://www.w3schools.com/html/html5_webworkers.asp">Web Workers</a> 在后台执行处理器密集型工作，以提高响应能力和性能。
         </p>
         <p>
@@ -154,15 +154,10 @@
       <!-- 广告脚本已移除 -->
     </div>
   </nav>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script>
-     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-     ga('create', 'UA-65896817-1', 'auto');
-     ga('send', 'pageview');
-  </script>
+  <!-- jQuery JS (现在从本地加载，并添加 defer) -->
+  <script src="resources/js/jquery-1.12.4.min.js" defer></script>
+  <!-- Bootstrap JS (现在从本地加载，并添加 defer) -->
+  <script src="resources/js/bootstrap.min.js" defer></script>
+  <!-- Google Analytics 脚本已移除，以避免潜在的连接问题 -->
 </body>
 </html>

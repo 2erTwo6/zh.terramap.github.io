@@ -17,6 +17,52 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
+  
+  <style>
+    /* 虚拟列表核心样式 - 解决上万项目卡顿 */
+    #virtual-blocks-container {
+      height: 400px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      position: relative;
+      background: #fff;
+    }
+    .virtual-phantom {
+      position: absolute;
+      left: 0; top: 0; right: 0;
+      z-index: -1;
+    }
+    .virtual-list {
+      position: absolute;
+      left: 0; top: 0; right: 0;
+      margin: 0; padding: 0;
+      list-style: none;
+    }
+    .virtual-item {
+      padding: 6px 12px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 13px;
+      user-select: none;
+      height: 32px;
+      line-height: 20px;
+    }
+    .virtual-item:hover { background-color: #f5f5f5; }
+    .virtual-item.selected {
+      background-color: #337ab7 !important;
+      color: #fff !important;
+    }
+    #blocksFilter {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+  </style>
 </head>
 <body>
   <nav id="main-navbar" class="navbar navbar-inverse navbar-fixed-top">
@@ -83,13 +129,17 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="chooseBlocksLabel">选择方块</h4>
-          <input id="blocksFilter" type="text" />
+          <h4 class="modal-title" id="chooseBlocksLabel">选择方块/物品 (按住Ctrl多选)</h4>
+          <input id="blocksFilter" type="text" placeholder="输入关键字搜索..." />
         </div>
         <div class="modal-body">
-          <select id="blocks" class="form-control" multiple="multiple" size="10"></select>
+          <div id="virtual-blocks-container">
+            <div class="virtual-phantom" id="v-phantom"></div>
+            <div class="virtual-list" id="v-list"></div>
+          </div>
         </div>
         <div class="modal-footer">
+          <span id="v-count" style="float: left; color: #777; line-height: 34px;"></span>
           <button type="button" class="btn btn-default" data-dismiss="modal">确定</button>
         </div>
       </div>
@@ -129,7 +179,6 @@
       <p>本人英语渣，所以翻译均由Gemini-2.5、Grok-3处理，会出现诸多翻译不准确的情况，甚至在小部分情况下，即使使用模糊搜索策略也无法搜索到需要的物品（如每秒伤害计数器被翻译为“DPS计”）。</p>
       <p>因此，如果你发现无法搜索到你需要查找的物品，可以点击上方的“前往半汉化版本”，此版本仅对常用选项和UI界面进行了汉化，以及保留了无广告和高性能的特性，物品名均为汉化保留项目原文。</p>
       <p>本网页由Github托管，国内更推荐访问https://tr.xn--p8rt33c.top/</p>
-      <p>最后更新时间：25年12月25日。</p>
     </div>
     <div id="canvasContainer">
       <div id="panzoomContainer">
@@ -152,14 +201,10 @@
       <div class="collapse navbar-collapse" id="navbar-bottom">
         <p id="status" class="navbar-text navbar-right"></p>
       </div>
-      <!-- 广告代码已移除 -->
     </div>
   </nav>
-  <!-- jQuery JS (现在从本地加载，并添加 defer) -->
   <script src="resources/js/jquery-1.12.4.min.js" defer></script>
-  <!-- Bootstrap JS (现在从本地加载，并添加 defer) -->
   <script src="resources/js/bootstrap.min.js" defer></script>
-  <!-- 所有本地 JS 文件都添加 defer 属性，以确保正确加载顺序 -->
   <script src="resources/js/jquery.mousewheel.js" defer></script>
   <script src="resources/js/jquery.panzoom.js" defer></script>
   <script src="resources/js/jquery.hotkeys.js" defer></script>
@@ -173,6 +218,5 @@
   <script src="resources/js/wallKeys.js" defer></script>
   <script src="resources/js/MapHelper.js" defer></script>
   <script src="resources/js/main.js" defer></script>
-  <!-- Google Analytics 脚本已移除，以避免潜在的连接问题 -->
 </body>
 </html>

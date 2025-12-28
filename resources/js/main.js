@@ -9,7 +9,7 @@ var overlayCtx = overlayCanvas.getContext("2d");
 var selectionCtx = selectionCanvas.getContext("2d");
 var pixels = null;
 
-// --- 图像平滑设置 (彻底禁用，保持像素清晰) ---
+// --- 图像平滑设置 ---
 [ctx, overlayCtx, selectionCtx].forEach(c => {
     c.msImageSmoothingEnabled = false;
     c.mozImageSmoothingEnabled = false;
@@ -18,7 +18,7 @@ var pixels = null;
 
 var file, world, selectionX = 0, selectionY = 0;
 
-// --- 虚拟滚动系统变量 (彻底修复卡顿) ---
+// --- 虚拟滚动系统变量 ---
 var allOptionsData = [];      // 存储所有原始对象
 var filteredOptions = [];     // 存储当前搜索过滤后的数据
 var selectedKeys = new Set(); // 存储选中项的唯一标识 (type_id_u_v)
@@ -66,10 +66,9 @@ function updateVirtualList() {
     }).join('');
 }
 
-// 绑定滚动事件
 vContainer.addEventListener('scroll', updateVirtualList);
 
-// 绑定点击事件 (实现原生 Select 逻辑：单选, Ctrl多选, Shift连选)
+// 绑定点击事件 (还原原生 Select 逻辑：单选, Ctrl多选, Shift连选)
 vList.addEventListener('click', e => {
     const el = e.target.closest('.virtual-item');
     if (!el) return;
@@ -78,11 +77,9 @@ vList.addEventListener('click', e => {
     const currentIndex = parseInt(el.dataset.idx);
 
     if (e.ctrlKey || e.metaKey) {
-        // Ctrl + 点击: 切换选中
         if (selectedKeys.has(key)) selectedKeys.delete(key);
         else selectedKeys.add(key);
     } else if (e.shiftKey && lastSelectedIndex !== -1) {
-        // Shift + 点击: 连选
         const start = Math.min(lastSelectedIndex, currentIndex);
         const end = Math.max(lastSelectedIndex, currentIndex);
         for (let i = start; i <= end; i++) {
@@ -90,7 +87,6 @@ vList.addEventListener('click', e => {
             selectedKeys.add(`${item.type}_${item.id}_${item.u}_${item.v}`);
         }
     } else {
-        // 直接点击: 单选
         selectedKeys.clear();
         selectedKeys.add(key);
     }
@@ -99,7 +95,6 @@ vList.addEventListener('click', e => {
     updateVirtualList();
 });
 
-// 搜索逻辑
 $('#blocksFilter').on('input', function() {
     const val = $(this).val().toLowerCase();
     filteredOptions = allOptionsData.filter(item => item.text.toLowerCase().includes(val));
@@ -107,14 +102,16 @@ $('#blocksFilter').on('input', function() {
     updateVirtualList();
 });
 
-// --- 2. 还原所有数据收集逻辑 ---
+// --- 2. 数据收集 (核心修复：在此处手动标记 isTile/isItem/isWall) ---
 function addTileSelectOptions() {
     for(var i = 0; i < settings.Tiles.length; i++) {
         var tile = settings.Tiles[i];
+        tile.isTile = true; // 身份标记
         allOptionsData.push({ text: `${tile.Name} (方块 ${i})`, id: i, type: 'tile', u: null, v: null });
         if(tile.Frames) {
             for(var frameIndex = 0; frameIndex < tile.Frames.length; frameIndex++) {
                 var frame = tile.Frames[frameIndex];
+                frame.isTile = true; // 身份标记
                 var text = tile.Name;
                 if(frame.Name) text = `${frame.Name} - ${text}`;
                 if(frame.Variety) text = `${frame.Variety} - ${text}`;
@@ -127,6 +124,7 @@ function addTileSelectOptions() {
 function addItemSelectOptions() {
     for(var i = 0; i < settings.Items.length; i++) {
         var item = settings.Items[i];
+        item.isItem = true; // 重要：身份标记，没有它搜不到箱子里的东西
         allOptionsData.push({ text: `${item.Name} (物品 ${item.Id})`, id: item.Id, type: 'item', u: null, v: null });
     }
 }
@@ -134,6 +132,7 @@ function addItemSelectOptions() {
 function addWallSelectOptions() {
     for(var i = 0; i < settings.Walls.length; i++) {
         var wall = settings.Walls[i];
+        wall.isWall = true; // 身份标记
         allOptionsData.push({ text: `${wall.Name} (墙壁)`, id: wall.Id, type: 'wall', u: null, v: null });
     }
 }
@@ -148,7 +147,7 @@ function collectOptions() {
     updateVirtualList();
 }
 
-// --- 3. 还原完整的泰拉瑞亚核心逻辑 ---
+// --- 3. 泰拉瑞亚核心逻辑 ---
 
 function getSelectedInfos() {
     var selectedInfos = [];
@@ -157,9 +156,15 @@ function getSelectedInfos() {
         var type = parts[0], id = parts[1];
         var u = parts[2] === 'null' ? null : parts[2], v = parts[3] === 'null' ? null : parts[3];
         
-        if(type === 'tile') selectedInfos.push(getTileInfoFrom(id, u, v));
-        else if(type === 'item') selectedInfos.push(settings.Items.find(i => i.Id == id));
-        else if(type === 'wall') selectedInfos.push(settings.Walls.find(w => w.Id == id));
+        if(type === 'tile') {
+            selectedInfos.push(getTileInfoFrom(id, u, v));
+        } else if(type === 'item') {
+            var item = settings.Items.find(i => i.Id == id);
+            if(item) { item.isItem = true; selectedInfos.push(item); }
+        } else if(type === 'wall') {
+            var wall = settings.Walls.find(w => w.Id == id);
+            if(wall) { wall.isWall = true; selectedInfos.push(wall); }
+        }
     });
     return selectedInfos.filter(i => i);
 }
@@ -180,11 +185,17 @@ function isTileMatch(tile, selectedInfos) {
     for(var j = 0; j < selectedInfos.length; j++) {
         var info = selectedInfos[j];
         if(!info) continue;
+        // 方块匹配
         if(tile.info && info.isTile && (tile.info == info || (!info.parent && tile.Type == info.Id))) return true;
+        // 墙壁匹配
         if(info.isWall && tile.WallType == info.Id) return true;
+        // 箱子匹配 (核心修复点)
         if(tile.chest && info.isItem) {
-            for(var i = 0; i < tile.chest.items.length; i++) if(info.Id == tile.chest.items[i].id) return true;
+            for(var i = 0; i < tile.chest.items.length; i++) {
+                if(info.Id == tile.chest.items[i].id) return true;
+            }
         }
+        // 图格实体匹配 (如武器架上的剑)
         let te = tile.tileEntity;
         if (te && info.isItem) {
             if ([1, 4, 6].includes(te.type)) { if (info.Id == te.item.id) return true; }

@@ -1,246 +1,246 @@
 var sets = [
   {
-    "Name": "Chests",
+    "Name": "宝箱",
     "Entries": [
       {
         "Id": "21",
-        "Name": "Chest",
+        "Name": "宝箱",
         "isTile": true
       },
       {
         "Id": "467",
-        "Name": "Chest (Group 2)",
+        "Name": "宝箱 (第2组)",
         "isTile": true
       }
     ]
   },
   {
-    "Name": "Corruption Blocks",
+    "Name": "腐化块",
     "Entries": [
       {
         "Id": "23",
-        "Name": "Corrupted Grass",
+        "Name": "腐化草",
         "isTile": true
       },
       {
         "Id": "24",
-        "Name": "Corrupted Weeds",
+        "Name": "腐化杂草",
         "isTile": true
       },
       {
         "Id": "25",
-        "Name": "Ebonstone",
+        "Name": "黑檀石块",
         "isTile": true
       },
       {
         "Id": "32",
-        "Name": "Corruption Thorns",
+        "Name": "腐化荆棘",
         "isTile": true
       },
       {
         "Id": "112",
-        "Name": "Ebonsand",
+        "Name": "黑檀沙块",
         "isTile": true
       },
       {
         "Id": "163",
-        "Name": "Purple Ice",
+        "Name": "紫冰块",
         "isTile": true
       },
       {
         "Id": "398",
-        "Name": "Corrupt Hardened Sand",
+        "Name": "腐化硬化沙",
         "isTile": true
       },
       {
         "Id": "400",
-        "Name": "Corrupt Sandstone",
+        "Name": "腐化沙岩",
         "isTile": true
       },
       {
         "Id": "636",
-        "Name": "Corrupt Vines",
+        "Name": "腐化藤蔓",
         "isTile": true
       },
       {
         "Id": "661",
-        "Name": "CorruptJungleGrass",
+        "Name": "腐化丛林草",
         "isTile": true
       }
     ]
   },
   {
-    "Name": "Crimson Blocks",
+    "Name": "猩红块",
     "Entries": [
       {
         "Id": "199",
-        "Name": "Flesh Grass",
+        "Name": "猩红草",
         "isTile": true
       },
       {
         "Id": "200",
-        "Name": "Red Ice",
+        "Name": "红冰块",
         "isTile": true
       },
       {
         "Id": "201",
-        "Name": "Flesh Weeds",
+        "Name": "猩红杂草",
         "isTile": true
       },
       {
         "Id": "203",
-        "Name": " Block",
+        "Name": " ",
         "isTile": true
       },
       {
         "Id": "205",
-        "Name": "Crimstone Vines",
+        "Name": "猩红藤蔓",
         "isTile": true
       },
       {
         "Id": "234",
-        "Name": "Crimsand",
+        "Name": "猩红沙块",
         "isTile": true
       },
       {
         "Id": "352",
-        "Name": "Crimtane Thorns",
+        "Name": "猩红荆棘",
         "isTile": true
       },
       {
         "Id": "399",
-        "Name": "Crimson Hardened Sand",
+        "Name": "猩红硬化沙",
         "isTile": true
       },
       {
         "Id": "401",
-        "Name": "Crimson Sandstone",
+        "Name": "猩红沙岩块",
         "isTile": true
       },
       {
         "Id": "662",
-        "Name": "CrimsonJungleGrass",
+        "Name": "猩红丛林草",
         "isTile": true
       }
     ]
   },
   {
-    "Name": "Enchanted Items",
+    "Name": "附魔物品",
     "Entries": [
       {
         "Id": "55",
-        "Name": "Enchanted Boomerang",
+        "Name": "附魔回旋镖",
         "isItem": true
       },
       {
         "Id": "187",
-        "Name": "3x2 Decos - Enchanted Sword",
+        "Name": "3x2装饰 - 附魔剑",
         "U": 918, "V": 0,
         "isTile": true
       },
       {
         "Id": "989",
-        "Name": "Enchanted Sword",
+        "Name": "附魔剑",
         "isItem": true
       }
     ]
   },
   {
-    "Name": "Hallow Blocks",
+    "Name": "神圣块",
     "Entries": [
       {
         "Id": "109",
-        "Name": "Hallowed Grass",
+        "Name": "神圣草",
         "isTile": true
       },
       {
         "Id": "110",
-        "Name": "Hallowed Plants",
+        "Name": "神圣植物",
         "isTile": true
       },
       {
         "Id": "113",
-        "Name": "Hallowed Weeds",
+        "Name": "神圣杂草",
         "isTile": true
       },
       {
         "Id": "115",
-        "Name": "Hallowed Vines",
+        "Name": "神圣藤蔓",
         "isTile": true
       },
       {
         "Id": "116",
-        "Name": "Pearlsand",
+        "Name": "珍珠沙块",
         "isTile": true
       },
       {
         "Id": "117",
-        "Name": "Pearlstone",
+        "Name": "珍珠石块",
         "isTile": true
       },
       {
         "Id": "164",
-        "Name": "Pink Ice",
+        "Name": "粉冰块",
         "isTile": true
       },
       {
         "Id": "402",
-        "Name": "Hallow Hardened Sand",
+        "Name": "神圣硬化沙块",
         "isTile": true
       },
       {
         "Id": "403",
-        "Name": "Hallow Sandstone",
+        "Name": "神圣沙岩块",
         "isTile": true
       },
       {
         "Id": "492",
-        "Name": "Golf Grass Hallowed",
+        "Name": "神圣高尔夫草",
         "isTile": true
       }
     ]
   },
   {
-    "Name": "Item Spawning Statues",
+    "Name": "物品生成雕像",
     "Entries": [
       {
         "Id": "105",
-        "Name": "Bomb Statue",
+        "Name": "炸弹雕像",
         "isItem": true,
         "U": 612,
         "V": 0
       },
       {
         "Id": "105",
-        "Name": "Bomb Statue",
+        "Name": "炸弹雕像",
         "isItem": true,
         "U": 612,
         "V": 162
       },
       {
         "Id": "105",
-        "Name": "Heart Statue",
+        "Name": "爱心雕像",
         "isItem": true,
         "U": 1332,
         "V": 0
       },
       {
         "Id": "105",
-        "Name": "Heart Statue",
+        "Name": "爱心雕像",
         "isItem": true,
         "U": 1332,
         "V": 162
       },
       {
         "Id": "105",
-        "Name": "Star Statue",
+        "Name": "星星雕像",
         "isTile": true,
         "U": 72,
         "V": 0
       },
       {
         "Id": "105",
-        "Name": "Star Statue",
+        "Name": "星星雕像",
         "isTile": true,
         "U": 72,
         "V": 162
@@ -248,22 +248,22 @@ var sets = [
     ]
   },
   {
-    "Name": "Spider Caves",
+    "Name": "蜘蛛洞",
     "Entries": [
       {
         "Id": "62",
-        "Name": "Spider Cave Wall",
+        "Name": "蜘蛛洞墙",
         "isWall": true
       },
       {
         "Id": "21",
-        "Name": "Web Covered Chest",
+        "Name": "蛛网覆盖的宝箱",
         "U": 540, "V": 0,
         "isTile": true
       },
       {
         "Id": "939",
-        "Name": "Web Slinger",
+        "Name": "蛛网抛射器",
         "isItem": true
       }
     ]

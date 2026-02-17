@@ -1,8 +1,9 @@
-# TerraMap
-TerraMap is an interactive Terraria v1.4.5 world map viewer that loads quickly and lets you pan, zoom, find blocks, ores, items in chests, dungeons, NPCs, etc.
+# TerraMap-chinese
 
-This is the source code repository.  If you're looking for the web app, you can find it here: https://terramap.github.io
+TerraMap 是一款交互式的《泰拉瑞亚》(Terraria) v1.4.5 地图查看器。它加载速度极快，支持平移、缩放，并能助你快速查找方块、矿物、宝箱内的物品、地牢以及 NPC 等，此为简体中文分支
 
-The web version of TerraMap is still experimental and feature incomplete.  Stay tuned for updates.
+国内镜像：https://tr.泥嚎.top
 
-If you're looking for the much more functional (but Windows-only) app, you can find it here: https://terramap.github.io/windows.html
+Github托管页面：https://2ertwo6.github.io/zh.terramap.github.io/
+
+如有旧版本需求请见releases页面

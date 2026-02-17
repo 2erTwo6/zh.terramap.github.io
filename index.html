@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="TerraMap 是一个交互式的泰拉瑞亚 (Terraria v1.4.5) 世界地图查看器，加载迅速，支持平移、缩放，查找方块、矿石、箱子物品、地牢、NPC 等。">
+  <meta name="author" content="Jason Coon">
+  <link rel="icon" href="favicon.ico">
+
+  <title>TerraMap - 泰拉瑞亚地图查看器</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="resources/css/styles.css">
+
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+      font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+      padding-top: 60px;
+    }
+
+    .navbar-inverse {
+      background-color: #2d2d30;
+      border-bottom: 1px solid #3e3e42;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    .navbar-inverse .navbar-brand {
+      color: #fff;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+    .navbar-inverse .navbar-brand img {
+      margin-right: 10px;
+      height: 20px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+      color: #bbb;
+      transition: color 0.2s;
+    }
+    .navbar-inverse .navbar-nav > li > a:hover {
+      color: #fff;
+    }
+
+    .btn-default {
+      background-color: #3e3e42;
+      border-color: #555;
+      color: #eee;
+    }
+    .btn-default:hover, .btn-default:focus, .btn-default:active {
+      background-color: #007acc;
+      border-color: #007acc;
+      color: #fff;
+    }
+
+    .dropdown-menu {
+      background-color: #2d2d30;
+      border: 1px solid #3e3e42;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+    .dropdown-menu > li > a {
+      color: #ddd;
+    }
+    .dropdown-menu > li > a:hover {
+      background-color: #007acc;
+      color: #fff;
+    }
+    .scrollable-menu {
+      height: auto;
+      max-height: 400px;
+      overflow-x: hidden;
+    }
+
+    .form-control {
+      background-color: #333;
+      border: 1px solid #555;
+      color: #fff;
+    }
+
+    #help {
+      background-color: #252526;
+      border: 1px solid #3e3e42;
+      border-radius: 8px;
+      padding: 30px;
+      max-width: 800px;
+      margin: 40px auto;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    #help h3, #help strong {
+      color: #4ec9b0;
+    }
+    #help ul li {
+      margin-bottom: 8px;
+      word-break: break-all;
+    }
+    code {
+      background-color: #111;
+      color: #ce9178;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+
+    .navbar-fixed-bottom {
+      background-color: #2d2d30;
+      border-top: 1px solid #3e3e42;
+      min-height: 30px;
+      padding-top: 5px;
+    }
+    #status {
+      color: #4ec9b0;
+      margin-right: 20px;
+      font-size: 0.9em;
+    }
+
+    .modal-content {
+      background-color: #252526;
+      color: #fff;
+      border: 1px solid #444;
+    }
+    .modal-header {
+      border-bottom: 1px solid #444;
+    }
+    .modal-footer {
+      border-top: 1px solid #444;
+    }
+    .close {
+      color: #fff;
+      opacity: 0.8;
+      text-shadow: none;
+    }
+    .close:hover {
+      color: #fff;
+      opacity: 1;
+    }
+
+    /* ===== 虚拟滚动列表样式 ===== */
+    #virtualBlockList {
+      height: 350px;
+      overflow: hidden;
+      background: #2a2a2a;
+      color: #e0e0e0;
+      border: 1px solid #555;
+      border-radius: 4px;
+      position: relative;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    #virtualBlockList .vlist-viewport {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    #virtualBlockList .vlist-viewport::-webkit-scrollbar {
+      width: 8px;
+    }
+    #virtualBlockList .vlist-viewport::-webkit-scrollbar-track {
+      background: #1e1e1e;
+    }
+    #virtualBlockList .vlist-viewport::-webkit-scrollbar-thumb {
+      background: #555;
+      border-radius: 4px;
+    }
+    #virtualBlockList .vlist-viewport::-webkit-scrollbar-thumb:hover {
+      background: #777;
+    }
+    #virtualBlockList .vlist-content {
+      position: relative;
+    }
+    #virtualBlockList .v-item {
+      position: absolute;
+      left: 0; right: 0;
+      padding: 0 10px;
+      cursor: pointer;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      box-sizing: border-box;
+      border-bottom: 1px solid #333;
+      font-size: 13px;
+    }
+    #virtualBlockList .v-item:hover {
+      background: #264f78 !important;
+      color: #fff;
+    }
+    #virtualBlockList .v-item.selected {
+      background: #007acc !important;
+      color: #fff;
+    }
+
+    /* 选中计数徽章 */
+    #selectedCount {
+      display: inline-block;
+      background: #007acc;
+      color: #fff;
+      border-radius: 10px;
+      padding: 2px 8px;
+      font-size: 12px;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav id="main-navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-top" aria-expanded="false">
+          <span class="sr-only">切换导航</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img alt="TerraMap" src="resources/images/TerraMap16.png" />
+            TerraMap
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-top">
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="file" id="file" name="file" class="form-control" title="选择泰拉瑞亚世界文件 (.wld)" />
+          </div>
+        </form>
+
+        <div class="navbar-left">
+            <button title="选择要查找的方块" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#chooseBlocksModal">
+                <span class="glyphicon glyphicon-th-large"></span> 选择方块...
+            </button>
+            <div class="btn-group navbar-btn">
+                <button title="查找上一个" onclick="previousBlock()" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span></button>
+                <button title="查找下一个" onclick="nextBlock()" class="btn btn-default"><span class="glyphicon glyphicon-chevron-right"></span></button>
+            </div>
+            <div class="btn-group navbar-btn">
+                <button title="高亮所有" onclick="highlightAll()" class="btn btn-default"><span class="glyphicon glyphicon-screenshot"></span></button>
+                <button title="清除高亮" onclick="clearHighlight()" class="btn btn-default"><span class="glyphicon glyphicon-remove"></span></button>
+            </div>
+            <button title="缩放至适应窗口" onclick="resetPanZoom()" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-fullscreen"></span></button>
+            <button title="保存地图图片" onclick="saveMapImage()" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-save"></span></button>
+            <button title="重新加载世界" onclick="reloadWorld()" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-refresh"></span></button>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right" style="margin-right: 10px;">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                集合 (Sets) <span class="caret"></span>
+            </a>
+            <ul id="setList" class="dropdown-menu"></ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                NPC 列表 <span class="caret"></span>
+            </a>
+            <ul id="npcList" class="dropdown-menu" role="menu"></ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                世界属性 <span class="caret"></span>
+            </a>
+            <ul id="worldPropertyList" class="dropdown-menu scrollable-menu" role="menu"></ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <span id="tile">图块信息</span> <span class="caret"></span>
+            </a>
+            <ul id="tileInfoList" class="dropdown-menu scrollable-menu" role="menu"></ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== 选择方块模态框（已改用虚拟滚动列表） ===== -->
+  <div class="modal fade" id="chooseBlocksModal" tabindex="-1" role="dialog" aria-labelledby="chooseBlocksLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="chooseBlocksLabel">
+            选择方块
+            <span id="selectedCount">已选: 0</span>
+          </h4>
+          <div style="margin-top: 10px;">
+              <input id="blocksFilter" type="text" class="form-control" placeholder="输入名称进行过滤..." autocomplete="off" />
+          </div>
+        </div>
+        <div class="modal-body" style="padding: 10px 15px;">
+          <div style="margin-bottom: 8px;">
+            <button type="button" class="btn btn-default btn-xs" onclick="VirtualSelect.selectAll()">全选当前</button>
+            <button type="button" class="btn btn-default btn-xs" onclick="VirtualSelect.clearAll()">清除全部</button>
+          </div>
+          <!-- 虚拟滚动列表容器，替代原来的 <select multiple> -->
+          <div id="virtualBlockList"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div id="help">
+      <h3 style="margin-top:0;">欢迎使用 TerraMap</h3>
+      <p>开始使用前，请点击上方 <strong>选择文件</strong> 按钮并打开您的泰拉瑞亚世界文件（.wld）。</p>
+      <p>世界文件通常位于以下路径：</p>
+      <ul>
+        <li><strong>Windows</strong>: <code>%USERPROFILE%\Documents\My Games\Terraria\Worlds</code></li>
+        <li><strong>Windows (Steam 云存档)</strong>: <code>C:\Program Files (x86)\Steam\userdata\{用户ID}\105600\remote\worlds</code></li>
+        <li><strong>MacOS</strong>: <code>~/Library/Application Support/Terraria/Worlds</code></li>
+        <li><strong>MacOS (Steam 云存档)</strong>: <code>~/Library/Application Support/Steam/userdata/{用户ID}/105600/remote/worlds</code></li>
+        <li><strong>Linux</strong>: <code>~/.local/share/Terraria/Worlds</code></li>
+        <li><strong>Linux (Steam 云存档)</strong>: <code>~/.local/share/Steam/userdata/{用户ID}/105600/remote/worlds</code></li>
+      </ul>
+    </div>
+
+    <div id="canvasContainer">
+      <div id="panzoomContainer">
+        <canvas id="canvas" style="position: absolute; left: 0; top: 0;"></canvas>
+        <canvas id="overlayCanvas" style="position: absolute; left: 0; top: 0;"></canvas>
+        <canvas id="selectionCanvas" style="position: absolute; left: 0; top: 0;">您的浏览器不支持 HTML5 Canvas 标签。</canvas>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-bottom" aria-expanded="false">
+          <span class="sr-only">切换导航</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-bottom">
+        <p id="status" class="navbar-text navbar-right">准备就绪</p>
+      </div>
+    </div>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  
+  <script src="resources/js/jquery.mousewheel.js"></script>
+  <script src="resources/js/jquery.panzoom.js"></script>
+  <script src="resources/js/jquery.hotkeys.js"></script>
+  <script src="resources/js/canvas-toBlob.js"></script>
+  <script src="resources/js/FileSaver.js"></script>
+  <script src="resources/js/settings.js"></script>
+  <script src="resources/js/names.js"></script>
+  <script src="resources/js/sets.js"></script>
+  <script src="resources/js/tileKeys.js"></script>
+  <script src="resources/js/itemKeys.js"></script>
+  <script src="resources/js/wallKeys.js"></script>
+  <script src="resources/js/MapHelper.js"></script>
+  <script src="resources/js/main.js"></script>
+  
+</body>
+</html>

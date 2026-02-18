@@ -12,7 +12,6 @@
   <title>TerraMap - 泰拉瑞亚地图查看器</title>
 
   <link rel="stylesheet" href="resources/css/bootstrap.min.css">
-
   <link rel="stylesheet" href="resources/css/styles.css">
 
   <style>
@@ -278,7 +277,7 @@
     </div>
   </nav>
 
-  <!-- ===== 选择方块模态框（已改用虚拟滚动列表） ===== -->
+  <!-- ===== 选择方块模态框 ===== -->
   <div class="modal fade" id="chooseBlocksModal" tabindex="-1" role="dialog" aria-labelledby="chooseBlocksLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -297,12 +296,58 @@
             <button type="button" class="btn btn-default btn-xs" onclick="VirtualSelect.selectAll()">全选当前</button>
             <button type="button" class="btn btn-default btn-xs" onclick="VirtualSelect.clearAll()">清除全部</button>
           </div>
-          <!-- 虚拟滚动列表容器，替代原来的 <select multiple> -->
           <div id="virtualBlockList"></div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== 缓存提醒模态框 ===== -->
+  <div class="modal fade" id="cacheReminderModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm" role="document" style="margin-top: 120px;">
+      <div class="modal-content" style="border: 1px solid #007acc; box-shadow: 0 0 20px rgba(0,122,204,0.4);">
+
+        <div class="modal-header" style="background: linear-gradient(135deg, #007acc, #005a99); border-bottom: none; border-radius: 5px 5px 0 0;">
+          <h4 class="modal-title" style="color: #fff;">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            &nbsp;使用建议
+          </h4>
+        </div>
+
+        <div class="modal-body" style="padding: 20px 25px; line-height: 1.8;">
+          <p style="color: #ddd; margin-bottom: 12px;">
+            检测到您曾经访问过本页面，浏览器可能缓存了旧版本的资源。
+          </p>
+          <p style="color: #ddd; margin-bottom: 16px;">
+            建议您选择以下任意一种方式以确保使用最新版本：
+          </p>
+          <div style="background:#1a1a1a; border-radius:6px; padding: 12px 16px; font-size: 13px; color: #bbb;">
+            <div style="margin-bottom: 8px;">
+              <span style="color:#4ec9b0;">①</span>
+              按下 <kbd style="background:#333; border-color:#555; color:#fff;">Ctrl</kbd> +
+              <kbd style="background:#333; border-color:#555; color:#fff;">F5</kbd>
+              强制刷新缓存
+            </div>
+            <div>
+              <span style="color:#4ec9b0;">②</span>
+              使用 <strong style="color:#fff;">无痕模式 / 隐私模式</strong> 打开本页面
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer" style="border-top: 1px solid #333; padding: 12px 15px;">
+          <button type="button" class="btn btn-default btn-sm" id="cacheReminderDismiss">
+            不再提醒
+          </button>
+          <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal"
+                  style="background:#007acc; border-color:#007acc;">
+            我知道了
+          </button>
+        </div>
+
       </div>
     </div>
   </div>
@@ -320,7 +365,7 @@
         <li><strong>Linux</strong>: <code>~/.local/share/Terraria/Worlds</code></li>
         <li><strong>Linux (Steam 云存档)</strong>: <code>~/.local/share/Steam/userdata/{用户ID}/105600/remote/worlds</code></li>
       </ul>
-      <p>如遇BUG，可尝试 <strong>Ctr+F5</strong> 清空网页缓存。</p>
+      <p>如遇BUG，可尝试 <strong>Ctrl+F5</strong> 清空网页缓存。</p>
       <p>使用前建议先前往bilibili查看2erTwo6的相关视频说明。</p>
     </div>
 
@@ -364,6 +409,35 @@
   <script src="resources/js/wallKeys.js"></script>
   <script src="resources/js/MapHelper.js"></script>
   <script src="resources/js/main.js"></script>
-  
+
+  <!-- ===== 缓存提醒检测脚本 ===== -->
+  <script>
+  (function () {
+    var VISIT_KEY   = 'terramap_visited';
+    var DISMISS_KEY = 'terramap_cache_reminder_dismissed';
+
+    var hasVisited  = localStorage.getItem(VISIT_KEY);
+    var isDismissed = localStorage.getItem(DISMISS_KEY);
+
+    // 无论如何都标记为已访问
+    localStorage.setItem(VISIT_KEY, '1');
+
+    // 首次访问，或用户已选择不再提醒 → 不弹窗
+    if (!hasVisited || isDismissed) return;
+
+    // 第二次及以后访问 → 延迟1秒弹窗（等待 Bootstrap JS 就绪）
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        $('#cacheReminderModal').modal('show');
+
+        document.getElementById('cacheReminderDismiss').onclick = function () {
+          localStorage.setItem(DISMISS_KEY, '1');
+          $('#cacheReminderModal').modal('hide');
+        };
+      }, 1000);
+    });
+  })();
+  </script>
+
 </body>
 </html>

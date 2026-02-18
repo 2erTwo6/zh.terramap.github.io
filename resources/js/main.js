@@ -44,9 +44,9 @@ $("#status").html("Checking File APIs...");
 if (window.File && window.FileReader && window.FileList && window.Blob) {
   $("#file").css("visibility", "visible");
   $("#file").on('change', fileNameChanged);
-  $("#status").html("Please choose a Terraria .wld file.");
+  $("#status").html("请选择一个 Terraria .wld 存档文件。");
 } else {
-  $("#status").html("The File APIs are not fully supported in this browser.");
+  $("#status").html("此浏览器不完全支持文件 API。");
 }
 
 resizeCanvases();

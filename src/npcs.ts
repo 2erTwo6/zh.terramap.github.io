@@ -3,122 +3,122 @@ import type { NpcInfo } from './types/settings';
 export const npcs: NpcInfo[] = [
   {
     id: 17,
-    name: "Merchant"
+    name: "商人"
   },
   {
     id: 18,
-    name: "Nurse"
+    name: "护士"
   },
   {
     id: 19,
-    name: "Arms Dealer"
+    name: "军火商"
   },
   {
     id: 20,
-    name: "Dryad"
+    name: "树妖"
   },
   {
     id: 22,
-    name: "Guide"
+    name: "向导"
   },
   {
     id: 37,
-    name: "Old Man"
+    name: "老人"
   },
   {
     id: 38,
-    name: "Demolitionist"
+    name: "爆破专家"
   },
   {
     id: 54,
-    name: "Clothier"
+    name: "服装商"
   },
   {
     id: 107,
-    name: "Goblin Tinkerer"
+    name: "哥布林工匠"
   },
   {
     id: 108,
-    name: "Wizard"
+    name: "巫师"
   },
   {
     id: 124,
-    name: "Mechanic"
+    name: "机械师"
   },
   {
     id: 142,
-    name: "Santa Claus"
+    name: "圣诞老人"
   },
   {
     id: 160,
-    name: "Truffle"
+    name: "松露人"
   },
   {
     id: 178,
-    name: "Steampunker"
+    name: "蒸汽朋克人"
   },
   {
     id: 207,
-    name: "Dye Trader"
+    name: "染料商"
   },
   {
     id: 208,
-    name: "Party Girl"
+    name: "派对女孩"
   },
   {
     id: 209,
-    name: "Cyborg"
+    name: "生化人"
   },
   {
     id: 227,
-    name: "Painter"
+    name: "画家"
   },
   {
     id: 228,
-    name: "Witch Doctor"
+    name: "巫医"
   },
   {
     id: 229,
-    name: "Pirate"
+    name: "海盗"
   },
   {
     id: 353,
-    name: "Stylist"
+    name: "发型师"
   },
   {
     id: 369,
-    name: "Angler"
+    name: "渔夫"
   },
   {
     id: 441,
-    name: "Tax Collector"
+    name: "税收官"
   },
   {
     id: 550,
-    name: "Tavernkeep"
+    name: "酒馆老板"
   },
   {
     id: 588,
-    name: "Golfer"
+    name: "高尔夫球手"
   },
   {
     id: 633,
-    name: "Zoologist"
+    name: "动物学家"
   },
   {
     id: 637,
-    name: "Town Cat"
+    name: "城镇猫咪"
   },
   {
     id: 638,
-    name: "Town Dog"
+    name: "城镇狗狗"
   },
   {
     id: 656,
-    name: "Town Bunny"
+    name: "城镇兔兔"
   },
   {
     id: 663,
-    name: "Princess"
+    name: "公主"
   }
 ];

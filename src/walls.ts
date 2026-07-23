@@ -3,1747 +3,1747 @@ import type { WallInfo } from './types/settings';
 export const walls: WallInfo[] = [
   {
     id: 0,
-    name: "Sky",
+    name: "天空",
     color: "#00000000"
   },
   {
     id: 1,
-    name: "Stone Wall",
+    name: "石墙",
     color: "#353535FF"
   },
   {
     id: 2,
-    name: "Dirt Wall (natural)",
+    name: "土墙（天然）",
     color: "#573C30FF"
   },
   {
     id: 3,
-    name: "Ebonstone Wall (natural)",
+    name: "黑檀石墙（天然）",
     color: "#2F2935FF"
   },
   {
     id: 4,
-    name: "Wood Wall",
+    name: "木墙",
     color: "#453225FF"
   },
   {
     id: 5,
-    name: "Gray Brick Wall",
+    name: "灰砖墙",
     color: "#3B3B3BFF"
   },
   {
     id: 6,
-    name: "Red Brick Wall",
+    name: "红砖墙",
     color: "#4C2C29FF"
   },
   {
     id: 7,
-    name: "Cursed Blue Brick Wall",
+    name: "诅咒蓝砖墙",
     color: "#2E3243FF"
   },
   {
     id: 8,
-    name: "Cursed Green Brick Wall",
+    name: "诅咒绿砖墙",
     color: "#313D3DFF"
   },
   {
     id: 9,
-    name: "Cursed Pink Brick Wall",
+    name: "诅咒粉砖墙",
     color: "#4B2E46FF"
   },
   {
     id: 10,
-    name: "Gold Brick Wall",
+    name: "金砖墙",
     color: "#6B5B22FF"
   },
   {
     id: 11,
-    name: "Silver Brick Wall",
+    name: "银砖墙",
     color: "#4F5556FF"
   },
   {
     id: 12,
-    name: "Copper Brick Wall",
+    name: "铜砖墙",
     color: "#653919FF"
   },
   {
     id: 13,
-    name: "Hellstone Brick Wall (natural)",
+    name: "狱石砖墙（天然）",
     color: "#4D302BFF"
   },
   {
     id: 14,
-    name: "Obsidian Brick Wall (natural)",
+    name: "黑曜石砖墙（天然）",
     color: "#0C0C0CFF"
   },
   {
     id: 15,
-    name: "Mud Wall (natural)",
+    name: "泥墙（天然）",
     color: "#312B2CFF"
   },
   {
     id: 16,
-    name: "Dirt Wall",
+    name: "土墙",
     color: "#513F36FF"
   },
   {
     id: 17,
-    name: "Blue Brick Wall",
+    name: "蓝砖墙",
     color: "#2E3243FF"
   },
   {
     id: 18,
-    name: "Green Brick Wall",
+    name: "绿砖墙",
     color: "#313D3DFF"
   },
   {
     id: 19,
-    name: "Pink Brick Wall",
+    name: "粉砖墙",
     color: "#4B2E46FF"
   },
   {
     id: 20,
-    name: "Obsidian Brick Wall",
+    name: "黑曜石砖墙",
     color: "#0C0C0CFF"
   },
   {
     id: 21,
-    name: "Glass Wall",
+    name: "玻璃墙",
     color: "#365962FF"
   },
   {
     id: 22,
-    name: "Pearlstone Brick Wall",
+    name: "珍珠石砖墙",
     color: "#615C5EFF"
   },
   {
     id: 23,
-    name: "Iridescent Brick Wall",
+    name: "彩虹砖墙",
     color: "#382C3AFF"
   },
   {
     id: 24,
-    name: "Mudstone Brick Wall",
+    name: "泥石砖墙",
     color: "#31282AFF"
   },
   {
     id: 25,
-    name: "Cobalt Brick Wall",
+    name: "钴砖墙",
     color: "#124262FF"
   },
   {
     id: 26,
-    name: "Mythril Brick Wall",
+    name: "秘银砖墙",
     color: "#224036FF"
   },
   {
     id: 27,
-    name: "Planked Wall",
+    name: "木板墙",
     color: "#3A302AFF"
   },
   {
     id: 28,
-    name: "Pearlstone Wall (natural)",
+    name: "珍珠石墙（天然）",
     color: "#4D4651FF"
   },
   {
     id: 29,
-    name: "Red Candy Cane Wall",
+    name: "红糖果墙",
     color: "#703A44FF"
   },
   {
     id: 30,
-    name: "Green Candy Cane Wall",
+    name: "绿糖果墙",
     color: "#387350FF"
   },
   {
     id: 31,
-    name: "Snow Brick Wall",
+    name: "雪砖墙",
     color: "#5E656CFF"
   },
   {
     id: 32,
-    name: "Adamantite Beam Wall",
+    name: "精金梁墙",
     color: "#661430FF"
   },
   {
     id: 33,
-    name: "Demonite Brick Wall",
+    name: "魔矿砖墙",
     color: "#303049FF"
   },
   {
     id: 34,
-    name: "Sandstone Brick Wall",
+    name: "沙岩砖墙",
     color: "#565339FF"
   },
   {
     id: 35,
-    name: "Ebonstone Brick Wall",
+    name: "暗影石砖墙",
     color: "#363B52FF"
   },
   {
     id: 36,
-    name: "Red Stucco Wall",
+    name: "红泥灰墙",
     color: "#7C463FFF"
   },
   {
     id: 37,
-    name: "Yellow Stucco Wall",
+    name: "黄泥灰墙",
     color: "#595437FF"
   },
   {
     id: 38,
-    name: "Green Stucco Wall",
+    name: "绿泥灰墙",
     color: "#3C5A46FF"
   },
   {
     id: 39,
-    name: "Gray Stucco Wall",
+    name: "灰泥灰墙",
     color: "#595954FF"
   },
   {
     id: 40,
-    name: "Snow Wall (natural)",
+    name: "雪墙（天然）",
     color: "#647681FF"
   },
   {
     id: 41,
-    name: "Ebonwood Wall",
+    name: "乌木墙",
     color: "#393740FF"
   },
   {
     id: 42,
-    name: "Rich Mahogany Wall",
+    name: "红木墙",
     color: "#3E191BFF"
   },
   {
     id: 43,
-    name: "Pearlwood Wall",
+    name: "珍珠木墙",
     color: "#3C372CFF"
   },
   {
     id: 44,
-    name: "Rainbow Brick Wall",
+    name: "彩虹砖墙",
     color: "#333333FF"
   },
   {
     id: 45,
-    name: "Tin Brick Wall",
+    name: "锡砖墙",
     color: "#413F39FF"
   },
   {
     id: 46,
-    name: "Tungsten Brick Wall",
+    name: "钨砖墙",
     color: "#445345FF"
   },
   {
     id: 47,
-    name: "Platinum Brick Wall",
+    name: "铂金砖墙",
     color: "#424652FF"
   },
   {
     id: 48,
-    name: "Amethyst Wall (natural)",
+    name: "紫晶墙（天然）",
     color: "#4E4553FF"
   },
   {
     id: 49,
-    name: "Topaz Wall (natural)",
+    name: "黄玉墙（天然）",
     color: "#514A3FFF"
   },
   {
     id: 50,
-    name: "Sapphire Wall (natural)",
+    name: "蓝玉墙（天然）",
     color: "#384251FF"
   },
   {
     id: 51,
-    name: "Emerald Wall (natural)",
+    name: "翡翠墙（天然）",
     color: "#32493BFF"
   },
   {
     id: 52,
-    name: "Ruby Wall (natural)",
+    name: "红玉墙（天然）",
     color: "#523B40FF"
   },
   {
     id: 53,
-    name: "Diamond Wall (natural)",
+    name: "钻石墙（天然）",
     color: "#464F51FF"
   },
   {
     id: 54,
-    name: "Green Mossy Wall (natural)",
+    name: "绿苔墙（天然）",
     color: "#2E3A36FF"
   },
   {
     id: 55,
-    name: "Brown Mossy Wall (natural)",
+    name: "棕苔墙（天然）",
     color: "#38382EFF"
   },
   {
     id: 56,
-    name: "Red Mossy Wall (natural)",
+    name: "红苔墙（天然）",
     color: "#393131FF"
   },
   {
     id: 57,
-    name: "Blue Mossy Wall (natural)",
+    name: "蓝苔墙（天然）",
     color: "#2D3338FF"
   },
   {
     id: 58,
-    name: "Purple Mossy Wall (natural)",
+    name: "紫苔墙（天然）",
     color: "#38303BFF"
   },
   {
     id: 59,
-    name: "Rocky Dirt Wall (natural)",
+    name: "岩石土墙（天然）",
     color: "#503F37FF"
   },
   {
     id: 60,
-    name: "Living Leaf Wall (natural)",
+    name: "活叶墙（天然）",
     color: "#003111FF"
   },
   {
     id: 61,
-    name: "Old Stone Wall (natural)",
+    name: "旧石墙（天然）",
     color: "#37281CFF"
   },
   {
     id: 62,
-    name: "Infested Spider Wall",
+    name: "蜘蛛窝墙",
     color: "#201C16FF"
   },
   {
     id: 63,
-    name: "Grass Wall (natural)",
+    name: "草墙（天然）",
     color: "#194326FF"
   },
   {
     id: 64,
-    name: "Jungle Wall (natural)",
+    name: "丛林墙（天然）",
     color: "#2F4319FF"
   },
   {
     id: 65,
-    name: "Flower Wall (natural)",
+    name: "花墙（天然）",
     color: "#194326FF"
   },
   {
     id: 66,
-    name: "Grass Wall",
+    name: "草墙",
     color: "#194326FF"
   },
   {
     id: 67,
-    name: "Jungle Wall",
+    name: "丛林墙",
     color: "#2F4319FF"
   },
   {
     id: 68,
-    name: "Flower Wall",
+    name: "花墙",
     color: "#194326FF"
   },
   {
     id: 69,
-    name: "Corrupt Grass Wall (natural)",
+    name: "腐化草墙（天然）",
     color: "#242539FF"
   },
   {
     id: 70,
-    name: "Hallowed Grass Wall (natural)",
+    name: "神圣草墙（天然）",
     color: "#193D43FF"
   },
   {
     id: 71,
-    name: "Ice Wall (natural)",
+    name: "冰墙（天然）",
     color: "#526C86FF"
   },
   {
     id: 72,
-    name: "Cactus Wall",
+    name: "仙人掌墙",
     color: "#2D5418FF"
   },
   {
     id: 73,
-    name: "Cloud Wall",
+    name: "云墙",
     color: "#D3D9DBFF"
   },
   {
     id: 74,
-    name: "Mushroom Wall",
+    name: "蘑菇墙",
     color: "#363C71FF"
   },
   {
     id: 75,
-    name: "Bone Block Wall",
+    name: "骨头块墙",
     color: "#3D3D2CFF"
   },
   {
     id: 76,
-    name: "Slime Block Wall",
+    name: "史莱姆块墙",
     color: "#1A336FFF"
   },
   {
     id: 77,
-    name: "Flesh Block Wall",
+    name: "血肉块墙",
     color: "#4B1216FF"
   },
   {
     id: 78,
-    name: "Living Wood Wall",
+    name: "生命木墙",
     color: "#3A2318FF"
   },
   {
     id: 79,
-    name: "Obsidian Back Wall (natural)",
+    name: "黑曜石背景墙（天然）",
     color: "#242141FF"
   },
   {
     id: 80,
-    name: "Mushroom Wall (natural)",
+    name: "蘑菇墙（天然）",
     color: "#363C71FF"
   },
   {
     id: 81,
-    name: "Crimson Grass Wall (natural)",
+    name: "猩红草墙（天然）",
     color: "#653434FF"
   },
   {
     id: 82,
-    name: "Disc Wall",
+    name: "飞盘墙",
     color: "#381300FF"
   },
   {
     id: 83,
-    name: "Crimstone Wall (natural)",
+    name: "猩红石墙（天然）",
     color: "#3E2C2DFF"
   },
   {
     id: 84,
-    name: "Ice Brick Wall",
+    name: "冰砖墙",
     color: "#4E6983FF"
   },
   {
     id: 85,
-    name: "Shadewood Wall",
+    name: "阴森木墙",
     color: "#20272DFF"
   },
   {
     id: 86,
-    name: "Hive Wall (natural)",
+    name: "蜂巢墙（天然）",
     color: "#795024FF"
   },
   {
     id: 87,
-    name: "Forbidden Lihzahrd Brick Wall",
+    name: "禁忌蜥蜴砖墙",
     color: "#1C080AFF"
   },
   {
     id: 88,
-    name: "Purple Stained Glass",
+    name: "紫色花窗玻璃",
     color: "#73447CFF"
   },
   {
     id: 89,
-    name: "Yellow Stained Glass",
+    name: "黄色花窗玻璃",
     color: "#81724AFF"
   },
   {
     id: 90,
-    name: "Blue Stained Glass",
+    name: "蓝色花窗玻璃",
     color: "#3E567BFF"
   },
   {
     id: 91,
-    name: "Green Stained Glass",
+    name: "绿色花窗玻璃",
     color: "#5A795EFF"
   },
   {
     id: 92,
-    name: "Red Stained Glass",
+    name: "红色花窗玻璃",
     color: "#873E3DFF"
   },
   {
     id: 93,
-    name: "Multicolored Stained Glass",
+    name: "彩色花窗玻璃",
     color: "#646067FF"
   },
   {
     id: 94,
-    name: "Cursed Blue Slab Wall",
+    name: "诅咒蓝板墙",
     color: "#243039FF"
   },
   {
     id: 95,
-    name: "Cursed Blue Tiled Wall",
+    name: "诅咒蓝瓦墙",
     color: "#302E3AFF"
   },
   {
     id: 96,
-    name: "Cursed Pink Slab Wall",
+    name: "诅咒粉板墙",
     color: "#472E49FF"
   },
   {
     id: 97,
-    name: "Cursed Pink Tiled Wall",
+    name: "诅咒粉瓦墙",
     color: "#4C2E40FF"
   },
   {
     id: 98,
-    name: "Cursed Green Slab Wall",
+    name: "诅咒绿板墙",
     color: "#333F39FF"
   },
   {
     id: 99,
-    name: "Cursed Green Tiled Wall",
+    name: "诅咒绿瓦墙",
     color: "#313A40FF"
   },
   {
     id: 100,
-    name: "Blue Slab Wall",
+    name: "蓝板墙",
     color: "#243039FF"
   },
   {
     id: 101,
-    name: "Blue Tiled Wall",
+    name: "蓝瓦墙",
     color: "#302E3AFF"
   },
   {
     id: 102,
-    name: "Pink Slab Wall",
+    name: "粉板墙",
     color: "#472E49FF"
   },
   {
     id: 103,
-    name: "Pink Tiled Wall",
+    name: "粉瓦墙",
     color: "#4C2E40FF"
   },
   {
     id: 104,
-    name: "Green Slab Wall",
+    name: "绿板墙",
     color: "#333F39FF"
   },
   {
     id: 105,
-    name: "Green Tiled Wall",
+    name: "绿瓦墙",
     color: "#313A40FF"
   },
   {
     id: 106,
-    name: "Wooden Fence",
+    name: "木栅栏",
     color: "#614833FF"
   },
   {
     id: 107,
-    name: "Lead Fence",
+    name: "铅栅栏",
     color: "#353535FF"
   },
   {
     id: 108,
-    name: "Hive Wall",
+    name: "蜂巢墙",
     color: "#795024FF"
   },
   {
     id: 109,
-    name: "Palladium Column Wall",
+    name: "钯金柱墙",
     color: "#6E2513FF"
   },
   {
     id: 110,
-    name: "Bubblegum Block Wall",
+    name: "泡泡糖块墙",
     color: "#873989FF"
   },
   {
     id: 111,
-    name: "Titanstone Block Wall",
+    name: "钛石块墙",
     color: "#211915FF"
   },
   {
     id: 112,
-    name: "Lihzahrd Brick Wall",
+    name: "丛林蜥蜴砖墙",
     color: "#1C080AFF"
   },
   {
     id: 113,
-    name: "Pumpkin Wall",
+    name: "南瓜墙",
     color: "#A04B07FF"
   },
   {
     id: 114,
-    name: "Hay Wall",
+    name: "干草墙",
     color: "#362A13FF"
   },
   {
     id: 115,
-    name: "Spooky Wood Wall",
+    name: "阴森木墙",
     color: "#2A1E35FF"
   },
   {
     id: 116,
-    name: "Christmas Tree Wallpaper",
+    name: "圣诞树壁纸",
     color: "#3C2219FF"
   },
   {
     id: 117,
-    name: "Ornament Wallpaper",
+    name: "装饰壁纸",
     color: "#5B5340FF"
   },
   {
     id: 118,
-    name: "Candy Cane Wallpaper",
+    name: "拐杖糖壁纸",
     color: "#3B3D36FF"
   },
   {
     id: 119,
-    name: "Festive Wallpaper",
+    name: "喜庆壁纸",
     color: "#2F2719FF"
   },
   {
     id: 120,
-    name: "Stars Wallpaper",
+    name: "星星壁纸",
     color: "#50586FFF"
   },
   {
     id: 121,
-    name: "Squiggles Wallpaper",
+    name: "波浪纹壁纸",
     color: "#BAA78AFF"
   },
   {
     id: 122,
-    name: "Snowflake Wallpaper",
+    name: "雪花壁纸",
     color: "#6E778FFF"
   },
   {
     id: 123,
-    name: "Krampus Horn Wallpaper",
+    name: "坎普斯角壁纸",
     color: "#8A806EFF"
   },
   {
     id: 124,
-    name: "Bluegreen Wallpaper",
+    name: "蓝绿壁纸",
     color: "#07301EFF"
   },
   {
     id: 125,
-    name: "Grinch Finger Wallpaper",
+    name: "格林奇手指壁纸",
     color: "#4E6746FF"
   },
   {
     id: 126,
-    name: "Fancy Gray Wallpaper",
+    name: "花式灰壁纸",
     color: "#6D6F7BFF"
   },
   {
     id: 127,
-    name: "Ice Floe Wallpaper",
+    name: "浮冰壁纸",
     color: "#70A6E2FF"
   },
   {
     id: 128,
-    name: "Music Wallpaper",
+    name: "音乐壁纸",
     color: "#45388CFF"
   },
   {
     id: 129,
-    name: "Purple Rain Wallpaper",
+    name: "紫雨壁纸",
     color: "#482C91FF"
   },
   {
     id: 130,
-    name: "Rainbow Wallpaper",
+    name: "彩虹壁纸",
     color: "#725579FF"
   },
   {
     id: 131,
-    name: "Sparkle Stone Wallpaper",
+    name: "闪光石壁纸",
     color: "#68779EFF"
   },
   {
     id: 132,
-    name: "Starlit Heaven Wallpaper",
+    name: "星空天堂壁纸",
     color: "#4A4A4AFF"
   },
   {
     id: 133,
-    name: "Bubble Wallpaper",
+    name: "泡泡壁纸",
     color: "#5F77BFFF"
   },
   {
     id: 134,
-    name: "Copper Pipe Wallpaper",
+    name: "铜管壁纸",
     color: "#904F16FF"
   },
   {
     id: 135,
-    name: "Ducky Wallpaper",
+    name: "小鸭壁纸",
     color: "#3E828AFF"
   },
   {
     id: 136,
-    name: "Waterfall Wall",
+    name: "瀑布墙",
     color: "#3D62A9FF"
   },
   {
     id: 137,
-    name: "Lavafall Wall",
+    name: "熔岩瀑布墙",
     color: "#B7540EFF"
   },
   {
     id: 138,
-    name: "Ebonwood Fence",
+    name: "乌木栅栏",
     color: "#3D3945FF"
   },
   {
     id: 139,
-    name: "Rich Mahogany Fence",
+    name: "红木栅栏",
     color: "#4A2022FF"
   },
   {
     id: 140,
-    name: "Pearlwood Fence",
+    name: "珍珠木栅栏",
     color: "#6E644CFF"
   },
   {
     id: 141,
-    name: "Shadewood Fence",
+    name: "暗影木栅栏",
     color: "#42463CFF"
   },
   {
     id: 142,
-    name: "White Dynasty Wall",
+    name: "白王朝墙",
     color: "#D6CEBBFF"
   },
   {
     id: 143,
-    name: "Blue Dynasty Wall",
+    name: "蓝王朝墙",
     color: "#536A63FF"
   },
   {
     id: 144,
-    name: "Arcane Rune Wall",
+    name: "奥秘符文墙",
     color: "#594344FF"
   },
   {
     id: 145,
-    name: "Iron Fence",
+    name: "铁栅栏",
     color: "#787878FF"
   },
   {
     id: 146,
-    name: "Copper Plating Wall",
+    name: "镀铜墙",
     color: "#673718FF"
   },
   {
     id: 147,
-    name: "Stone Slab Wall",
+    name: "石板墙",
     color: "#4D4D4DFF"
   },
   {
     id: 148,
-    name: "Sail",
+    name: "帆",
     color: "#E5DAA1FF"
   },
   {
     id: 149,
-    name: "Boreal Wood Wall",
+    name: "针叶木墙",
     color: "#524641FF"
   },
   {
     id: 150,
-    name: "Boreal Wood Fence",
+    name: "针叶木栅栏",
     color: "#51453EFF"
   },
   {
     id: 151,
-    name: "Palm Wood Wall",
+    name: "棕榈木墙",
     color: "#674C24FF"
   },
   {
     id: 152,
-    name: "Palm Wood Fence",
+    name: "棕榈木栅栏",
     color: "#674C24FF"
   },
   {
     id: 153,
-    name: "Amber Gemspark Wall",
+    name: "琥珀宝石墙",
     color: "#FF743FFF"
   },
   {
     id: 154,
-    name: "Amethyst Gemspark Wall",
+    name: "紫晶宝石墙",
     color: "#BF3FFFFF"
   },
   {
     id: 155,
-    name: "Diamond Gemspark Wall",
+    name: "钻石宝石墙",
     color: "#DBDBE8FF"
   },
   {
     id: 156,
-    name: "Emerald Gemspark Wall",
+    name: "翡翠宝石墙",
     color: "#3FFF47FF"
   },
   {
     id: 157,
-    name: "Offline Amber Gemspark Wall",
+    name: "琥珀宝石墙（离线）",
     color: "#763F25FF"
   },
   {
     id: 158,
-    name: "Offline Amethyst Gemspark Wall",
+    name: "紫晶宝石墙（离线）",
     color: "#512576FF"
   },
   {
     id: 159,
-    name: "Offline Diamond Gemspark Wall",
+    name: "钻石宝石墙（离线）",
     color: "#404359FF"
   },
   {
     id: 160,
-    name: "Offline Emerald Gemspark Wall",
+    name: "翡翠宝石墙（离线）",
     color: "#257634FF"
   },
   {
     id: 161,
-    name: "Offline Ruby Gemspark Wall",
+    name: "红玉宝石墙（离线）",
     color: "#76253AFF"
   },
   {
     id: 162,
-    name: "Offline Sapphire Gemspark Wall",
+    name: "蓝玉宝石墙（离线）",
     color: "#252576FF"
   },
   {
     id: 163,
-    name: "Offline Topaz Gemspark Wall",
+    name: "黄玉宝石墙（离线）",
     color: "#767125FF"
   },
   {
     id: 164,
-    name: "Ruby Gemspark Wall",
+    name: "红玉宝石墙",
     color: "#FF3F3FFF"
   },
   {
     id: 165,
-    name: "Sapphire Gemspark Wall",
+    name: "蓝玉宝石墙",
     color: "#3F51FFFF"
   },
   {
     id: 166,
-    name: "Topaz Gemspark Wall",
+    name: "黄玉宝石墙",
     color: "#EFFF3FFF"
   },
   {
     id: 167,
-    name: "Tin Plating Wall",
+    name: "镀锡墙",
     color: "#4E4D3AFF"
   },
   {
     id: 168,
-    name: "Confetti Wall",
+    name: "彩纸墙",
     color: "#546154FF"
   },
   {
     id: 169,
-    name: "Midnight Confetti Wall",
+    name: "午夜彩纸墙",
     color: "#5C695AFF"
   },
   {
     id: 170,
-    name: "Cave Dirt Wall (natural)",
+    name: "洞穴土墙（天然）",
     color: "#5D442FFF"
   },
   {
     id: 171,
-    name: "Rough Dirt Wall (natural)",
+    name: "粗糙土墙（天然）",
     color: "#543C27FF"
   },
   {
     id: 172,
-    name: "Honeyfall Wall",
+    name: "蜂蜜瀑布墙",
     color: "#A87D00FF"
   },
   {
     id: 173,
-    name: "Chlorophyte Brick Wall",
+    name: "叶绿砖墙",
     color: "#316919FF"
   },
   {
     id: 174,
-    name: "Crimtane Brick Wall",
+    name: "血腥砖墙",
     color: "#453036FF"
   },
   {
     id: 175,
-    name: "Shroomite Plating Wall",
+    name: "蘑菇矿护板墙",
     color: "#2132BCFF"
   },
   {
     id: 176,
-    name: "Martian Conduit Wall",
+    name: "火星管道墙",
     color: "#4B8094FF"
   },
   {
     id: 177,
-    name: "Hellstone Brick Wall",
+    name: "狱石砖墙",
     color: "#48322EFF"
   },
   {
     id: 178,
-    name: "Marble Wall (natural)",
+    name: "大理石板墙（天然）",
     color: "#787F8FFF"
   },
   {
     id: 179,
-    name: "Smooth Marble Wall",
+    name: "光滑大理石板墙",
     color: "#7C8394FF"
   },
   {
     id: 180,
-    name: "Granite Wall (natural)",
+    name: "花岗岩板墙（天然）",
     color: "#0F102DFF"
   },
   {
     id: 181,
-    name: "Smooth Granite Wall",
+    name: "光滑花岗岩板墙",
     color: "#1F1F4AFF"
   },
   {
     id: 182,
-    name: "Meteorite Brick Wall",
+    name: "陨石砖墙",
     color: "#393763FF"
   },
   {
     id: 183,
-    name: "Marble Wall",
+    name: "大理石墙",
     color: "#787F8FFF"
   },
   {
     id: 184,
-    name: "Granite Wall",
+    name: "花岗岩墙",
     color: "#0F102DFF"
   },
   {
     id: 185,
-    name: "Craggy Stone Wall (natural)",
+    name: "崎岖石墙（天然）",
     color: "#3D3D3DFF"
   },
   {
     id: 186,
-    name: "Crystal Block Wall",
+    name: "水晶块墙",
     color: "#371764FF"
   },
   {
     id: 187,
-    name: "Treacherous Sandstone Wall",
+    name: "险恶沙岩墙",
     color: "#7E442BFF"
   },
   {
     id: 188,
-    name: "Corrupt Growth Wall (natural)",
+    name: "腐化增生墙（天然）",
     color: "#3F2F3FFF"
   },
   {
     id: 189,
-    name: "Corrupt Mass Wall (natural)",
+    name: "腐化团块墙（天然）",
     color: "#41334DFF"
   },
   {
     id: 190,
-    name: "Corrupt Pustule Wall (natural)",
+    name: "腐化脓疱墙（天然）",
     color: "#43483BFF"
   },
   {
     id: 191,
-    name: "Corrupt Tendril Wall (natural)",
+    name: "腐化卷须墙（天然）",
     color: "#3C2643FF"
   },
   {
     id: 192,
-    name: "Crimson Crust Wall (natural)",
+    name: "猩红地壳墙（天然）",
     color: "#7B382FFF"
   },
   {
     id: 193,
-    name: "Crimson Scab Wall (natural)",
+    name: "猩红痂皮墙（天然）",
     color: "#57181AFF"
   },
   {
     id: 194,
-    name: "Crimson Teeth Wall (natural)",
+    name: "猩红尖牙墙（天然）",
     color: "#664035FF"
   },
   {
     id: 195,
-    name: "Crimson Blister Wall (natural)",
+    name: "猩红水疱墙（天然）",
     color: "#7A2E36FF"
   },
   {
     id: 196,
-    name: "Layered Dirt Wall (natural)",
+    name: "层状土墙（天然）",
     color: "#634637FF"
   },
   {
     id: 197,
-    name: "Crumbling Dirt Wall (natural)",
+    name: "崩落土墙（天然）",
     color: "#664939FF"
   },
   {
     id: 198,
-    name: "Cracked Dirt Wall (natural)",
+    name: "开裂土墙（天然）",
     color: "#5C4131FF"
   },
   {
     id: 199,
-    name: "Wavy Dirt Wall (natural)",
+    name: "波纹土墙（天然）",
     color: "#6A4B3AFF"
   },
   {
     id: 200,
-    name: "Hallowed Prism Wall (natural)",
+    name: "神圣棱镜墙（天然）",
     color: "#512153FF"
   },
   {
     id: 201,
-    name: "Hallowed Cavern Wall (natural)",
+    name: "神圣洞穴墙（天然）",
     color: "#604F63FF"
   },
   {
     id: 202,
-    name: "Hallowed Shard Wall (natural)",
+    name: "神圣碎片墙（天然）",
     color: "#7C2A68FF"
   },
   {
     id: 203,
-    name: "Hallowed Crystalline Wall (natural)",
+    name: "神圣水晶墙（天然）",
     color: "#6F3670FF"
   },
   {
     id: 204,
-    name: "Lichen Stone Wall (natural)",
+    name: "地衣石墙（天然）",
     color: "#4B4437FF"
   },
   {
     id: 205,
-    name: "Leafy Jungle Wall (natural)",
+    name: "多叶丛林墙（天然）",
     color: "#53533BFF"
   },
   {
     id: 206,
-    name: "Ivy Stone Wall (natural)",
+    name: "常春藤石墙（天然）",
     color: "#27432CFF"
   },
   {
     id: 207,
-    name: "Jungle Vine Wall (natural)",
+    name: "丛林藤蔓墙（天然）",
     color: "#4D4D37FF"
   },
   {
     id: 208,
-    name: "Ember Wall (natural)",
+    name: "余烬墙（天然）",
     color: "#5C241CFF"
   },
   {
     id: 209,
-    name: "Cinder Wall (natural)",
+    name: "煤渣墙（天然）",
     color: "#603027FF"
   },
   {
     id: 210,
-    name: "Magma Wall (natural)",
+    name: "岩浆墙（天然）",
     color: "#6C2C1AFF"
   },
   {
     id: 211,
-    name: "Smouldering Stone Wall (natural)",
+    name: "阴燃石墙（天然）",
     color: "#6A2A26FF"
   },
   {
     id: 212,
-    name: "Worn Stone Wall (natural)",
+    name: "风化石墙（天然）",
     color: "#46453DFF"
   },
   {
     id: 213,
-    name: "Stalactite Stone Wall (natural)",
+    name: "钟乳石墙（天然）",
     color: "#393C39FF"
   },
   {
     id: 214,
-    name: "Mottled Stone Wall (natural)",
+    name: "斑驳石墙（天然）",
     color: "#45393BFF"
   },
   {
     id: 215,
-    name: "Fractured Stone Wall (natural)",
+    name: "碎裂石墙（天然）",
     color: "#473C42FF"
   },
   {
     id: 216,
-    name: "Treacherous Hardened Sand Wall",
+    name: "险恶硬化沙墙",
     color: "#945D34FF"
   },
   {
     id: 217,
-    name: "Treacherous Hardened Ebonsand Wall",
+    name: "险恶硬化黑檀沙墙",
     color: "#332641FF"
   },
   {
     id: 218,
-    name: "Treacherous Hardened Crimsand Wall",
+    name: "险恶硬化猩红沙墙",
     color: "#2B1816FF"
   },
   {
     id: 219,
-    name: "Treacherous Hardened Pearlsand Wall",
+    name: "险恶硬化珍珠沙墙",
     color: "#4E4972FF"
   },
   {
     id: 220,
-    name: "Treacherous Ebonsandstone Wall",
+    name: "险恶黑檀沙岩墙",
     color: "#362444FF"
   },
   {
     id: 221,
-    name: "Treacherous Crimsandstone Wall",
+    name: "险恶猩红沙岩墙",
     color: "#49120CFF"
   },
   {
     id: 222,
-    name: "Treacherous Pearlsandstone Wall",
+    name: "险恶珍珠沙岩墙",
     color: "#3A2F51FF"
   },
   {
     id: 223,
-    name: "Desert Fossil Wall (natural)",
+    name: "沙漠化石墙（天然）",
     color: "#734122FF"
   },
   {
     id: 224,
-    name: "Luminite Brick Wall",
+    name: "夜明砖墙",
     color: "#677068FF"
   },
   {
     id: 225,
-    name: "Cog Wall",
+    name: "齿轮墙",
     color: "#4C4738FF"
   },
   {
     id: 226,
-    name: "Sandfall Wall",
+    name: "落沙墙",
     color: "#857C42FF"
   },
   {
     id: 227,
-    name: "Snowfall Wall",
+    name: "落雪墙",
     color: "#536570FF"
   },
   {
     id: 228,
-    name: "Silly Pink Balloon Wall",
+    name: "傻傻粉色气球墙",
     color: "#8B0040FF"
   },
   {
     id: 229,
-    name: "Silly Purple Balloon Wall",
+    name: "傻傻紫色气球墙",
     color: "#500CA2FF"
   },
   {
     id: 230,
-    name: "Silly Green Balloon Wall",
+    name: "傻傻绿色气球墙",
     color: "#005D51FF"
   },
   {
     id: 231,
-    name: "Iron Brick Wall",
+    name: "铁砖墙",
     color: "#51443EFF"
   },
   {
     id: 232,
-    name: "Lead Brick Wall",
+    name: "铅砖墙",
     color: "#252F39FF"
   },
   {
     id: 233,
-    name: "Lesion Block Wall",
+    name: "病变块墙",
     color: "#483537FF"
   },
   {
     id: 234,
-    name: "Crimstone Brick Wall",
+    name: "猩红石砖墙",
     color: "#672E30FF"
   },
   {
     id: 235,
-    name: "Smooth Sandstone Wall",
+    name: "光滑沙岩墙",
     color: "#7E442BFF"
   },
   {
     id: 236,
-    name: "Spider Nest Wall",
+    name: "蜘蛛窝墙",
     color: "#3F2322FF"
   },
   {
     id: 237,
-    name: "Solar Brick Wall",
+    name: "日耀砖墙",
     color: "#392221FF"
   },
   {
     id: 238,
-    name: "Vortex Brick Wall",
+    name: "星旋砖墙",
     color: "#2D2E36FF"
   },
   {
     id: 239,
-    name: "Nebula Brick Wall",
+    name: "星云砖墙",
     color: "#2B3438FF"
   },
   {
     id: 240,
-    name: "Stardust Brick Wall",
+    name: "星尘砖墙",
     color: "#3E2D21FF"
   },
   {
     id: 241,
-    name: "Orange Stained Glass",
+    name: "橙色花窗玻璃",
     color: "#925F35FF"
   },
   {
     id: 242,
-    name: "Gold Starry Wall",
+    name: "金色星空墙",
     color: "#4E4537FF"
   },
   {
     id: 243,
-    name: "Blue Starry Wall",
+    name: "蓝色星空墙",
     color: "#173456FF"
   },
   {
     id: 244,
-    name: "Living Wood Wall (natural)",
+    name: "生命木墙（天然）",
     color: "#3A2318FF"
   },
   {
     id: 245,
-    name: "Wrought Iron Fence",
+    name: "锻铁栅栏",
     color: "#4A4A4AFF"
   },
   {
     id: 246,
-    name: "Ebonstone Wall",
+    name: "黑檀石墙",
     color: "#2F2935FF"
   },
   {
     id: 247,
-    name: "Mud Wall",
+    name: "泥墙",
     color: "#312B2CFF"
   },
   {
     id: 248,
-    name: "Pearlstone Wall",
+    name: "珍珠石墙",
     color: "#4D4651FF"
   },
   {
     id: 249,
-    name: "Snow Wall",
+    name: "雪墙",
     color: "#647681FF"
   },
   {
     id: 250,
-    name: "Amethyst Stone Wall",
+    name: "紫晶石墙",
     color: "#4E4553FF"
   },
   {
     id: 251,
-    name: "Topaz Stone Wall",
+    name: "黄玉石墙",
     color: "#514A3FFF"
   },
   {
     id: 252,
-    name: "Sapphire Stone Wall",
+    name: "蓝宝石石墙",
     color: "#384251FF"
   },
   {
     id: 253,
-    name: "Emerald Stone Wall",
+    name: "翡翠石墙",
     color: "#32493BFF"
   },
   {
     id: 254,
-    name: "Ruby Stone Wall",
+    name: "红宝石石墙",
     color: "#523B40FF"
   },
   {
     id: 255,
-    name: "Diamond Stone Wall",
+    name: "钻石石墙",
     color: "#464F51FF"
   },
   {
     id: 256,
-    name: "Green Mossy Wall",
+    name: "绿色苔藓墙",
     color: "#2E3A36FF"
   },
   {
     id: 257,
-    name: "Brown Mossy Wall",
+    name: "棕色苔藓墙",
     color: "#38382EFF"
   },
   {
     id: 258,
-    name: "Red Mossy Wall",
+    name: "红色苔藓墙",
     color: "#393131FF"
   },
   {
     id: 259,
-    name: "Blue Mossy Wall",
+    name: "蓝色苔藓墙",
     color: "#2D3338FF"
   },
   {
     id: 260,
-    name: "Purple Mossy Wall",
+    name: "紫色苔藓墙",
     color: "#38303BFF"
   },
   {
     id: 261,
-    name: "Rocky Dirt Wall",
+    name: "岩石土墙",
     color: "#503F37FF"
   },
   {
     id: 262,
-    name: "Old Stone Wall",
+    name: "旧石墙",
     color: "#37281CFF"
   },
   {
     id: 263,
-    name: "Spider Wall",
+    name: "蜘蛛墙",
     color: "#201C16FF"
   },
   {
     id: 264,
-    name: "Corrupt Grass Wall",
+    name: "腐化草墙",
     color: "#242539FF"
   },
   {
     id: 265,
-    name: "Hallowed Grass Wall",
+    name: "神圣草墙",
     color: "#193D43FF"
   },
   {
     id: 266,
-    name: "Ice Wall",
+    name: "冰墙",
     color: "#526C86FF"
   },
   {
     id: 267,
-    name: "Obsidian Wall",
+    name: "黑曜石墙",
     color: "#242141FF"
   },
   {
     id: 268,
-    name: "Crimson Grass Wall",
+    name: "猩红草墙",
     color: "#653434FF"
   },
   {
     id: 269,
-    name: "Crimstone Wall",
+    name: "猩红石墙",
     color: "#3E2C2DFF"
   },
   {
     id: 270,
-    name: "Cave Dirt Wall",
+    name: "洞穴土墙",
     color: "#5D442FFF"
   },
   {
     id: 271,
-    name: "Rough Dirt Wall",
+    name: "粗糙土墙",
     color: "#543C27FF"
   },
   {
     id: 272,
-    name: "Marble Wall (unused)",
+    name: "大理石墙（未使用）",
     color: "#787F8FFF"
   },
   {
     id: 273,
-    name: "Granite Wall (unused)",
+    name: "花岗岩墙（未使用）",
     color: "#0F102DFF"
   },
   {
     id: 274,
-    name: "Craggy Stone Wall",
+    name: "崎岖石墙",
     color: "#3D3D3DFF"
   },
   {
     id: 275,
-    name: "Sandstone Wall",
+    name: "砂岩墙",
     color: "#7E442BFF"
   },
   {
     id: 276,
-    name: "Corrupt Growth Wall",
+    name: "腐化增生墙",
     color: "#3F2F3FFF"
   },
   {
     id: 277,
-    name: "Corrupt Mass Wall",
+    name: "腐化团块墙",
     color: "#41334DFF"
   },
   {
     id: 278,
-    name: "Corrupt Pustule Wall",
+    name: "腐化脓疱墙",
     color: "#43483BFF"
   },
   {
     id: 279,
-    name: "Corrupt Tendril Wall",
+    name: "腐化卷须墙",
     color: "#3C2643FF"
   },
   {
     id: 280,
-    name: "Crimson Crust Wall",
+    name: "猩红硬皮墙",
     color: "#7B382FFF"
   },
   {
     id: 281,
-    name: "Crimson Scab Wall",
+    name: "猩红痂皮墙",
     color: "#57181AFF"
   },
   {
     id: 282,
-    name: "Crimson Teeth Wall",
+    name: "猩红尖牙墙",
     color: "#664035FF"
   },
   {
     id: 283,
-    name: "Crimson Blister Wall",
+    name: "猩红水疱墙",
     color: "#7A2E36FF"
   },
   {
     id: 284,
-    name: "Layered Dirt Wall",
+    name: "层状土墙",
     color: "#634637FF"
   },
   {
     id: 285,
-    name: "Crumbling Dirt Wall",
+    name: "崩碎土墙",
     color: "#664939FF"
   },
   {
     id: 286,
-    name: "Cracked Dirt Wall",
+    name: "开裂土墙",
     color: "#5C4131FF"
   },
   {
     id: 287,
-    name: "Wavy Dirt Wall",
+    name: "波纹土墙",
     color: "#6A4B3AFF"
   },
   {
     id: 288,
-    name: "Hallowed Prism Wall",
+    name: "神圣棱镜墙",
     color: "#512153FF"
   },
   {
     id: 289,
-    name: "Hallowed Cavern Wall",
+    name: "神圣洞穴墙",
     color: "#604F63FF"
   },
   {
     id: 290,
-    name: "Hallowed Shard Wall",
+    name: "神圣碎片墙",
     color: "#7C2A68FF"
   },
   {
     id: 291,
-    name: "Hallowed Crystalline Wall",
+    name: "神圣水晶墙",
     color: "#6F3670FF"
   },
   {
     id: 292,
-    name: "Lichen Stone Wall",
+    name: "地衣石墙",
     color: "#4B4437FF"
   },
   {
     id: 293,
-    name: "Leafy Jungle Wall",
+    name: "多叶丛林墙",
     color: "#53533BFF"
   },
   {
     id: 294,
-    name: "Ivy Stone Wall",
+    name: "常春藤石墙",
     color: "#27432CFF"
   },
   {
     id: 295,
-    name: "Jungle Vine Wall",
+    name: "丛林藤蔓墙",
     color: "#4D4D37FF"
   },
   {
     id: 296,
-    name: "Ember Wall",
+    name: "余烬墙",
     color: "#5C241CFF"
   },
   {
     id: 297,
-    name: "Cinder Wall",
+    name: "煤渣墙",
     color: "#603027FF"
   },
   {
     id: 298,
-    name: "Magma Wall",
+    name: "岩浆墙",
     color: "#6C2C1AFF"
   },
   {
     id: 299,
-    name: "Smouldering Stone Wall",
+    name: "阴燃石墙",
     color: "#6A2A26FF"
   },
   {
     id: 300,
-    name: "Worn Stone Wall",
+    name: "风化石墙",
     color: "#46453DFF"
   },
   {
     id: 301,
-    name: "Stalactite Stone Wall",
+    name: "钟乳石墙",
     color: "#393C39FF"
   },
   {
     id: 302,
-    name: "Mottled Stone Wall",
+    name: "斑驳石墙",
     color: "#45393BFF"
   },
   {
     id: 303,
-    name: "Fractured Stone Wall",
+    name: "碎裂石墙",
     color: "#473C42FF"
   },
   {
     id: 304,
-    name: "Hardened Sand Wall",
+    name: "硬化沙墙",
     color: "#945D34FF"
   },
   {
     id: 305,
-    name: "Hardened Ebonsand Wall",
+    name: "硬化黑檀沙墙",
     color: "#332641FF"
   },
   {
     id: 306,
-    name: "Hardened Crimsand Wall",
+    name: "硬化猩红沙墙",
     color: "#2B1816FF"
   },
   {
     id: 307,
-    name: "Hardened Pearlsand Wall",
+    name: "硬化珍珠沙墙",
     color: "#4E4972FF"
   },
   {
     id: 308,
-    name: "Ebonsandstone Wall",
+    name: "黑檀砂岩墙",
     color: "#362444FF"
   },
   {
     id: 309,
-    name: "Crimsandstone Wall",
+    name: "猩红砂岩墙",
     color: "#49120CFF"
   },
   {
     id: 310,
-    name: "Pearlsandstone Wall",
+    name: "珍珠砂岩墙",
     color: "#3A2F51FF"
   },
   {
     id: 311,
-    name: "Desert Fossil Wall",
+    name: "沙漠化石墙",
     color: "#734122FF"
   },
   {
     id: 312,
-    name: "Bamboo Wall",
+    name: "竹子墙",
     color: "#244110FF"
   },
   {
     id: 313,
-    name: "Large Bamboo Wall",
+    name: "大竹子墙",
     color: "#213D13FF"
   },
   {
     id: 314,
-    name: "Amber Stone Wall",
+    name: "琥珀石墙",
     color: "#4A3A2CFF"
   },
   {
     id: 315,
-    name: "Bamboo Fence",
+    name: "竹篱笆",
     color: "#72782DFF"
   },
   {
     id: 316,
-    name: "Ash Wood Wall",
+    name: "灰烬木墙",
     color: "#3A3440FF"
   },
   {
     id: 317,
-    name: "Ash Wood Fence",
+    name: "灰烬木篱笆",
     color: "#504652FF"
   },
   {
     id: 318,
-    name: "Echo Wall",
+    name: "回声墙",
     color: "#060622FF"
   },
   {
     id: 319,
-    name: "Reef Wall",
+    name: "暗礁墙",
     color: "#5B3052FF"
   },
   {
     id: 320,
-    name: "Poo Wall",
+    name: "便便墙",
     color: "#42271BFF"
   },
   {
     id: 321,
-    name: "Aetherium Wall",
+    name: "以太墙",
     color: "#3E536CFF"
   },
   {
     id: 322,
-    name: "Aetherium Brick Wall",
+    name: "以太砖墙",
     color: "#3A5473FF"
   },
   {
     id: 323,
-    name: "Lunar Rust Brick Wall",
+    name: "月锈砖墙",
     color: "#635E69FF"
   },
   {
     id: 324,
-    name: "Dark Celestial Brick Wall",
+    name: "暗黑天界砖墙",
     color: "#505C68FF"
   },
   {
     id: 325,
-    name: "Astra Brick Wall",
+    name: "星云砖墙",
     color: "#385F7CFF"
   },
   {
     id: 326,
-    name: "Cosmic Ember Brick Wall",
+    name: "宇宙余烬砖墙",
     color: "#5C5E50FF"
   },
   {
     id: 327,
-    name: "Cryocore Brick Wall",
+    name: "冰核砖墙",
     color: "#3E6674FF"
   },
   {
     id: 328,
-    name: "Mercury Brick Wall",
+    name: "水银砖墙",
     color: "#626769FF"
   },
   {
     id: 329,
-    name: "Star Royale Brick Wall",
+    name: "星辰皇家砖墙",
     color: "#575C76FF"
   },
   {
     id: 330,
-    name: "Heavenforge Brick Wall",
+    name: "天铸砖墙",
     color: "#545969FF"
   },
   {
     id: 331,
-    name: "Ancient Blue Brick Wall",
+    name: "远古蓝砖墙",
     color: "#2A2C51FF"
   },
   {
     id: 332,
-    name: "Ancient Green Brick Wall",
+    name: "远古绿砖墙",
     color: "#22421AFF"
   },
   {
     id: 333,
-    name: "Ancient Pink Brick Wall",
+    name: "远古粉砖墙",
     color: "#401931FF"
   },
   {
     id: 334,
-    name: "Ancient Gold Brick Wall",
+    name: "远古金砖墙",
     color: "#4C4220FF"
   },
   {
     id: 335,
-    name: "Ancient Silver Brick Wall",
+    name: "远古银砖墙",
     color: "#3C4143FF"
   },
   {
     id: 336,
-    name: "Ancient Copper Brick Wall",
+    name: "远古铜砖墙",
     color: "#4C2D20FF"
   },
   {
     id: 337,
-    name: "Ancient Obsidian Brick Wall",
+    name: "远古黑曜石砖墙",
     color: "#25243BFF"
   },
   {
     id: 338,
-    name: "Ancient Hellstone Brick Wall",
+    name: "远古狱石砖墙",
     color: "#392220FF"
   },
   {
     id: 339,
-    name: "Ancient Cobalt Brick Wall",
+    name: "远古钴砖墙",
     color: "#132B3CFF"
   },
   {
     id: 340,
-    name: "Ancient Mythril Brick Wall",
+    name: "远古秘银砖墙",
     color: "#2A433CFF"
   },
   {
     id: 341,
-    name: "Lava Moss Brick Wall",
+    name: "熔岩苔藓砖墙",
     color: "#681700FF"
   },
   {
     id: 342,
-    name: "Argon Moss Brick Wall",
+    name: "氩苔藓砖墙",
     color: "#5B0941FF"
   },
   {
     id: 343,
-    name: "Krypton Moss Brick Wall",
+    name: "氪苔藓砖墙",
     color: "#11592BFF"
   },
   {
     id: 344,
-    name: "Xenon Moss Brick Wall",
+    name: "氙苔藓砖墙",
     color: "#05415EFF"
   },
   {
     id: 345,
-    name: "Neon Moss Brick Wall",
+    name: "氖苔藓砖墙",
     color: "#3A0651FF"
   },
   {
     id: 346,
-    name: "Helium Moss Brick Wall",
+    name: "氦苔藓砖墙",
     color: "#FF00FFFF"
   },
   {
     id: 347,
-    name: "Shimmerfall Wall",
+    name: "微光瀑布墙",
     color: "#FF00FFFF"
   },
   {
     id: 348,
-    name: "Fallen Star Wall",
+    name: "坠落之星墙",
     color: "#FF00FFFF"
   },
   {
@@ -1758,82 +1758,82 @@ export const walls: WallInfo[] = [
   },
   {
     id: 351,
-    name: "Feywood Wall",
+    name: "灵木墙",
     color: "#FF00FFFF"
   },
   {
     id: 352,
-    name: "Hallowed Brick Wall",
+    name: "神圣砖墙",
     color: "#FF00FFFF"
   },
   {
     id: 353,
-    name: "Pine Tree Wall",
+    name: "松树墙",
     color: "#FF00FFFF"
   },
   {
     id: 354,
-    name: "Easter Wall",
+    name: "复活节墙",
     color: "#FF00FFFF"
   },
   {
     id: 355,
-    name: "Gothic Brick Wall",
+    name: "哥特砖墙",
     color: "#FF00FFFF"
   },
   {
     id: 356,
-    name: "Flinx Fur Wall",
+    name: "弗利克斯毛皮墙",
     color: "#FF00FFFF"
   },
   {
     id: 357,
-    name: "Jellyfish Wall",
+    name: "水母墙",
     color: "#FF00FFFF"
   },
   {
     id: 358,
-    name: "Pine Wood Wall",
+    name: "松木墙",
     color: "#FF00FFFF"
   },
   {
     id: 359,
-    name: "Harpy Wall",
+    name: "鹰身女妖墙",
     color: "#FF00FFFF"
   },
   {
     id: 360,
-    name: "Crescent Wall",
+    name: "新月墙",
     color: "#FF00FFFF"
   },
   {
     id: 361,
-    name: "Librarian Wall",
+    name: "图书馆员墙",
     color: "#FF00FFFF"
   },
   {
     id: 362,
-    name: "Spike Wall",
+    name: "尖刺墙",
     color: "#FF00FFFF"
   },
   {
     id: 363,
-    name: "Office Wall",
+    name: "办公室墙",
     color: "#FF00FFFF"
   },
   {
     id: 364,
-    name: "Forbidden Wall",
+    name: "禁忌墙",
     color: "#FF00FFFF"
   },
   {
     id: 365,
-    name: "Aquarium Wall",
+    name: "水族馆墙",
     color: "#FF00FFFF"
   },
   {
     id: 366,
-    name: "Boulder Wall",
+    name: "巨石墙",
     color: "#FF00FFFF"
   }
 ];

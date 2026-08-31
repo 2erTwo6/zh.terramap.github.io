@@ -27,7 +27,7 @@ TerraMap 是一款适用于 Terraria 1.4.5 的交互式世界地图查看器。�
 
 - TerraMap 官方网页：<https://terramap.github.io>
 - 跨平台原生客户端：<https://terramap.github.io/native.html>
-- Windows 客户端：<https://terramap.github.io/windows.html>
+- Windows 客户端（已弃用，不再受支持）：<https://terramap.github.io/windows.html>
 
 ## 赞助
 

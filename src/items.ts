@@ -24486,199 +24486,199 @@ export const items: ItemInfo[] = [
     id: 6146
   },
   {
-    name: "Giant Tiki",
+    name: "巨型提基像",
     id: 6147
   },
   {
-    name: "Trusty Cattiva",
+    name: "忠实的捣蛋猫",
     id: 6148
   },
   {
-    name: "Trusty Foxparks",
+    name: "忠实的燎火狐",
     id: 6149
   },
   {
-    name: "Trusty Chillet",
+    name: "忠实的疾旋鼬",
     id: 6150
   },
   {
-    name: "Trusty Chillet Ignis",
+    name: "忠实的疾旋鼬·炎",
     id: 6151
   },
   {
-    name: "Daybloom Staff",
+    name: "太阳花法杖",
     id: 6152
   },
   {
-    name: "Glacier Fang",
+    name: "冰川尖牙",
     id: 6153
   },
   {
-    name: "Mystic Bloom",
+    name: "神秘之花",
     id: 6154
   },
   {
-    name: "Lightning Strike",
+    name: "闪电打击",
     id: 6155
   },
   {
-    name: "Silver Bracer",
+    name: "银护腕",
     id: 6156
   },
   {
-    name: "Snake Band",
+    name: "蛇形手环",
     id: 6157
   },
   {
-    name: "Mobius Strip",
+    name: "莫比乌斯环",
     id: 6158
   },
   {
-    name: "Wicked Armlet",
+    name: "邪恶臂环",
     id: 6159
   },
   {
-    name: "Razortip",
+    name: "锐利刺尖",
     id: 6160
   },
   {
-    name: "Clay Bud Staff",
+    name: "黏土芽法杖",
     id: 6161
   },
   {
-    name: "Ouroboros Ring",
+    name: "衔尾蛇戒指",
     id: 6162
   },
   {
-    name: "Twilight Grasp",
+    name: "暮光之握",
     id: 6163
   },
   {
-    name: "Ruinous Staff",
+    name: "毁灭法杖",
     id: 6164
   },
   {
-    name: "Poison Barb",
+    name: "剧毒倒刺",
     id: 6165
   },
   {
-    name: "Harpy Charm",
+    name: "鹰身女妖护符",
     id: 6166
   },
   {
-    name: "Snapping Stone",
+    name: "啮咬石",
     id: 6167
   },
   {
-    name: "Chaos Cylinder",
+    name: "混沌转筒",
     id: 6168
   },
   {
-    name: "Chaos Cylinder (Full)",
+    name: "混沌转筒（满载）",
     id: 6169
   },
   {
-    name: "Enchanted Timer",
+    name: "附魔计时器",
     id: 6170
   },
   {
-    name: "Bejeweled Staff",
+    name: "镶宝法杖",
     id: 6171
   },
   {
-    name: "Heavy Sling",
+    name: "重型吊索",
     id: 6172
   },
   {
-    name: "Arc Surge",
+    name: "电弧涌动",
     id: 6173
   },
   {
-    name: "Trusty Digtoise",
+    name: "忠实的钻甲龟",
     id: 6174
   },
   {
-    name: "Scout's Sling",
+    name: "侦察兵吊索",
     id: 6175
   },
   {
-    name: "Templar's Sling",
+    name: "圣殿骑士吊索",
     id: 6176
   },
   {
-    name: "Royal Guard's Harness",
+    name: "皇家守卫装具",
     id: 6177
   },
   {
-    name: "Pyroclastic Stone",
+    name: "火山碎屑石",
     id: 6178
   },
   {
-    name: "Armlet Of Ruin",
+    name: "毁灭臂环",
     id: 6179
   },
   {
-    name: "Seraph Necklace",
+    name: "炽天使项链",
     id: 6180
   },
   {
-    name: "Phoenix Quiver",
+    name: "凤凰箭袋",
     id: 6181
   },
   {
-    name: "Wicked Claws",
+    name: "邪恶之爪",
     id: 6182
   },
   {
-    name: "Silver Shield",
+    name: "银护盾",
     id: 6183
   },
   {
-    name: "Sweet Barb",
+    name: "甜蜜倒刺",
     id: 6184
   },
   {
-    name: "Catalyst Band",
+    name: "催化剂手环",
     id: 6185
   },
   {
-    name: "Druidic Serpent Cloak",
+    name: "德鲁伊蛇斗篷",
     id: 6186
   },
   {
-    name: "Crossed Heart Necklace",
+    name: "交叉之心项链",
     id: 6187
   },
   {
-    name: "Restoration Shield",
+    name: "恢复护盾",
     id: 6188
   },
   {
-    name: "Mystic Arts Sash",
+    name: "秘术腰带",
     id: 6189
   },
   {
-    name: "Guide to Old World Parkour",
+    name: "旧世界跑酷指南",
     id: 6190
   },
   {
-    name: "Little Kinship Peach",
+    name: "小羁绊桃子",
     id: 6191
   },
   {
-    name: "Kinship Peach",
+    name: "羁绊桃子",
     id: 6192
   },
   {
-    name: "Chaos Cylinder (Random)",
+    name: "混沌转筒（随机）",
     id: 6193
   },
   {
-    name: "Chaos Cylinder (Simple)",
+    name: "混沌转筒（简单）",
     id: 6194
   },
   {
-    name: "Guide to Old World Parkour (Inactive)",
+    name: "旧世界跑酷指南（未激活）",
     id: 6195
   }
 ];

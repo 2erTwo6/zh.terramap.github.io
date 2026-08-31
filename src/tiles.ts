@@ -59583,25 +59583,25 @@ export const tiles: TileInfo[] = [
   },
   {
     id: 753,
-    name: "Giant Tiki",
+    name: "巨型提基像",
     size: "3,3",
     frames: [
       {
         u: 0,
         v: 0,
-        name: "Giant Tiki",
+        name: "巨型提基像",
         variety: "A"
       },
       {
         u: 0,
         v: 54,
-        name: "Giant Tiki",
+        name: "巨型提基像",
         variety: "B"
       },
       {
         u: 0,
         v: 108,
-        name: "Giant Tiki",
+        name: "巨型提基像",
         variety: "C"
       }
     ]

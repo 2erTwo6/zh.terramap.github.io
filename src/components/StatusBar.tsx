@@ -1,5 +1,6 @@
 import { Space, Spin, theme } from 'antd';
 import type { ReactNode } from 'react';
+import type { WorldPosition } from '../lib/tileDisplayFields';
 import type { WorldTile } from '../types/settings';
 import TileTags from './TileTags';
 
@@ -7,9 +8,10 @@ interface StatusBarProps {
   isLoading: boolean;
   selectedTile: WorldTile | null;
   status?: ReactNode;
+  world?: WorldPosition;
 }
 
-export function StatusBar({ isLoading, selectedTile, status }: StatusBarProps) {
+export function StatusBar({ isLoading, selectedTile, status, world }: StatusBarProps) {
   const {
     token: { colorBgLayout },
   } = theme.useToken();
@@ -29,7 +31,7 @@ export function StatusBar({ isLoading, selectedTile, status }: StatusBarProps) {
           {isLoading && <Spin />}
           {status}
           {selectedTile && (
-            <TileTags selectedTile={selectedTile} />
+            <TileTags selectedTile={selectedTile} world={world} />
           )}
         </Space>
       </span>

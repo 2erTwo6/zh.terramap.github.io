@@ -642,7 +642,6 @@ export class DataStream {
           } else {
             if (tlen == '*') {
               v = [];
-              void this.buffer;
               while (true) {
                 const p = this.position;
                 try {

@@ -6,22 +6,28 @@ import { sets } from './sets';
 import type { Chest, TileEntity, WorldItem, WorldNpc } from './types/settings';
 import { walls } from './walls';
 
+// Terraria writes strings with .NET's BinaryWriter, which encodes them as UTF-8
+const utf8Decoder = new TextDecoder('utf-8');
+
 const BIOME_CORRUPT = 1;
 const BIOME_CRIMSON = 2;
 const BIOME_HALLOW = 3;
 
 const biomeByTileType = (() => {
   const map = new Uint8Array(1024);
-  const tag = (setName: string, biome: number) => {
-    const set = sets.find(s => s.name === setName);
+  // Looked up by position rather than by name: sets.ts names are localized at
+  // display time, so matching on the English name would silently stop working
+  // in any translated build. The indices are fixed by the order in sets.ts.
+  const tag = (setIndex: number, biome: number) => {
+    const set = sets[setIndex];
     if (!set) return;
     for (const e of set.entries) {
       if (e.isTile && e.id < map.length) map[e.id] = biome;
     }
   };
-  tag('Corruption Blocks', BIOME_CORRUPT);
-  tag('Crimson Blocks', BIOME_CRIMSON);
-  tag('Hallow Blocks', BIOME_HALLOW);
+  tag(1, BIOME_CORRUPT);
+  tag(2, BIOME_CRIMSON);
+  tag(4, BIOME_HALLOW);
   return map;
 })();
 
@@ -48,7 +54,7 @@ const start = function (file: File): void {
   const fileReader = new FileReaderSync();
 
   self.postMessage({
-    status: "Reading world file..."
+    status: { key: 'reading_file' }
   });
 
   const buffer = fileReader.readAsArrayBuffer(file);
@@ -60,7 +66,7 @@ const start = function (file: File): void {
   const world = {} as WorldRecord;
 
   self.postMessage({
-    status: "Loading world file..."
+    status: { key: 'loading_file' }
   });
 
   readWorldFile(ds, world);
@@ -121,13 +127,13 @@ function readWorldFile(reader: DataStream, world: WorldRecord): void {
 
 function readFileFormatHeader(reader: DataStream, world: WorldRecord): number[] {
   self.postMessage({
-    status: "Reading world version..."
+    status: { key: 'reading_version' }
   });
 
   world.version = reader.readInt32();
 
   self.postMessage({
-    status: "Reading world header...",
+    status: { key: 'reading_header' },
     version: world.version,
   });
 
@@ -535,7 +541,7 @@ function readHeader(reader: DataStream, world: WorldRecord): void {
 
 function readTiles(reader: DataStream, world: WorldRecord): void {
   self.postMessage({
-    status: "Reading world tiles...",
+    status: { key: 'reading_tiles' },
     world: world,
   });
 
@@ -562,7 +568,7 @@ function readTiles(reader: DataStream, world: WorldRecord): void {
 
   for (let x = 0; x < world.width; x++) {
     if (x > 0 && x % progressInterval === 0) {
-      self.postMessage({ status: `Reading tiles... ${Math.round(x / world.width * 100)}%` });
+      self.postMessage({ status: { key: 'reading_tiles_progress', value: Math.round(x / world.width * 100) } });
     }
     let y = 0;
     while (y < world.height) {
@@ -724,7 +730,7 @@ function readTiles(reader: DataStream, world: WorldRecord): void {
   for (const [wt, arr] of wallBuckets) wallTypeIdx.set(wt, new Uint32Array(arr));
 
   self.postMessage({
-    status: `Loaded ${world.totalTileCount.toLocaleString()} tiles`,
+    status: { key: 'loaded_tiles', value: world.totalTileCount },
     tileData: {
       types: types.buffer,
       wallTypes: wallTypes.buffer,
@@ -1028,7 +1034,8 @@ function readString(reader: DataStream): string {
     step++;
   }
 
-  return reader.readString(stringLength);
+  // Terraria writes strings with .NET's BinaryWriter, which encodes them as UTF-8, so non-ASCII names (e.g. Chinese) must be decoded as such
+  return utf8Decoder.decode(reader.mapUint8Array(stringLength));
 }
 
 export { readChests, readFileFormatHeader, readHeader, readNpcs, readSigns, readString, readTileEntities, readTiles, readWorldFile };

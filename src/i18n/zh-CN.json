@@ -1,6 +1,11 @@
 {
   "about": "关于",
   "all": "全部",
+  "block_type": {
+    "Item": "物品",
+    "Tile": "方块",
+    "Wall": "墙壁"
+  },
   "blocks": "方块",
   "cancel": "取消",
   "choose_blocks": "选择方块",
@@ -31,6 +36,9 @@
   "filter_tile_composition": "筛选方块...",
   "filter_world_properties": "筛选世界属性...",
   "folder": "文件夹",
+  "game_names": {
+    "natural_wall": "{{name}}（天然）"
+  },
   "get_started_intro": "请先执行以下操作之一：",
   "getting_started": "快速入门",
   "hide_info_pane": "隐藏信息面板",
@@ -87,13 +95,33 @@
   "show_all_spoilers": "显示所有剧透",
   "show_info_pane": "显示信息面板",
   "size": "大小",
-  "small": "小型",
   "slopes": {
     "half_tile": "半砖",
     "slope_down_left": "左下斜坡",
     "slope_down_right": "右下斜坡",
     "slope_up_left": "左上斜坡",
     "slope_up_right": "右上斜坡"
+  },
+  "small": "小型",
+  "spread_labels": {
+    "corruptBlocks": "腐化",
+    "crimsonBlocks": "猩红",
+    "explored": "已探索",
+    "hallowBlocks": "神圣",
+    "solidBlocks": "实心方块"
+  },
+  "status": {
+    "choose_file": "请选择一个 Terraria .wld 世界文件",
+    "highlighting_progress": "正在高亮... {{value}}%",
+    "loaded_tiles": "已加载 {{value, number}} 个方块",
+    "loading": "加载中...",
+    "loading_file": "正在加载世界文件...",
+    "reading_file": "正在读取世界文件...",
+    "reading_header": "正在读取世界信息...",
+    "reading_tiles": "正在读取方块...",
+    "reading_tiles_progress": "正在读取方块... {{value}}%",
+    "reading_version": "正在读取世界版本...",
+    "rendering_progress": "正在绘制地图... {{value}}%"
   },
   "steam_cloud": "（Steam 云）",
   "tab_spread": "蔓延",
@@ -128,9 +156,11 @@
       "actuated": "已致动",
       "block": "方块",
       "blue": "蓝色",
+      "depth": "{{feet}}英尺 {{layer}}",
       "east": "东",
       "green": "绿色",
       "honey": "蜂蜜",
+      "horizontal": "{{direction}}{{feet}}英尺",
       "lava": "熔岩",
       "layer_cavern": "洞穴",
       "layer_space": "太空",
@@ -144,6 +174,7 @@
       "shimmer": "微光",
       "wall": "墙壁",
       "water": "水",
+      "west": "西",
       "yellow": "黄色"
     },
     "variety": "变体",

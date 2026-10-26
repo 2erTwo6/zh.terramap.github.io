@@ -2,1579 +2,1579 @@ import type { ItemInfo } from './types/settings';
 
 export const items: ItemInfo[] = [
   {
-    name: "铁镐",
+    name: "Iron Pickaxe",
     id: 1
   },
   {
-    name: "土块",
+    name: "Dirt Block",
     id: 2
   },
   {
-    name: "石块",
+    name: "Stone Block",
     id: 3
   },
   {
-    name: "铁阔剑",
+    name: "Iron Broadsword",
     id: 4
   },
   {
-    name: "蘑菇",
+    name: "Mushroom",
     id: 5
   },
   {
-    name: "铁短剑",
+    name: "Iron Shortsword",
     id: 6
   },
   {
-    name: "铁锤",
+    name: "Iron Hammer",
     id: 7
   },
   {
-    name: "火把",
+    name: "Torch",
     id: 8
   },
   {
-    name: "木材",
+    name: "Wood",
     id: 9
   },
   {
-    name: "铁斧",
+    name: "Iron Axe",
     id: 10
   },
   {
-    name: "铁矿",
+    name: "Iron Ore",
     id: 11
   },
   {
-    name: "铜矿",
+    name: "Copper Ore",
     id: 12
   },
   {
-    name: "金矿",
+    name: "Gold Ore",
     id: 13
   },
   {
-    name: "银矿",
+    name: "Silver Ore",
     id: 14
   },
   {
-    name: "铜表",
+    name: "Copper Watch",
     id: 15
   },
   {
-    name: "银表",
+    name: "Silver Watch",
     id: 16
   },
   {
-    name: "金表",
+    name: "Gold Watch",
     id: 17
   },
   {
-    name: "深度计",
+    name: "Depth Meter",
     id: 18
   },
   {
-    name: "金锭",
+    name: "Gold Bar",
     id: 19
   },
   {
-    name: "铜锭",
+    name: "Copper Bar",
     id: 20
   },
   {
-    name: "银锭",
+    name: "Silver Bar",
     id: 21
   },
   {
-    name: "铁锭",
+    name: "Iron Bar",
     id: 22
   },
   {
-    name: "凝胶",
+    name: "Gel",
     id: 23
   },
   {
-    name: "木剑",
+    name: "Wooden Sword",
     id: 24
   },
   {
-    name: "木门",
+    name: "Wooden Door",
     id: 25
   },
   {
-    name: "石墙",
+    name: "Stone Wall",
     id: 26
   },
   {
-    name: "橡实",
+    name: "Acorn",
     id: 27
   },
   {
-    name: "弱效治疗药水",
+    name: "Lesser Healing Potion",
     id: 28
   },
   {
-    name: "生命水晶",
+    name: "Life Crystal",
     id: 29
   },
   {
-    name: "土墙",
+    name: "Dirt Wall",
     id: 30
   },
   {
-    name: "玻璃瓶",
+    name: "Bottle",
     id: 31
   },
   {
-    name: "木桌",
+    name: "Wooden Table",
     id: 32
   },
   {
-    name: "熔炉",
+    name: "Furnace",
     id: 33
   },
   {
-    name: "木椅",
+    name: "Wooden Chair",
     id: 34
   },
   {
-    name: "铁砧",
+    name: "Iron Anvil",
     id: 35
   },
   {
-    name: "工作台",
+    name: "Work Bench",
     id: 36
   },
   {
-    name: "护目镜",
+    name: "Goggles",
     id: 37
   },
   {
-    name: "晶状体",
+    name: "Lens",
     id: 38
   },
   {
-    name: "木弓",
+    name: "Wooden Bow",
     id: 39
   },
   {
-    name: "木箭",
+    name: "Wooden Arrow",
     id: 40
   },
   {
-    name: "烈焰箭",
+    name: "Flaming Arrow",
     id: 41
   },
   {
-    name: "手里剑",
+    name: "Shuriken",
     id: 42
   },
   {
-    name: "可疑眼球",
+    name: "Suspicious Looking Eye",
     id: 43
   },
   {
-    name: "恶魔弓",
+    name: "Demon Bow",
     id: 44
   },
   {
-    name: "暗夜战斧",
+    name: "War Axe of the Night",
     id: 45
   },
   {
-    name: "光之驱逐",
+    name: "Light's Bane",
     id: 46
   },
   {
-    name: "邪箭",
+    name: "Unholy Arrow",
     id: 47
   },
   {
-    name: "宝箱",
+    name: "Chest",
     id: 48
   },
   {
-    name: "再生手环",
+    name: "Band of Regeneration",
     id: 49
   },
   {
-    name: "魔镜",
+    name: "Magic Mirror",
     id: 50
   },
   {
-    name: "小丑之箭",
+    name: "Jester's Arrow",
     id: 51
   },
   {
-    name: "天使雕像",
+    name: "Angel Statue",
     id: 52
   },
   {
-    name: "云朵瓶",
+    name: "Cloud in a Bottle",
     id: 53
   },
   {
-    name: "赫尔墨斯靴",
+    name: "Hermes Boots",
     id: 54
   },
   {
-    name: "附魔回旋镖",
+    name: "Enchanted Boomerang",
     id: 55
   },
   {
-    name: "魔矿",
+    name: "Demonite Ore",
     id: 56
   },
   {
-    name: "魔金锭",
+    name: "Demonite Bar",
     id: 57
   },
   {
-    name: "心",
+    name: "Heart",
     id: 58
   },
   {
-    name: "腐化种子",
+    name: "Corrupt Seeds",
     id: 59
   },
   {
-    name: "魔菇",
+    name: "Vile Mushroom",
     id: 60
   },
   {
-    name: "黑檀石块",
+    name: "Ebonstone Block",
     id: 61
   },
   {
-    name: "草种子",
+    name: "Grass Seeds",
     id: 62
   },
   {
-    name: "向日葵",
+    name: "Sunflower",
     id: 63
   },
   {
-    name: "魔刺",
+    name: "Vilethorn",
     id: 64
   },
   {
-    name: "星怒",
+    name: "Starfury",
     id: 65
   },
   {
-    name: "净化粉",
+    name: "Purification Powder",
     id: 66
   },
   {
-    name: "魔粉",
+    name: "Vile Powder",
     id: 67
   },
   {
-    name: "腐肉",
+    name: "Rotten Chunk",
     id: 68
   },
   {
-    name: "蠕虫牙",
+    name: "Worm Tooth",
     id: 69
   },
   {
-    name: "蠕虫诱饵",
+    name: "Worm Food",
     id: 70
   },
   {
-    name: "铜币",
+    name: "Copper Coin",
     id: 71
   },
   {
-    name: "银币",
+    name: "Silver Coin",
     id: 72
   },
   {
-    name: "金币",
+    name: "Gold Coin",
     id: 73
   },
   {
-    name: "铂金币",
+    name: "Platinum Coin",
     id: 74
   },
   {
-    name: "坠落之星",
+    name: "Fallen Star",
     id: 75
   },
   {
-    name: "铜护胫",
+    name: "Copper Greaves",
     id: 76
   },
   {
-    name: "铁护胫",
+    name: "Iron Greaves",
     id: 77
   },
   {
-    name: "银护胫",
+    name: "Silver Greaves",
     id: 78
   },
   {
-    name: "金护胫",
+    name: "Gold Greaves",
     id: 79
   },
   {
-    name: "铜链甲",
+    name: "Copper Chainmail",
     id: 80
   },
   {
-    name: "铁链甲",
+    name: "Iron Chainmail",
     id: 81
   },
   {
-    name: "银链甲",
+    name: "Silver Chainmail",
     id: 82
   },
   {
-    name: "金链甲",
+    name: "Gold Chainmail",
     id: 83
   },
   {
-    name: "抓钩",
+    name: "Grappling Hook",
     id: 84
   },
   {
-    name: "链条",
+    name: "Chain",
     id: 85
   },
   {
-    name: "暗影鳞片",
+    name: "Shadow Scale",
     id: 86
   },
   {
-    name: "猪猪存钱罐",
+    name: "Piggy Bank",
     id: 87
   },
   {
-    name: "挖矿头盔",
+    name: "Mining Helmet",
     id: 88
   },
   {
-    name: "铜头盔",
+    name: "Copper Helmet",
     id: 89
   },
   {
-    name: "铁头盔",
+    name: "Iron Helmet",
     id: 90
   },
   {
-    name: "银头盔",
+    name: "Silver Helmet",
     id: 91
   },
   {
-    name: "金头盔",
+    name: "Gold Helmet",
     id: 92
   },
   {
-    name: "木墙",
+    name: "Wood Wall",
     id: 93
   },
   {
-    name: "木平台",
+    name: "Wood Platform",
     id: 94
   },
   {
-    name: "燧发枪",
+    name: "Flintlock Pistol",
     id: 95
   },
   {
-    name: "火枪",
+    name: "Musket",
     id: 96
   },
   {
-    name: "火枪子弹",
+    name: "Musket Ball",
     id: 97
   },
   {
-    name: "迷你鲨",
+    name: "Minishark",
     id: 98
   },
   {
-    name: "铁弓",
+    name: "Iron Bow",
     id: 99
   },
   {
-    name: "暗影护胫",
+    name: "Shadow Greaves",
     id: 100
   },
   {
-    name: "暗影鳞甲",
+    name: "Shadow Scalemail",
     id: 101
   },
   {
-    name: "暗影头盔",
+    name: "Shadow Helmet",
     id: 102
   },
   {
-    name: "梦魇镐",
+    name: "Nightmare Pickaxe",
     id: 103
   },
   {
-    name: "破晓之锤",
+    name: "The Breaker",
     id: 104
   },
   {
-    name: "蜡烛",
+    name: "Candle",
     id: 105
   },
   {
-    name: "铜吊灯",
+    name: "Copper Chandelier",
     id: 106
   },
   {
-    name: "银吊灯",
+    name: "Silver Chandelier",
     id: 107
   },
   {
-    name: "金吊灯",
+    name: "Gold Chandelier",
     id: 108
   },
   {
-    name: "魔力水晶",
+    name: "Mana Crystal",
     id: 109
   },
   {
-    name: "弱效魔力药水",
+    name: "Lesser Mana Potion",
     id: 110
   },
   {
-    name: "星力手环",
+    name: "Band of Starpower",
     id: 111
   },
   {
-    name: "火之花",
+    name: "Flower of Fire",
     id: 112
   },
   {
-    name: "魔法飞弹",
+    name: "Magic Missile",
     id: 113
   },
   {
-    name: "土魔杖",
+    name: "Dirt Rod",
     id: 114
   },
   {
-    name: "暗影珠",
+    name: "Shadow Orb",
     id: 115
   },
   {
-    name: "陨石",
+    name: "Meteorite",
     id: 116
   },
   {
-    name: "陨石锭",
+    name: "Meteorite Bar",
     id: 117
   },
   {
-    name: "抓钩",
+    name: "Hook",
     id: 118
   },
   {
-    name: "烈焰回旋镖",
+    name: "Flamarang",
     id: 119
   },
   {
-    name: "熔火之怒",
+    name: "Molten Fury",
     id: 120
   },
   {
-    name: "火山",
+    name: "Volcano",
     id: 121
   },
   {
-    name: "熔岩镐",
+    name: "Molten Pickaxe",
     id: 122
   },
   {
-    name: "陨石头盔",
+    name: "Meteor Helmet",
     id: 123
   },
   {
-    name: "陨石胸甲",
+    name: "Meteor Suit",
     id: 124
   },
   {
-    name: "陨石护腿",
+    name: "Meteor Leggings",
     id: 125
   },
   {
-    name: "瓶装水",
+    name: "Bottled Water",
     id: 126
   },
   {
-    name: "太空枪",
+    name: "Space Gun",
     id: 127
   },
   {
-    name: "火箭靴",
+    name: "Rocket Boots",
     id: 128
   },
   {
-    name: "灰砖",
+    name: "Gray Brick",
     id: 129
   },
   {
-    name: "灰砖墙",
+    name: "Gray Brick Wall",
     id: 130
   },
   {
-    name: "红砖",
+    name: "Red Brick",
     id: 131
   },
   {
-    name: "红砖墙",
+    name: "Red Brick Wall",
     id: 132
   },
   {
-    name: "粘土块",
+    name: "Clay Block",
     id: 133
   },
   {
-    name: "蓝砖",
+    name: "Blue Brick",
     id: 134
   },
   {
-    name: "蓝砖墙",
+    name: "Blue Brick Wall",
     id: 135
   },
   {
-    name: "链灯",
+    name: "Chain Lantern",
     id: 136
   },
   {
-    name: "绿砖",
+    name: "Green Brick",
     id: 137
   },
   {
-    name: "绿砖墙",
+    name: "Green Brick Wall",
     id: 138
   },
   {
-    name: "粉砖",
+    name: "Pink Brick",
     id: 139
   },
   {
-    name: "粉砖墙",
+    name: "Pink Brick Wall",
     id: 140
   },
   {
-    name: "金砖",
+    name: "Gold Brick",
     id: 141
   },
   {
-    name: "金砖墙",
+    name: "Gold Brick Wall",
     id: 142
   },
   {
-    name: "银砖",
+    name: "Silver Brick",
     id: 143
   },
   {
-    name: "银砖墙",
+    name: "Silver Brick Wall",
     id: 144
   },
   {
-    name: "铜砖",
+    name: "Copper Brick",
     id: 145
   },
   {
-    name: "铜砖墙",
+    name: "Copper Brick Wall",
     id: 146
   },
   {
-    name: "尖刺",
+    name: "Spike",
     id: 147
   },
   {
-    name: "水蜡烛",
+    name: "Water Candle",
     id: 148
   },
   {
-    name: "书",
+    name: "Book",
     id: 149
   },
   {
-    name: "蛛网",
+    name: "Cobweb",
     id: 150
   },
   {
-    name: "死灵头盔",
+    name: "Necro Helmet",
     id: 151
   },
   {
-    name: "死灵胸甲",
+    name: "Necro Breastplate",
     id: 152
   },
   {
-    name: "死灵护胫",
+    name: "Necro Greaves",
     id: 153
   },
   {
-    name: "骨头",
+    name: "Bone",
     id: 154
   },
   {
-    name: "村正",
+    name: "Muramasa",
     id: 155
   },
   {
-    name: "钴护盾",
+    name: "Cobalt Shield",
     id: 156
   },
   {
-    name: "海蓝权杖",
+    name: "Aqua Scepter",
     id: 157
   },
   {
-    name: "幸运马掌",
+    name: "Lucky Horseshoe",
     id: 158
   },
   {
-    name: "闪亮红气球",
+    name: "Shiny Red Balloon",
     id: 159
   },
   {
-    name: "鱼叉枪",
+    name: "Harpoon",
     id: 160
   },
   {
-    name: "尖球",
+    name: "Spiky Ball",
     id: 161
   },
   {
-    name: "伤害球",
+    name: "Ball O' Hurt",
     id: 162
   },
   {
-    name: "蓝月",
+    name: "Blue Moon",
     id: 163
   },
   {
-    name: "手枪",
+    name: "Handgun",
     id: 164
   },
   {
-    name: "水矢",
+    name: "Water Bolt",
     id: 165
   },
   {
-    name: "炸弹",
+    name: "Bomb",
     id: 166
   },
   {
-    name: "雷管",
+    name: "Dynamite",
     id: 167
   },
   {
-    name: "手榴弹",
+    name: "Grenade",
     id: 168
   },
   {
-    name: "沙块",
+    name: "Sand Block",
     id: 169
   },
   {
-    name: "玻璃",
+    name: "Glass",
     id: 170
   },
   {
-    name: "标牌",
+    name: "Sign",
     id: 171
   },
   {
-    name: "灰烬块",
+    name: "Ash Block",
     id: 172
   },
   {
-    name: "黑曜石",
+    name: "Obsidian",
     id: 173
   },
   {
-    name: "狱石",
+    name: "Hellstone",
     id: 174
   },
   {
-    name: "狱石锭",
+    name: "Hellstone Bar",
     id: 175
   },
   {
-    name: "泥块",
+    name: "Mud Block",
     id: 176
   },
   {
-    name: "蓝宝石",
+    name: "Sapphire",
     id: 177
   },
   {
-    name: "红宝石",
+    name: "Ruby",
     id: 178
   },
   {
-    name: "翡翠",
+    name: "Emerald",
     id: 179
   },
   {
-    name: "黄玉",
+    name: "Topaz",
     id: 180
   },
   {
-    name: "紫晶",
+    name: "Amethyst",
     id: 181
   },
   {
-    name: "钻石",
+    name: "Diamond",
     id: 182
   },
   {
-    name: "发光蘑菇",
+    name: "Glowing Mushroom",
     id: 183
   },
   {
-    name: "星星",
+    name: "Star",
     id: 184
   },
   {
-    name: "常春藤鞭",
+    name: "Ivy Whip",
     id: 185
   },
   {
-    name: "芦苇呼吸管",
+    name: "Breathing Reed",
     id: 186
   },
   {
-    name: "脚蹼",
+    name: "Flipper",
     id: 187
   },
   {
-    name: "治疗药水",
+    name: "Healing Potion",
     id: 188
   },
   {
-    name: "魔力药水",
+    name: "Mana Potion",
     id: 189
   },
   {
-    name: "草剑",
+    name: "Blade of Grass",
     id: 190
   },
   {
-    name: "荆棘旋刃",
+    name: "Thorn Chakram",
     id: 191
   },
   {
-    name: "黑曜石砖",
+    name: "Obsidian Brick",
     id: 192
   },
   {
-    name: "黑曜石头骨",
+    name: "Obsidian Skull",
     id: 193
   },
   {
-    name: "蘑菇草种子",
+    name: "Mushroom Grass Seeds",
     id: 194
   },
   {
-    name: "丛林草种子",
+    name: "Jungle Grass Seeds",
     id: 195
   },
   {
-    name: "木锤",
+    name: "Wooden Hammer",
     id: 196
   },
   {
-    name: "星星炮",
+    name: "Star Cannon",
     id: 197
   },
   {
-    name: "蓝相位剑",
+    name: "Blue Phaseblade",
     id: 198
   },
   {
-    name: "红相位剑",
+    name: "Red Phaseblade",
     id: 199
   },
   {
-    name: "绿相位剑",
+    name: "Green Phaseblade",
     id: 200
   },
   {
-    name: "紫相位剑",
+    name: "Purple Phaseblade",
     id: 201
   },
   {
-    name: "白相位剑",
+    name: "White Phaseblade",
     id: 202
   },
   {
-    name: "黄相位剑",
+    name: "Yellow Phaseblade",
     id: 203
   },
   {
-    name: "流星锤斧",
+    name: "Meteor Hamaxe",
     id: 204
   },
   {
-    name: "空桶",
+    name: "Empty Bucket",
     id: 205
   },
   {
-    name: "水桶",
+    name: "Water Bucket",
     id: 206
   },
   {
-    name: "熔岩桶",
+    name: "Lava Bucket",
     id: 207
   },
   {
-    name: "丛林玫瑰",
+    name: "Jungle Rose",
     id: 208
   },
   {
-    name: "毒刺",
+    name: "Stinger",
     id: 209
   },
   {
-    name: "藤蔓",
+    name: "Vine",
     id: 210
   },
   {
-    name: "猛爪手套",
+    name: "Feral Claws",
     id: 211
   },
   {
-    name: "疾风脚镯",
+    name: "Anklet of the Wind",
     id: 212
   },
   {
-    name: "再生法杖",
+    name: "Staff of Regrowth",
     id: 213
   },
   {
-    name: "狱石砖",
+    name: "Hellstone Brick",
     id: 214
   },
   {
-    name: "放屁垫",
+    name: "Whoopie Cushion",
     id: 215
   },
   {
-    name: "脚镣",
+    name: "Shackle",
     id: 216
   },
   {
-    name: "熔岩锤斧",
+    name: "Molten Hamaxe",
     id: 217
   },
   {
-    name: "烈焰火鞭",
+    name: "Flamelash",
     id: 218
   },
   {
-    name: "凤凰爆破枪",
+    name: "Phoenix Blaster",
     id: 219
   },
   {
-    name: "阳炎之怒",
+    name: "Sunfury",
     id: 220
   },
   {
-    name: "地狱熔炉",
+    name: "Hellforge",
     id: 221
   },
   {
-    name: "粘土盆",
+    name: "Clay Pot",
     id: 222
   },
   {
-    name: "大自然的恩赐",
+    name: "Nature's Gift",
     id: 223
   },
   {
-    name: "床",
+    name: "Bed",
     id: 224
   },
   {
-    name: "丝绸",
+    name: "Silk",
     id: 225
   },
   {
-    name: "恢复药水",
+    name: "Restoration Potion",
     id: 226
   },
   {
-    name: "恢复药水",
+    name: "Restoration Potion",
     id: 227
   },
   {
-    name: "丛林帽",
+    name: "Jungle Hat",
     id: 228
   },
   {
-    name: "丛林衣",
+    name: "Jungle Shirt",
     id: 229
   },
   {
-    name: "丛林裤",
+    name: "Jungle Pants",
     id: 230
   },
   {
-    name: "熔岩头盔",
+    name: "Molten Helmet",
     id: 231
   },
   {
-    name: "熔岩胸甲",
+    name: "Molten Breastplate",
     id: 232
   },
   {
-    name: "熔岩护胫",
+    name: "Molten Greaves",
     id: 233
   },
   {
-    name: "流星弹",
+    name: "Meteor Shot",
     id: 234
   },
   {
-    name: "粘性炸弹",
+    name: "Sticky Bomb",
     id: 235
   },
   {
-    name: "黑晶状体",
+    name: "Black Lens",
     id: 236
   },
   {
-    name: "墨镜",
+    name: "Sunglasses",
     id: 237
   },
   {
-    name: "巫师帽",
+    name: "Wizard Hat",
     id: 238
   },
   {
-    name: "高顶礼帽",
+    name: "Top Hat",
     id: 239
   },
   {
-    name: "燕尾服上衣",
+    name: "Tuxedo Shirt",
     id: 240
   },
   {
-    name: "燕尾服裤",
+    name: "Tuxedo Pants",
     id: 241
   },
   {
-    name: "夏日帽",
+    name: "Summer Hat",
     id: 242
   },
   {
-    name: "兔兔兜",
+    name: "Bunny Hood",
     id: 243
   },
   {
-    name: "水管工帽",
+    name: "Plumber's Hat",
     id: 244
   },
   {
-    name: "水管工上衣",
+    name: "Plumber's Shirt",
     id: 245
   },
   {
-    name: "水管工裤",
+    name: "Plumber's Pants",
     id: 246
   },
   {
-    name: "英雄帽",
+    name: "Hero's Hat",
     id: 247
   },
   {
-    name: "英雄上衣",
+    name: "Hero's Shirt",
     id: 248
   },
   {
-    name: "英雄裤",
+    name: "Hero's Pants",
     id: 249
   },
   {
-    name: "鱼缸",
+    name: "Fish Bowl",
     id: 250
   },
   {
-    name: "考古学家帽",
+    name: "Archaeologist's Hat",
     id: 251
   },
   {
-    name: "考古学家夹克",
+    name: "Archaeologist's Jacket",
     id: 252
   },
   {
-    name: "考古学家裤",
+    name: "Archaeologist's Pants",
     id: 253
   },
   {
-    name: "黑线",
+    name: "Black Thread",
     id: 254
   },
   {
-    name: "绿线",
+    name: "Green Thread",
     id: 255
   },
   {
-    name: "忍者兜帽",
+    name: "Ninja Hood",
     id: 256
   },
   {
-    name: "忍者衣",
+    name: "Ninja Shirt",
     id: 257
   },
   {
-    name: "忍者裤",
+    name: "Ninja Pants",
     id: 258
   },
   {
-    name: "皮革",
+    name: "Leather",
     id: 259
   },
   {
-    name: "红帽",
+    name: "Red Hat",
     id: 260
   },
   {
-    name: "金鱼",
+    name: "Goldfish",
     id: 261
   },
   {
-    name: "长袍",
+    name: "Robe",
     id: 262
   },
   {
-    name: "机器人帽",
+    name: "Robot Hat",
     id: 263
   },
   {
-    name: "金冠",
+    name: "Gold Crown",
     id: 264
   },
   {
-    name: "狱炎箭",
+    name: "Hellfire Arrow",
     id: 265
   },
   {
-    name: "沙枪",
+    name: "Sandgun",
     id: 266
   },
   {
-    name: "向导巫毒娃娃",
+    name: "Guide Voodoo Doll",
     id: 267
   },
   {
-    name: "潜水头盔",
+    name: "Diving Helmet",
     id: 268
   },
   {
-    name: "便装衣",
+    name: "Familiar Shirt",
     id: 269
   },
   {
-    name: "便装裤",
+    name: "Familiar Pants",
     id: 270
   },
   {
-    name: "便装假发",
+    name: "Familiar Wig",
     id: 271
   },
   {
-    name: "恶魔镰刀",
+    name: "Demon Scythe",
     id: 272
   },
   {
-    name: "永夜刃",
+    name: "Night's Edge",
     id: 273
   },
   {
-    name: "暗黑长矛",
+    name: "Dark Lance",
     id: 274
   },
   {
-    name: "珊瑚",
+    name: "Coral",
     id: 275
   },
   {
-    name: "仙人掌",
+    name: "Cactus",
     id: 276
   },
   {
-    name: "三叉戟",
+    name: "Trident",
     id: 277
   },
   {
-    name: "银子弹",
+    name: "Silver Bullet",
     id: 278
   },
   {
-    name: "投刀",
+    name: "Throwing Knife",
     id: 279
   },
   {
-    name: "长矛",
+    name: "Spear",
     id: 280
   },
   {
-    name: "吹管",
+    name: "Blowpipe",
     id: 281
   },
   {
-    name: "荧光棒",
+    name: "Glowstick",
     id: 282
   },
   {
-    name: "种子",
+    name: "Seed",
     id: 283
   },
   {
-    name: "木回旋镖",
+    name: "Wooden Boomerang",
     id: 284
   },
   {
-    name: "鞋带束头",
+    name: "Aglet",
     id: 285
   },
   {
-    name: "粘性荧光棒",
+    name: "Sticky Glowstick",
     id: 286
   },
   {
-    name: "毒刀",
+    name: "Poisoned Knife",
     id: 287
   },
   {
-    name: "黑曜石皮药水",
+    name: "Obsidian Skin Potion",
     id: 288
   },
   {
-    name: "再生药水",
+    name: "Regeneration Potion",
     id: 289
   },
   {
-    name: "敏捷药水",
+    name: "Swiftness Potion",
     id: 290
   },
   {
-    name: "鱼鳃药水",
+    name: "Gills Potion",
     id: 291
   },
   {
-    name: "铁皮药水",
+    name: "Ironskin Potion",
     id: 292
   },
   {
-    name: "魔力再生药水",
+    name: "Mana Regeneration Potion",
     id: 293
   },
   {
-    name: "魔能药水",
+    name: "Magic Power Potion",
     id: 294
   },
   {
-    name: "羽落药水",
+    name: "Featherfall Potion",
     id: 295
   },
   {
-    name: "洞穴探险药水",
+    name: "Spelunker Potion",
     id: 296
   },
   {
-    name: "隐身药水",
+    name: "Invisibility Potion",
     id: 297
   },
   {
-    name: "光芒药水",
+    name: "Shine Potion",
     id: 298
   },
   {
-    name: "夜猫子药水",
+    name: "Night Owl Potion",
     id: 299
   },
   {
-    name: "战斗药水",
+    name: "Battle Potion",
     id: 300
   },
   {
-    name: "荆棘药水",
+    name: "Thorns Potion",
     id: 301
   },
   {
-    name: "水上漂药水",
+    name: "Water Walking Potion",
     id: 302
   },
   {
-    name: "箭术药水",
+    name: "Archery Potion",
     id: 303
   },
   {
-    name: "狩猎药水",
+    name: "Hunter Potion",
     id: 304
   },
   {
-    name: "重力药水",
+    name: "Gravitation Potion",
     id: 305
   },
   {
-    name: "金箱",
+    name: "Gold Chest",
     id: 306
   },
   {
-    name: "太阳花种子",
+    name: "Daybloom Seeds",
     id: 307
   },
   {
-    name: "月光草种子",
+    name: "Moonglow Seeds",
     id: 308
   },
   {
-    name: "闪耀根种子",
+    name: "Blinkroot Seeds",
     id: 309
   },
   {
-    name: "死亡草种子",
+    name: "Deathweed Seeds",
     id: 310
   },
   {
-    name: "幌菊种子",
+    name: "Waterleaf Seeds",
     id: 311
   },
   {
-    name: "火焰花种子",
+    name: "Fireblossom Seeds",
     id: 312
   },
   {
-    name: "太阳花",
+    name: "Daybloom",
     id: 313
   },
   {
-    name: "月光草",
+    name: "Moonglow",
     id: 314
   },
   {
-    name: "闪耀根",
+    name: "Blinkroot",
     id: 315
   },
   {
-    name: "死亡草",
+    name: "Deathweed",
     id: 316
   },
   {
-    name: "幌菊",
+    name: "Waterleaf",
     id: 317
   },
   {
-    name: "火焰花",
+    name: "Fireblossom",
     id: 318
   },
   {
-    name: "鲨鱼鳍",
+    name: "Shark Fin",
     id: 319
   },
   {
-    name: "羽毛",
+    name: "Feather",
     id: 320
   },
   {
-    name: "墓碑",
+    name: "Tombstone",
     id: 321
   },
   {
-    name: "小丑面具",
+    name: "Mime Mask",
     id: 322
   },
   {
-    name: "蚁狮上颚",
+    name: "Antlion Mandible",
     id: 323
   },
   {
-    name: "非法枪械部件",
+    name: "Illegal Gun Parts",
     id: 324
   },
   {
-    name: "博士衣",
+    name: "The Doctor's Shirt",
     id: 325
   },
   {
-    name: "博士裤",
+    name: "The Doctor's Pants",
     id: 326
   },
   {
-    name: "金钥匙",
+    name: "Golden Key",
     id: 327
   },
   {
-    name: "暗影箱",
+    name: "Shadow Chest",
     id: 328
   },
   {
-    name: "暗影钥匙",
+    name: "Shadow Key",
     id: 329
   },
   {
-    name: "黑曜石砖墙",
+    name: "Obsidian Brick Wall",
     id: 330
   },
   {
-    name: "丛林孢子",
+    name: "Jungle Spores",
     id: 331
   },
   {
-    name: "织布机",
+    name: "Loom",
     id: 332
   },
   {
-    name: "钢琴",
+    name: "Piano",
     id: 333
   },
   {
-    name: "梳妆台",
+    name: "Dresser",
     id: 334
   },
   {
-    name: "长凳",
+    name: "Bench",
     id: 335
   },
   {
-    name: "浴缸",
+    name: "Bathtub",
     id: 336
   },
   {
-    name: "红旗",
+    name: "Red Banner",
     id: 337
   },
   {
-    name: "绿旗",
+    name: "Green Banner",
     id: 338
   },
   {
-    name: "蓝旗",
+    name: "Blue Banner",
     id: 339
   },
   {
-    name: "黄旗",
+    name: "Yellow Banner",
     id: 340
   },
   {
-    name: "灯柱",
+    name: "Lamp Post",
     id: 341
   },
   {
-    name: "提基火把",
+    name: "Tiki Torch",
     id: 342
   },
   {
-    name: "桶",
+    name: "Barrel",
     id: 343
   },
   {
-    name: "灯笼",
+    name: "Chinese Lantern",
     id: 344
   },
   {
-    name: "烹饪锅",
+    name: "Cooking Pot",
     id: 345
   },
   {
-    name: "保险箱",
+    name: "Safe",
     id: 346
   },
   {
-    name: "骷髅头灯笼",
+    name: "Skull Lantern",
     id: 347
   },
   {
-    name: "垃圾桶",
+    name: "Trash Can",
     id: 348
   },
   {
-    name: "烛台",
+    name: "Candelabra",
     id: 349
   },
   {
-    name: "粉花瓶",
+    name: "Pink Vase",
     id: 350
   },
   {
-    name: "马克杯",
+    name: "Mug",
     id: 351
   },
   {
-    name: "小桶",
+    name: "Keg",
     id: 352
   },
   {
-    name: "麦芽酒",
+    name: "Ale",
     id: 353
   },
   {
-    name: "书架",
+    name: "Bookcase",
     id: 354
   },
   {
-    name: "王座",
+    name: "Throne",
     id: 355
   },
   {
-    name: "碗",
+    name: "Bowl",
     id: 356
   },
   {
-    name: "一碗汤",
+    name: "Bowl of Soup",
     id: 357
   },
   {
-    name: "马桶",
+    name: "Toilet",
     id: 358
   },
   {
-    name: "落地钟",
+    name: "Grandfather Clock",
     id: 359
   },
   {
-    name: "盔甲雕像",
+    name: "Armor Statue",
     id: 360
   },
   {
-    name: "哥布林战旗",
+    name: "Goblin Battle Standard",
     id: 361
   },
   {
-    name: "破布",
+    name: "Tattered Cloth",
     id: 362
   },
   {
-    name: "锯木机",
+    name: "Sawmill",
     id: 363
   },
   {
-    name: "钴矿",
+    name: "Cobalt Ore",
     id: 364
   },
   {
-    name: "秘银矿",
+    name: "Mythril Ore",
     id: 365
   },
   {
-    name: "精金矿",
+    name: "Adamantite Ore",
     id: 366
   },
   {
-    name: "神锤",
+    name: "Pwnhammer",
     id: 367
   },
   {
-    name: "断钢剑",
+    name: "Excalibur",
     id: 368
   },
   {
-    name: "神圣种子",
+    name: "Hallowed Seeds",
     id: 369
   },
   {
-    name: "黑檀沙块",
+    name: "Ebonsand Block",
     id: 370
   },
   {
-    name: "钴帽",
+    name: "Cobalt Hat",
     id: 371
   },
   {
-    name: "钴头盔",
+    name: "Cobalt Helmet",
     id: 372
   },
   {
-    name: "钴面具",
+    name: "Cobalt Mask",
     id: 373
   },
   {
-    name: "钴胸甲",
+    name: "Cobalt Breastplate",
     id: 374
   },
   {
-    name: "钴护腿",
+    name: "Cobalt Leggings",
     id: 375
   },
   {
-    name: "秘银兜帽",
+    name: "Mythril Hood",
     id: 376
   },
   {
-    name: "秘银头盔",
+    name: "Mythril Helmet",
     id: 377
   },
   {
-    name: "秘银帽",
+    name: "Mythril Hat",
     id: 378
   },
   {
-    name: "秘银锁链甲",
+    name: "Mythril Chainmail",
     id: 379
   },
   {
-    name: "秘银胫甲",
+    name: "Mythril Greaves",
     id: 380
   },
   {
-    name: "钴锭",
+    name: "Cobalt Bar",
     id: 381
   },
   {
-    name: "秘银锭",
+    name: "Mythril Bar",
     id: 382
   },
   {
-    name: "钴链锯",
+    name: "Cobalt Chainsaw",
     id: 383
   },
   {
-    name: "秘银链锯",
+    name: "Mythril Chainsaw",
     id: 384
   },
   {
-    name: "钴钻头",
+    name: "Cobalt Drill",
     id: 385
   },
   {
-    name: "秘银钻头",
+    name: "Mythril Drill",
     id: 386
   },
   {
-    name: "精金链锯",
+    name: "Adamantite Chainsaw",
     id: 387
   },
   {
-    name: "精金钻头",
+    name: "Adamantite Drill",
     id: 388
   },
   {
-    name: "太极连枷",
+    name: "Dao of Pow",
     id: 389
   },
   {
-    name: "秘银长戟",
+    name: "Mythril Halberd",
     id: 390
   },
   {
-    name: "精金锭",
+    name: "Adamantite Bar",
     id: 391
   },
   {
-    name: "玻璃墙",
+    name: "Glass Wall",
     id: 392
   },
   {
-    name: "罗盘",
+    name: "Compass",
     id: 393
   },
   {
-    name: "潜水装备",
+    name: "Diving Gear",
     id: 394
   },
   {
@@ -1582,3639 +1582,3639 @@ export const items: ItemInfo[] = [
     id: 395
   },
   {
-    name: "黑曜石马掌",
+    name: "Obsidian Horseshoe",
     id: 396
   },
   {
-    name: "黑曜石盾",
+    name: "Obsidian Shield",
     id: 397
   },
   {
-    name: "工匠作坊",
+    name: "Tinkerer's Workshop",
     id: 398
   },
   {
-    name: "云朵气球",
+    name: "Cloud in a Balloon",
     id: 399
   },
   {
-    name: "精金头饰",
+    name: "Adamantite Headgear",
     id: 400
   },
   {
-    name: "精金头盔",
+    name: "Adamantite Helmet",
     id: 401
   },
   {
-    name: "精金面具",
+    name: "Adamantite Mask",
     id: 402
   },
   {
-    name: "精金胸甲",
+    name: "Adamantite Breastplate",
     id: 403
   },
   {
-    name: "精金护腿",
+    name: "Adamantite Leggings",
     id: 404
   },
   {
-    name: "幽灵靴",
+    name: "Spectre Boots",
     id: 405
   },
   {
-    name: "精金关刀",
+    name: "Adamantite Glaive",
     id: 406
   },
   {
-    name: "工具腰带",
+    name: "Toolbelt",
     id: 407
   },
   {
-    name: "珍珠沙块",
+    name: "Pearlsand Block",
     id: 408
   },
   {
-    name: "珍珠石块",
+    name: "Pearlstone Block",
     id: 409
   },
   {
-    name: "矿工上衣",
+    name: "Mining Shirt",
     id: 410
   },
   {
-    name: "矿工裤",
+    name: "Mining Pants",
     id: 411
   },
   {
-    name: "珍珠石块",
+    name: "Pearlstone Brick",
     id: 412
   },
   {
-    name: "彩虹砖",
+    name: "Iridescent Brick",
     id: 413
   },
   {
-    name: "泥石砖",
+    name: "Mudstone Brick",
     id: 414
   },
   {
-    name: "钴砖",
+    name: "Cobalt Brick",
     id: 415
   },
   {
-    name: "秘银砖",
+    name: "Mythril Brick",
     id: 416
   },
   {
-    name: "珍珠石块墙",
+    name: "Pearlstone Brick Wall",
     id: 417
   },
   {
-    name: "彩虹砖墙",
+    name: "Iridescent Brick Wall",
     id: 418
   },
   {
-    name: "泥石砖墙",
+    name: "Mudstone Brick Wall",
     id: 419
   },
   {
-    name: "钴砖墙",
+    name: "Cobalt Brick Wall",
     id: 420
   },
   {
-    name: "秘银砖墙",
+    name: "Mythril Brick Wall",
     id: 421
   },
   {
-    name: "圣水",
+    name: "Holy Water",
     id: 422
   },
   {
-    name: "邪水",
+    name: "Unholy Water",
     id: 423
   },
   {
-    name: "泥沙块",
+    name: "Silt Block",
     id: 424
   },
   {
-    name: "仙灵铃铛",
+    name: "Fairy Bell",
     id: 425
   },
   {
-    name: "毁灭刃",
+    name: "Breaker Blade",
     id: 426
   },
   {
-    name: "蓝火把",
+    name: "Blue Torch",
     id: 427
   },
   {
-    name: "红火把",
+    name: "Red Torch",
     id: 428
   },
   {
-    name: "绿火把",
+    name: "Green Torch",
     id: 429
   },
   {
-    name: "紫火把",
+    name: "Purple Torch",
     id: 430
   },
   {
-    name: "白火把",
+    name: "White Torch",
     id: 431
   },
   {
-    name: "黄火把",
+    name: "Yellow Torch",
     id: 432
   },
   {
-    name: "恶魔火把",
+    name: "Demon Torch",
     id: 433
   },
   {
-    name: "发条式突击步枪",
+    name: "Clockwork Assault Rifle",
     id: 434
   },
   {
-    name: "钴连弩",
+    name: "Cobalt Repeater",
     id: 435
   },
   {
-    name: "秘银连弩",
+    name: "Mythril Repeater",
     id: 436
   },
   {
-    name: "双钩",
+    name: "Dual Hook",
     id: 437
   },
   {
-    name: "星星雕像",
+    name: "Star Statue",
     id: 438
   },
   {
-    name: "剑雕像",
+    name: "Sword Statue",
     id: 439
   },
   {
-    name: "史莱姆雕像",
+    name: "Slime Statue",
     id: 440
   },
   {
-    name: "哥布林雕像",
+    name: "Goblin Statue",
     id: 441
   },
   {
-    name: "盾牌雕像",
+    name: "Shield Statue",
     id: 442
   },
   {
-    name: "蝙蝠雕像",
+    name: "Bat Statue",
     id: 443
   },
   {
-    name: "鱼雕像",
+    name: "Fish Statue",
     id: 444
   },
   {
-    name: "兔兔雕像",
+    name: "Bunny Statue",
     id: 445
   },
   {
-    name: "骷髅雕像",
+    name: "Skeleton Statue",
     id: 446
   },
   {
-    name: "死神雕像",
+    name: "Reaper Statue",
     id: 447
   },
   {
-    name: "女人雕像",
+    name: "Woman Statue",
     id: 448
   },
   {
-    name: "小鬼雕像",
+    name: "Imp Statue",
     id: 449
   },
   {
-    name: "石像鬼雕像",
+    name: "Gargoyle Statue",
     id: 450
   },
   {
-    name: "忧郁雕像",
+    name: "Gloom Statue",
     id: 451
   },
   {
-    name: "黄蜂雕像",
+    name: "Hornet Statue",
     id: 452
   },
   {
-    name: "炸弹雕像",
+    name: "Bomb Statue",
     id: 453
   },
   {
-    name: "螃蟹雕像",
+    name: "Crab Statue",
     id: 454
   },
   {
-    name: "锤子雕像",
+    name: "Hammer Statue",
     id: 455
   },
   {
-    name: "药水雕像",
+    name: "Potion Statue",
     id: 456
   },
   {
-    name: "长矛雕像",
+    name: "Spear Statue",
     id: 457
   },
   {
-    name: "十字架雕像",
+    name: "Cross Statue",
     id: 458
   },
   {
-    name: "水母雕像",
+    name: "Jellyfish Statue",
     id: 459
   },
   {
-    name: "弓雕像",
+    name: "Bow Statue",
     id: 460
   },
   {
-    name: "回旋镖雕像",
+    name: "Boomerang Statue",
     id: 461
   },
   {
-    name: "靴子雕像",
+    name: "Boot Statue",
     id: 462
   },
   {
-    name: "宝箱雕像",
+    name: "Chest Statue",
     id: 463
   },
   {
-    name: "鸟雕像",
+    name: "Bird Statue",
     id: 464
   },
   {
-    name: "斧头雕像",
+    name: "Axe Statue",
     id: 465
   },
   {
-    name: "腐化雕像",
+    name: "Corrupt Statue",
     id: 466
   },
   {
-    name: "树雕像",
+    name: "Tree Statue",
     id: 467
   },
   {
-    name: "铁砧雕像",
+    name: "Anvil Statue",
     id: 468
   },
   {
-    name: "镐雕像",
+    name: "Pickaxe Statue",
     id: 469
   },
   {
-    name: "蘑菇雕像",
+    name: "Mushroom Statue",
     id: 470
   },
   {
-    name: "眼球雕像",
+    name: "Eyeball Statue",
     id: 471
   },
   {
-    name: "柱子雕像",
+    name: "Pillar Statue",
     id: 472
   },
   {
-    name: "心形雕像",
+    name: "Heart Statue",
     id: 473
   },
   {
-    name: "罐子雕像",
+    name: "Pot Statue",
     id: 474
   },
   {
-    name: "向日葵雕像",
+    name: "Sunflower Statue",
     id: 475
   },
   {
-    name: "国王雕像",
+    name: "King Statue",
     id: 476
   },
   {
-    name: "皇后雕像",
+    name: "Queen Statue",
     id: 477
   },
   {
-    name: "食人鱼雕像",
+    name: "Piranha Statue",
     id: 478
   },
   {
-    name: "木板墙",
+    name: "Planked Wall",
     id: 479
   },
   {
-    name: "木梁",
+    name: "Wooden Beam",
     id: 480
   },
   {
-    name: "精金连弩",
+    name: "Adamantite Repeater",
     id: 481
   },
   {
-    name: "精金剑",
+    name: "Adamantite Sword",
     id: 482
   },
   {
-    name: "钴剑",
+    name: "Cobalt Sword",
     id: 483
   },
   {
-    name: "秘银剑",
+    name: "Mythril Sword",
     id: 484
   },
   {
-    name: "月光护身符",
+    name: "Moon Charm",
     id: 485
   },
   {
-    name: "标尺",
+    name: "Ruler",
     id: 486
   },
   {
-    name: "水晶球",
+    name: "Crystal Ball",
     id: 487
   },
   {
-    name: "迪斯科球",
+    name: "Disco Ball",
     id: 488
   },
   {
-    name: "巫师徽章",
+    name: "Sorcerer Emblem",
     id: 489
   },
   {
-    name: "战士徽章",
+    name: "Warrior Emblem",
     id: 490
   },
   {
-    name: "游侠徽章",
+    name: "Ranger Emblem",
     id: 491
   },
   {
-    name: "恶魔翅膀",
+    name: "Demon Wings",
     id: 492
   },
   {
-    name: "天使翅膀",
+    name: "Angel Wings",
     id: 493
   },
   {
-    name: "魔法竖琴",
+    name: "Magical Harp",
     id: 494
   },
   {
-    name: "彩虹法杖",
+    name: "Rainbow Rod",
     id: 495
   },
   {
-    name: "寒冰法杖",
+    name: "Ice Rod",
     id: 496
   },
   {
-    name: "海神贝壳",
+    name: "Neptune's Shell",
     id: 497
   },
   {
-    name: "人体模型",
+    name: "Mannequin",
     id: 498
   },
   {
-    name: "强效治疗药水",
+    name: "Greater Healing Potion",
     id: 499
   },
   {
-    name: "强效魔力药水",
+    name: "Greater Mana Potion",
     id: 500
   },
   {
-    name: "妖精尘",
+    name: "Pixie Dust",
     id: 501
   },
   {
-    name: "水晶碎块",
+    name: "Crystal Shard",
     id: 502
   },
   {
-    name: "小丑帽",
+    name: "Clown Hat",
     id: 503
   },
   {
-    name: "小丑衣",
+    name: "Clown Shirt",
     id: 504
   },
   {
-    name: "小丑裤",
+    name: "Clown Pants",
     id: 505
   },
   {
-    name: "火焰喷射器",
+    name: "Flamethrower",
     id: 506
   },
   {
-    name: "铃铛",
+    name: "Bell",
     id: 507
   },
   {
-    name: "竖琴",
+    name: "Harp",
     id: 508
   },
   {
-    name: "红扳手",
+    name: "Red Wrench",
     id: 509
   },
   {
-    name: "钢丝钳",
+    name: "Wire Cutter",
     id: 510
   },
   {
-    name: "激活状态的石块",
+    name: "Active Stone Block",
     id: 511
   },
   {
-    name: "未激活的石块",
+    name: "Inactive Stone Block",
     id: 512
   },
   {
-    name: "控制杆",
+    name: "Lever",
     id: 513
   },
   {
-    name: "激光步枪",
+    name: "Laser Rifle",
     id: 514
   },
   {
-    name: "水晶子弹",
+    name: "Crystal Bullet",
     id: 515
   },
   {
-    name: "圣箭",
+    name: "Holy Arrow",
     id: 516
   },
   {
-    name: "魔法飞刀",
+    name: "Magic Dagger",
     id: 517
   },
   {
-    name: "水晶风暴",
+    name: "Crystal Storm",
     id: 518
   },
   {
-    name: "诅咒焰",
+    name: "Cursed Flames",
     id: 519
   },
   {
-    name: "光明之魂",
+    name: "Soul of Light",
     id: 520
   },
   {
-    name: "暗影之魂",
+    name: "Soul of Night",
     id: 521
   },
   {
-    name: "诅咒焰",
+    name: "Cursed Flame",
     id: 522
   },
   {
-    name: "诅咒火把",
+    name: "Cursed Torch",
     id: 523
   },
   {
-    name: "精金熔炉",
+    name: "Adamantite Forge",
     id: 524
   },
   {
-    name: "秘银砧",
+    name: "Mythril Anvil",
     id: 525
   },
   {
-    name: "独角兽角",
+    name: "Unicorn Horn",
     id: 526
   },
   {
-    name: "暗黑碎块",
+    name: "Dark Shard",
     id: 527
   },
   {
-    name: "光明碎块",
+    name: "Light Shard",
     id: 528
   },
   {
-    name: "红压力板",
+    name: "Red Pressure Plate",
     id: 529
   },
   {
-    name: "导线",
+    name: "Wire",
     id: 530
   },
   {
-    name: "法术书",
+    name: "Spell Tome",
     id: 531
   },
   {
-    name: "星星斗篷",
+    name: "Star Cloak",
     id: 532
   },
   {
-    name: "巨兽鲨",
+    name: "Megashark",
     id: 533
   },
   {
-    name: "霰弹枪",
+    name: "Shotgun",
     id: 534
   },
   {
-    name: "点金石",
+    name: "Philosopher's Stone",
     id: 535
   },
   {
-    name: "泰坦手套",
+    name: "Titan Glove",
     id: 536
   },
   {
-    name: "钴薙刀",
+    name: "Cobalt Naginata",
     id: 537
   },
   {
-    name: "开关",
+    name: "Switch",
     id: 538
   },
   {
-    name: "飞镖机关",
+    name: "Dart Trap",
     id: 539
   },
   {
-    name: "巨石",
+    name: "Boulder",
     id: 540
   },
   {
-    name: "绿压力板",
+    name: "Green Pressure Plate",
     id: 541
   },
   {
-    name: "灰压力板",
+    name: "Gray Pressure Plate",
     id: 542
   },
   {
-    name: "棕压力板",
+    name: "Brown Pressure Plate",
     id: 543
   },
   {
-    name: "机械眼球",
+    name: "Mechanical Eye",
     id: 544
   },
   {
-    name: "诅咒箭",
+    name: "Cursed Arrow",
     id: 545
   },
   {
-    name: "诅咒弹",
+    name: "Cursed Bullet",
     id: 546
   },
   {
-    name: "恐惧之魂",
+    name: "Soul of Fright",
     id: 547
   },
   {
-    name: "力量之魂",
+    name: "Soul of Might",
     id: 548
   },
   {
-    name: "视域之魂",
+    name: "Soul of Sight",
     id: 549
   },
   {
-    name: "冈尼尔",
+    name: "Gungnir",
     id: 550
   },
   {
-    name: "神圣板甲",
+    name: "Hallowed Plate Mail",
     id: 551
   },
   {
-    name: "神圣护胫",
+    name: "Hallowed Greaves",
     id: 552
   },
   {
-    name: "神圣头盔",
+    name: "Hallowed Helmet",
     id: 553
   },
   {
-    name: "十字项链",
+    name: "Cross Necklace",
     id: 554
   },
   {
-    name: "魔力花",
+    name: "Mana Flower",
     id: 555
   },
   {
-    name: "机械蠕虫",
+    name: "Mechanical Worm",
     id: 556
   },
   {
-    name: "机械骷髅头",
+    name: "Mechanical Skull",
     id: 557
   },
   {
-    name: "神圣头饰",
+    name: "Hallowed Headgear",
     id: 558
   },
   {
-    name: "神圣面具",
+    name: "Hallowed Mask",
     id: 559
   },
   {
-    name: "史莱姆王冠",
+    name: "Slime Crown",
     id: 560
   },
   {
-    name: "光辉飞盘",
+    name: "Light Disc",
     id: 561
   },
   {
-    name: "八音盒（白天）",
+    name: "Music Box (Overworld Day)",
     id: 562
   },
   {
-    name: "八音盒（恐怖）",
+    name: "Music Box (Eerie)",
     id: 563
   },
   {
-    name: "八音盒（夜晚）",
+    name: "Music Box (Night)",
     id: 564
   },
   {
-    name: "八音盒（标题）",
+    name: "Music Box (Title)",
     id: 565
   },
   {
-    name: "八音盒（地下）",
+    name: "Music Box (Underground)",
     id: 566
   },
   {
-    name: "八音盒（Boss 1）",
+    name: "Music Box (Boss 1)",
     id: 567
   },
   {
-    name: "八音盒（丛林）",
+    name: "Music Box (Jungle)",
     id: 568
   },
   {
-    name: "八音盒（腐化）",
+    name: "Music Box (Corruption)",
     id: 569
   },
   {
-    name: "八音盒（地下腐化）",
+    name: "Music Box (Underground Corruption)",
     id: 570
   },
   {
-    name: "八音盒（神圣）",
+    name: "Music Box (The Hallow)",
     id: 571
   },
   {
-    name: "八音盒（Boss 2）",
+    name: "Music Box (Boss 2)",
     id: 572
   },
   {
-    name: "八音盒（地下神圣）",
+    name: "Music Box (Underground Hallow)",
     id: 573
   },
   {
-    name: "八音盒（Boss 3）",
+    name: "Music Box (Boss 3)",
     id: 574
   },
   {
-    name: "飞翔之魂",
+    name: "Soul of Flight",
     id: 575
   },
   {
-    name: "八音盒",
+    name: "Music Box",
     id: 576
   },
   {
-    name: "魔矿砖",
+    name: "Demonite Brick",
     id: 577
   },
   {
-    name: "神圣连弩",
+    name: "Hallowed Repeater",
     id: 578
   },
   {
-    name: "钻头镐",
+    name: "Drax",
     id: 579
   },
   {
-    name: "炸药",
+    name: "Explosives",
     id: 580
   },
   {
-    name: "入水泵",
+    name: "Inlet Pump",
     id: 581
   },
   {
-    name: "出水泵",
+    name: "Outlet Pump",
     id: 582
   },
   {
-    name: "1秒计时器",
+    name: "1 Second Timer",
     id: 583
   },
   {
-    name: "3秒计时器",
+    name: "3 Second Timer",
     id: 584
   },
   {
-    name: "5秒计时器",
+    name: "5 Second Timer",
     id: 585
   },
   {
-    name: "拐杖糖块",
+    name: "Candy Cane Block",
     id: 586
   },
   {
-    name: "拐杖糖墙",
+    name: "Candy Cane Wall",
     id: 587
   },
   {
-    name: "圣诞帽",
+    name: "Santa Hat",
     id: 588
   },
   {
-    name: "圣诞衬衫",
+    name: "Santa Shirt",
     id: 589
   },
   {
-    name: "圣诞裤",
+    name: "Santa Pants",
     id: 590
   },
   {
-    name: "绿拐杖糖块",
+    name: "Green Candy Cane Block",
     id: 591
   },
   {
-    name: "绿拐杖糖墙",
+    name: "Green Candy Cane Wall",
     id: 592
   },
   {
-    name: "雪块",
+    name: "Snow Block",
     id: 593
   },
   {
-    name: "雪砖",
+    name: "Snow Brick",
     id: 594
   },
   {
-    name: "雪砖墙",
+    name: "Snow Brick Wall",
     id: 595
   },
   {
-    name: "蓝灯",
+    name: "Blue Light",
     id: 596
   },
   {
-    name: "红灯",
+    name: "Red Light",
     id: 597
   },
   {
-    name: "绿灯",
+    name: "Green Light",
     id: 598
   },
   {
-    name: "蓝礼物",
+    name: "Blue Present",
     id: 599
   },
   {
-    name: "绿礼物",
+    name: "Green Present",
     id: 600
   },
   {
-    name: "黄礼物",
+    name: "Yellow Present",
     id: 601
   },
   {
-    name: "雪球",
+    name: "Snow Globe",
     id: 602
   },
   {
-    name: "胡萝卜",
+    name: "Carrot",
     id: 603
   },
   {
-    name: "精金梁",
+    name: "Adamantite Beam",
     id: 604
   },
   {
-    name: "精金梁墙",
+    name: "Adamantite Beam Wall",
     id: 605
   },
   {
-    name: "魔矿砖墙",
+    name: "Demonite Brick Wall",
     id: 606
   },
   {
-    name: "沙岩砖",
+    name: "Sandstone Brick",
     id: 607
   },
   {
-    name: "沙岩砖墙",
+    name: "Sandstone Brick Wall",
     id: 608
   },
   {
-    name: "暗影砖",
+    name: "Ebonstone Brick",
     id: 609
   },
   {
-    name: "暗影砖墙",
+    name: "Ebonstone Brick Wall",
     id: 610
   },
   {
-    name: "红泥灰",
+    name: "Red Stucco",
     id: 611
   },
   {
-    name: "黄泥灰",
+    name: "Yellow Stucco",
     id: 612
   },
   {
-    name: "绿泥灰",
+    name: "Green Stucco",
     id: 613
   },
   {
-    name: "灰泥灰",
+    name: "Gray Stucco",
     id: 614
   },
   {
-    name: "红泥灰墙",
+    name: "Red Stucco Wall",
     id: 615
   },
   {
-    name: "黄泥灰墙",
+    name: "Yellow Stucco Wall",
     id: 616
   },
   {
-    name: "绿泥灰墙",
+    name: "Green Stucco Wall",
     id: 617
   },
   {
-    name: "灰泥灰墙",
+    name: "Gray Stucco Wall",
     id: 618
   },
   {
-    name: "乌木",
+    name: "Ebonwood",
     id: 619
   },
   {
-    name: "红木",
+    name: "Rich Mahogany",
     id: 620
   },
   {
-    name: "珍珠木",
+    name: "Pearlwood",
     id: 621
   },
   {
-    name: "乌木墙",
+    name: "Ebonwood Wall",
     id: 622
   },
   {
-    name: "红木墙",
+    name: "Rich Mahogany Wall",
     id: 623
   },
   {
-    name: "珍珠木墙",
+    name: "Pearlwood Wall",
     id: 624
   },
   {
-    name: "乌木箱",
+    name: "Ebonwood Chest",
     id: 625
   },
   {
-    name: "红木箱",
+    name: "Rich Mahogany Chest",
     id: 626
   },
   {
-    name: "珍珠木箱",
+    name: "Pearlwood Chest",
     id: 627
   },
   {
-    name: "乌木椅",
+    name: "Ebonwood Chair",
     id: 628
   },
   {
-    name: "红木椅",
+    name: "Rich Mahogany Chair",
     id: 629
   },
   {
-    name: "珍珠木椅",
+    name: "Pearlwood Chair",
     id: 630
   },
   {
-    name: "乌木平台",
+    name: "Ebonwood Platform",
     id: 631
   },
   {
-    name: "红木平台",
+    name: "Rich Mahogany Platform",
     id: 632
   },
   {
-    name: "珍珠木平台",
+    name: "Pearlwood Platform",
     id: 633
   },
   {
-    name: "骨头平台",
+    name: "Bone Platform",
     id: 634
   },
   {
-    name: "乌木工作台",
+    name: "Ebonwood Work Bench",
     id: 635
   },
   {
-    name: "红木工作台",
+    name: "Rich Mahogany Work Bench",
     id: 636
   },
   {
-    name: "珍珠木工作台",
+    name: "Pearlwood Work Bench",
     id: 637
   },
   {
-    name: "乌木桌",
+    name: "Ebonwood Table",
     id: 638
   },
   {
-    name: "红木桌",
+    name: "Rich Mahogany Table",
     id: 639
   },
   {
-    name: "珍珠木桌",
+    name: "Pearlwood Table",
     id: 640
   },
   {
-    name: "乌木钢琴",
+    name: "Ebonwood Piano",
     id: 641
   },
   {
-    name: "红木钢琴",
+    name: "Rich Mahogany Piano",
     id: 642
   },
   {
-    name: "珍珠木钢琴",
+    name: "Pearlwood Piano",
     id: 643
   },
   {
-    name: "乌木床",
+    name: "Ebonwood Bed",
     id: 644
   },
   {
-    name: "红木床",
+    name: "Rich Mahogany Bed",
     id: 645
   },
   {
-    name: "珍珠木床",
+    name: "Pearlwood Bed",
     id: 646
   },
   {
-    name: "乌木梳妆台",
+    name: "Ebonwood Dresser",
     id: 647
   },
   {
-    name: "红木梳妆台",
+    name: "Rich Mahogany Dresser",
     id: 648
   },
   {
-    name: "珍珠木梳妆台",
+    name: "Pearlwood Dresser",
     id: 649
   },
   {
-    name: "乌木门",
+    name: "Ebonwood Door",
     id: 650
   },
   {
-    name: "红木门",
+    name: "Rich Mahogany Door",
     id: 651
   },
   {
-    name: "珍珠木门",
+    name: "Pearlwood Door",
     id: 652
   },
   {
-    name: "乌木剑",
+    name: "Ebonwood Sword",
     id: 653
   },
   {
-    name: "乌木锤",
+    name: "Ebonwood Hammer",
     id: 654
   },
   {
-    name: "乌木弓",
+    name: "Ebonwood Bow",
     id: 655
   },
   {
-    name: "红木剑",
+    name: "Rich Mahogany Sword",
     id: 656
   },
   {
-    name: "红木锤",
+    name: "Rich Mahogany Hammer",
     id: 657
   },
   {
-    name: "红木弓",
+    name: "Rich Mahogany Bow",
     id: 658
   },
   {
-    name: "珍珠木剑",
+    name: "Pearlwood Sword",
     id: 659
   },
   {
-    name: "珍珠木锤",
+    name: "Pearlwood Hammer",
     id: 660
   },
   {
-    name: "珍珠木弓",
+    name: "Pearlwood Bow",
     id: 661
   },
   {
-    name: "彩虹砖",
+    name: "Rainbow Brick",
     id: 662
   },
   {
-    name: "彩虹砖墙",
+    name: "Rainbow Brick Wall",
     id: 663
   },
   {
-    name: "冰块",
+    name: "Ice Block",
     id: 664
   },
   {
-    name: "Red的翅膀",
+    name: "Red's Wings",
     id: 665
   },
   {
-    name: "Red的头盔",
+    name: "Red's Helmet",
     id: 666
   },
   {
-    name: "Red的胸甲",
+    name: "Red's Breastplate",
     id: 667
   },
   {
-    name: "Red的护腿",
+    name: "Red's Leggings",
     id: 668
   },
   {
-    name: "鱼",
+    name: "Fish",
     id: 669
   },
   {
-    name: "寒冰回旋镖",
+    name: "Ice Boomerang",
     id: 670
   },
   {
-    name: "钥匙剑",
+    name: "Keybrand",
     id: 671
   },
   {
-    name: "短弯刀",
+    name: "Cutlass",
     id: 672
   },
   {
-    name: "针叶木工作台",
+    name: "Boreal Wood Work Bench",
     id: 673
   },
   {
-    name: "真断钢剑",
+    name: "True Excalibur",
     id: 674
   },
   {
-    name: "真永夜刃",
+    name: "True Night's Edge",
     id: 675
   },
   {
-    name: "冰霜剑",
+    name: "Frostbrand",
     id: 676
   },
   {
-    name: "针叶木桌",
+    name: "Boreal Wood Table",
     id: 677
   },
   {
-    name: "红色药水",
+    name: "Red Potion",
     id: 678
   },
   {
-    name: "战术霰弹枪",
+    name: "Tactical Shotgun",
     id: 679
   },
   {
-    name: "常春藤箱",
+    name: "Ivy Chest",
     id: 680
   },
   {
-    name: "冰冻箱",
+    name: "Frozen Chest",
     id: 681
   },
   {
-    name: "骨髓",
+    name: "Marrow",
     id: 682
   },
   {
-    name: "邪恶三叉戟",
+    name: "Unholy Trident",
     id: 683
   },
   {
-    name: "冰霜头盔",
+    name: "Frost Helmet",
     id: 684
   },
   {
-    name: "冰霜胸甲",
+    name: "Frost Breastplate",
     id: 685
   },
   {
-    name: "冰霜护腿",
+    name: "Frost Leggings",
     id: 686
   },
   {
-    name: "锡头盔",
+    name: "Tin Helmet",
     id: 687
   },
   {
-    name: "锡链甲",
+    name: "Tin Chainmail",
     id: 688
   },
   {
-    name: "锡护胫",
+    name: "Tin Greaves",
     id: 689
   },
   {
-    name: "铅头盔",
+    name: "Lead Helmet",
     id: 690
   },
   {
-    name: "铅链甲",
+    name: "Lead Chainmail",
     id: 691
   },
   {
-    name: "铅护胫",
+    name: "Lead Greaves",
     id: 692
   },
   {
-    name: "钨头盔",
+    name: "Tungsten Helmet",
     id: 693
   },
   {
-    name: "钨链甲",
+    name: "Tungsten Chainmail",
     id: 694
   },
   {
-    name: "钨护胫",
+    name: "Tungsten Greaves",
     id: 695
   },
   {
-    name: "铂金头盔",
+    name: "Platinum Helmet",
     id: 696
   },
   {
-    name: "铂金链甲",
+    name: "Platinum Chainmail",
     id: 697
   },
   {
-    name: "铂金护胫",
+    name: "Platinum Greaves",
     id: 698
   },
   {
-    name: "锡矿",
+    name: "Tin Ore",
     id: 699
   },
   {
-    name: "铅矿",
+    name: "Lead Ore",
     id: 700
   },
   {
-    name: "钨矿",
+    name: "Tungsten Ore",
     id: 701
   },
   {
-    name: "铂金矿",
+    name: "Platinum Ore",
     id: 702
   },
   {
-    name: "锡锭",
+    name: "Tin Bar",
     id: 703
   },
   {
-    name: "铅锭",
+    name: "Lead Bar",
     id: 704
   },
   {
-    name: "钨锭",
+    name: "Tungsten Bar",
     id: 705
   },
   {
-    name: "铂金锭",
+    name: "Platinum Bar",
     id: 706
   },
   {
-    name: "锡表",
+    name: "Tin Watch",
     id: 707
   },
   {
-    name: "钨表",
+    name: "Tungsten Watch",
     id: 708
   },
   {
-    name: "铂金表",
+    name: "Platinum Watch",
     id: 709
   },
   {
-    name: "锡吊灯",
+    name: "Tin Chandelier",
     id: 710
   },
   {
-    name: "钨吊灯",
+    name: "Tungsten Chandelier",
     id: 711
   },
   {
-    name: "铂金吊灯",
+    name: "Platinum Chandelier",
     id: 712
   },
   {
-    name: "铂金蜡烛",
+    name: "Platinum Candle",
     id: 713
   },
   {
-    name: "铂金烛台",
+    name: "Platinum Candelabra",
     id: 714
   },
   {
-    name: "铂金冠",
+    name: "Platinum Crown",
     id: 715
   },
   {
-    name: "铅砧",
+    name: "Lead Anvil",
     id: 716
   },
   {
-    name: "锡砖",
+    name: "Tin Brick",
     id: 717
   },
   {
-    name: "钨砖",
+    name: "Tungsten Brick",
     id: 718
   },
   {
-    name: "铂金砖",
+    name: "Platinum Brick",
     id: 719
   },
   {
-    name: "锡砖墙",
+    name: "Tin Brick Wall",
     id: 720
   },
   {
-    name: "钨砖墙",
+    name: "Tungsten Brick Wall",
     id: 721
   },
   {
-    name: "铂金砖墙",
+    name: "Platinum Brick Wall",
     id: 722
   },
   {
-    name: "光束剑",
+    name: "Beam Sword",
     id: 723
   },
   {
-    name: "寒霜剑",
+    name: "Ice Blade",
     id: 724
   },
   {
-    name: "寒冰弓",
+    name: "Ice Bow",
     id: 725
   },
   {
-    name: "寒霜法杖",
+    name: "Frost Staff",
     id: 726
   },
   {
-    name: "木头盔",
+    name: "Wood Helmet",
     id: 727
   },
   {
-    name: "木胸甲",
+    name: "Wood Breastplate",
     id: 728
   },
   {
-    name: "木护胫",
+    name: "Wood Greaves",
     id: 729
   },
   {
-    name: "乌木头盔",
+    name: "Ebonwood Helmet",
     id: 730
   },
   {
-    name: "乌木胸甲",
+    name: "Ebonwood Breastplate",
     id: 731
   },
   {
-    name: "乌木护胫",
+    name: "Ebonwood Greaves",
     id: 732
   },
   {
-    name: "红木头盔",
+    name: "Rich Mahogany Helmet",
     id: 733
   },
   {
-    name: "红木胸甲",
+    name: "Rich Mahogany Breastplate",
     id: 734
   },
   {
-    name: "红木护胫",
+    name: "Rich Mahogany Greaves",
     id: 735
   },
   {
-    name: "珍珠木头盔",
+    name: "Pearlwood Helmet",
     id: 736
   },
   {
-    name: "珍珠木胸甲",
+    name: "Pearlwood Breastplate",
     id: 737
   },
   {
-    name: "珍珠木护胫",
+    name: "Pearlwood Greaves",
     id: 738
   },
   {
-    name: "紫晶法杖",
+    name: "Amethyst Staff",
     id: 739
   },
   {
-    name: "黄玉法杖",
+    name: "Topaz Staff",
     id: 740
   },
   {
-    name: "蓝玉法杖",
+    name: "Sapphire Staff",
     id: 741
   },
   {
-    name: "翡翠法杖",
+    name: "Emerald Staff",
     id: 742
   },
   {
-    name: "红玉法杖",
+    name: "Ruby Staff",
     id: 743
   },
   {
-    name: "钻石法杖",
+    name: "Diamond Staff",
     id: 744
   },
   {
-    name: "草墙",
+    name: "Grass Wall",
     id: 745
   },
   {
-    name: "丛林墙",
+    name: "Jungle Wall",
     id: 746
   },
   {
-    name: "花墙",
+    name: "Flower Wall",
     id: 747
   },
   {
-    name: "喷气背包",
+    name: "Jetpack",
     id: 748
   },
   {
-    name: "蝴蝶之翼",
+    name: "Butterfly Wings",
     id: 749
   },
   {
-    name: "仙人掌墙",
+    name: "Cactus Wall",
     id: 750
   },
   {
-    name: "云",
+    name: "Cloud",
     id: 751
   },
   {
-    name: "云墙",
+    name: "Cloud Wall",
     id: 752
   },
   {
-    name: "海草",
+    name: "Seaweed",
     id: 753
   },
   {
-    name: "符文帽",
+    name: "Rune Hat",
     id: 754
   },
   {
-    name: "符文长袍",
+    name: "Rune Robe",
     id: 755
   },
   {
-    name: "蘑菇长矛",
+    name: "Mushroom Spear",
     id: 756
   },
   {
-    name: "泰拉刃",
+    name: "Terra Blade",
     id: 757
   },
   {
-    name: "榴弹发射器",
+    name: "Grenade Launcher",
     id: 758
   },
   {
-    name: "火箭发射器",
+    name: "Rocket Launcher",
     id: 759
   },
   {
-    name: "感应雷发射器",
+    name: "Proximity Mine Launcher",
     id: 760
   },
   {
-    name: "仙灵之翼",
+    name: "Fairy Wings",
     id: 761
   },
   {
-    name: "史莱姆块",
+    name: "Slime Block",
     id: 762
   },
   {
-    name: "血肉块",
+    name: "Flesh Block",
     id: 763
   },
   {
-    name: "蘑菇墙",
+    name: "Mushroom Wall",
     id: 764
   },
   {
-    name: "雨云",
+    name: "Rain Cloud",
     id: 765
   },
   {
-    name: "骨头块",
+    name: "Bone Block",
     id: 766
   },
   {
-    name: "冰冻史莱姆块",
+    name: "Frozen Slime Block",
     id: 767
   },
   {
-    name: "骨头块墙",
+    name: "Bone Block Wall",
     id: 768
   },
   {
-    name: "史莱姆块墙",
+    name: "Slime Block Wall",
     id: 769
   },
   {
-    name: "血肉块墙",
+    name: "Flesh Block Wall",
     id: 770
   },
   {
-    name: "初级火箭",
+    name: "Rocket I",
     id: 771
   },
   {
-    name: "二级火箭",
+    name: "Rocket II",
     id: 772
   },
   {
-    name: "三级火箭",
+    name: "Rocket III",
     id: 773
   },
   {
-    name: "四级火箭",
+    name: "Rocket IV",
     id: 774
   },
   {
-    name: "沥青块",
+    name: "Asphalt Block",
     id: 775
   },
   {
-    name: "钴镐",
+    name: "Cobalt Pickaxe",
     id: 776
   },
   {
-    name: "秘银镐",
+    name: "Mythril Pickaxe",
     id: 777
   },
   {
-    name: "精金镐",
+    name: "Adamantite Pickaxe",
     id: 778
   },
   {
-    name: "环境改造枪",
+    name: "Clentaminator",
     id: 779
   },
   {
-    name: "绿溶液",
+    name: "Green Solution",
     id: 780
   },
   {
-    name: "蓝溶液",
+    name: "Blue Solution",
     id: 781
   },
   {
-    name: "紫溶液",
+    name: "Purple Solution",
     id: 782
   },
   {
-    name: "深蓝溶液",
+    name: "Dark Blue Solution",
     id: 783
   },
   {
-    name: "红溶液",
+    name: "Red Solution",
     id: 784
   },
   {
-    name: "鸟妖之翼",
+    name: "Harpy Wings",
     id: 785
   },
   {
-    name: "骨之翼",
+    name: "Bone Wings",
     id: 786
   },
   {
-    name: "锤镐",
+    name: "Hammush",
     id: 787
   },
   {
-    name: "爆裂藤蔓",
+    name: "Nettle Burst",
     id: 788
   },
   {
-    name: "安卡旗帜",
+    name: "Ankh Banner",
     id: 789
   },
   {
-    name: "蛇旗",
+    name: "Snake Banner",
     id: 790
   },
   {
-    name: "欧米伽旗帜",
+    name: "Omega Banner",
     id: 791
   },
   {
-    name: "猩红头盔",
+    name: "Crimson Helmet",
     id: 792
   },
   {
-    name: "猩红鳞甲",
+    name: "Crimson Scalemail",
     id: 793
   },
   {
-    name: "猩红护胫",
+    name: "Crimson Greaves",
     id: 794
   },
   {
-    name: "血腥屠夫",
+    name: "Blood Butcherer",
     id: 795
   },
   {
-    name: "肌腱弓",
+    name: "Tendon Bow",
     id: 796
   },
   {
-    name: "血肉碾碎者",
+    name: "Flesh Grinder",
     id: 797
   },
   {
-    name: "死亡使者镐",
+    name: "Deathbringer Pickaxe",
     id: 798
   },
   {
-    name: "嗜血狂",
+    name: "Blood Lust Cluster",
     id: 799
   },
   {
-    name: "送葬者",
+    name: "The Undertaker",
     id: 800
   },
   {
-    name: "肉球",
+    name: "The Meatball",
     id: 801
   },
   {
-    name: "腐烂之叉",
+    name: "The Rotted Fork",
     id: 802
   },
   {
-    name: "雪帽",
+    name: "Snow Hood",
     id: 803
   },
   {
-    name: "雪大衣",
+    name: "Snow Coat",
     id: 804
   },
   {
-    name: "雪裤",
+    name: "Snow Pants",
     id: 805
   },
   {
-    name: "生命木椅",
+    name: "Living Wood Chair",
     id: 806
   },
   {
-    name: "仙人掌椅",
+    name: "Cactus Chair",
     id: 807
   },
   {
-    name: "骨头椅",
+    name: "Bone Chair",
     id: 808
   },
   {
-    name: "血肉椅",
+    name: "Flesh Chair",
     id: 809
   },
   {
-    name: "蘑菇椅",
+    name: "Mushroom Chair",
     id: 810
   },
   {
-    name: "骨头工作台",
+    name: "Bone Work Bench",
     id: 811
   },
   {
-    name: "仙人掌工作台",
+    name: "Cactus Work Bench",
     id: 812
   },
   {
-    name: "血肉工作台",
+    name: "Flesh Work Bench",
     id: 813
   },
   {
-    name: "蘑菇工作台",
+    name: "Mushroom Work Bench",
     id: 814
   },
   {
-    name: "史莱姆工作台",
+    name: "Slime Work Bench",
     id: 815
   },
   {
-    name: "仙人掌门",
+    name: "Cactus Door",
     id: 816
   },
   {
-    name: "血肉门",
+    name: "Flesh Door",
     id: 817
   },
   {
-    name: "蘑菇门",
+    name: "Mushroom Door",
     id: 818
   },
   {
-    name: "生命木门",
+    name: "Living Wood Door",
     id: 819
   },
   {
-    name: "骨头门",
+    name: "Bone Door",
     id: 820
   },
   {
-    name: "火焰之翼",
+    name: "Flame Wings",
     id: 821
   },
   {
-    name: "冰冻之翼",
+    name: "Frozen Wings",
     id: 822
   },
   {
-    name: "幽灵之翼",
+    name: "Spectre Wings",
     id: 823
   },
   {
-    name: "日耀碑牌块",
+    name: "Sunplate Block",
     id: 824
   },
   {
-    name: "飞盘墙",
+    name: "Disc Wall",
     id: 825
   },
   {
-    name: "天域椅",
+    name: "Skyware Chair",
     id: 826
   },
   {
-    name: "骨头桌",
+    name: "Bone Table",
     id: 827
   },
   {
-    name: "血肉桌",
+    name: "Flesh Table",
     id: 828
   },
   {
-    name: "生命木桌",
+    name: "Living Wood Table",
     id: 829
   },
   {
-    name: "天域桌",
+    name: "Skyware Table",
     id: 830
   },
   {
-    name: "生命木箱",
+    name: "Living Wood Chest",
     id: 831
   },
   {
-    name: "生命木魔棒",
+    name: "Living Wood Wand",
     id: 832
   },
   {
-    name: "紫冰雪块",
+    name: "Purple Ice Block",
     id: 833
   },
   {
-    name: "粉冰雪块",
+    name: "Pink Ice Block",
     id: 834
   },
   {
-    name: "红冰雪块",
+    name: "Red Ice Block",
     id: 835
   },
   {
-    name: "猩红石块",
+    name: "Crimstone Block",
     id: 836
   },
   {
-    name: "天域门",
+    name: "Skyware Door",
     id: 837
   },
   {
-    name: "天域箱",
+    name: "Skyware Chest",
     id: 838
   },
   {
-    name: "蒸汽朋克帽",
+    name: "Steampunk Hat",
     id: 839
   },
   {
-    name: "蒸汽朋克衣",
+    name: "Steampunk Shirt",
     id: 840
   },
   {
-    name: "蒸汽朋克裤",
+    name: "Steampunk Pants",
     id: 841
   },
   {
-    name: "蜜蜂帽",
+    name: "Bee Hat",
     id: 842
   },
   {
-    name: "蜜蜂衣",
+    name: "Bee Shirt",
     id: 843
   },
   {
-    name: "蜜蜂裤",
+    name: "Bee Pants",
     id: 844
   },
   {
-    name: "世界旗帜",
+    name: "World Banner",
     id: 845
   },
   {
-    name: "太阳旗帜",
+    name: "Sun Banner",
     id: 846
   },
   {
-    name: "重力旗帜",
+    name: "Gravity Banner",
     id: 847
   },
   {
-    name: "法老面具",
+    name: "Pharaoh's Mask",
     id: 848
   },
   {
-    name: "致动器",
+    name: "Actuator",
     id: 849
   },
   {
-    name: "蓝色扳手",
+    name: "Blue Wrench",
     id: 850
   },
   {
-    name: "绿色扳手",
+    name: "Green Wrench",
     id: 851
   },
   {
-    name: "蓝色压力板",
+    name: "Blue Pressure Plate",
     id: 852
   },
   {
-    name: "黄色压力板",
+    name: "Yellow Pressure Plate",
     id: 853
   },
   {
-    name: "优惠卡",
+    name: "Discount Card",
     id: 854
   },
   {
-    name: "幸运币",
+    name: "Lucky Coin",
     id: 855
   },
   {
-    name: "独角兽棍棒",
+    name: "Unicorn on a Stick",
     id: 856
   },
   {
-    name: "沙暴瓶",
+    name: "Sandstorm in a Bottle",
     id: 857
   },
   {
-    name: "针叶木沙发",
+    name: "Boreal Wood Sofa",
     id: 858
   },
   {
-    name: "沙滩球",
+    name: "Beach Ball",
     id: 859
   },
   {
-    name: "神话护身符",
+    name: "Charm of Myths",
     id: 860
   },
   {
-    name: "月亮贝壳",
+    name: "Moon Shell",
     id: 861
   },
   {
-    name: "星星面纱",
+    name: "Star Veil",
     id: 862
   },
   {
-    name: "水上漂靴",
+    name: "Water Walking Boots",
     id: 863
   },
   {
-    name: "头饰",
+    name: "Tiara",
     id: 864
   },
   {
-    name: "公主裙",
+    name: "Princess Dress",
     id: 865
   },
   {
-    name: "法老长袍",
+    name: "Pharaoh's Robe",
     id: 866
   },
   {
-    name: "绿帽",
+    name: "Green Cap",
     id: 867
   },
   {
-    name: "蘑菇帽",
+    name: "Mushroom Cap",
     id: 868
   },
   {
-    name: "苏格兰便帽",
+    name: "Tam O' Shanter",
     id: 869
   },
   {
-    name: "木乃伊面具",
+    name: "Mummy Mask",
     id: 870
   },
   {
-    name: "木乃伊衣",
+    name: "Mummy Shirt",
     id: 871
   },
   {
-    name: "木乃伊裤",
+    name: "Mummy Pants",
     id: 872
   },
   {
-    name: "牛仔帽",
+    name: "Cowboy Hat",
     id: 873
   },
   {
-    name: "牛仔夹克",
+    name: "Cowboy Jacket",
     id: 874
   },
   {
-    name: "牛仔裤",
+    name: "Cowboy Pants",
     id: 875
   },
   {
-    name: "海盗帽",
+    name: "Pirate Hat",
     id: 876
   },
   {
-    name: "海盗衣",
+    name: "Pirate Shirt",
     id: 877
   },
   {
-    name: "海盗裤",
+    name: "Pirate Pants",
     id: 878
   },
   {
-    name: "维京头盔",
+    name: "Viking Helmet",
     id: 879
   },
   {
-    name: "猩红矿",
+    name: "Crimtane Ore",
     id: 880
   },
   {
-    name: "仙人掌剑",
+    name: "Cactus Sword",
     id: 881
   },
   {
-    name: "仙人掌镐",
+    name: "Cactus Pickaxe",
     id: 882
   },
   {
-    name: "冰块",
+    name: "Ice Brick",
     id: 883
   },
   {
-    name: "冰块墙",
+    name: "Ice Brick Wall",
     id: 884
   },
   {
-    name: "粘性绷带",
+    name: "Adhesive Bandage",
     id: 885
   },
   {
-    name: "盔甲抛光剂",
+    name: "Armor Polish",
     id: 886
   },
   {
-    name: "牛黄",
+    name: "Bezoar",
     id: 887
   },
   {
-    name: "蒙眼布",
+    name: "Blindfold",
     id: 888
   },
   {
-    name: "快走时钟",
+    name: "Fast Clock",
     id: 889
   },
   {
-    name: "扩音器",
+    name: "Megaphone",
     id: 890
   },
   {
-    name: "邪眼",
+    name: "Nazar",
     id: 891
   },
   {
-    name: "维生素",
+    name: "Vitamins",
     id: 892
   },
   {
-    name: "三折地图",
+    name: "Trifold Map",
     id: 893
   },
   {
-    name: "仙人掌头盔",
+    name: "Cactus Helmet",
     id: 894
   },
   {
-    name: "仙人掌胸甲",
+    name: "Cactus Breastplate",
     id: 895
   },
   {
-    name: "仙人掌护胫",
+    name: "Cactus Leggings",
     id: 896
   },
   {
-    name: "强力手套",
+    name: "Power Glove",
     id: 897
   },
   {
-    name: "闪电靴",
+    name: "Lightning Boots",
     id: 898
   },
   {
-    name: "太阳石",
+    name: "Sun Stone",
     id: 899
   },
   {
-    name: "月亮石",
+    name: "Moon Stone",
     id: 900
   },
   {
-    name: "装甲支架",
+    name: "Armor Bracing",
     id: 901
   },
   {
-    name: "药用绷带",
+    name: "Medicated Bandage",
     id: 902
   },
   {
-    name: "计划",
+    name: "The Plan",
     id: 903
   },
   {
-    name: "反诅咒咒语",
+    name: "Countercurse Mantra",
     id: 904
   },
   {
-    name: "钱币枪",
+    name: "Coin Gun",
     id: 905
   },
   {
-    name: "熔岩护身符",
+    name: "Lava Charm",
     id: 906
   },
   {
-    name: "黑曜石水上行走靴",
+    name: "Obsidian Water Walking Boots",
     id: 907
   },
   {
-    name: "熔岩靴",
+    name: "Lava Waders",
     id: 908
   },
   {
-    name: "纯净水喷泉",
+    name: "Pure Water Fountain",
     id: 909
   },
   {
-    name: "沙漠水喷泉",
+    name: "Desert Water Fountain",
     id: 910
   },
   {
-    name: "暗影木",
+    name: "Shadewood",
     id: 911
   },
   {
-    name: "暗影木门",
+    name: "Shadewood Door",
     id: 912
   },
   {
-    name: "暗影木平台",
+    name: "Shadewood Platform",
     id: 913
   },
   {
-    name: "暗影木箱",
+    name: "Shadewood Chest",
     id: 914
   },
   {
-    name: "暗影木椅",
+    name: "Shadewood Chair",
     id: 915
   },
   {
-    name: "暗影木工作台",
+    name: "Shadewood Work Bench",
     id: 916
   },
   {
-    name: "暗影木桌",
+    name: "Shadewood Table",
     id: 917
   },
   {
-    name: "暗影木梳妆台",
+    name: "Shadewood Dresser",
     id: 918
   },
   {
-    name: "暗影木钢琴",
+    name: "Shadewood Piano",
     id: 919
   },
   {
-    name: "暗影木床",
+    name: "Shadewood Bed",
     id: 920
   },
   {
-    name: "暗影木剑",
+    name: "Shadewood Sword",
     id: 921
   },
   {
-    name: "暗影木锤",
+    name: "Shadewood Hammer",
     id: 922
   },
   {
-    name: "暗影木弓",
+    name: "Shadewood Bow",
     id: 923
   },
   {
-    name: "暗影木头盔",
+    name: "Shadewood Helmet",
     id: 924
   },
   {
-    name: "暗影木胸甲",
+    name: "Shadewood Breastplate",
     id: 925
   },
   {
-    name: "暗影木护胫",
+    name: "Shadewood Greaves",
     id: 926
   },
   {
-    name: "暗影木墙",
+    name: "Shadewood Wall",
     id: 927
   },
   {
-    name: "大炮",
+    name: "Cannon",
     id: 928
   },
   {
-    name: "炮弹",
+    name: "Cannonball",
     id: 929
   },
   {
-    name: "信号枪",
+    name: "Flare Gun",
     id: 930
   },
   {
-    name: "信号弹",
+    name: "Flare",
     id: 931
   },
   {
-    name: "骨头魔杖",
+    name: "Bone Wand",
     id: 932
   },
   {
-    name: "树叶魔杖",
+    name: "Leaf Wand",
     id: 933
   },
   {
-    name: "飞毯",
+    name: "Flying Carpet",
     id: 934
   },
   {
-    name: "复仇者徽章",
+    name: "Avenger Emblem",
     id: 935
   },
   {
-    name: "机械手套",
+    name: "Mechanical Glove",
     id: 936
   },
   {
-    name: "地雷",
+    name: "Land Mine",
     id: 937
   },
   {
-    name: "圣骑士护盾",
+    name: "Paladin's Shield",
     id: 938
   },
   {
-    name: "蛛丝吊索",
+    name: "Web Slinger",
     id: 939
   },
   {
-    name: "丛林水喷泉",
+    name: "Jungle Water Fountain",
     id: 940
   },
   {
-    name: "冰雪水喷泉",
+    name: "Icy Water Fountain",
     id: 941
   },
   {
-    name: "腐化水喷泉",
+    name: "Corrupt Water Fountain",
     id: 942
   },
   {
-    name: "猩红水喷泉",
+    name: "Crimson Water Fountain",
     id: 943
   },
   {
-    name: "神圣水喷泉",
+    name: "Hallowed Water Fountain",
     id: 944
   },
   {
-    name: "血水喷泉",
+    name: "Blood Water Fountain",
     id: 945
   },
   {
-    name: "伞",
+    name: "Umbrella",
     id: 946
   },
   {
-    name: "叶绿矿",
+    name: "Chlorophyte Ore",
     id: 947
   },
   {
-    name: "蒸汽朋克翅膀",
+    name: "Steampunk Wings",
     id: 948
   },
   {
-    name: "雪球",
+    name: "Snowball",
     id: 949
   },
   {
-    name: "溜冰鞋",
+    name: "Ice Skates",
     id: 950
   },
   {
-    name: "雪球发射器",
+    name: "Snowball Launcher",
     id: 951
   },
   {
-    name: "蛛丝箱",
+    name: "Web Covered Chest",
     id: 952
   },
   {
-    name: "攀爬爪",
+    name: "Climbing Claws",
     id: 953
   },
   {
-    name: "远古铁头盔",
+    name: "Ancient Iron Helmet",
     id: 954
   },
   {
-    name: "远古金头盔",
+    name: "Ancient Gold Helmet",
     id: 955
   },
   {
-    name: "远古暗影头盔",
+    name: "Ancient Shadow Helmet",
     id: 956
   },
   {
-    name: "远古暗影鳞甲",
+    name: "Ancient Shadow Scalemail",
     id: 957
   },
   {
-    name: "远古暗影护胫",
+    name: "Ancient Shadow Greaves",
     id: 958
   },
   {
-    name: "远古死灵头盔",
+    name: "Ancient Necro Helmet",
     id: 959
   },
   {
-    name: "远古钴头盔",
+    name: "Ancient Cobalt Helmet",
     id: 960
   },
   {
-    name: "远古钴胸甲",
+    name: "Ancient Cobalt Breastplate",
     id: 961
   },
   {
-    name: "远古钴护腿",
+    name: "Ancient Cobalt Leggings",
     id: 962
   },
   {
-    name: "黑腰带",
+    name: "Black Belt",
     id: 963
   },
   {
-    name: "火枪",
+    name: "Boomstick",
     id: 964
   },
   {
-    name: "绳",
+    name: "Rope",
     id: 965
   },
   {
-    name: "篝火",
+    name: "Campfire",
     id: 966
   },
   {
-    name: "棉花糖",
+    name: "Marshmallow",
     id: 967
   },
   {
-    name: "棒棒棉花糖",
+    name: "Marshmallow on a Stick",
     id: 968
   },
   {
-    name: "熟棉花糖",
+    name: "Cooked Marshmallow",
     id: 969
   },
   {
-    name: "红火箭",
+    name: "Red Rocket",
     id: 970
   },
   {
-    name: "绿火箭",
+    name: "Green Rocket",
     id: 971
   },
   {
-    name: "蓝火箭",
+    name: "Blue Rocket",
     id: 972
   },
   {
-    name: "黄火箭",
+    name: "Yellow Rocket",
     id: 973
   },
   {
-    name: "冰火把",
+    name: "Ice Torch",
     id: 974
   },
   {
-    name: "鞋钉",
+    name: "Shoe Spikes",
     id: 975
   },
   {
-    name: "猛虎攀爬装备",
+    name: "Tiger Climbing Gear",
     id: 976
   },
   {
-    name: "分趾鞋",
+    name: "Tabi",
     id: 977
   },
   {
-    name: "粉雪兜帽",
+    name: "Pink Snow Hood",
     id: 978
   },
   {
-    name: "粉雪大衣",
+    name: "Pink Snow Coat",
     id: 979
   },
   {
-    name: "粉雪裤",
+    name: "Pink Snow Pants",
     id: 980
   },
   {
-    name: "粉线",
+    name: "Pink Thread",
     id: 981
   },
   {
-    name: "魔力再生手环",
+    name: "Mana Regeneration Band",
     id: 982
   },
   {
-    name: "沙暴气球",
+    name: "Sandstorm in a Balloon",
     id: 983
   },
   {
-    name: "忍者大师装备",
+    name: "Master Ninja Gear",
     id: 984
   },
   {
-    name: "绳圈",
+    name: "Rope Coil",
     id: 985
   },
   {
-    name: "吹箭筒",
+    name: "Blowgun",
     id: 986
   },
   {
-    name: "暴雪瓶",
+    name: "Blizzard in a Bottle",
     id: 987
   },
   {
-    name: "霜冻箭",
+    name: "Frostburn Arrow",
     id: 988
   },
   {
-    name: "附魔剑",
+    name: "Enchanted Sword",
     id: 989
   },
   {
-    name: "镐斧",
+    name: "Pickaxe Axe",
     id: 990
   },
   {
-    name: "钴战斧",
+    name: "Cobalt Waraxe",
     id: 991
   },
   {
-    name: "秘银战斧",
+    name: "Mythril Waraxe",
     id: 992
   },
   {
-    name: "精金战斧",
+    name: "Adamantite Waraxe",
     id: 993
   },
   {
-    name: "吞噬怪骨头",
+    name: "Eater's Bone",
     id: 994
   },
   {
-    name: "搅拌机",
+    name: "Blend-O-Matic",
     id: 995
   },
   {
-    name: "绞肉机",
+    name: "Meat Grinder",
     id: 996
   },
   {
-    name: "提炼机",
+    name: "Extractinator",
     id: 997
   },
   {
-    name: "固化机",
+    name: "Solidifier",
     id: 998
   },
   {
-    name: "琥珀",
+    name: "Amber",
     id: 999
   },
   {
-    name: "彩纸枪",
+    name: "Confetti Gun",
     id: 1000
   },
   {
-    name: "叶绿面具",
+    name: "Chlorophyte Mask",
     id: 1001
   },
   {
-    name: "叶绿头盔",
+    name: "Chlorophyte Helmet",
     id: 1002
   },
   {
-    name: "叶绿头饰",
+    name: "Chlorophyte Headgear",
     id: 1003
   },
   {
-    name: "叶绿板甲",
+    name: "Chlorophyte Plate Mail",
     id: 1004
   },
   {
-    name: "叶绿护胫",
+    name: "Chlorophyte Greaves",
     id: 1005
   },
   {
-    name: "叶绿锭",
+    name: "Chlorophyte Bar",
     id: 1006
   },
   {
-    name: "红染料",
+    name: "Red Dye",
     id: 1007
   },
   {
-    name: "橙染料",
+    name: "Orange Dye",
     id: 1008
   },
   {
-    name: "黄染料",
+    name: "Yellow Dye",
     id: 1009
   },
   {
-    name: "青柠染料",
+    name: "Lime Dye",
     id: 1010
   },
   {
-    name: "绿染料",
+    name: "Green Dye",
     id: 1011
   },
   {
-    name: "蓝绿染料",
+    name: "Teal Dye",
     id: 1012
   },
   {
-    name: "青染料",
+    name: "Cyan Dye",
     id: 1013
   },
   {
-    name: "天蓝染料",
+    name: "Sky Blue Dye",
     id: 1014
   },
   {
-    name: "蓝染料",
+    name: "Blue Dye",
     id: 1015
   },
   {
-    name: "紫染料",
+    name: "Purple Dye",
     id: 1016
   },
   {
-    name: "紫罗兰染料",
+    name: "Violet Dye",
     id: 1017
   },
   {
-    name: "粉染料",
+    name: "Pink Dye",
     id: 1018
   },
   {
-    name: "红黑染料",
+    name: "Red and Black Dye",
     id: 1019
   },
   {
-    name: "橙黑染料",
+    name: "Orange and Black Dye",
     id: 1020
   },
   {
-    name: "黄黑染料",
+    name: "Yellow and Black Dye",
     id: 1021
   },
   {
-    name: "青柠黑染料",
+    name: "Lime and Black Dye",
     id: 1022
   },
   {
-    name: "绿黑染料",
+    name: "Green and Black Dye",
     id: 1023
   },
   {
-    name: "蓝绿黑染料",
+    name: "Teal and Black Dye",
     id: 1024
   },
   {
-    name: "青黑染料",
+    name: "Cyan and Black Dye",
     id: 1025
   },
   {
-    name: "天蓝黑染料",
+    name: "Sky Blue and Black Dye",
     id: 1026
   },
   {
-    name: "蓝黑染料",
+    name: "Blue and Black Dye",
     id: 1027
   },
   {
-    name: "紫黑染料",
+    name: "Purple and Black Dye",
     id: 1028
   },
   {
-    name: "紫罗兰黑染料",
+    name: "Violet and Black Dye",
     id: 1029
   },
   {
-    name: "粉黑染料",
+    name: "Pink and Black Dye",
     id: 1030
   },
   {
-    name: "火焰染料",
+    name: "Flame Dye",
     id: 1031
   },
   {
-    name: "火焰黑染料",
+    name: "Flame and Black Dye",
     id: 1032
   },
   {
-    name: "绿火焰染料",
+    name: "Green Flame Dye",
     id: 1033
   },
   {
-    name: "绿火焰黑染料",
+    name: "Green Flame and Black Dye",
     id: 1034
   },
   {
-    name: "蓝火焰染料",
+    name: "Blue Flame Dye",
     id: 1035
   },
   {
-    name: "蓝火焰黑染料",
+    name: "Blue Flame and Black Dye",
     id: 1036
   },
   {
-    name: "银染料",
+    name: "Silver Dye",
     id: 1037
   },
   {
-    name: "亮红染料",
+    name: "Bright Red Dye",
     id: 1038
   },
   {
-    name: "亮橙染料",
+    name: "Bright Orange Dye",
     id: 1039
   },
   {
-    name: "亮黄染料",
+    name: "Bright Yellow Dye",
     id: 1040
   },
   {
-    name: "亮青柠染料",
+    name: "Bright Lime Dye",
     id: 1041
   },
   {
-    name: "亮绿染料",
+    name: "Bright Green Dye",
     id: 1042
   },
   {
-    name: "亮蓝绿染料",
+    name: "Bright Teal Dye",
     id: 1043
   },
   {
-    name: "亮青染料",
+    name: "Bright Cyan Dye",
     id: 1044
   },
   {
-    name: "亮天蓝染料",
+    name: "Bright Sky Blue Dye",
     id: 1045
   },
   {
-    name: "亮蓝染料",
+    name: "Bright Blue Dye",
     id: 1046
   },
   {
-    name: "亮紫染料",
+    name: "Bright Purple Dye",
     id: 1047
   },
   {
-    name: "亮紫罗兰染料",
+    name: "Bright Violet Dye",
     id: 1048
   },
   {
-    name: "亮粉染料",
+    name: "Bright Pink Dye",
     id: 1049
   },
   {
-    name: "黑染料",
+    name: "Black Dye",
     id: 1050
   },
   {
-    name: "红银染料",
+    name: "Red and Silver Dye",
     id: 1051
   },
   {
-    name: "橙银染料",
+    name: "Orange and Silver Dye",
     id: 1052
   },
   {
-    name: "黄银染料",
+    name: "Yellow and Silver Dye",
     id: 1053
   },
   {
-    name: "莱姆银染料",
+    name: "Lime and Silver Dye",
     id: 1054
   },
   {
-    name: "绿银染料",
+    name: "Green and Silver Dye",
     id: 1055
   },
   {
-    name: "蓝绿银染料",
+    name: "Teal and Silver Dye",
     id: 1056
   },
   {
-    name: "青银染料",
+    name: "Cyan and Silver Dye",
     id: 1057
   },
   {
-    name: "天蓝银染料",
+    name: "Sky Blue and Silver Dye",
     id: 1058
   },
   {
-    name: "蓝银染料",
+    name: "Blue and Silver Dye",
     id: 1059
   },
   {
-    name: "紫银染料",
+    name: "Purple and Silver Dye",
     id: 1060
   },
   {
-    name: "紫罗兰银染料",
+    name: "Violet and Silver Dye",
     id: 1061
   },
   {
-    name: "粉银染料",
+    name: "Pink and Silver Dye",
     id: 1062
   },
   {
-    name: "烈焰染料",
+    name: "Intense Flame Dye",
     id: 1063
   },
   {
-    name: "绿色烈焰染料",
+    name: "Intense Green Flame Dye",
     id: 1064
   },
   {
-    name: "蓝色烈焰染料",
+    name: "Intense Blue Flame Dye",
     id: 1065
   },
   {
-    name: "彩虹染料",
+    name: "Rainbow Dye",
     id: 1066
   },
   {
-    name: "强效彩虹染料",
+    name: "Intense Rainbow Dye",
     id: 1067
   },
   {
-    name: "黄色渐变染料",
+    name: "Yellow Gradient Dye",
     id: 1068
   },
   {
-    name: "青色渐变染料",
+    name: "Cyan Gradient Dye",
     id: 1069
   },
   {
-    name: "紫色渐变染料",
+    name: "Violet Gradient Dye",
     id: 1070
   },
   {
-    name: "画笔",
+    name: "Paintbrush",
     id: 1071
   },
   {
-    name: "滚筒",
+    name: "Paint Roller",
     id: 1072
   },
   {
-    name: "红漆",
+    name: "Red Paint",
     id: 1073
   },
   {
-    name: "橙漆",
+    name: "Orange Paint",
     id: 1074
   },
   {
-    name: "黄漆",
+    name: "Yellow Paint",
     id: 1075
   },
   {
-    name: "莱姆漆",
+    name: "Lime Paint",
     id: 1076
   },
   {
-    name: "绿漆",
+    name: "Green Paint",
     id: 1077
   },
   {
-    name: "蓝绿漆",
+    name: "Teal Paint",
     id: 1078
   },
   {
-    name: "青漆",
+    name: "Cyan Paint",
     id: 1079
   },
   {
-    name: "天蓝漆",
+    name: "Sky Blue Paint",
     id: 1080
   },
   {
-    name: "蓝漆",
+    name: "Blue Paint",
     id: 1081
   },
   {
-    name: "紫漆",
+    name: "Purple Paint",
     id: 1082
   },
   {
-    name: "紫罗兰漆",
+    name: "Violet Paint",
     id: 1083
   },
   {
-    name: "粉漆",
+    name: "Pink Paint",
     id: 1084
   },
   {
-    name: "深红漆",
+    name: "Deep Red Paint",
     id: 1085
   },
   {
-    name: "深橙漆",
+    name: "Deep Orange Paint",
     id: 1086
   },
   {
-    name: "深黄漆",
+    name: "Deep Yellow Paint",
     id: 1087
   },
   {
-    name: "深莱姆漆",
+    name: "Deep Lime Paint",
     id: 1088
   },
   {
-    name: "深绿漆",
+    name: "Deep Green Paint",
     id: 1089
   },
   {
-    name: "深蓝绿漆",
+    name: "Deep Teal Paint",
     id: 1090
   },
   {
-    name: "深青漆",
+    name: "Deep Cyan Paint",
     id: 1091
   },
   {
-    name: "深天蓝漆",
+    name: "Deep Sky Blue Paint",
     id: 1092
   },
   {
-    name: "深蓝漆",
+    name: "Deep Blue Paint",
     id: 1093
   },
   {
-    name: "深紫漆",
+    name: "Deep Purple Paint",
     id: 1094
   },
   {
-    name: "深紫罗兰漆",
+    name: "Deep Violet Paint",
     id: 1095
   },
   {
-    name: "深粉漆",
+    name: "Deep Pink Paint",
     id: 1096
   },
   {
-    name: "黑漆",
+    name: "Black Paint",
     id: 1097
   },
   {
-    name: "白漆",
+    name: "White Paint",
     id: 1098
   },
   {
-    name: "灰漆",
+    name: "Gray Paint",
     id: 1099
   },
   {
-    name: "漆铲",
+    name: "Paint Scraper",
     id: 1100
   },
   {
-    name: "丛林蜥蜴砖",
+    name: "Lihzahrd Brick",
     id: 1101
   },
   {
-    name: "丛林蜥蜴砖墙",
+    name: "Lihzahrd Brick Wall",
     id: 1102
   },
   {
-    name: "雪泥块",
+    name: "Slush Block",
     id: 1103
   },
   {
-    name: "钯金矿",
+    name: "Palladium Ore",
     id: 1104
   },
   {
-    name: "山铜矿",
+    name: "Orichalcum Ore",
     id: 1105
   },
   {
-    name: "钛金矿",
+    name: "Titanium Ore",
     id: 1106
   },
   {
-    name: "蓝绿蘑菇",
+    name: "Teal Mushroom",
     id: 1107
   },
   {
-    name: "绿蘑菇",
+    name: "Green Mushroom",
     id: 1108
   },
   {
-    name: "天蓝花",
+    name: "Sky Blue Flower",
     id: 1109
   },
   {
-    name: "黄万寿菊",
+    name: "Yellow Marigold",
     id: 1110
   },
   {
-    name: "蓝浆果",
+    name: "Blue Berries",
     id: 1111
   },
   {
-    name: "莱姆海藻",
+    name: "Lime Kelp",
     id: 1112
   },
   {
-    name: "粉仙人掌果",
+    name: "Pink Prickly Pear",
     id: 1113
   },
   {
-    name: "橙血根草",
+    name: "Orange Bloodroot",
     id: 1114
   },
   {
-    name: "红外壳",
+    name: "Red Husk",
     id: 1115
   },
   {
-    name: "青外壳",
+    name: "Cyan Husk",
     id: 1116
   },
   {
-    name: "紫罗兰外壳",
+    name: "Violet Husk",
     id: 1117
   },
   {
-    name: "紫粘液",
+    name: "Purple Mucus",
     id: 1118
   },
   {
-    name: "黑墨水",
+    name: "Black Ink",
     id: 1119
   },
   {
-    name: "染缸",
+    name: "Dye Vat",
     id: 1120
   },
   {
-    name: "蜜蜂枪",
+    name: "Bee Gun",
     id: 1121
   },
   {
-    name: "魔化飞斧",
+    name: "Possessed Hatchet",
     id: 1122
   },
   {
-    name: "养蜂人",
+    name: "Bee Keeper",
     id: 1123
   },
   {
-    name: "蜂巢",
+    name: "Hive",
     id: 1124
   },
   {
-    name: "蜂蜜块",
+    name: "Honey Block",
     id: 1125
   },
   {
-    name: "蜂巢墙",
+    name: "Hive Wall",
     id: 1126
   },
   {
-    name: "松脆蜂蜜块",
+    name: "Crispy Honey Block",
     id: 1127
   },
   {
-    name: "蜂蜜桶",
+    name: "Honey Bucket",
     id: 1128
   },
   {
-    name: "蜂巢魔棒",
+    name: "Hive Wand",
     id: 1129
   },
   {
-    name: "蜜蜂手榴弹",
+    name: "Beenade",
     id: 1130
   },
   {
-    name: "重力球",
+    name: "Gravity Globe",
     id: 1131
   },
   {
-    name: "蜂窝",
+    name: "Honey Comb",
     id: 1132
   },
   {
-    name: "憎恶之蜂",
+    name: "Abeemination",
     id: 1133
   },
   {
-    name: "瓶装蜂蜜",
+    name: "Bottled Honey",
     id: 1134
   },
   {
-    name: "雨帽",
+    name: "Rain Hat",
     id: 1135
   },
   {
-    name: "雨衣",
+    name: "Rain Coat",
     id: 1136
   },
   {
-    name: "丛林蜥蜴门",
+    name: "Lihzahrd Door",
     id: 1137
   },
   {
-    name: "地牢门",
+    name: "Dungeon Door",
     id: 1138
   },
   {
-    name: "铅门",
+    name: "Lead Door",
     id: 1139
   },
   {
-    name: "铁门",
+    name: "Iron Door",
     id: 1140
   },
   {
-    name: "神庙钥匙",
+    name: "Temple Key",
     id: 1141
   },
   {
-    name: "丛林蜥蜴箱",
+    name: "Lihzahrd Chest",
     id: 1142
   },
   {
-    name: "丛林蜥蜴椅",
+    name: "Lihzahrd Chair",
     id: 1143
   },
   {
-    name: "丛林蜥蜴桌",
+    name: "Lihzahrd Table",
     id: 1144
   },
   {
-    name: "丛林蜥蜴工作台",
+    name: "Lihzahrd Work Bench",
     id: 1145
   },
   {
-    name: "超级飞镖机关",
+    name: "Super Dart Trap",
     id: 1146
   },
   {
-    name: "烈焰机关",
+    name: "Flame Trap",
     id: 1147
   },
   {
-    name: "尖球机关",
+    name: "Spiky Ball Trap",
     id: 1148
   },
   {
-    name: "长矛机关",
+    name: "Spear Trap",
     id: 1149
   },
   {
-    name: "木尖刺",
+    name: "Wooden Spike",
     id: 1150
   },
   {
-    name: "丛林蜥蜴压力板",
+    name: "Lihzahrd Pressure Plate",
     id: 1151
   },
   {
-    name: "丛林蜥蜴雕像",
+    name: "Lihzahrd Statue",
     id: 1152
   },
   {
-    name: "丛林蜥蜴看守人雕像",
+    name: "Lihzahrd Watcher Statue",
     id: 1153
   },
   {
-    name: "丛林蜥蜴守卫雕像",
+    name: "Lihzahrd Guardian Statue",
     id: 1154
   },
   {
-    name: "黄蜂枪",
+    name: "Wasp Gun",
     id: 1155
   },
   {
-    name: "食人鱼枪",
+    name: "Piranha Gun",
     id: 1156
   },
   {
-    name: "矮人法杖",
+    name: "Pygmy Staff",
     id: 1157
   },
   {
-    name: "矮人项链",
+    name: "Pygmy Necklace",
     id: 1158
   },
   {
-    name: "提基面具",
+    name: "Tiki Mask",
     id: 1159
   },
   {
-    name: "提基衬衫",
+    name: "Tiki Shirt",
     id: 1160
   },
   {
-    name: "提基裤",
+    name: "Tiki Pants",
     id: 1161
   },
   {
-    name: "叶之翼",
+    name: "Leaf Wings",
     id: 1162
   },
   {
-    name: "暴雪气球",
+    name: "Blizzard in a Balloon",
     id: 1163
   },
   {
-    name: "气球束",
+    name: "Bundle of Balloons",
     id: 1164
   },
   {
-    name: "蝙蝠翼",
+    name: "Bat Wings",
     id: 1165
   },
   {
-    name: "骨剑",
+    name: "Bone Sword",
     id: 1166
   },
   {
-    name: "大力士甲虫",
+    name: "Hercules Beetle",
     id: 1167
   },
   {
-    name: "烟雾弹",
+    name: "Smoke Bomb",
     id: 1168
   },
   {
-    name: "骨头钥匙",
+    name: "Bone Key",
     id: 1169
   },
   {
-    name: "花蜜",
+    name: "Nectar",
     id: 1170
   },
   {
-    name: "提基图腾",
+    name: "Tiki Totem",
     id: 1171
   },
   {
-    name: "蜥蜴蛋",
+    name: "Lizard Egg",
     id: 1172
   },
   {
-    name: "墓铭",
+    name: "Grave Marker",
     id: 1173
   },
   {
-    name: "十字墓铭",
+    name: "Cross Grave Marker",
     id: 1174
   },
   {
-    name: "墓碑",
+    name: "Headstone",
     id: 1175
   },
   {
-    name: "墓石",
+    name: "Gravestone",
     id: 1176
   },
   {
-    name: "方尖碑",
+    name: "Obelisk",
     id: 1177
   },
   {
-    name: "吹叶机",
+    name: "Leaf Blower",
     id: 1178
   },
   {
-    name: "叶绿弹",
+    name: "Chlorophyte Bullet",
     id: 1179
   },
   {
-    name: "鹦鹉饼干",
+    name: "Parrot Cracker",
     id: 1180
   },
   {
-    name: "奇异发光蘑菇",
+    name: "Strange Glowing Mushroom",
     id: 1181
   },
   {
-    name: "幼苗",
+    name: "Seedling",
     id: 1182
   },
   {
-    name: "瓶中的萤火虫",
+    name: "Wisp in a Bottle",
     id: 1183
   },
   {
-    name: "钯金锭",
+    name: "Palladium Bar",
     id: 1184
   },
   {
-    name: "钯金剑",
+    name: "Palladium Sword",
     id: 1185
   },
   {
-    name: "钯金长矛",
+    name: "Palladium Pike",
     id: 1186
   },
   {
-    name: "钯金连弩",
+    name: "Palladium Repeater",
     id: 1187
   },
   {
-    name: "钯金镐",
+    name: "Palladium Pickaxe",
     id: 1188
   },
   {
-    name: "钯金钻头",
+    name: "Palladium Drill",
     id: 1189
   },
   {
-    name: "钯金链锯",
+    name: "Palladium Chainsaw",
     id: 1190
   },
   {
-    name: "山铜锭",
+    name: "Orichalcum Bar",
     id: 1191
   },
   {
-    name: "山铜剑",
+    name: "Orichalcum Sword",
     id: 1192
   },
   {
-    name: "山铜长戟",
+    name: "Orichalcum Halberd",
     id: 1193
   },
   {
-    name: "山铜连弩",
+    name: "Orichalcum Repeater",
     id: 1194
   },
   {
-    name: "山铜镐",
+    name: "Orichalcum Pickaxe",
     id: 1195
   },
   {
-    name: "山铜钻头",
+    name: "Orichalcum Drill",
     id: 1196
   },
   {
-    name: "山铜链锯",
+    name: "Orichalcum Chainsaw",
     id: 1197
   },
   {
-    name: "钛金锭",
+    name: "Titanium Bar",
     id: 1198
   },
   {
-    name: "钛金剑",
+    name: "Titanium Sword",
     id: 1199
   },
   {
-    name: "钛金三叉戟",
+    name: "Titanium Trident",
     id: 1200
   },
   {
-    name: "钛金连弩",
+    name: "Titanium Repeater",
     id: 1201
   },
   {
-    name: "钛金镐",
+    name: "Titanium Pickaxe",
     id: 1202
   },
   {
-    name: "钛金钻头",
+    name: "Titanium Drill",
     id: 1203
   },
   {
-    name: "钛金链锯",
+    name: "Titanium Chainsaw",
     id: 1204
   },
   {
-    name: "钯金面具",
+    name: "Palladium Mask",
     id: 1205
   },
   {
-    name: "钯金头盔",
+    name: "Palladium Helmet",
     id: 1206
   },
   {
-    name: "钯金头饰",
+    name: "Palladium Headgear",
     id: 1207
   },
   {
-    name: "钯金胸甲",
+    name: "Palladium Breastplate",
     id: 1208
   },
   {
-    name: "钯金护腿",
+    name: "Palladium Leggings",
     id: 1209
   },
   {
-    name: "山铜面具",
+    name: "Orichalcum Mask",
     id: 1210
   },
   {
-    name: "山铜头盔",
+    name: "Orichalcum Helmet",
     id: 1211
   },
   {
-    name: "山铜头饰",
+    name: "Orichalcum Headgear",
     id: 1212
   },
   {
-    name: "山铜胸甲",
+    name: "Orichalcum Breastplate",
     id: 1213
   },
   {
-    name: "山铜护腿",
+    name: "Orichalcum Leggings",
     id: 1214
   },
   {
-    name: "钛金面具",
+    name: "Titanium Mask",
     id: 1215
   },
   {
-    name: "钛金头盔",
+    name: "Titanium Helmet",
     id: 1216
   },
   {
-    name: "钛金头饰",
+    name: "Titanium Headgear",
     id: 1217
   },
   {
-    name: "钛金胸甲",
+    name: "Titanium Breastplate",
     id: 1218
   },
   {
-    name: "钛金护腿",
+    name: "Titanium Leggings",
     id: 1219
   },
   {
-    name: "山铜砧",
+    name: "Orichalcum Anvil",
     id: 1220
   },
   {
-    name: "钛金熔炉",
+    name: "Titanium Forge",
     id: 1221
   },
   {
-    name: "钯金战斧",
+    name: "Palladium Waraxe",
     id: 1222
   },
   {
-    name: "山铜战斧",
+    name: "Orichalcum Waraxe",
     id: 1223
   },
   {
-    name: "钛金战斧",
+    name: "Titanium Waraxe",
     id: 1224
   },
   {
-    name: "神圣锭",
+    name: "Hallowed Bar",
     id: 1225
   },
   {
-    name: "叶绿双刃刀",
+    name: "Chlorophyte Claymore",
     id: 1226
   },
   {
-    name: "叶绿军刀",
+    name: "Chlorophyte Saber",
     id: 1227
   },
   {
-    name: "叶绿长矛",
+    name: "Chlorophyte Partisan",
     id: 1228
   },
   {
-    name: "叶绿连弩",
+    name: "Chlorophyte Shotbow",
     id: 1229
   },
   {
-    name: "叶绿镐",
+    name: "Chlorophyte Pickaxe",
     id: 1230
   },
   {
-    name: "叶绿钻头",
+    name: "Chlorophyte Drill",
     id: 1231
   },
   {
-    name: "叶绿链锯",
+    name: "Chlorophyte Chainsaw",
     id: 1232
   },
   {
-    name: "叶绿巨斧",
+    name: "Chlorophyte Greataxe",
     id: 1233
   },
   {
-    name: "叶绿战锤",
+    name: "Chlorophyte Warhammer",
     id: 1234
   },
   {
-    name: "叶绿箭",
+    name: "Chlorophyte Arrow",
     id: 1235
   },
   {
-    name: "紫晶钩",
+    name: "Amethyst Hook",
     id: 1236
   },
   {
-    name: "黄玉钩",
+    name: "Topaz Hook",
     id: 1237
   },
   {
-    name: "蓝玉钩",
+    name: "Sapphire Hook",
     id: 1238
   },
   {
-    name: "翡翠钩",
+    name: "Emerald Hook",
     id: 1239
   },
   {
-    name: "红玉钩",
+    name: "Ruby Hook",
     id: 1240
   },
   {
-    name: "钻石钩",
+    name: "Diamond Hook",
     id: 1241
   },
   {
-    name: "琥珀蚊",
+    name: "Amber Mosquito",
     id: 1242
   },
   {
-    name: "伞帽",
+    name: "Umbrella Hat",
     id: 1243
   },
   {
-    name: "雨云魔杖",
+    name: "Nimbus Rod",
     id: 1244
   },
   {
-    name: "橙火把",
+    name: "Orange Torch",
     id: 1245
   },
   {
-    name: "猩红沙块",
+    name: "Crimsand Block",
     id: 1246
   },
   {
-    name: "蜜蜂斗篷",
+    name: "Bee Cloak",
     id: 1247
   },
   {
-    name: "石巨人之眼",
+    name: "Eye of the Golem",
     id: 1248
   },
   {
-    name: "蜂蜜气球",
+    name: "Honey Balloon",
     id: 1249
   },
   {
-    name: "蓝马掌气球",
+    name: "Blue Horseshoe Balloon",
     id: 1250
   },
   {
-    name: "白马掌气球",
+    name: "White Horseshoe Balloon",
     id: 1251
   },
   {
-    name: "黄马掌气球",
+    name: "Yellow Horseshoe Balloon",
     id: 1252
   },
   {
-    name: "冰冻海龟壳",
+    name: "Frozen Turtle Shell",
     id: 1253
   },
   {
-    name: "狙击步枪",
+    name: "Sniper Rifle",
     id: 1254
   },
   {
-    name: "维纳斯万能枪",
+    name: "Venus Magnum",
     id: 1255
   },
   {
-    name: "猩红魔杖",
+    name: "Crimson Rod",
     id: 1256
   },
   {
-    name: "猩红矿锭",
+    name: "Crimtane Bar",
     id: 1257
   },
   {
-    name: "毒刺发射器",
+    name: "Stynger",
     id: 1258
   },
   {
-    name: "花之力",
+    name: "Flower Pow",
     id: 1259
   },
   {
-    name: "彩虹枪",
+    name: "Rainbow Gun",
     id: 1260
   },
   {
-    name: "毒刺矢",
+    name: "Stynger Bolt",
     id: 1261
   },
   {
-    name: "叶绿手提钻",
+    name: "Chlorophyte Jackhammer",
     id: 1262
   },
   {
-    name: "传送机",
+    name: "Teleporter",
     id: 1263
   },
   {
-    name: "寒霜之花",
+    name: "Flower of Frost",
     id: 1264
   },
   {
-    name: "乌兹冲锋枪",
+    name: "Uzi",
     id: 1265
   },
   {
-    name: "磁球",
+    name: "Magnet Sphere",
     id: 1266
   },
   {
-    name: "紫色花窗玻璃",
+    name: "Purple Stained Glass",
     id: 1267
   },
   {
-    name: "黄色花窗玻璃",
+    name: "Yellow Stained Glass",
     id: 1268
   },
   {
-    name: "蓝色花窗玻璃",
+    name: "Blue Stained Glass",
     id: 1269
   },
   {
-    name: "绿色花窗玻璃",
+    name: "Green Stained Glass",
     id: 1270
   },
   {
-    name: "红色花窗玻璃",
+    name: "Red Stained Glass",
     id: 1271
   },
   {
-    name: "彩色花窗玻璃",
+    name: "Multicolored Stained Glass",
     id: 1272
   },
   {
-    name: "骷髅王之手",
+    name: "Skeletron Hand",
     id: 1273
   },
   {
-    name: "骷髅头",
+    name: "Skull",
     id: 1274
   },
   {
-    name: "巴拿马草帽",
+    name: "Balla Hat",
     id: 1275
   },
   {
-    name: "帮派帽",
+    name: "Gangsta Hat",
     id: 1276
   },
   {
-    name: "水手帽",
+    name: "Sailor Hat",
     id: 1277
   },
   {
-    name: "眼罩",
+    name: "Eye Patch",
     id: 1278
   },
   {
-    name: "水手衣",
+    name: "Sailor Shirt",
     id: 1279
   },
   {
-    name: "水手裤",
+    name: "Sailor Pants",
     id: 1280
   },
   {
-    name: "骷髅王面具",
+    name: "Skeletron Mask",
     id: 1281
   },
   {
-    name: "紫晶长袍",
+    name: "Amethyst Robe",
     id: 1282
   },
   {
-    name: "黄玉长袍",
+    name: "Topaz Robe",
     id: 1283
   },
   {
-    name: "蓝玉长袍",
+    name: "Sapphire Robe",
     id: 1284
   },
   {
-    name: "翡翠长袍",
+    name: "Emerald Robe",
     id: 1285
   },
   {
-    name: "红玉长袍",
+    name: "Ruby Robe",
     id: 1286
   },
   {
-    name: "钻石长袍",
+    name: "Diamond Robe",
     id: 1287
   },
   {
-    name: "白色礼服衬衫",
+    name: "White Tuxedo Shirt",
     id: 1288
   },
   {
-    name: "白色礼服裤",
+    name: "White Tuxedo Pants",
     id: 1289
   },
   {
-    name: "恐慌项链",
+    name: "Panic Necklace",
     id: 1290
   },
   {
-    name: "生命果",
+    name: "Life Fruit",
     id: 1291
   },
   {
-    name: "丛林蜥蜴祭坛",
+    name: "Lihzahrd Altar",
     id: 1292
   },
   {
-    name: "丛林蜥蜴电池",
+    name: "Lihzahrd Power Cell",
     id: 1293
   },
   {
-    name: "锯刃镐",
+    name: "Picksaw",
     id: 1294
   },
   {
-    name: "高温射线枪",
+    name: "Heat Ray",
     id: 1295
   },
   {
-    name: "大地法杖",
+    name: "Staff of Earth",
     id: 1296
   },
   {
-    name: "石巨人之拳",
+    name: "Golem Fist",
     id: 1297
   },
   {
-    name: "水中箱",
+    name: "Water Chest",
     id: 1298
   },
   {
-    name: "双筒望远镜",
+    name: "Binoculars",
     id: 1299
   },
   {
-    name: "步枪瞄准镜",
+    name: "Rifle Scope",
     id: 1300
   },
   {
-    name: "毁灭者徽章",
+    name: "Destroyer Emblem",
     id: 1301
   },
   {
-    name: "高速子弹",
+    name: "High Velocity Bullet",
     id: 1302
   },
   {
-    name: "水母项链",
+    name: "Jellyfish Necklace",
     id: 1303
   },
   {
-    name: "僵尸臂",
+    name: "Zombie Arm",
     id: 1304
   },
   {
@@ -5222,7227 +5222,7227 @@ export const items: ItemInfo[] = [
     id: 1305
   },
   {
-    name: "冰雪镰刀",
+    name: "Ice Sickle",
     id: 1306
   },
   {
-    name: "服装商巫毒娃娃",
+    name: "Clothier Voodoo Doll",
     id: 1307
   },
   {
-    name: "毒药法杖",
+    name: "Poison Staff",
     id: 1308
   },
   {
-    name: "史莱姆法杖",
+    name: "Slime Staff",
     id: 1309
   },
   {
-    name: "毒镖",
+    name: "Poison Dart",
     id: 1310
   },
   {
-    name: "眼弹簧",
+    name: "Eye Spring",
     id: 1311
   },
   {
-    name: "玩具雪橇",
+    name: "Toy Sled",
     id: 1312
   },
   {
-    name: "骷髅书",
+    name: "Book of Skulls",
     id: 1313
   },
   {
-    name: "KO加农炮",
+    name: "KO Cannon",
     id: 1314
   },
   {
-    name: "海盗地图",
+    name: "Pirate Map",
     id: 1315
   },
   {
-    name: "海龟头盔",
+    name: "Turtle Helmet",
     id: 1316
   },
   {
-    name: "海龟鳞甲",
+    name: "Turtle Scale Mail",
     id: 1317
   },
   {
-    name: "海龟护腿",
+    name: "Turtle Leggings",
     id: 1318
   },
   {
-    name: "雪球炮",
+    name: "Snowball Cannon",
     id: 1319
   },
   {
-    name: "骨头镐",
+    name: "Bone Pickaxe",
     id: 1320
   },
   {
-    name: "魔法箭袋",
+    name: "Magic Quiver",
     id: 1321
   },
   {
-    name: "岩浆石",
+    name: "Magma Stone",
     id: 1322
   },
   {
-    name: "黑曜石玫瑰",
+    name: "Obsidian Rose",
     id: 1323
   },
   {
-    name: "香蕉回旋镖",
+    name: "Bananarang",
     id: 1324
   },
   {
-    name: "链刀",
+    name: "Chain Knife",
     id: 1325
   },
   {
-    name: "混沌传送杖",
+    name: "Rod of Discord",
     id: 1326
   },
   {
-    name: "死神镰刀",
+    name: "Death Sickle",
     id: 1327
   },
   {
-    name: "海龟壳",
+    name: "Turtle Shell",
     id: 1328
   },
   {
-    name: "组织样本",
+    name: "Tissue Sample",
     id: 1329
   },
   {
-    name: "椎骨",
+    name: "Vertebra",
     id: 1330
   },
   {
-    name: "血腥脊椎",
+    name: "Bloody Spine",
     id: 1331
   },
   {
-    name: "灵液",
+    name: "Ichor",
     id: 1332
   },
   {
-    name: "灵液火把",
+    name: "Ichor Torch",
     id: 1333
   },
   {
-    name: "灵液箭",
+    name: "Ichor Arrow",
     id: 1334
   },
   {
-    name: "灵液弹",
+    name: "Ichor Bullet",
     id: 1335
   },
   {
-    name: "黄金雨",
+    name: "Golden Shower",
     id: 1336
   },
   {
-    name: "兔兔炮",
+    name: "Bunny Cannon",
     id: 1337
   },
   {
-    name: "爆炸兔",
+    name: "Explosive Bunny",
     id: 1338
   },
   {
-    name: "毒液瓶",
+    name: "Vial of Venom",
     id: 1339
   },
   {
-    name: "毒液药剂",
+    name: "Flask of Venom",
     id: 1340
   },
   {
-    name: "毒液箭",
+    name: "Venom Arrow",
     id: 1341
   },
   {
-    name: "毒液弹",
+    name: "Venom Bullet",
     id: 1342
   },
   {
-    name: "烈火手套",
+    name: "Fire Gauntlet",
     id: 1343
   },
   {
-    name: "齿轮",
+    name: "Cog",
     id: 1344
   },
   {
-    name: "彩纸",
+    name: "Confetti",
     id: 1345
   },
   {
-    name: "纳米机器人",
+    name: "Nanites",
     id: 1346
   },
   {
-    name: "爆炸粉",
+    name: "Explosive Powder",
     id: 1347
   },
   {
-    name: "金粉",
+    name: "Gold Dust",
     id: 1348
   },
   {
-    name: "派对弹",
+    name: "Party Bullet",
     id: 1349
   },
   {
-    name: "纳米弹",
+    name: "Nano Bullet",
     id: 1350
   },
   {
-    name: "爆炸弹",
+    name: "Exploding Bullet",
     id: 1351
   },
   {
-    name: "金弹",
+    name: "Golden Bullet",
     id: 1352
   },
   {
-    name: "诅咒焰药剂",
+    name: "Flask of Cursed Flames",
     id: 1353
   },
   {
-    name: "火焰药剂",
+    name: "Flask of Fire",
     id: 1354
   },
   {
-    name: "金药剂",
+    name: "Flask of Gold",
     id: 1355
   },
   {
-    name: "灵液药剂",
+    name: "Flask of Ichor",
     id: 1356
   },
   {
-    name: "纳米药剂",
+    name: "Flask of Nanites",
     id: 1357
   },
   {
-    name: "派对药剂",
+    name: "Flask of Party",
     id: 1358
   },
   {
-    name: "毒药药剂",
+    name: "Flask of Poison",
     id: 1359
   },
   {
-    name: "克苏鲁之眼纪念章",
+    name: "Eye of Cthulhu Trophy",
     id: 1360
   },
   {
-    name: "世界吞噬者纪念章",
+    name: "Eater of Worlds Trophy",
     id: 1361
   },
   {
-    name: "克苏鲁之脑纪念章",
+    name: "Brain of Cthulhu Trophy",
     id: 1362
   },
   {
-    name: "骷髅王纪念章",
+    name: "Skeletron Trophy",
     id: 1363
   },
   {
-    name: "蜂王纪念章",
+    name: "Queen Bee Trophy",
     id: 1364
   },
   {
-    name: "血肉墙纪念章",
+    name: "Wall of Flesh Trophy",
     id: 1365
   },
   {
-    name: "毁灭者纪念章",
+    name: "Destroyer Trophy",
     id: 1366
   },
   {
-    name: "骷髅统帅纪念章",
+    name: "Skeletron Prime Trophy",
     id: 1367
   },
   {
-    name: "激光眼纪念章",
+    name: "Retinazer Trophy",
     id: 1368
   },
   {
-    name: "魔焰眼纪念章",
+    name: "Spazmatism Trophy",
     id: 1369
   },
   {
-    name: "世纪之花纪念章",
+    name: "Plantera Trophy",
     id: 1370
   },
   {
-    name: "石巨人纪念章",
+    name: "Golem Trophy",
     id: 1371
   },
   {
-    name: "血月升起",
+    name: "Blood Moon Rising",
     id: 1372
   },
   {
-    name: "被吊死的人",
+    name: "The Hanged Man",
     id: 1373
   },
   {
-    name: "火焰的荣耀",
+    name: "Glory of the Fire",
     id: 1374
   },
   {
-    name: "骨头扭曲",
+    name: "Bone Warp",
     id: 1375
   },
   {
-    name: "墙骷髅",
+    name: "Wall Skeleton",
     id: 1376
   },
   {
-    name: "吊骷髅",
+    name: "Hanging Skeleton",
     id: 1377
   },
   {
-    name: "蓝石板墙",
+    name: "Blue Slab Wall",
     id: 1378
   },
   {
-    name: "蓝瓷砖墙",
+    name: "Blue Tiled Wall",
     id: 1379
   },
   {
-    name: "粉石板墙",
+    name: "Pink Slab Wall",
     id: 1380
   },
   {
-    name: "粉瓷砖墙",
+    name: "Pink Tiled Wall",
     id: 1381
   },
   {
-    name: "绿石板墙",
+    name: "Green Slab Wall",
     id: 1382
   },
   {
-    name: "绿瓷砖墙",
+    name: "Green Tiled Wall",
     id: 1383
   },
   {
-    name: "蓝砖平台",
+    name: "Blue Brick Platform",
     id: 1384
   },
   {
-    name: "粉砖平台",
+    name: "Pink Brick Platform",
     id: 1385
   },
   {
-    name: "绿砖平台",
+    name: "Green Brick Platform",
     id: 1386
   },
   {
-    name: "金属架",
+    name: "Metal Shelf",
     id: 1387
   },
   {
-    name: "黄铜架",
+    name: "Brass Shelf",
     id: 1388
   },
   {
-    name: "木架",
+    name: "Wood Shelf",
     id: 1389
   },
   {
-    name: "黄铜灯笼",
+    name: "Brass Lantern",
     id: 1390
   },
   {
-    name: "笼中灯笼",
+    name: "Caged Lantern",
     id: 1391
   },
   {
-    name: "马车灯笼",
+    name: "Carriage Lantern",
     id: 1392
   },
   {
-    name: "炼金灯笼",
+    name: "Alchemy Lantern",
     id: 1393
   },
   {
-    name: "恶魔术士灯",
+    name: "Diabolist Lamp",
     id: 1394
   },
   {
-    name: "油布壁灯",
+    name: "Oil Rag Sconce",
     id: 1395
   },
   {
-    name: "蓝地牢椅",
+    name: "Blue Dungeon Chair",
     id: 1396
   },
   {
-    name: "蓝地牢桌",
+    name: "Blue Dungeon Table",
     id: 1397
   },
   {
-    name: "蓝地牢工作台",
+    name: "Blue Dungeon Work Bench",
     id: 1398
   },
   {
-    name: "绿地牢椅",
+    name: "Green Dungeon Chair",
     id: 1399
   },
   {
-    name: "绿地牢桌",
+    name: "Green Dungeon Table",
     id: 1400
   },
   {
-    name: "绿地牢工作台",
+    name: "Green Dungeon Work Bench",
     id: 1401
   },
   {
-    name: "粉地牢椅",
+    name: "Pink Dungeon Chair",
     id: 1402
   },
   {
-    name: "粉地牢桌",
+    name: "Pink Dungeon Table",
     id: 1403
   },
   {
-    name: "粉地牢工作台",
+    name: "Pink Dungeon Work Bench",
     id: 1404
   },
   {
-    name: "蓝地牢蜡烛",
+    name: "Blue Dungeon Candle",
     id: 1405
   },
   {
-    name: "绿地牢蜡烛",
+    name: "Green Dungeon Candle",
     id: 1406
   },
   {
-    name: "粉地牢蜡烛",
+    name: "Pink Dungeon Candle",
     id: 1407
   },
   {
-    name: "蓝地牢花瓶",
+    name: "Blue Dungeon Vase",
     id: 1408
   },
   {
-    name: "绿地牢花瓶",
+    name: "Green Dungeon Vase",
     id: 1409
   },
   {
-    name: "粉地牢花瓶",
+    name: "Pink Dungeon Vase",
     id: 1410
   },
   {
-    name: "蓝地牢门",
+    name: "Blue Dungeon Door",
     id: 1411
   },
   {
-    name: "绿地牢门",
+    name: "Green Dungeon Door",
     id: 1412
   },
   {
-    name: "粉地牢门",
+    name: "Pink Dungeon Door",
     id: 1413
   },
   {
-    name: "蓝地牢书架",
+    name: "Blue Dungeon Bookcase",
     id: 1414
   },
   {
-    name: "绿地牢书架",
+    name: "Green Dungeon Bookcase",
     id: 1415
   },
   {
-    name: "粉地牢书架",
+    name: "Pink Dungeon Bookcase",
     id: 1416
   },
   {
-    name: "地下墓穴",
+    name: "Catacomb",
     id: 1417
   },
   {
-    name: "地牢架",
+    name: "Dungeon Shelf",
     id: 1418
   },
   {
-    name: "骷髅杰克·斯凯林斯沃斯",
+    name: "Skellington J Skellingsworth",
     id: 1419
   },
   {
-    name: "被诅咒的人",
+    name: "The Cursed Man",
     id: 1420
   },
   {
-    name: "眼睛看到尽头",
+    name: "The Eye Sees the End",
     id: 1421
   },
   {
-    name: "邪恶之物正注视着你",
+    name: "Something Evil is Watching You",
     id: 1422
   },
   {
-    name: "双子魔眼已苏醒",
+    name: "The Twins Have Awoken",
     id: 1423
   },
   {
-    name: "尖叫声",
+    name: "The Screamer",
     id: 1424
   },
   {
-    name: "打扑克的哥布林",
+    name: "Goblins Playing Poker",
     id: 1425
   },
   {
-    name: "树妖之画",
+    name: "Dryadisque",
     id: 1426
   },
   {
-    name: "向日葵",
+    name: "Sunflowers",
     id: 1427
   },
   {
-    name: "泰拉哥特式",
+    name: "Terrarian Gothic",
     id: 1428
   },
   {
-    name: "无檐小便帽",
+    name: "Beanie",
     id: 1429
   },
   {
-    name: "灌注站",
+    name: "Imbuing Station",
     id: 1430
   },
   {
-    name: "瓶中之星",
+    name: "Star in a Bottle",
     id: 1431
   },
   {
-    name: "空子弹",
+    name: "Empty Bullet",
     id: 1432
   },
   {
-    name: "冲击",
+    name: "Impact",
     id: 1433
   },
   {
-    name: "鸟力驱动",
+    name: "Powered by Birds",
     id: 1434
   },
   {
-    name: "毁灭者",
+    name: "The Destroyer",
     id: 1435
   },
   {
-    name: "眼睛的持久性",
+    name: "The Persistency of Eyes",
     id: 1436
   },
   {
-    name: "穿越神圣之地的独角兽",
+    name: "Unicorn Crossing the Hallows",
     id: 1437
   },
   {
-    name: "巨浪",
+    name: "Great Wave",
     id: 1438
   },
   {
-    name: "星夜",
+    name: "Starry Night",
     id: 1439
   },
   {
-    name: "向导毕加索",
+    name: "Guide Picasso",
     id: 1440
   },
   {
-    name: "守护者的凝视",
+    name: "The Guardian's Gaze",
     id: 1441
   },
   {
-    name: "某人之父",
+    name: "Father of Someone",
     id: 1442
   },
   {
-    name: "护士丽莎",
+    name: "Nurse Lisa",
     id: 1443
   },
   {
-    name: "暗影束法杖",
+    name: "Shadowbeam Staff",
     id: 1444
   },
   {
-    name: "地狱之叉",
+    name: "Inferno Fork",
     id: 1445
   },
   {
-    name: "幽灵法杖",
+    name: "Spectre Staff",
     id: 1446
   },
   {
-    name: "木栅栏",
+    name: "Wooden Fence",
     id: 1447
   },
   {
-    name: "铅栅栏",
+    name: "Lead Fence",
     id: 1448
   },
   {
-    name: "泡泡机",
+    name: "Bubble Machine",
     id: 1449
   },
   {
-    name: "泡泡魔棒",
+    name: "Bubble Wand",
     id: 1450
   },
   {
-    name: "行军骸骨旗",
+    name: "Marching Bones Banner",
     id: 1451
   },
   {
-    name: "死灵令旗",
+    name: "Necromantic Sign",
     id: 1452
   },
   {
-    name: "锈蚀军团旗",
+    name: "Rusted Company Standard",
     id: 1453
   },
   {
-    name: "破烂兄弟会徽记",
+    name: "Ragged Brotherhood Sigil",
     id: 1454
   },
   {
-    name: "熔火军团旗",
+    name: "Molten Legion Flag",
     id: 1455
   },
   {
-    name: "恶魔徽记",
+    name: "Diabolic Sigil",
     id: 1456
   },
   {
-    name: "黑曜石平台",
+    name: "Obsidian Platform",
     id: 1457
   },
   {
-    name: "黑曜石门",
+    name: "Obsidian Door",
     id: 1458
   },
   {
-    name: "黑曜石椅",
+    name: "Obsidian Chair",
     id: 1459
   },
   {
-    name: "黑曜石桌",
+    name: "Obsidian Table",
     id: 1460
   },
   {
-    name: "黑曜石工作台",
+    name: "Obsidian Work Bench",
     id: 1461
   },
   {
-    name: "黑曜石花瓶",
+    name: "Obsidian Vase",
     id: 1462
   },
   {
-    name: "黑曜石书架",
+    name: "Obsidian Bookcase",
     id: 1463
   },
   {
-    name: "地狱边境旗",
+    name: "Hellbound Banner",
     id: 1464
   },
   {
-    name: "地狱之锤旗",
+    name: "Hell Hammer Banner",
     id: 1465
   },
   {
-    name: "地狱塔旗",
+    name: "Helltower Banner",
     id: 1466
   },
   {
-    name: "人类失落之望旗",
+    name: "Lost Hopes of Man Banner",
     id: 1467
   },
   {
-    name: "黑曜石监视者旗",
+    name: "Obsidian Watcher Banner",
     id: 1468
   },
   {
-    name: "熔岩喷发旗",
+    name: "Lava Erupts Banner",
     id: 1469
   },
   {
-    name: "蓝地牢床",
+    name: "Blue Dungeon Bed",
     id: 1470
   },
   {
-    name: "绿地牢床",
+    name: "Green Dungeon Bed",
     id: 1471
   },
   {
-    name: "粉地牢床",
+    name: "Pink Dungeon Bed",
     id: 1472
   },
   {
-    name: "黑曜石床",
+    name: "Obsidian Bed",
     id: 1473
   },
   {
-    name: "沃尔多",
+    name: "Waldo",
     id: 1474
   },
   {
-    name: "黑暗",
+    name: "Darkness",
     id: 1475
   },
   {
-    name: "暗魂收割者",
+    name: "Dark Soul Reaper",
     id: 1476
   },
   {
-    name: "大地",
+    name: "Land",
     id: 1477
   },
   {
-    name: "被困住的鬼魂",
+    name: "Trapped Ghost",
     id: 1478
   },
   {
-    name: "恶魔之眼",
+    name: "Demon's Eye",
     id: 1479
   },
   {
-    name: "发现黄金",
+    name: "Finding Gold",
     id: 1480
   },
   {
-    name: "初次邂逅",
+    name: "First Encounter",
     id: 1481
   },
   {
-    name: "早安",
+    name: "Good Morning",
     id: 1482
   },
   {
-    name: "地下奖励",
+    name: "Underground Reward",
     id: 1483
   },
   {
-    name: "透过窗户",
+    name: "Through the Window",
     id: 1484
   },
   {
-    name: "云层之上",
+    name: "Place Above the Clouds",
     id: 1485
   },
   {
-    name: "不要踩草",
+    name: "Do Not Step on the Grass",
     id: 1486
   },
   {
-    name: "白原寒水",
+    name: "Cold Waters in the White Land",
     id: 1487
   },
   {
-    name: "无光深渊",
+    name: "Lightless Chasms",
     id: 1488
   },
   {
-    name: "欺骗外表之地",
+    name: "The Land of Deceiving Looks",
     id: 1489
   },
   {
-    name: "日光",
+    name: "Daylight",
     id: 1490
   },
   {
-    name: "沙的秘密",
+    name: "Secret of the Sands",
     id: 1491
   },
   {
-    name: "死地复苏",
+    name: "Deadland Comes Alive",
     id: 1492
   },
   {
-    name: "邪恶降临",
+    name: "Evil Presence",
     id: 1493
   },
   {
-    name: "天空守护者",
+    name: "Sky Guardian",
     id: 1494
   },
   {
-    name: "美式炸药",
+    name: "American Explosive",
     id: 1495
   },
   {
-    name: "发现",
+    name: "Discover",
     id: 1496
   },
   {
-    name: "手捧大地",
+    name: "Hand Earth",
     id: 1497
   },
   {
-    name: "老矿工",
+    name: "Old Miner",
     id: 1498
   },
   {
-    name: "骷髅头",
+    name: "Skelehead",
     id: 1499
   },
   {
-    name: "面对大脑主宰",
+    name: "Facing the Cerebral Mastermind",
     id: 1500
   },
   {
-    name: "火湖",
+    name: "Lake of Fire",
     id: 1501
   },
   {
-    name: "三人超级英雄",
+    name: "Trio Super Heroes",
     id: 1502
   },
   {
-    name: "幽灵兜帽",
+    name: "Spectre Hood",
     id: 1503
   },
   {
-    name: "幽灵长袍",
+    name: "Spectre Robe",
     id: 1504
   },
   {
-    name: "幽灵裤",
+    name: "Spectre Pants",
     id: 1505
   },
   {
-    name: "幽灵镐",
+    name: "Spectre Pickaxe",
     id: 1506
   },
   {
-    name: "幽灵锤斧",
+    name: "Spectre Hamaxe",
     id: 1507
   },
   {
-    name: "灵液",
+    name: "Ectoplasm",
     id: 1508
   },
   {
-    name: "哥特椅",
+    name: "Gothic Chair",
     id: 1509
   },
   {
-    name: "哥特桌",
+    name: "Gothic Table",
     id: 1510
   },
   {
-    name: "哥特工作台",
+    name: "Gothic Work Bench",
     id: 1511
   },
   {
-    name: "哥特书架",
+    name: "Gothic Bookcase",
     id: 1512
   },
   {
-    name: "圣骑士锤",
+    name: "Paladin's Hammer",
     id: 1513
   },
   {
-    name: "特警头盔",
+    name: "SWAT Helmet",
     id: 1514
   },
   {
-    name: "蜜蜂翅膀",
+    name: "Bee Wings",
     id: 1515
   },
   {
-    name: "巨型鸟妖之羽",
+    name: "Giant Harpy Feather",
     id: 1516
   },
   {
-    name: "骨头之羽",
+    name: "Bone Feather",
     id: 1517
   },
   {
-    name: "火焰之羽",
+    name: "Fire Feather",
     id: 1518
   },
   {
-    name: "冰雪之羽",
+    name: "Ice Feather",
     id: 1519
   },
   {
-    name: "破损蝙蝠翼",
+    name: "Broken Bat Wing",
     id: 1520
   },
   {
-    name: "破烂蜜蜂翼",
+    name: "Tattered Bee Wing",
     id: 1521
   },
   {
-    name: "大紫晶",
+    name: "Large Amethyst",
     id: 1522
   },
   {
-    name: "大黄玉",
+    name: "Large Topaz",
     id: 1523
   },
   {
-    name: "大蓝宝石",
+    name: "Large Sapphire",
     id: 1524
   },
   {
-    name: "大翡翠",
+    name: "Large Emerald",
     id: 1525
   },
   {
-    name: "大红宝石",
+    name: "Large Ruby",
     id: 1526
   },
   {
-    name: "大钻石",
+    name: "Large Diamond",
     id: 1527
   },
   {
-    name: "丛林宝箱",
+    name: "Jungle Chest",
     id: 1528
   },
   {
-    name: "腐化宝箱",
+    name: "Corruption Chest",
     id: 1529
   },
   {
-    name: "猩红宝箱",
+    name: "Crimson Chest",
     id: 1530
   },
   {
-    name: "神圣宝箱",
+    name: "Hallowed Chest",
     id: 1531
   },
   {
-    name: "冰雪宝箱",
+    name: "Ice Chest",
     id: 1532
   },
   {
-    name: "丛林钥匙",
+    name: "Jungle Key",
     id: 1533
   },
   {
-    name: "腐化钥匙",
+    name: "Corruption Key",
     id: 1534
   },
   {
-    name: "猩红钥匙",
+    name: "Crimson Key",
     id: 1535
   },
   {
-    name: "神圣钥匙",
+    name: "Hallowed Key",
     id: 1536
   },
   {
-    name: "冰冻钥匙",
+    name: "Frozen Key",
     id: 1537
   },
   {
-    name: "小鬼脸",
+    name: "Imp Face",
     id: 1538
   },
   {
-    name: "不祥之兆",
+    name: "Ominous Presence",
     id: 1539
   },
   {
-    name: "明月",
+    name: "Shining Moon",
     id: 1540
   },
   {
-    name: "血肉之躯",
+    name: "Living Gore",
     id: 1541
   },
   {
-    name: "流动岩浆",
+    name: "Flowing Magma",
     id: 1542
   },
   {
-    name: "幽灵漆刷",
+    name: "Spectre Paintbrush",
     id: 1543
   },
   {
-    name: "幽灵漆滚筒",
+    name: "Spectre Paint Roller",
     id: 1544
   },
   {
-    name: "幽灵漆刮刀",
+    name: "Spectre Paint Scraper",
     id: 1545
   },
   {
-    name: "蘑菇矿头饰",
+    name: "Shroomite Headgear",
     id: 1546
   },
   {
-    name: "蘑菇矿面具",
+    name: "Shroomite Mask",
     id: 1547
   },
   {
-    name: "蘑菇矿头盔",
+    name: "Shroomite Helmet",
     id: 1548
   },
   {
-    name: "蘑菇矿胸甲",
+    name: "Shroomite Breastplate",
     id: 1549
   },
   {
-    name: "蘑菇矿护腿",
+    name: "Shroomite Leggings",
     id: 1550
   },
   {
-    name: "自动锤炼机",
+    name: "Autohammer",
     id: 1551
   },
   {
-    name: "蘑菇矿锭",
+    name: "Shroomite Bar",
     id: 1552
   },
   {
-    name: "太空海豚机枪",
+    name: "S.D.M.G.",
     id: 1553
   },
   {
-    name: "Cenx的冠冕",
+    name: "Cenx's Tiara",
     id: 1554
   },
   {
-    name: "Cenx的胸甲",
+    name: "Cenx's Breastplate",
     id: 1555
   },
   {
-    name: "Cenx的护腿",
+    name: "Cenx's Leggings",
     id: 1556
   },
   {
-    name: "Crowno的面具",
+    name: "Crowno's Mask",
     id: 1557
   },
   {
-    name: "Crowno的胸甲",
+    name: "Crowno's Breastplate",
     id: 1558
   },
   {
-    name: "Crowno的护腿",
+    name: "Crowno's Leggings",
     id: 1559
   },
   {
-    name: "Will的头盔",
+    name: "Will's Helmet",
     id: 1560
   },
   {
-    name: "Will的胸甲",
+    name: "Will's Breastplate",
     id: 1561
   },
   {
-    name: "Will的护腿",
+    name: "Will's Leggings",
     id: 1562
   },
   {
-    name: "Jim的头盔",
+    name: "Jim's Helmet",
     id: 1563
   },
   {
-    name: "Jim的胸甲",
+    name: "Jim's Breastplate",
     id: 1564
   },
   {
-    name: "Jim的护腿",
+    name: "Jim's Leggings",
     id: 1565
   },
   {
-    name: "Aaron的头盔",
+    name: "Aaron's Helmet",
     id: 1566
   },
   {
-    name: "Aaron的胸甲",
+    name: "Aaron's Breastplate",
     id: 1567
   },
   {
-    name: "Aaron的护腿",
+    name: "Aaron's Leggings",
     id: 1568
   },
   {
-    name: "吸血鬼刀",
+    name: "Vampire Knives",
     id: 1569
   },
   {
-    name: "断裂英雄剑",
+    name: "Broken Hero Sword",
     id: 1570
   },
   {
-    name: "腐化者之戟",
+    name: "Scourge of the Corruptor",
     id: 1571
   },
   {
-    name: "冰雪九头蛇法杖",
+    name: "Staff of the Frost Hydra",
     id: 1572
   },
   {
-    name: "向导的创造",
+    name: "The Creation of the Guide",
     id: 1573
   },
   {
-    name: "商人",
+    name: "The Merchant",
     id: 1574
   },
   {
-    name: "Crowno吞噬他的午餐",
+    name: "Crowno Devours His Lunch",
     id: 1575
   },
   {
-    name: "稀有附魔",
+    name: "Rare Enchantment",
     id: 1576
   },
   {
-    name: "荣耀之夜",
+    name: "Glorious Night",
     id: 1577
   },
   {
-    name: "甜心项链",
+    name: "Sweetheart Necklace",
     id: 1578
   },
   {
-    name: "疾风雪靴",
+    name: "Flurry Boots",
     id: 1579
   },
   {
-    name: "D-Town的头盔",
+    name: "D-Town's Helmet",
     id: 1580
   },
   {
-    name: "D-Town的胸甲",
+    name: "D-Town's Breastplate",
     id: 1581
   },
   {
-    name: "D-Town的护腿",
+    name: "D-Town's Leggings",
     id: 1582
   },
   {
-    name: "D-Town之翼",
+    name: "D-Town's Wings",
     id: 1583
   },
   {
-    name: "Will之翼",
+    name: "Will's Wings",
     id: 1584
   },
   {
-    name: "Crowno之翼",
+    name: "Crowno's Wings",
     id: 1585
   },
   {
-    name: "Cenx之翼",
+    name: "Cenx's Wings",
     id: 1586
   },
   {
-    name: "Cenx的连衣裙",
+    name: "Cenx's Dress",
     id: 1587
   },
   {
-    name: "Cenx的裙裤",
+    name: "Cenx's Dress Pants",
     id: 1588
   },
   {
-    name: "钯金柱",
+    name: "Palladium Column",
     id: 1589
   },
   {
-    name: "钯金柱墙",
+    name: "Palladium Column Wall",
     id: 1590
   },
   {
-    name: "泡泡糖块",
+    name: "Bubblegum Block",
     id: 1591
   },
   {
-    name: "泡泡糖块墙",
+    name: "Bubblegum Block Wall",
     id: 1592
   },
   {
-    name: "钛石块",
+    name: "Titanstone Block",
     id: 1593
   },
   {
-    name: "钛石块墙",
+    name: "Titanstone Block Wall",
     id: 1594
   },
   {
-    name: "魔法手铐",
+    name: "Magic Cuffs",
     id: 1595
   },
   {
-    name: "八音盒（雪原）",
+    name: "Music Box (Snow)",
     id: 1596
   },
   {
-    name: "八音盒（太空夜晚）",
+    name: "Music Box (Space Night)",
     id: 1597
   },
   {
-    name: "八音盒（猩红）",
+    name: "Music Box (Crimson)",
     id: 1598
   },
   {
-    name: "八音盒（Boss 4）",
+    name: "Music Box (Boss 4)",
     id: 1599
   },
   {
-    name: "八音盒（地表夜晚变奏）",
+    name: "Music Box (Alt Overworld Day)",
     id: 1600
   },
   {
-    name: "八音盒（雨）",
+    name: "Music Box (Rain)",
     id: 1601
   },
   {
-    name: "八音盒（冰雪）",
+    name: "Music Box (Ice)",
     id: 1602
   },
   {
-    name: "八音盒（沙漠）",
+    name: "Music Box (Desert)",
     id: 1603
   },
   {
-    name: "八音盒（海洋白天）",
+    name: "Music Box (Ocean Day)",
     id: 1604
   },
   {
-    name: "八音盒（地牢）",
+    name: "Music Box (Dungeon)",
     id: 1605
   },
   {
-    name: "八音盒（世纪之花）",
+    name: "Music Box (Plantera)",
     id: 1606
   },
   {
-    name: "八音盒（Boss 5）",
+    name: "Music Box (Boss 5)",
     id: 1607
   },
   {
-    name: "八音盒（神庙）",
+    name: "Music Box (Temple)",
     id: 1608
   },
   {
-    name: "八音盒（日食）",
+    name: "Music Box (Eclipse)",
     id: 1609
   },
   {
-    name: "八音盒（蘑菇）",
+    name: "Music Box (Mushrooms)",
     id: 1610
   },
   {
-    name: "蝴蝶尘",
+    name: "Butterfly Dust",
     id: 1611
   },
   {
-    name: "十字章护身符",
+    name: "Ankh Charm",
     id: 1612
   },
   {
-    name: "十字章护盾",
+    name: "Ankh Shield",
     id: 1613
   },
   {
-    name: "蓝焰",
+    name: "Blue Flare",
     id: 1614
   },
   {
-    name: "渔夫旗",
+    name: "Angler Fish Banner",
     id: 1615
   },
   {
-    name: "愤怒雨云旗",
+    name: "Angry Nimbus Banner",
     id: 1616
   },
   {
-    name: "寄居蟹旗",
+    name: "Anomura Fungus Banner",
     id: 1617
   },
   {
-    name: "蚁狮旗",
+    name: "Antlion Banner",
     id: 1618
   },
   {
-    name: "巨骨舌鱼旗",
+    name: "Arapaima Banner",
     id: 1619
   },
   {
-    name: "装甲骷髅旗",
+    name: "Armored Skeleton Banner",
     id: 1620
   },
   {
-    name: "洞穴蝙蝠旗",
+    name: "Cave Bat Banner",
     id: 1621
   },
   {
-    name: "鸟旗",
+    name: "Bird Banner",
     id: 1622
   },
   {
-    name: "黑隐士旗",
+    name: "Black Recluse Banner",
     id: 1623
   },
   {
-    name: "嗜血狂徒旗",
+    name: "Blood Feeder Banner",
     id: 1624
   },
   {
-    name: "血水母旗",
+    name: "Blood Jelly Banner",
     id: 1625
   },
   {
-    name: "血爬虫旗",
+    name: "Blood Crawler Banner",
     id: 1626
   },
   {
-    name: "骨蛇旗",
+    name: "Bone Serpent Banner",
     id: 1627
   },
   {
-    name: "兔兔旗",
+    name: "Bunny Banner",
     id: 1628
   },
   {
-    name: "混沌精旗",
+    name: "Chaos Elemental Banner",
     id: 1629
   },
   {
-    name: "宝箱怪旗",
+    name: "Mimic Banner",
     id: 1630
   },
   {
-    name: "小丑旗",
+    name: "Clown Banner",
     id: 1631
   },
   {
-    name: "腐化兔兔旗",
+    name: "Corrupt Bunny Banner",
     id: 1632
   },
   {
-    name: "腐化金鱼旗",
+    name: "Corrupt Goldfish Banner",
     id: 1633
   },
   {
-    name: "螃蟹旗",
+    name: "Crab Banner",
     id: 1634
   },
   {
-    name: "猩红喀迈拉旗",
+    name: "Crimera Banner",
     id: 1635
   },
   {
-    name: "猩红斧旗",
+    name: "Crimson Axe Banner",
     id: 1636
   },
   {
-    name: "诅咒锤旗",
+    name: "Cursed Hammer Banner",
     id: 1637
   },
   {
-    name: "恶魔旗",
+    name: "Demon Banner",
     id: 1638
   },
   {
-    name: "恶魔眼旗",
+    name: "Demon Eye Banner",
     id: 1639
   },
   {
-    name: "跳跳兽旗",
+    name: "Derpling Banner",
     id: 1640
   },
   {
-    name: "噬魂怪旗",
+    name: "Eater of Souls Banner",
     id: 1641
   },
   {
-    name: "附魔剑旗",
+    name: "Enchanted Sword Banner",
     id: 1642
   },
   {
-    name: "冰冻僵尸旗",
+    name: "Frozen Zombie Banner",
     id: 1643
   },
   {
-    name: "脸怪旗",
+    name: "Face Monster Banner",
     id: 1644
   },
   {
-    name: "恶心漂浮怪旗",
+    name: "Floaty Gross Banner",
     id: 1645
   },
   {
-    name: "飞鱼旗",
+    name: "Flying Fish Banner",
     id: 1646
   },
   {
-    name: "飞蛇旗",
+    name: "Flying Snake Banner",
     id: 1647
   },
   {
-    name: "弗兰肯斯坦旗",
+    name: "Frankenstein Banner",
     id: 1648
   },
   {
-    name: "真菌球旗",
+    name: "Fungi Bulb Banner",
     id: 1649
   },
   {
-    name: "真菌鱼旗",
+    name: "Fungo Fish Banner",
     id: 1650
   },
   {
-    name: "腹足怪旗",
+    name: "Gastropod Banner",
     id: 1651
   },
   {
-    name: "哥布林盗贼旗",
+    name: "Goblin Thief Banner",
     id: 1652
   },
   {
-    name: "哥布林巫士旗",
+    name: "Goblin Sorcerer Banner",
     id: 1653
   },
   {
-    name: "哥布林苦力旗",
+    name: "Goblin Peon Banner",
     id: 1654
   },
   {
-    name: "哥布林侦察兵旗",
+    name: "Goblin Scout Banner",
     id: 1655
   },
   {
-    name: "哥布林战士旗",
+    name: "Goblin Warrior Banner",
     id: 1656
   },
   {
-    name: "金鱼旗",
+    name: "Goldfish Banner",
     id: 1657
   },
   {
-    name: "鹰身女妖旗",
+    name: "Harpy Banner",
     id: 1658
   },
   {
-    name: "地狱蝙蝠旗",
+    name: "Hellbat Banner",
     id: 1659
   },
   {
-    name: "爬爬怪旗",
+    name: "Herpling Banner",
     id: 1660
   },
   {
-    name: "黄蜂旗",
+    name: "Hornet Banner",
     id: 1661
   },
   {
-    name: "冰雪精旗",
+    name: "Ice Elemental Banner",
     id: 1662
   },
   {
-    name: "冰雪人鱼旗",
+    name: "Icy Merman Banner",
     id: 1663
   },
   {
-    name: "火焰小鬼旗",
+    name: "Fire Imp Banner",
     id: 1664
   },
   {
-    name: "蓝水母旗",
+    name: "Blue Jellyfish Banner",
     id: 1665
   },
   {
-    name: "丛林爬行者旗",
+    name: "Jungle Creeper Banner",
     id: 1666
   },
   {
-    name: "丛林蜥蜴旗",
+    name: "Lihzahrd Banner",
     id: 1667
   },
   {
-    name: "食人怪旗",
+    name: "Man Eater Banner",
     id: 1668
   },
   {
-    name: "流星头旗",
+    name: "Meteor Head Banner",
     id: 1669
   },
   {
-    name: "蛾旗",
+    name: "Moth Banner",
     id: 1670
   },
   {
-    name: "木乃伊旗",
+    name: "Mummy Banner",
     id: 1671
   },
   {
-    name: "菌生瓢虫旗",
+    name: "Mushi Ladybug Banner",
     id: 1672
   },
   {
-    name: "鹦鹉旗",
+    name: "Parrot Banner",
     id: 1673
   },
   {
-    name: "猪龙旗",
+    name: "Pigron Banner",
     id: 1674
   },
   {
-    name: "食人鱼旗",
+    name: "Piranha Banner",
     id: 1675
   },
   {
-    name: "海盗水手旗",
+    name: "Pirate Deckhand Banner",
     id: 1676
   },
   {
-    name: "妖精旗",
+    name: "Pixie Banner",
     id: 1677
   },
   {
-    name: "雨衣僵尸旗",
+    name: "Raincoat Zombie Banner",
     id: 1678
   },
   {
-    name: "死神旗",
+    name: "Reaper Banner",
     id: 1679
   },
   {
-    name: "鲨鱼旗",
+    name: "Shark Banner",
     id: 1680
   },
   {
-    name: "骷髅旗",
+    name: "Skeleton Banner",
     id: 1681
   },
   {
-    name: "暗黑法师旗",
+    name: "Dark Caster Banner",
     id: 1682
   },
   {
-    name: "蓝史莱姆旗",
+    name: "Blue Slime Banner",
     id: 1683
   },
   {
-    name: "冰雪弗林旗",
+    name: "Snow Flinx Banner",
     id: 1684
   },
   {
-    name: "爬墙蜘蛛旗",
+    name: "Wall Creeper Banner",
     id: 1685
   },
   {
-    name: "孢子僵尸旗",
+    name: "Spore Zombie Banner",
     id: 1686
   },
   {
-    name: "沼泽怪旗",
+    name: "Swamp Thing Banner",
     id: 1687
   },
   {
-    name: "巨型陆龟旗",
+    name: "Giant Tortoise Banner",
     id: 1688
   },
   {
-    name: "毒泥旗",
+    name: "Toxic Sludge Banner",
     id: 1689
   },
   {
-    name: "伞状史莱姆旗",
+    name: "Umbrella Slime Banner",
     id: 1690
   },
   {
-    name: "独角兽旗",
+    name: "Unicorn Banner",
     id: 1691
   },
   {
-    name: "吸血鬼旗",
+    name: "Vampire Banner",
     id: 1692
   },
   {
-    name: "秃鹫旗",
+    name: "Vulture Banner",
     id: 1693
   },
   {
-    name: "宁芙旗",
+    name: "Nymph Banner",
     id: 1694
   },
   {
-    name: "狼人旗",
+    name: "Werewolf Banner",
     id: 1695
   },
   {
-    name: "狼旗",
+    name: "Wolf Banner",
     id: 1696
   },
   {
-    name: "吞世者旗",
+    name: "World Feeder Banner",
     id: 1697
   },
   {
-    name: "蠕虫旗",
+    name: "Worm Banner",
     id: 1698
   },
   {
-    name: "幻灵旗",
+    name: "Wraith Banner",
     id: 1699
   },
   {
-    name: "飞龙旗",
+    name: "Wyvern Banner",
     id: 1700
   },
   {
-    name: "僵尸旗",
+    name: "Zombie Banner",
     id: 1701
   },
   {
-    name: "玻璃平台",
+    name: "Glass Platform",
     id: 1702
   },
   {
-    name: "玻璃椅",
+    name: "Glass Chair",
     id: 1703
   },
   {
-    name: "金椅",
+    name: "Golden Chair",
     id: 1704
   },
   {
-    name: "金马桶",
+    name: "Golden Toilet",
     id: 1705
   },
   {
-    name: "吧台凳",
+    name: "Bar Stool",
     id: 1706
   },
   {
-    name: "蜂蜜椅",
+    name: "Honey Chair",
     id: 1707
   },
   {
-    name: "蒸汽朋克椅",
+    name: "Steampunk Chair",
     id: 1708
   },
   {
-    name: "玻璃门",
+    name: "Glass Door",
     id: 1709
   },
   {
-    name: "金门",
+    name: "Golden Door",
     id: 1710
   },
   {
-    name: "蜂蜜门",
+    name: "Honey Door",
     id: 1711
   },
   {
-    name: "蒸汽朋克门",
+    name: "Steampunk Door",
     id: 1712
   },
   {
-    name: "玻璃桌",
+    name: "Glass Table",
     id: 1713
   },
   {
-    name: "宴席桌",
+    name: "Banquet Table",
     id: 1714
   },
   {
-    name: "吧台",
+    name: "Bar",
     id: 1715
   },
   {
-    name: "金桌",
+    name: "Golden Table",
     id: 1716
   },
   {
-    name: "蜂蜜桌",
+    name: "Honey Table",
     id: 1717
   },
   {
-    name: "蒸汽朋克桌",
+    name: "Steampunk Table",
     id: 1718
   },
   {
-    name: "玻璃床",
+    name: "Glass Bed",
     id: 1719
   },
   {
-    name: "金床",
+    name: "Golden Bed",
     id: 1720
   },
   {
-    name: "蜂蜜床",
+    name: "Honey Bed",
     id: 1721
   },
   {
-    name: "蒸汽朋克床",
+    name: "Steampunk Bed",
     id: 1722
   },
   {
-    name: "生命木墙",
+    name: "Living Wood Wall",
     id: 1723
   },
   {
-    name: "罐中臭屁",
+    name: "Fart in a Jar",
     id: 1724
   },
   {
-    name: "南瓜",
+    name: "Pumpkin",
     id: 1725
   },
   {
-    name: "南瓜墙",
+    name: "Pumpkin Wall",
     id: 1726
   },
   {
-    name: "干草",
+    name: "Hay",
     id: 1727
   },
   {
-    name: "干草墙",
+    name: "Hay Wall",
     id: 1728
   },
   {
-    name: "阴森木",
+    name: "Spooky Wood",
     id: 1729
   },
   {
-    name: "阴森木墙",
+    name: "Spooky Wood Wall",
     id: 1730
   },
   {
-    name: "南瓜头盔",
+    name: "Pumpkin Helmet",
     id: 1731
   },
   {
-    name: "南瓜胸甲",
+    name: "Pumpkin Breastplate",
     id: 1732
   },
   {
-    name: "南瓜护腿",
+    name: "Pumpkin Leggings",
     id: 1733
   },
   {
-    name: "糖心苹果",
+    name: "Candy Apple",
     id: 1734
   },
   {
-    name: "灵魂蛋糕",
+    name: "Soul Cake",
     id: 1735
   },
   {
-    name: "护士帽",
+    name: "Nurse Hat",
     id: 1736
   },
   {
-    name: "护士衬衫",
+    name: "Nurse Shirt",
     id: 1737
   },
   {
-    name: "护士裤",
+    name: "Nurse Pants",
     id: 1738
   },
   {
-    name: "巫师帽",
+    name: "Wizard's Hat",
     id: 1739
   },
   {
-    name: "盖伊·福克斯面具",
+    name: "Guy Fawkes Mask",
     id: 1740
   },
   {
-    name: "染料商长袍",
+    name: "Dye Trader Robe",
     id: 1741
   },
   {
-    name: "蒸汽朋克护目镜",
+    name: "Steampunk Goggles",
     id: 1742
   },
   {
-    name: "机械头盔",
+    name: "Cyborg Helmet",
     id: 1743
   },
   {
-    name: "机械衬衫",
+    name: "Cyborg Shirt",
     id: 1744
   },
   {
-    name: "机械裤",
+    name: "Cyborg Pants",
     id: 1745
   },
   {
-    name: "苦力怕面具",
+    name: "Creeper Mask",
     id: 1746
   },
   {
-    name: "苦力怕衬衫",
+    name: "Creeper Shirt",
     id: 1747
   },
   {
-    name: "苦力怕裤",
+    name: "Creeper Pants",
     id: 1748
   },
   {
-    name: "猫面具",
+    name: "Cat Mask",
     id: 1749
   },
   {
-    name: "猫衬衫",
+    name: "Cat Shirt",
     id: 1750
   },
   {
-    name: "猫裤",
+    name: "Cat Pants",
     id: 1751
   },
   {
-    name: "幽灵面具",
+    name: "Ghost Mask",
     id: 1752
   },
   {
-    name: "幽灵衬衫",
+    name: "Ghost Shirt",
     id: 1753
   },
   {
-    name: "南瓜面具",
+    name: "Pumpkin Mask",
     id: 1754
   },
   {
-    name: "南瓜衬衫",
+    name: "Pumpkin Shirt",
     id: 1755
   },
   {
-    name: "南瓜裤",
+    name: "Pumpkin Pants",
     id: 1756
   },
   {
-    name: "机器人面具",
+    name: "Robot Mask",
     id: 1757
   },
   {
-    name: "机器人衬衫",
+    name: "Robot Shirt",
     id: 1758
   },
   {
-    name: "机器人裤",
+    name: "Robot Pants",
     id: 1759
   },
   {
-    name: "独角兽面具",
+    name: "Unicorn Mask",
     id: 1760
   },
   {
-    name: "独角兽衬衫",
+    name: "Unicorn Shirt",
     id: 1761
   },
   {
-    name: "独角兽裤",
+    name: "Unicorn Pants",
     id: 1762
   },
   {
-    name: "吸血鬼面具",
+    name: "Vampire Mask",
     id: 1763
   },
   {
-    name: "吸血鬼衬衫",
+    name: "Vampire Shirt",
     id: 1764
   },
   {
-    name: "吸血鬼裤",
+    name: "Vampire Pants",
     id: 1765
   },
   {
-    name: "女巫帽",
+    name: "Witch Hat",
     id: 1766
   },
   {
-    name: "小精灵帽",
+    name: "Leprechaun Hat",
     id: 1767
   },
   {
-    name: "小精灵衬衫",
+    name: "Leprechaun Shirt",
     id: 1768
   },
   {
-    name: "小精灵裤",
+    name: "Leprechaun Pants",
     id: 1769
   },
   {
-    name: "妖精衬衫",
+    name: "Pixie Shirt",
     id: 1770
   },
   {
-    name: "妖精裤",
+    name: "Pixie Pants",
     id: 1771
   },
   {
-    name: "公主帽",
+    name: "Princess Hat",
     id: 1772
   },
   {
-    name: "公主裙",
+    name: "Princess Dress",
     id: 1773
   },
   {
-    name: "礼袋",
+    name: "Goodie Bag",
     id: 1774
   },
   {
-    name: "女巫连衣裙",
+    name: "Witch Dress",
     id: 1775
   },
   {
-    name: "女巫靴",
+    name: "Witch Boots",
     id: 1776
   },
   {
-    name: "弗兰肯斯坦的新娘面具",
+    name: "Bride of Frankenstein Mask",
     id: 1777
   },
   {
-    name: "弗兰肯斯坦的新娘连衣裙",
+    name: "Bride of Frankenstein Dress",
     id: 1778
   },
   {
-    name: "空手道龟面具",
+    name: "Karate Tortoise Mask",
     id: 1779
   },
   {
-    name: "空手道龟上衣",
+    name: "Karate Tortoise Shirt",
     id: 1780
   },
   {
-    name: "空手道龟裤",
+    name: "Karate Tortoise Pants",
     id: 1781
   },
   {
-    name: "玉米糖步枪",
+    name: "Candy Corn Rifle",
     id: 1782
   },
   {
-    name: "玉米糖",
+    name: "Candy Corn",
     id: 1783
   },
   {
-    name: "杰克南瓜灯发射器",
+    name: "Jack 'O Lantern Launcher",
     id: 1784
   },
   {
-    name: "爆炸杰克南瓜灯",
+    name: "Explosive Jack 'O Lantern",
     id: 1785
   },
   {
-    name: "镰刀",
+    name: "Sickle",
     id: 1786
   },
   {
-    name: "南瓜派",
+    name: "Pumpkin Pie",
     id: 1787
   },
   {
-    name: "稻草人帽",
+    name: "Scarecrow Hat",
     id: 1788
   },
   {
-    name: "稻草人上衣",
+    name: "Scarecrow Shirt",
     id: 1789
   },
   {
-    name: "稻草人裤",
+    name: "Scarecrow Pants",
     id: 1790
   },
   {
-    name: "大锅",
+    name: "Cauldron",
     id: 1791
   },
   {
-    name: "南瓜椅",
+    name: "Pumpkin Chair",
     id: 1792
   },
   {
-    name: "南瓜门",
+    name: "Pumpkin Door",
     id: 1793
   },
   {
-    name: "南瓜桌",
+    name: "Pumpkin Table",
     id: 1794
   },
   {
-    name: "南瓜工作台",
+    name: "Pumpkin Work Bench",
     id: 1795
   },
   {
-    name: "南瓜平台",
+    name: "Pumpkin Platform",
     id: 1796
   },
   {
-    name: "破旧妖精翅膀",
+    name: "Tattered Fairy Wings",
     id: 1797
   },
   {
-    name: "蜘蛛卵",
+    name: "Spider Egg",
     id: 1798
   },
   {
-    name: "魔法南瓜籽",
+    name: "Magical Pumpkin Seed",
     id: 1799
   },
   {
-    name: "蝙蝠钩",
+    name: "Bat Hook",
     id: 1800
   },
   {
-    name: "蝙蝠权杖",
+    name: "Bat Scepter",
     id: 1801
   },
   {
-    name: "乌鸦法杖",
+    name: "Raven Staff",
     id: 1802
   },
   {
-    name: "丛林钥匙",
+    name: "Jungle Key",
     id: 1803
   },
   {
-    name: "腐化钥匙",
+    name: "Corruption Key",
     id: 1804
   },
   {
-    name: "猩红钥匙",
+    name: "Crimson Key",
     id: 1805
   },
   {
-    name: "神圣钥匙",
+    name: "Hallowed Key",
     id: 1806
   },
   {
-    name: "冰冻钥匙",
+    name: "Frozen Key",
     id: 1807
   },
   {
-    name: "吊挂杰克南瓜灯",
+    name: "Hanging Jack 'O Lantern",
     id: 1808
   },
   {
-    name: "臭蛋",
+    name: "Rotten Egg",
     id: 1809
   },
   {
-    name: "厄运毛线",
+    name: "Unlucky Yarn",
     id: 1810
   },
   {
-    name: "黑色仙尘",
+    name: "Black Fairy Dust",
     id: 1811
   },
   {
-    name: "杰克灯烛台",
+    name: "Jackelier",
     id: 1812
   },
   {
-    name: "杰克南瓜灯",
+    name: "Jack 'O Lantern",
     id: 1813
   },
   {
-    name: "阴森椅",
+    name: "Spooky Chair",
     id: 1814
   },
   {
-    name: "阴森门",
+    name: "Spooky Door",
     id: 1815
   },
   {
-    name: "阴森桌",
+    name: "Spooky Table",
     id: 1816
   },
   {
-    name: "阴森工作台",
+    name: "Spooky Work Bench",
     id: 1817
   },
   {
-    name: "阴森木平台",
+    name: "Spooky Wood Platform",
     id: 1818
   },
   {
-    name: "死神兜帽",
+    name: "Reaper Hood",
     id: 1819
   },
   {
-    name: "死神长袍",
+    name: "Reaper Robe",
     id: 1820
   },
   {
-    name: "狐狸面具",
+    name: "Fox Mask",
     id: 1821
   },
   {
-    name: "狐狸上衣",
+    name: "Fox Shirt",
     id: 1822
   },
   {
-    name: "狐狸裤",
+    name: "Fox Pants",
     id: 1823
   },
   {
-    name: "猫耳",
+    name: "Cat Ears",
     id: 1824
   },
   {
-    name: "血腥砍刀",
+    name: "Bloody Machete",
     id: 1825
   },
   {
-    name: "无头骑士剑",
+    name: "The Horseman's Blade",
     id: 1826
   },
   {
-    name: "利刃手套",
+    name: "Bladed Glove",
     id: 1827
   },
   {
-    name: "南瓜子",
+    name: "Pumpkin Seed",
     id: 1828
   },
   {
-    name: "阴森钩",
+    name: "Spooky Hook",
     id: 1829
   },
   {
-    name: "阴森翅膀",
+    name: "Spooky Wings",
     id: 1830
   },
   {
-    name: "阴森树枝",
+    name: "Spooky Twig",
     id: 1831
   },
   {
-    name: "阴森头盔",
+    name: "Spooky Helmet",
     id: 1832
   },
   {
-    name: "阴森胸甲",
+    name: "Spooky Breastplate",
     id: 1833
   },
   {
-    name: "阴森护胫",
+    name: "Spooky Leggings",
     id: 1834
   },
   {
-    name: "尖桩发射器",
+    name: "Stake Launcher",
     id: 1835
   },
   {
-    name: "尖桩",
+    name: "Stake",
     id: 1836
   },
   {
-    name: "诅咒树苗",
+    name: "Cursed Sapling",
     id: 1837
   },
   {
-    name: "太空生物面具",
+    name: "Space Creature Mask",
     id: 1838
   },
   {
-    name: "太空生物上衣",
+    name: "Space Creature Shirt",
     id: 1839
   },
   {
-    name: "太空生物裤",
+    name: "Space Creature Pants",
     id: 1840
   },
   {
-    name: "狼面具",
+    name: "Wolf Mask",
     id: 1841
   },
   {
-    name: "狼上衣",
+    name: "Wolf Shirt",
     id: 1842
   },
   {
-    name: "狼裤",
+    name: "Wolf Pants",
     id: 1843
   },
   {
-    name: "南瓜月勋章",
+    name: "Pumpkin Moon Medallion",
     id: 1844
   },
   {
-    name: "死灵卷轴",
+    name: "Necromantic Scroll",
     id: 1845
   },
   {
-    name: "杰克骷髅王",
+    name: "Jacking Skeletron",
     id: 1846
   },
   {
-    name: "苦痛丰收",
+    name: "Bitter Harvest",
     id: 1847
   },
   {
-    name: "血月伯爵夫人",
+    name: "Blood Moon Countess",
     id: 1848
   },
   {
-    name: "万圣夜",
+    name: "Hallow's Eve",
     id: 1849
   },
   {
-    name: "病态好奇心",
+    name: "Morbid Curiosity",
     id: 1850
   },
   {
-    name: "宝藏猎人上衣",
+    name: "Treasure Hunter Shirt",
     id: 1851
   },
   {
-    name: "宝藏猎人裤",
+    name: "Treasure Hunter Pants",
     id: 1852
   },
   {
-    name: "树妖遮羞布",
+    name: "Dryad Coverings",
     id: 1853
   },
   {
-    name: "树妖缠腰布",
+    name: "Dryad Loincloth",
     id: 1854
   },
   {
-    name: "哀木纪念章",
+    name: "Mourning Wood Trophy",
     id: 1855
   },
   {
-    name: "南瓜王纪念章",
+    name: "Pumpking Trophy",
     id: 1856
   },
   {
-    name: "杰克南瓜灯面具",
+    name: "Jack 'O Lantern Mask",
     id: 1857
   },
   {
-    name: "狙击镜",
+    name: "Sniper Scope",
     id: 1858
   },
   {
-    name: "心形灯笼",
+    name: "Heart Lantern",
     id: 1859
   },
   {
-    name: "水母潜水装备",
+    name: "Jellyfish Diving Gear",
     id: 1860
   },
   {
-    name: "北极潜水装备",
+    name: "Arctic Diving Gear",
     id: 1861
   },
   {
-    name: "霜花靴",
+    name: "Frostspark Boots",
     id: 1862
   },
   {
-    name: "放屁气球",
+    name: "Fart in a Balloon",
     id: 1863
   },
   {
-    name: "甲虫莎草纸",
+    name: "Papyrus Scarab",
     id: 1864
   },
   {
-    name: "天界石",
+    name: "Celestial Stone",
     id: 1865
   },
   {
-    name: "悬浮板",
+    name: "Hoverboard",
     id: 1866
   },
   {
-    name: "拐杖糖",
+    name: "Candy Cane",
     id: 1867
   },
   {
-    name: "蜜李",
+    name: "Sugar Plum",
     id: 1868
   },
   {
-    name: "礼物",
+    name: "Present",
     id: 1869
   },
   {
-    name: "红莱德枪",
+    name: "Red Ryder",
     id: 1870
   },
   {
-    name: "喜庆之翼",
+    name: "Festive Wings",
     id: 1871
   },
   {
-    name: "松树块",
+    name: "Pine Tree Block",
     id: 1872
   },
   {
-    name: "圣诞树",
+    name: "Christmas Tree",
     id: 1873
   },
   {
-    name: "星星顶饰1",
+    name: "Star Topper 1",
     id: 1874
   },
   {
-    name: "星星顶饰2",
+    name: "Star Topper 2",
     id: 1875
   },
   {
-    name: "星星顶饰3",
+    name: "Star Topper 3",
     id: 1876
   },
   {
-    name: "蝴蝶结顶饰",
+    name: "Bow Topper",
     id: 1877
   },
   {
-    name: "白色花环",
+    name: "White Garland",
     id: 1878
   },
   {
-    name: "白红花环",
+    name: "White and Red Garland",
     id: 1879
   },
   {
-    name: "红色花环",
+    name: "Red Garland",
     id: 1880
   },
   {
-    name: "红绿花环",
+    name: "Red and Green Garland",
     id: 1881
   },
   {
-    name: "绿色花环",
+    name: "Green Garland",
     id: 1882
   },
   {
-    name: "绿白花环",
+    name: "Green and White Garland",
     id: 1883
   },
   {
-    name: "五彩灯泡",
+    name: "Multicolored Bulb",
     id: 1884
   },
   {
-    name: "红色灯泡",
+    name: "Red Bulb",
     id: 1885
   },
   {
-    name: "黄色灯泡",
+    name: "Yellow Bulb",
     id: 1886
   },
   {
-    name: "绿色灯泡",
+    name: "Green Bulb",
     id: 1887
   },
   {
-    name: "红绿灯泡",
+    name: "Red and Green Bulb",
     id: 1888
   },
   {
-    name: "黄绿灯泡",
+    name: "Yellow and Green Bulb",
     id: 1889
   },
   {
-    name: "红黄灯泡",
+    name: "Red and Yellow Bulb",
     id: 1890
   },
   {
-    name: "白色灯泡",
+    name: "White Bulb",
     id: 1891
   },
   {
-    name: "白红灯泡",
+    name: "White and Red Bulb",
     id: 1892
   },
   {
-    name: "白黄灯泡",
+    name: "White and Yellow Bulb",
     id: 1893
   },
   {
-    name: "白绿灯泡",
+    name: "White and Green Bulb",
     id: 1894
   },
   {
-    name: "五彩灯",
+    name: "Multicolored Lights",
     id: 1895
   },
   {
-    name: "红灯",
+    name: "Red Lights",
     id: 1896
   },
   {
-    name: "绿灯",
+    name: "Green Lights",
     id: 1897
   },
   {
-    name: "蓝灯",
+    name: "Blue Lights",
     id: 1898
   },
   {
-    name: "黄灯",
+    name: "Yellow Lights",
     id: 1899
   },
   {
-    name: "红黄灯",
+    name: "Red and Yellow Lights",
     id: 1900
   },
   {
-    name: "红绿灯",
+    name: "Red and Green Lights",
     id: 1901
   },
   {
-    name: "黄绿灯",
+    name: "Yellow and Green Lights",
     id: 1902
   },
   {
-    name: "蓝绿灯",
+    name: "Blue and Green Lights",
     id: 1903
   },
   {
-    name: "红蓝灯",
+    name: "Red and Blue Lights",
     id: 1904
   },
   {
-    name: "蓝黄灯",
+    name: "Blue and Yellow Lights",
     id: 1905
   },
   {
-    name: "巨型蝴蝶结",
+    name: "Giant Bow",
     id: 1906
   },
   {
-    name: "驯鹿角",
+    name: "Reindeer Antlers",
     id: 1907
   },
   {
-    name: "冬青",
+    name: "Holly",
     id: 1908
   },
   {
-    name: "拐杖糖剑",
+    name: "Candy Cane Sword",
     id: 1909
   },
   {
-    name: "精灵熔解器",
+    name: "Elf Melter",
     id: 1910
   },
   {
-    name: "圣诞布丁",
+    name: "Christmas Pudding",
     id: 1911
   },
   {
-    name: "蛋奶酒",
+    name: "Eggnog",
     id: 1912
   },
   {
-    name: "八角茴香",
+    name: "Star Anise",
     id: 1913
   },
   {
-    name: "驯鹿铃铛",
+    name: "Reindeer Bells",
     id: 1914
   },
   {
-    name: "拐杖糖钩",
+    name: "Candy Cane Hook",
     id: 1915
   },
   {
-    name: "圣诞钩",
+    name: "Christmas Hook",
     id: 1916
   },
   {
-    name: "拐杖糖镐",
+    name: "Candy Cane Pickaxe",
     id: 1917
   },
   {
-    name: "水果蛋糕回旋镖",
+    name: "Fruitcake Chakram",
     id: 1918
   },
   {
-    name: "糖饼干",
+    name: "Sugar Cookie",
     id: 1919
   },
   {
-    name: "姜饼饼干",
+    name: "Gingerbread Cookie",
     id: 1920
   },
   {
-    name: "暖手宝",
+    name: "Hand Warmer",
     id: 1921
   },
   {
-    name: "煤",
+    name: "Coal",
     id: 1922
   },
   {
-    name: "工具箱",
+    name: "Toolbox",
     id: 1923
   },
   {
-    name: "松树门",
+    name: "Pine Door",
     id: 1924
   },
   {
-    name: "松树椅",
+    name: "Pine Chair",
     id: 1925
   },
   {
-    name: "松树桌",
+    name: "Pine Table",
     id: 1926
   },
   {
-    name: "狗哨",
+    name: "Dog Whistle",
     id: 1927
   },
   {
-    name: "圣诞树剑",
+    name: "Christmas Tree Sword",
     id: 1928
   },
   {
-    name: "链式机枪",
+    name: "Chain Gun",
     id: 1929
   },
   {
-    name: "松叶快刀",
+    name: "Razorpine",
     id: 1930
   },
   {
-    name: "暴雪法杖",
+    name: "Blizzard Staff",
     id: 1931
   },
   {
-    name: "圣诞夫人帽",
+    name: "Mrs. Claus Hat",
     id: 1932
   },
   {
-    name: "圣诞夫人衣",
+    name: "Mrs. Claus Shirt",
     id: 1933
   },
   {
-    name: "圣诞夫人高跟鞋",
+    name: "Mrs. Claus Heels",
     id: 1934
   },
   {
-    name: "派克大衣兜帽",
+    name: "Parka Hood",
     id: 1935
   },
   {
-    name: "派克大衣",
+    name: "Parka Coat",
     id: 1936
   },
   {
-    name: "派克大衣裤",
+    name: "Parka Pants",
     id: 1937
   },
   {
-    name: "雪帽",
+    name: "Snow Hat",
     id: 1938
   },
   {
-    name: "丑毛衣",
+    name: "Ugly Sweater",
     id: 1939
   },
   {
-    name: "树面具",
+    name: "Tree Mask",
     id: 1940
   },
   {
-    name: "树衫",
+    name: "Tree Shirt",
     id: 1941
   },
   {
-    name: "树裤",
+    name: "Tree Trunks",
     id: 1942
   },
   {
-    name: "精灵帽",
+    name: "Elf Hat",
     id: 1943
   },
   {
-    name: "精灵衫",
+    name: "Elf Shirt",
     id: 1944
   },
   {
-    name: "精灵裤",
+    name: "Elf Pants",
     id: 1945
   },
   {
-    name: "雪人炮",
+    name: "Snowman Cannon",
     id: 1946
   },
   {
-    name: "北极",
+    name: "North Pole",
     id: 1947
   },
   {
-    name: "圣诞树壁纸",
+    name: "Christmas Tree Wallpaper",
     id: 1948
   },
   {
-    name: "装饰壁纸",
+    name: "Ornament Wallpaper",
     id: 1949
   },
   {
-    name: "拐杖糖壁纸",
+    name: "Candy Cane Wallpaper",
     id: 1950
   },
   {
-    name: "喜庆壁纸",
+    name: "Festive Wallpaper",
     id: 1951
   },
   {
-    name: "星星壁纸",
+    name: "Stars Wallpaper",
     id: 1952
   },
   {
-    name: "波浪壁纸",
+    name: "Squiggles Wallpaper",
     id: 1953
   },
   {
-    name: "雪花壁纸",
+    name: "Snowflake Wallpaper",
     id: 1954
   },
   {
-    name: "坎普斯角壁纸",
+    name: "Krampus Horn Wallpaper",
     id: 1955
   },
   {
-    name: "蓝绿壁纸",
+    name: "Bluegreen Wallpaper",
     id: 1956
   },
   {
-    name: "格林奇手指壁纸",
+    name: "Grinch Finger Wallpaper",
     id: 1957
   },
   {
-    name: "淘气礼物",
+    name: "Naughty Present",
     id: 1958
   },
   {
-    name: "小格林奇的恶作剧口哨",
+    name: "Baby Grinch's Mischief Whistle",
     id: 1959
   },
   {
-    name: "冰雪女王纪念章",
+    name: "Ice Queen Trophy",
     id: 1960
   },
   {
-    name: "圣诞坦克纪念章",
+    name: "Santa-NK1 Trophy",
     id: 1961
   },
   {
-    name: "常绿尖叫怪纪念章",
+    name: "Everscream Trophy",
     id: 1962
   },
   {
-    name: "八音盒（南瓜月）",
+    name: "Music Box (Pumpkin Moon)",
     id: 1963
   },
   {
-    name: "八音盒（地下）",
+    name: "Music Box (Alt Underground)",
     id: 1964
   },
   {
-    name: "八音盒（霜月）",
+    name: "Music Box (Frost Moon)",
     id: 1965
   },
   {
-    name: "棕色涂料",
+    name: "Brown Paint",
     id: 1966
   },
   {
-    name: "暗影涂料",
+    name: "Shadow Paint",
     id: 1967
   },
   {
-    name: "负色涂料",
+    name: "Negative Paint",
     id: 1968
   },
   {
-    name: "团队染料",
+    name: "Team Dye",
     id: 1969
   },
   {
-    name: "紫晶宝石块",
+    name: "Amethyst Gemspark Block",
     id: 1970
   },
   {
-    name: "黄玉宝石块",
+    name: "Topaz Gemspark Block",
     id: 1971
   },
   {
-    name: "蓝玉宝石块",
+    name: "Sapphire Gemspark Block",
     id: 1972
   },
   {
-    name: "翡翠宝石块",
+    name: "Emerald Gemspark Block",
     id: 1973
   },
   {
-    name: "红玉宝石块",
+    name: "Ruby Gemspark Block",
     id: 1974
   },
   {
-    name: "钻石宝石块",
+    name: "Diamond Gemspark Block",
     id: 1975
   },
   {
-    name: "琥珀宝石块",
+    name: "Amber Gemspark Block",
     id: 1976
   },
   {
-    name: "生命染发剂",
+    name: "Life Hair Dye",
     id: 1977
   },
   {
-    name: "魔力染发剂",
+    name: "Mana Hair Dye",
     id: 1978
   },
   {
-    name: "深度染发剂",
+    name: "Depth Hair Dye",
     id: 1979
   },
   {
-    name: "钱币染发剂",
+    name: "Money Hair Dye",
     id: 1980
   },
   {
-    name: "时间染发剂",
+    name: "Time Hair Dye",
     id: 1981
   },
   {
-    name: "团队染发剂",
+    name: "Team Hair Dye",
     id: 1982
   },
   {
-    name: "生物群落染发剂",
+    name: "Biome Hair Dye",
     id: 1983
   },
   {
-    name: "派对染发剂",
+    name: "Party Hair Dye",
     id: 1984
   },
   {
-    name: "彩虹染发剂",
+    name: "Rainbow Hair Dye",
     id: 1985
   },
   {
-    name: "速度染发剂",
+    name: "Speed Hair Dye",
     id: 1986
   },
   {
-    name: "天使光环",
+    name: "Angel Halo",
     id: 1987
   },
   {
-    name: "土耳其毡帽",
+    name: "Fez",
     id: 1988
   },
   {
-    name: "女性人体模型",
+    name: "Womannequin",
     id: 1989
   },
   {
-    name: "染发剂去除剂",
+    name: "Hair Dye Remover",
     id: 1990
   },
   {
-    name: "捕虫网",
+    name: "Bug Net",
     id: 1991
   },
   {
-    name: "萤火虫",
+    name: "Firefly",
     id: 1992
   },
   {
-    name: "瓶装萤火虫",
+    name: "Firefly in a Bottle",
     id: 1993
   },
   {
-    name: "君主蝴蝶",
+    name: "Monarch Butterfly",
     id: 1994
   },
   {
-    name: "紫蛱蝶",
+    name: "Purple Emperor Butterfly",
     id: 1995
   },
   {
-    name: "红蛱蝶",
+    name: "Red Admiral Butterfly",
     id: 1996
   },
   {
-    name: "尤利西斯蝴蝶",
+    name: "Ulysses Butterfly",
     id: 1997
   },
   {
-    name: "硫磺蝴蝶",
+    name: "Sulphur Butterfly",
     id: 1998
   },
   {
-    name: "树若虫蝴蝶",
+    name: "Tree Nymph Butterfly",
     id: 1999
   },
   {
-    name: "斑马燕尾蝶",
+    name: "Zebra Swallowtail Butterfly",
     id: 2000
   },
   {
-    name: "朱莉娅蝴蝶",
+    name: "Julia Butterfly",
     id: 2001
   },
   {
-    name: "蠕虫",
+    name: "Worm",
     id: 2002
   },
   {
-    name: "老鼠",
+    name: "Mouse",
     id: 2003
   },
   {
-    name: "萤火虫",
+    name: "Lightning Bug",
     id: 2004
   },
   {
-    name: "瓶装萤火虫",
+    name: "Lightning Bug in a Bottle",
     id: 2005
   },
   {
-    name: "蜗牛",
+    name: "Snail",
     id: 2006
   },
   {
-    name: "发光蜗牛",
+    name: "Glowing Snail",
     id: 2007
   },
   {
-    name: "花式灰色壁纸",
+    name: "Fancy Gray Wallpaper",
     id: 2008
   },
   {
-    name: "浮冰壁纸",
+    name: "Ice Floe Wallpaper",
     id: 2009
   },
   {
-    name: "音乐壁纸",
+    name: "Music Wallpaper",
     id: 2010
   },
   {
-    name: "紫雨壁纸",
+    name: "Purple Rain Wallpaper",
     id: 2011
   },
   {
-    name: "彩虹壁纸",
+    name: "Rainbow Wallpaper",
     id: 2012
   },
   {
-    name: "火花石壁纸",
+    name: "Sparkle Stone Wallpaper",
     id: 2013
   },
   {
-    name: "星光天堂壁纸",
+    name: "Starlit Heaven Wallpaper",
     id: 2014
   },
   {
-    name: "鸟",
+    name: "Bird",
     id: 2015
   },
   {
-    name: "蓝松鸦",
+    name: "Blue Jay",
     id: 2016
   },
   {
-    name: "红衣凤头鸟",
+    name: "Cardinal",
     id: 2017
   },
   {
-    name: "松鼠",
+    name: "Squirrel",
     id: 2018
   },
   {
-    name: "兔兔",
+    name: "Bunny",
     id: 2019
   },
   {
-    name: "仙人掌书架",
+    name: "Cactus Bookcase",
     id: 2020
   },
   {
-    name: "乌木书架",
+    name: "Ebonwood Bookcase",
     id: 2021
   },
   {
-    name: "血肉书架",
+    name: "Flesh Bookcase",
     id: 2022
   },
   {
-    name: "蜂蜜书架",
+    name: "Honey Bookcase",
     id: 2023
   },
   {
-    name: "蒸汽朋克书架",
+    name: "Steampunk Bookcase",
     id: 2024
   },
   {
-    name: "玻璃书架",
+    name: "Glass Bookcase",
     id: 2025
   },
   {
-    name: "红木书架",
+    name: "Rich Mahogany Bookcase",
     id: 2026
   },
   {
-    name: "珍珠木书架",
+    name: "Pearlwood Bookcase",
     id: 2027
   },
   {
-    name: "阴森书架",
+    name: "Spooky Bookcase",
     id: 2028
   },
   {
-    name: "天域书架",
+    name: "Skyware Bookcase",
     id: 2029
   },
   {
-    name: "丛林蜥蜴书架",
+    name: "Lihzahrd Bookcase",
     id: 2030
   },
   {
-    name: "冰冻书架",
+    name: "Frozen Bookcase",
     id: 2031
   },
   {
-    name: "仙人掌灯笼",
+    name: "Cactus Lantern",
     id: 2032
   },
   {
-    name: "乌木灯笼",
+    name: "Ebonwood Lantern",
     id: 2033
   },
   {
-    name: "血肉灯笼",
+    name: "Flesh Lantern",
     id: 2034
   },
   {
-    name: "蜂蜜灯笼",
+    name: "Honey Lantern",
     id: 2035
   },
   {
-    name: "蒸汽朋克灯笼",
+    name: "Steampunk Lantern",
     id: 2036
   },
   {
-    name: "玻璃灯笼",
+    name: "Glass Lantern",
     id: 2037
   },
   {
-    name: "红木灯笼",
+    name: "Rich Mahogany Lantern",
     id: 2038
   },
   {
-    name: "珍珠木灯笼",
+    name: "Pearlwood Lantern",
     id: 2039
   },
   {
-    name: "冰冻灯笼",
+    name: "Frozen Lantern",
     id: 2040
   },
   {
-    name: "丛林蜥蜴灯笼",
+    name: "Lihzahrd Lantern",
     id: 2041
   },
   {
-    name: "天域灯笼",
+    name: "Skyware Lantern",
     id: 2042
   },
   {
-    name: "阴森灯笼",
+    name: "Spooky Lantern",
     id: 2043
   },
   {
-    name: "冰冻门",
+    name: "Frozen Door",
     id: 2044
   },
   {
-    name: "仙人掌蜡烛",
+    name: "Cactus Candle",
     id: 2045
   },
   {
-    name: "乌木蜡烛",
+    name: "Ebonwood Candle",
     id: 2046
   },
   {
-    name: "血肉蜡烛",
+    name: "Flesh Candle",
     id: 2047
   },
   {
-    name: "玻璃蜡烛",
+    name: "Glass Candle",
     id: 2048
   },
   {
-    name: "冰冻蜡烛",
+    name: "Frozen Candle",
     id: 2049
   },
   {
-    name: "红木蜡烛",
+    name: "Rich Mahogany Candle",
     id: 2050
   },
   {
-    name: "珍珠木蜡烛",
+    name: "Pearlwood Candle",
     id: 2051
   },
   {
-    name: "丛林蜥蜴蜡烛",
+    name: "Lihzahrd Candle",
     id: 2052
   },
   {
-    name: "天域蜡烛",
+    name: "Skyware Candle",
     id: 2053
   },
   {
-    name: "南瓜蜡烛",
+    name: "Pumpkin Candle",
     id: 2054
   },
   {
-    name: "仙人掌吊灯",
+    name: "Cactus Chandelier",
     id: 2055
   },
   {
-    name: "乌木吊灯",
+    name: "Ebonwood Chandelier",
     id: 2056
   },
   {
-    name: "血肉吊灯",
+    name: "Flesh Chandelier",
     id: 2057
   },
   {
-    name: "蜂蜜吊灯",
+    name: "Honey Chandelier",
     id: 2058
   },
   {
-    name: "冰冻吊灯",
+    name: "Frozen Chandelier",
     id: 2059
   },
   {
-    name: "红木吊灯",
+    name: "Rich Mahogany Chandelier",
     id: 2060
   },
   {
-    name: "珍珠木吊灯",
+    name: "Pearlwood Chandelier",
     id: 2061
   },
   {
-    name: "丛林蜥蜴吊灯",
+    name: "Lihzahrd Chandelier",
     id: 2062
   },
   {
-    name: "天域吊灯",
+    name: "Skyware Chandelier",
     id: 2063
   },
   {
-    name: "阴森吊灯",
+    name: "Spooky Chandelier",
     id: 2064
   },
   {
-    name: "玻璃吊灯",
+    name: "Glass Chandelier",
     id: 2065
   },
   {
-    name: "仙人掌床",
+    name: "Cactus Bed",
     id: 2066
   },
   {
-    name: "血肉床",
+    name: "Flesh Bed",
     id: 2067
   },
   {
-    name: "冰冻床",
+    name: "Frozen Bed",
     id: 2068
   },
   {
-    name: "丛林蜥蜴床",
+    name: "Lihzahrd Bed",
     id: 2069
   },
   {
-    name: "天域床",
+    name: "Skyware Bed",
     id: 2070
   },
   {
-    name: "阴森床",
+    name: "Spooky Bed",
     id: 2071
   },
   {
-    name: "仙人掌浴缸",
+    name: "Cactus Bathtub",
     id: 2072
   },
   {
-    name: "乌木浴缸",
+    name: "Ebonwood Bathtub",
     id: 2073
   },
   {
-    name: "血肉浴缸",
+    name: "Flesh Bathtub",
     id: 2074
   },
   {
-    name: "玻璃浴缸",
+    name: "Glass Bathtub",
     id: 2075
   },
   {
-    name: "冰冻浴缸",
+    name: "Frozen Bathtub",
     id: 2076
   },
   {
-    name: "红木浴缸",
+    name: "Rich Mahogany Bathtub",
     id: 2077
   },
   {
-    name: "珍珠木浴缸",
+    name: "Pearlwood Bathtub",
     id: 2078
   },
   {
-    name: "丛林蜥蜴浴缸",
+    name: "Lihzahrd Bathtub",
     id: 2079
   },
   {
-    name: "天域浴缸",
+    name: "Skyware Bathtub",
     id: 2080
   },
   {
-    name: "阴森浴缸",
+    name: "Spooky Bathtub",
     id: 2081
   },
   {
-    name: "仙人掌灯",
+    name: "Cactus Lamp",
     id: 2082
   },
   {
-    name: "乌木灯",
+    name: "Ebonwood Lamp",
     id: 2083
   },
   {
-    name: "血肉灯",
+    name: "Flesh Lamp",
     id: 2084
   },
   {
-    name: "玻璃灯",
+    name: "Glass Lamp",
     id: 2085
   },
   {
-    name: "冰冻灯",
+    name: "Frozen Lamp",
     id: 2086
   },
   {
-    name: "红木灯",
+    name: "Rich Mahogany Lamp",
     id: 2087
   },
   {
-    name: "珍珠木灯",
+    name: "Pearlwood Lamp",
     id: 2088
   },
   {
-    name: "丛林蜥蜴灯",
+    name: "Lihzahrd Lamp",
     id: 2089
   },
   {
-    name: "天域灯",
+    name: "Skyware Lamp",
     id: 2090
   },
   {
-    name: "阴森灯",
+    name: "Spooky Lamp",
     id: 2091
   },
   {
-    name: "仙人掌烛台",
+    name: "Cactus Candelabra",
     id: 2092
   },
   {
-    name: "乌木烛台",
+    name: "Ebonwood Candelabra",
     id: 2093
   },
   {
-    name: "血肉烛台",
+    name: "Flesh Candelabra",
     id: 2094
   },
   {
-    name: "蜂蜜烛台",
+    name: "Honey Candelabra",
     id: 2095
   },
   {
-    name: "蒸汽朋克烛台",
+    name: "Steampunk Candelabra",
     id: 2096
   },
   {
-    name: "玻璃烛台",
+    name: "Glass Candelabra",
     id: 2097
   },
   {
-    name: "红木烛台",
+    name: "Rich Mahogany Candelabra",
     id: 2098
   },
   {
-    name: "珍珠木烛台",
+    name: "Pearlwood Candelabra",
     id: 2099
   },
   {
-    name: "冰冻烛台",
+    name: "Frozen Candelabra",
     id: 2100
   },
   {
-    name: "丛林蜥蜴烛台",
+    name: "Lihzahrd Candelabra",
     id: 2101
   },
   {
-    name: "天域烛台",
+    name: "Skyware Candelabra",
     id: 2102
   },
   {
-    name: "阴森烛台",
+    name: "Spooky Candelabra",
     id: 2103
   },
   {
-    name: "克苏鲁之脑面具",
+    name: "Brain of Cthulhu Mask",
     id: 2104
   },
   {
-    name: "血肉墙面具",
+    name: "Wall of Flesh Mask",
     id: 2105
   },
   {
-    name: "双子魔眼面具",
+    name: "Twin Mask",
     id: 2106
   },
   {
-    name: "机械骷髅王面具",
+    name: "Skeletron Prime Mask",
     id: 2107
   },
   {
-    name: "蜂后面具",
+    name: "Queen Bee Mask",
     id: 2108
   },
   {
-    name: "世纪之花面具",
+    name: "Plantera Mask",
     id: 2109
   },
   {
-    name: "石巨人面具",
+    name: "Golem Mask",
     id: 2110
   },
   {
-    name: "世界吞噬怪面具",
+    name: "Eater of Worlds Mask",
     id: 2111
   },
   {
-    name: "克苏鲁之眼面具",
+    name: "Eye of Cthulhu Mask",
     id: 2112
   },
   {
-    name: "毁灭者面具",
+    name: "Destroyer Mask",
     id: 2113
   },
   {
-    name: "铁匠架",
+    name: "Blacksmith Rack",
     id: 2114
   },
   {
-    name: "木工架",
+    name: "Carpentry Rack",
     id: 2115
   },
   {
-    name: "头盔架",
+    name: "Helmet Rack",
     id: 2116
   },
   {
-    name: "长矛架",
+    name: "Spear Rack",
     id: 2117
   },
   {
-    name: "剑架",
+    name: "Sword Rack",
     id: 2118
   },
   {
-    name: "石板块",
+    name: "Stone Slab",
     id: 2119
   },
   {
-    name: "沙岩板块",
+    name: "Sandstone Slab",
     id: 2120
   },
   {
-    name: "青蛙",
+    name: "Frog",
     id: 2121
   },
   {
-    name: "绿头鸭",
+    name: "Mallard Duck",
     id: 2122
   },
   {
-    name: "鸭",
+    name: "Duck",
     id: 2123
   },
   {
-    name: "蜂蜜浴缸",
+    name: "Honey Bathtub",
     id: 2124
   },
   {
-    name: "蒸汽朋克浴缸",
+    name: "Steampunk Bathtub",
     id: 2125
   },
   {
-    name: "生命木浴缸",
+    name: "Living Wood Bathtub",
     id: 2126
   },
   {
-    name: "暗影木浴缸",
+    name: "Shadewood Bathtub",
     id: 2127
   },
   {
-    name: "骨头浴缸",
+    name: "Bone Bathtub",
     id: 2128
   },
   {
-    name: "蜂蜜灯",
+    name: "Honey Lamp",
     id: 2129
   },
   {
-    name: "蒸汽朋克灯",
+    name: "Steampunk Lamp",
     id: 2130
   },
   {
-    name: "生命木灯",
+    name: "Living Wood Lamp",
     id: 2131
   },
   {
-    name: "暗影木灯",
+    name: "Shadewood Lamp",
     id: 2132
   },
   {
-    name: "金灯",
+    name: "Golden Lamp",
     id: 2133
   },
   {
-    name: "骨头灯",
+    name: "Bone Lamp",
     id: 2134
   },
   {
-    name: "生命木书架",
+    name: "Living Wood Bookcase",
     id: 2135
   },
   {
-    name: "暗影木书架",
+    name: "Shadewood Bookcase",
     id: 2136
   },
   {
-    name: "金书架",
+    name: "Golden Bookcase",
     id: 2137
   },
   {
-    name: "骨头书架",
+    name: "Bone Bookcase",
     id: 2138
   },
   {
-    name: "生命木床",
+    name: "Living Wood Bed",
     id: 2139
   },
   {
-    name: "骨头床",
+    name: "Bone Bed",
     id: 2140
   },
   {
-    name: "生命木吊灯",
+    name: "Living Wood Chandelier",
     id: 2141
   },
   {
-    name: "暗影木吊灯",
+    name: "Shadewood Chandelier",
     id: 2142
   },
   {
-    name: "金吊灯",
+    name: "Golden Chandelier",
     id: 2143
   },
   {
-    name: "骨头吊灯",
+    name: "Bone Chandelier",
     id: 2144
   },
   {
-    name: "生命木灯笼",
+    name: "Living Wood Lantern",
     id: 2145
   },
   {
-    name: "暗影木灯笼",
+    name: "Shadewood Lantern",
     id: 2146
   },
   {
-    name: "金灯笼",
+    name: "Golden Lantern",
     id: 2147
   },
   {
-    name: "骨头灯笼",
+    name: "Bone Lantern",
     id: 2148
   },
   {
-    name: "生命木烛台",
+    name: "Living Wood Candelabra",
     id: 2149
   },
   {
-    name: "暗影木烛台",
+    name: "Shadewood Candelabra",
     id: 2150
   },
   {
-    name: "金烛台",
+    name: "Golden Candelabra",
     id: 2151
   },
   {
-    name: "骨头烛台",
+    name: "Bone Candelabra",
     id: 2152
   },
   {
-    name: "生命木蜡烛",
+    name: "Living Wood Candle",
     id: 2153
   },
   {
-    name: "暗影木蜡烛",
+    name: "Shadewood Candle",
     id: 2154
   },
   {
-    name: "金蜡烛",
+    name: "Golden Candle",
     id: 2155
   },
   {
-    name: "黑蝎子",
+    name: "Black Scorpion",
     id: 2156
   },
   {
-    name: "蝎子",
+    name: "Scorpion",
     id: 2157
   },
   {
-    name: "泡泡墙纸",
+    name: "Bubble Wallpaper",
     id: 2158
   },
   {
-    name: "铜管墙纸",
+    name: "Copper Pipe Wallpaper",
     id: 2159
   },
   {
-    name: "小鸭墙纸",
+    name: "Ducky Wallpaper",
     id: 2160
   },
   {
-    name: "寒霜核",
+    name: "Frost Core",
     id: 2161
   },
   {
-    name: "兔笼",
+    name: "Bunny Cage",
     id: 2162
   },
   {
-    name: "松鼠笼",
+    name: "Squirrel Cage",
     id: 2163
   },
   {
-    name: "绿头鸭笼",
+    name: "Mallard Duck Cage",
     id: 2164
   },
   {
-    name: "鸭笼",
+    name: "Duck Cage",
     id: 2165
   },
   {
-    name: "鸟笼",
+    name: "Bird Cage",
     id: 2166
   },
   {
-    name: "蓝松鸦笼",
+    name: "Blue Jay Cage",
     id: 2167
   },
   {
-    name: "红衣凤头鸟笼",
+    name: "Cardinal Cage",
     id: 2168
   },
   {
-    name: "瀑布墙",
+    name: "Waterfall Wall",
     id: 2169
   },
   {
-    name: "熔岩瀑布墙",
+    name: "Lavafall Wall",
     id: 2170
   },
   {
-    name: "猩红种子",
+    name: "Crimson Seeds",
     id: 2171
   },
   {
-    name: "重型工作台",
+    name: "Heavy Assembler",
     id: 2172
   },
   {
-    name: "铜镀层",
+    name: "Copper Plating",
     id: 2173
   },
   {
-    name: "蜗牛笼",
+    name: "Snail Cage",
     id: 2174
   },
   {
-    name: "发光蜗牛笼",
+    name: "Glowing Snail Cage",
     id: 2175
   },
   {
-    name: "蘑菇矿挖爪",
+    name: "Shroomite Digging Claw",
     id: 2176
   },
   {
-    name: "弹药箱",
+    name: "Ammo Box",
     id: 2177
   },
   {
-    name: "君主蝴蝶罐",
+    name: "Monarch Butterfly Jar",
     id: 2178
   },
   {
-    name: "紫蛱蝶罐",
+    name: "Purple Emperor Butterfly Jar",
     id: 2179
   },
   {
-    name: "红蛱蝶罐",
+    name: "Red Admiral Butterfly Jar",
     id: 2180
   },
   {
-    name: "尤利西斯蝴蝶罐",
+    name: "Ulysses Butterfly Jar",
     id: 2181
   },
   {
-    name: "硫磺蝴蝶罐",
+    name: "Sulphur Butterfly Jar",
     id: 2182
   },
   {
-    name: "树若虫蝴蝶罐",
+    name: "Tree Nymph Butterfly Jar",
     id: 2183
   },
   {
-    name: "斑马燕尾蝶罐",
+    name: "Zebra Swallowtail Butterfly Jar",
     id: 2184
   },
   {
-    name: "朱莉娅蝴蝶罐",
+    name: "Julia Butterfly Jar",
     id: 2185
   },
   {
-    name: "蝎子笼",
+    name: "Scorpion Cage",
     id: 2186
   },
   {
-    name: "黑蝎子笼",
+    name: "Black Scorpion Cage",
     id: 2187
   },
   {
-    name: "毒液法杖",
+    name: "Venom Staff",
     id: 2188
   },
   {
-    name: "幽灵面具",
+    name: "Spectre Mask",
     id: 2189
   },
   {
-    name: "青蛙笼",
+    name: "Frog Cage",
     id: 2190
   },
   {
-    name: "老鼠笼",
+    name: "Mouse Cage",
     id: 2191
   },
   {
-    name: "骨头焊机",
+    name: "Bone Welder",
     id: 2192
   },
   {
-    name: "血肉克隆缸",
+    name: "Flesh Cloning Vat",
     id: 2193
   },
   {
-    name: "玻璃窑",
+    name: "Glass Kiln",
     id: 2194
   },
   {
-    name: "丛林蜥蜴熔炉",
+    name: "Lihzahrd Furnace",
     id: 2195
   },
   {
-    name: "生命织机",
+    name: "Living Loom",
     id: 2196
   },
   {
-    name: "天磨",
+    name: "Sky Mill",
     id: 2197
   },
   {
-    name: "冰雪机",
+    name: "Ice Machine",
     id: 2198
   },
   {
-    name: "甲虫头盔",
+    name: "Beetle Helmet",
     id: 2199
   },
   {
-    name: "甲虫鳞甲",
+    name: "Beetle Scale Mail",
     id: 2200
   },
   {
-    name: "甲虫壳",
+    name: "Beetle Shell",
     id: 2201
   },
   {
-    name: "甲虫护腿",
+    name: "Beetle Leggings",
     id: 2202
   },
   {
-    name: "蒸汽朋克锅炉",
+    name: "Steampunk Boiler",
     id: 2203
   },
   {
-    name: "蜂蜜分配机",
+    name: "Honey Dispenser",
     id: 2204
   },
   {
-    name: "企鹅",
+    name: "Penguin",
     id: 2205
   },
   {
-    name: "企鹅笼",
+    name: "Penguin Cage",
     id: 2206
   },
   {
-    name: "蠕虫笼",
+    name: "Worm Cage",
     id: 2207
   },
   {
-    name: "玻璃瓶",
+    name: "Terrarium",
     id: 2208
   },
   {
-    name: "超级魔力药水",
+    name: "Super Mana Potion",
     id: 2209
   },
   {
-    name: "乌木栅栏",
+    name: "Ebonwood Fence",
     id: 2210
   },
   {
-    name: "红木栅栏",
+    name: "Rich Mahogany Fence",
     id: 2211
   },
   {
-    name: "珍珠木栅栏",
+    name: "Pearlwood Fence",
     id: 2212
   },
   {
-    name: "暗影木栅栏",
+    name: "Shadewood Fence",
     id: 2213
   },
   {
-    name: "砖瓦层",
+    name: "Brick Layer",
     id: 2214
   },
   {
-    name: "加长握爪",
+    name: "Extendo Grip",
     id: 2215
   },
   {
-    name: "喷漆器",
+    name: "Paint Sprayer",
     id: 2216
   },
   {
-    name: "便携式水泥搅拌机",
+    name: "Portable Cement Mixer",
     id: 2217
   },
   {
-    name: "甲虫外壳",
+    name: "Beetle Husk",
     id: 2218
   },
   {
-    name: "天界磁石",
+    name: "Celestial Magnet",
     id: 2219
   },
   {
-    name: "天界徽章",
+    name: "Celestial Emblem",
     id: 2220
   },
   {
-    name: "天界手铐",
+    name: "Celestial Cuffs",
     id: 2221
   },
   {
-    name: "商贩帽",
+    name: "Peddler's Hat",
     id: 2222
   },
   {
-    name: "脉冲弓",
+    name: "Pulse Bow",
     id: 2223
   },
   {
-    name: "大型王朝灯笼",
+    name: "Large Dynasty Lantern",
     id: 2224
   },
   {
-    name: "王朝灯",
+    name: "Dynasty Lamp",
     id: 2225
   },
   {
-    name: "王朝灯笼",
+    name: "Dynasty Lantern",
     id: 2226
   },
   {
-    name: "大型王朝蜡烛",
+    name: "Large Dynasty Candle",
     id: 2227
   },
   {
-    name: "王朝椅",
+    name: "Dynasty Chair",
     id: 2228
   },
   {
-    name: "王朝工作台",
+    name: "Dynasty Work Bench",
     id: 2229
   },
   {
-    name: "王朝箱",
+    name: "Dynasty Chest",
     id: 2230
   },
   {
-    name: "王朝床",
+    name: "Dynasty Bed",
     id: 2231
   },
   {
-    name: "王朝浴缸",
+    name: "Dynasty Bathtub",
     id: 2232
   },
   {
-    name: "王朝书架",
+    name: "Dynasty Bookcase",
     id: 2233
   },
   {
-    name: "王朝杯",
+    name: "Dynasty Cup",
     id: 2234
   },
   {
-    name: "王朝碗",
+    name: "Dynasty Bowl",
     id: 2235
   },
   {
-    name: "王朝蜡烛",
+    name: "Dynasty Candle",
     id: 2236
   },
   {
-    name: "王朝钟",
+    name: "Dynasty Clock",
     id: 2237
   },
   {
-    name: "金钟",
+    name: "Golden Clock",
     id: 2238
   },
   {
-    name: "玻璃钟",
+    name: "Glass Clock",
     id: 2239
   },
   {
-    name: "蜂蜜钟",
+    name: "Honey Clock",
     id: 2240
   },
   {
-    name: "蒸汽朋克钟",
+    name: "Steampunk Clock",
     id: 2241
   },
   {
-    name: "精致餐具",
+    name: "Fancy Dishes",
     id: 2242
   },
   {
-    name: "玻璃碗",
+    name: "Glass Bowl",
     id: 2243
   },
   {
-    name: "酒杯",
+    name: "Wine Glass",
     id: 2244
   },
   {
-    name: "生命木钢琴",
+    name: "Living Wood Piano",
     id: 2245
   },
   {
-    name: "血肉钢琴",
+    name: "Flesh Piano",
     id: 2246
   },
   {
-    name: "冰冻钢琴",
+    name: "Frozen Piano",
     id: 2247
   },
   {
-    name: "冰冻桌",
+    name: "Frozen Table",
     id: 2248
   },
   {
-    name: "蜂蜜箱",
+    name: "Honey Chest",
     id: 2249
   },
   {
-    name: "蒸汽朋克箱",
+    name: "Steampunk Chest",
     id: 2250
   },
   {
-    name: "蜂蜜工作台",
+    name: "Honey Work Bench",
     id: 2251
   },
   {
-    name: "冰冻工作台",
+    name: "Frozen Work Bench",
     id: 2252
   },
   {
-    name: "蒸汽朋克工作台",
+    name: "Steampunk Work Bench",
     id: 2253
   },
   {
-    name: "玻璃钢琴",
+    name: "Glass Piano",
     id: 2254
   },
   {
-    name: "蜂蜜钢琴",
+    name: "Honey Piano",
     id: 2255
   },
   {
-    name: "蒸汽朋克钢琴",
+    name: "Steampunk Piano",
     id: 2256
   },
   {
-    name: "蜂蜜杯",
+    name: "Honey Cup",
     id: 2257
   },
   {
-    name: "圣杯",
+    name: "Chalice",
     id: 2258
   },
   {
-    name: "王朝桌",
+    name: "Dynasty Table",
     id: 2259
   },
   {
-    name: "王朝木",
+    name: "Dynasty Wood",
     id: 2260
   },
   {
-    name: "红王朝瓦",
+    name: "Red Dynasty Shingles",
     id: 2261
   },
   {
-    name: "蓝王朝瓦",
+    name: "Blue Dynasty Shingles",
     id: 2262
   },
   {
-    name: "白王朝墙",
+    name: "White Dynasty Wall",
     id: 2263
   },
   {
-    name: "蓝王朝墙",
+    name: "Blue Dynasty Wall",
     id: 2264
   },
   {
-    name: "王朝门",
+    name: "Dynasty Door",
     id: 2265
   },
   {
-    name: "清酒",
+    name: "Sake",
     id: 2266
   },
   {
-    name: "泰式炒面",
+    name: "Pad Thai",
     id: 2267
   },
   {
-    name: "河粉",
+    name: "Pho",
     id: 2268
   },
   {
-    name: "左轮手枪",
+    name: "Revolver",
     id: 2269
   },
   {
-    name: "鳄鱼机关枪",
+    name: "Gatligator",
     id: 2270
   },
   {
-    name: "奥术符文墙",
+    name: "Arcane Rune Wall",
     id: 2271
   },
   {
-    name: "水枪",
+    name: "Water Gun",
     id: 2272
   },
   {
-    name: "武士刀",
+    name: "Katana",
     id: 2273
   },
   {
-    name: "超亮火把",
+    name: "Ultrabright Torch",
     id: 2274
   },
   {
-    name: "魔法帽",
+    name: "Magic Hat",
     id: 2275
   },
   {
-    name: "钻石戒指",
+    name: "Diamond Ring",
     id: 2276
   },
   {
-    name: "武术服",
+    name: "Gi",
     id: 2277
   },
   {
-    name: "和服",
+    name: "Kimono",
     id: 2278
   },
   {
-    name: "神秘长袍",
+    name: "Mystic Robe",
     id: 2279
   },
   {
-    name: "甲虫翅膀",
+    name: "Beetle Wings",
     id: 2280
   },
   {
-    name: "虎皮",
+    name: "Tiger Skin",
     id: 2281
   },
   {
-    name: "豹皮",
+    name: "Leopard Skin",
     id: 2282
   },
   {
-    name: "斑马皮",
+    name: "Zebra Skin",
     id: 2283
   },
   {
-    name: "猩红斗篷",
+    name: "Crimson Cloak",
     id: 2284
   },
   {
-    name: "神秘披风",
+    name: "Mysterious Cape",
     id: 2285
   },
   {
-    name: "红披风",
+    name: "Red Cape",
     id: 2286
   },
   {
-    name: "冬季披风",
+    name: "Winter Cape",
     id: 2287
   },
   {
-    name: "冰冻椅",
+    name: "Frozen Chair",
     id: 2288
   },
   {
-    name: "木钓竿",
+    name: "Wood Fishing Pole",
     id: 2289
   },
   {
-    name: "鲈鱼",
+    name: "Bass",
     id: 2290
   },
   {
-    name: "强化钓竿",
+    name: "Reinforced Fishing Pole",
     id: 2291
   },
   {
-    name: "玻璃钢钓竿",
+    name: "Fiberglass Fishing Pole",
     id: 2292
   },
   {
-    name: "灵魂钓手",
+    name: "Fisher of Souls",
     id: 2293
   },
   {
-    name: "金钓竿",
+    name: "Golden Fishing Rod",
     id: 2294
   },
   {
-    name: "机械师钓竿",
+    name: "Mechanic's Rod",
     id: 2295
   },
   {
-    name: "呆鸭钓竿",
+    name: "Sitting Duck's Fishing Pole",
     id: 2296
   },
   {
-    name: "鳟鱼",
+    name: "Trout",
     id: 2297
   },
   {
-    name: "鲑鱼",
+    name: "Salmon",
     id: 2298
   },
   {
-    name: "大西洋鳕鱼",
+    name: "Atlantic Cod",
     id: 2299
   },
   {
-    name: "金枪鱼",
+    name: "Tuna",
     id: 2300
   },
   {
-    name: "红鲷鱼",
+    name: "Red Snapper",
     id: 2301
   },
   {
-    name: "霓虹脂鲤",
+    name: "Neon Tetra",
     id: 2302
   },
   {
-    name: "装甲洞穴鱼",
+    name: "Armored Cavefish",
     id: 2303
   },
   {
-    name: "雀鲷",
+    name: "Damselfish",
     id: 2304
   },
   {
-    name: "猩红虎鱼",
+    name: "Crimson Tigerfish",
     id: 2305
   },
   {
-    name: "霜鲦",
+    name: "Frost Minnow",
     id: 2306
   },
   {
-    name: "公主鱼",
+    name: "Princess Fish",
     id: 2307
   },
   {
-    name: "金鲤",
+    name: "Golden Carp",
     id: 2308
   },
   {
-    name: "镜面鱼",
+    name: "Specular Fish",
     id: 2309
   },
   {
-    name: "七彩矿鱼",
+    name: "Prismite",
     id: 2310
   },
   {
-    name: "斑驳油鱼",
+    name: "Variegated Lardfish",
     id: 2311
   },
   {
-    name: "焰鳍锦鲤",
+    name: "Flarefin Koi",
     id: 2312
   },
   {
-    name: "双鳍鳕鱼",
+    name: "Double Cod",
     id: 2313
   },
   {
-    name: "蜂蜜鱼",
+    name: "Honeyfin",
     id: 2314
   },
   {
-    name: "黑曜石鱼",
+    name: "Obsidifish",
     id: 2315
   },
   {
-    name: "虾",
+    name: "Shrimp",
     id: 2316
   },
   {
-    name: "混沌鱼",
+    name: "Chaos Fish",
     id: 2317
   },
   {
-    name: "乌鲤",
+    name: "Ebonkoi",
     id: 2318
   },
   {
-    name: "血水母",
+    name: "Hemopiranha",
     id: 2319
   },
   {
-    name: "石鱼",
+    name: "Rockfish",
     id: 2320
   },
   {
-    name: "臭鱼",
+    name: "Stinkfish",
     id: 2321
   },
   {
-    name: "挖矿药水",
+    name: "Mining Potion",
     id: 2322
   },
   {
-    name: "拾心药水",
+    name: "Heartreach Potion",
     id: 2323
   },
   {
-    name: "镇静药水",
+    name: "Calming Potion",
     id: 2324
   },
   {
-    name: "建筑工药水",
+    name: "Builder Potion",
     id: 2325
   },
   {
-    name: "泰坦药水",
+    name: "Titan Potion",
     id: 2326
   },
   {
-    name: "脚蹼药水",
+    name: "Flipper Potion",
     id: 2327
   },
   {
-    name: "召唤药水",
+    name: "Summoning Potion",
     id: 2328
   },
   {
-    name: "危险感药水",
+    name: "Dangersense Potion",
     id: 2329
   },
   {
-    name: "紫挥棒鱼",
+    name: "Purple Clubberfish",
     id: 2330
   },
   {
-    name: "黑曜石剑鱼",
+    name: "Obsidian Swordfish",
     id: 2331
   },
   {
-    name: "剑鱼",
+    name: "Swordfish",
     id: 2332
   },
   {
-    name: "铁栅栏",
+    name: "Iron Fence",
     id: 2333
   },
   {
-    name: "木匣",
+    name: "Wooden Crate",
     id: 2334
   },
   {
-    name: "铁匣",
+    name: "Iron Crate",
     id: 2335
   },
   {
-    name: "金匣",
+    name: "Golden Crate",
     id: 2336
   },
   {
-    name: "旧鞋",
+    name: "Old Shoe",
     id: 2337
   },
   {
-    name: "海草",
+    name: "Seaweed",
     id: 2338
   },
   {
-    name: "锡罐",
+    name: "Tin Can",
     id: 2339
   },
   {
-    name: "矿车轨道",
+    name: "Minecart Track",
     id: 2340
   },
   {
-    name: "掠夺鲨",
+    name: "Reaver Shark",
     id: 2341
   },
   {
-    name: "锯齿鲨",
+    name: "Sawtooth Shark",
     id: 2342
   },
   {
-    name: "矿车",
+    name: "Minecart",
     id: 2343
   },
   {
-    name: "弹药储备药水",
+    name: "Ammo Reservation Potion",
     id: 2344
   },
   {
-    name: "生命力药水",
+    name: "Lifeforce Potion",
     id: 2345
   },
   {
-    name: "耐力药水",
+    name: "Endurance Potion",
     id: 2346
   },
   {
-    name: "怒气药水",
+    name: "Rage Potion",
     id: 2347
   },
   {
-    name: "狱火药水",
+    name: "Inferno Potion",
     id: 2348
   },
   {
-    name: "暴怒药水",
+    name: "Wrath Potion",
     id: 2349
   },
   {
-    name: "回忆药水",
+    name: "Recall Potion",
     id: 2350
   },
   {
-    name: "传送药水",
+    name: "Teleportation Potion",
     id: 2351
   },
   {
-    name: "爱情药水",
+    name: "Love Potion",
     id: 2352
   },
   {
-    name: "臭味药水",
+    name: "Stink Potion",
     id: 2353
   },
   {
-    name: "钓鱼药水",
+    name: "Fishing Potion",
     id: 2354
   },
   {
-    name: "声纳药水",
+    name: "Sonar Potion",
     id: 2355
   },
   {
-    name: "宝匣药水",
+    name: "Crate Potion",
     id: 2356
   },
   {
-    name: "寒颤棘种子",
+    name: "Shiverthorn Seeds",
     id: 2357
   },
   {
-    name: "寒颤棘",
+    name: "Shiverthorn",
     id: 2358
   },
   {
-    name: "保暖药水",
+    name: "Warmth Potion",
     id: 2359
   },
   {
-    name: "鱼钩",
+    name: "Fish Hook",
     id: 2360
   },
   {
-    name: "蜜蜂头饰",
+    name: "Bee Headgear",
     id: 2361
   },
   {
-    name: "蜜蜂胸甲",
+    name: "Bee Breastplate",
     id: 2362
   },
   {
-    name: "蜜蜂护胫",
+    name: "Bee Greaves",
     id: 2363
   },
   {
-    name: "黄蜂法杖",
+    name: "Hornet Staff",
     id: 2364
   },
   {
-    name: "小鬼法杖",
+    name: "Imp Staff",
     id: 2365
   },
   {
-    name: "蜘蛛女王法杖",
+    name: "Queen Spider Staff",
     id: 2366
   },
   {
-    name: "渔夫帽",
+    name: "Angler Hat",
     id: 2367
   },
   {
-    name: "渔夫背心",
+    name: "Angler Vest",
     id: 2368
   },
   {
-    name: "渔夫裤",
+    name: "Angler Pants",
     id: 2369
   },
   {
-    name: "蜘蛛面具",
+    name: "Spider Mask",
     id: 2370
   },
   {
-    name: "蜘蛛胸甲",
+    name: "Spider Breastplate",
     id: 2371
   },
   {
-    name: "蜘蛛护胫",
+    name: "Spider Greaves",
     id: 2372
   },
   {
-    name: "优质钓鱼线",
+    name: "High Test Fishing Line",
     id: 2373
   },
   {
-    name: "渔夫耳环",
+    name: "Angler Earring",
     id: 2374
   },
   {
-    name: "钓具箱",
+    name: "Tackle Box",
     id: 2375
   },
   {
-    name: "蓝地牢钢琴",
+    name: "Blue Dungeon Piano",
     id: 2376
   },
   {
-    name: "绿地牢钢琴",
+    name: "Green Dungeon Piano",
     id: 2377
   },
   {
-    name: "粉地牢钢琴",
+    name: "Pink Dungeon Piano",
     id: 2378
   },
   {
-    name: "金钢琴",
+    name: "Golden Piano",
     id: 2379
   },
   {
-    name: "黑曜石钢琴",
+    name: "Obsidian Piano",
     id: 2380
   },
   {
-    name: "骨头钢琴",
+    name: "Bone Piano",
     id: 2381
   },
   {
-    name: "仙人掌钢琴",
+    name: "Cactus Piano",
     id: 2382
   },
   {
-    name: "阴森钢琴",
+    name: "Spooky Piano",
     id: 2383
   },
   {
-    name: "天域钢琴",
+    name: "Skyware Piano",
     id: 2384
   },
   {
-    name: "丛林蜥蜴钢琴",
+    name: "Lihzahrd Piano",
     id: 2385
   },
   {
-    name: "蓝地牢梳妆台",
+    name: "Blue Dungeon Dresser",
     id: 2386
   },
   {
-    name: "绿地牢梳妆台",
+    name: "Green Dungeon Dresser",
     id: 2387
   },
   {
-    name: "粉地牢梳妆台",
+    name: "Pink Dungeon Dresser",
     id: 2388
   },
   {
-    name: "金梳妆台",
+    name: "Golden Dresser",
     id: 2389
   },
   {
-    name: "黑曜石梳妆台",
+    name: "Obsidian Dresser",
     id: 2390
   },
   {
-    name: "骨头梳妆台",
+    name: "Bone Dresser",
     id: 2391
   },
   {
-    name: "仙人掌梳妆台",
+    name: "Cactus Dresser",
     id: 2392
   },
   {
-    name: "阴森梳妆台",
+    name: "Spooky Dresser",
     id: 2393
   },
   {
-    name: "天域梳妆台",
+    name: "Skyware Dresser",
     id: 2394
   },
   {
-    name: "蜂蜜梳妆台",
+    name: "Honey Dresser",
     id: 2395
   },
   {
-    name: "丛林蜥蜴梳妆台",
+    name: "Lihzahrd Dresser",
     id: 2396
   },
   {
-    name: "沙发",
+    name: "Sofa",
     id: 2397
   },
   {
-    name: "乌木沙发",
+    name: "Ebonwood Sofa",
     id: 2398
   },
   {
-    name: "红木沙发",
+    name: "Rich Mahogany Sofa",
     id: 2399
   },
   {
-    name: "珍珠木沙发",
+    name: "Pearlwood Sofa",
     id: 2400
   },
   {
-    name: "暗影木沙发",
+    name: "Shadewood Sofa",
     id: 2401
   },
   {
-    name: "蓝地牢沙发",
+    name: "Blue Dungeon Sofa",
     id: 2402
   },
   {
-    name: "绿地牢沙发",
+    name: "Green Dungeon Sofa",
     id: 2403
   },
   {
-    name: "粉地牢沙发",
+    name: "Pink Dungeon Sofa",
     id: 2404
   },
   {
-    name: "金沙发",
+    name: "Golden Sofa",
     id: 2405
   },
   {
-    name: "黑曜石沙发",
+    name: "Obsidian Sofa",
     id: 2406
   },
   {
-    name: "骨头沙发",
+    name: "Bone Sofa",
     id: 2407
   },
   {
-    name: "仙人掌沙发",
+    name: "Cactus Sofa",
     id: 2408
   },
   {
-    name: "阴森沙发",
+    name: "Spooky Sofa",
     id: 2409
   },
   {
-    name: "天域沙发",
+    name: "Skyware Sofa",
     id: 2410
   },
   {
-    name: "蜂蜜沙发",
+    name: "Honey Sofa",
     id: 2411
   },
   {
-    name: "蒸汽朋克沙发",
+    name: "Steampunk Sofa",
     id: 2412
   },
   {
-    name: "蘑菇沙发",
+    name: "Mushroom Sofa",
     id: 2413
   },
   {
-    name: "玻璃沙发",
+    name: "Glass Sofa",
     id: 2414
   },
   {
-    name: "南瓜沙发",
+    name: "Pumpkin Sofa",
     id: 2415
   },
   {
-    name: "丛林蜥蜴沙发",
+    name: "Lihzahrd Sofa",
     id: 2416
   },
   {
-    name: "贝壳发夹",
+    name: "Seashell Hairpin",
     id: 2417
   },
   {
-    name: "美人鱼饰品",
+    name: "Mermaid Adornment",
     id: 2418
   },
   {
-    name: "美人鱼尾巴",
+    name: "Mermaid Tail",
     id: 2419
   },
   {
-    name: "和风鱼",
+    name: "Zephyr Fish",
     id: 2420
   },
   {
-    name: "捕肉者",
+    name: "Fleshcatcher",
     id: 2421
   },
   {
-    name: "热线钓鱼钩",
+    name: "Hotline Fishing Hook",
     id: 2422
   },
   {
-    name: "蛙腿",
+    name: "Frog Leg",
     id: 2423
   },
   {
-    name: "锚",
+    name: "Anchor",
     id: 2424
   },
   {
-    name: "熟鱼",
+    name: "Cooked Fish",
     id: 2425
   },
   {
-    name: "熟虾",
+    name: "Cooked Shrimp",
     id: 2426
   },
   {
-    name: "生鱼片",
+    name: "Sashimi",
     id: 2427
   },
   {
-    name: "绒毛胡萝卜",
+    name: "Fuzzy Carrot",
     id: 2428
   },
   {
-    name: "鳞片松露",
+    name: "Scaly Truffle",
     id: 2429
   },
   {
-    name: "粘鞍",
+    name: "Slimy Saddle",
     id: 2430
   },
   {
-    name: "蜂蜡",
+    name: "Bee Wax",
     id: 2431
   },
   {
-    name: "铜镀层墙",
+    name: "Copper Plating Wall",
     id: 2432
   },
   {
-    name: "石板墙",
+    name: "Stone Slab Wall",
     id: 2433
   },
   {
-    name: "帆",
+    name: "Sail",
     id: 2434
   },
   {
-    name: "珊瑚石块",
+    name: "Coralstone Block",
     id: 2435
   },
   {
-    name: "蓝水母",
+    name: "Blue Jellyfish",
     id: 2436
   },
   {
-    name: "绿水母",
+    name: "Green Jellyfish",
     id: 2437
   },
   {
-    name: "粉水母",
+    name: "Pink Jellyfish",
     id: 2438
   },
   {
-    name: "蓝水母罐",
+    name: "Blue Jellyfish Jar",
     id: 2439
   },
   {
-    name: "绿水母罐",
+    name: "Green Jellyfish Jar",
     id: 2440
   },
   {
-    name: "粉水母罐",
+    name: "Pink Jellyfish Jar",
     id: 2441
   },
   {
-    name: "救生圈",
+    name: "Life Preserver",
     id: 2442
   },
   {
-    name: "船舵",
+    name: "Ship's Wheel",
     id: 2443
   },
   {
-    name: "罗盘针",
+    name: "Compass Rose",
     id: 2444
   },
   {
-    name: "壁挂锚",
+    name: "Wall Anchor",
     id: 2445
   },
   {
-    name: "金鱼纪念章",
+    name: "Goldfish Trophy",
     id: 2446
   },
   {
-    name: "兔鱼纪念章",
+    name: "Bunnyfish Trophy",
     id: 2447
   },
   {
-    name: "剑鱼纪念章",
+    name: "Swordfish Trophy",
     id: 2448
   },
   {
-    name: "鲨牙纪念章",
+    name: "Sharkteeth Trophy",
     id: 2449
   },
   {
-    name: "蝙蝠鱼",
+    name: "Batfish",
     id: 2450
   },
   {
-    name: "大黄蜂金枪鱼",
+    name: "Bumblebee Tuna",
     id: 2451
   },
   {
-    name: "鲶鱼",
+    name: "Catfish",
     id: 2452
   },
   {
-    name: "云鱼",
+    name: "Cloudfish",
     id: 2453
   },
   {
-    name: "诅咒鱼",
+    name: "Cursedfish",
     id: 2454
   },
   {
-    name: "土鱼",
+    name: "Dirtfish",
     id: 2455
   },
   {
-    name: "雷管鱼",
+    name: "Dynamite Fish",
     id: 2456
   },
   {
-    name: "吞食浮游者",
+    name: "Eater of Plankton",
     id: 2457
   },
   {
-    name: "坠落星鱼",
+    name: "Fallen Starfish",
     id: 2458
   },
   {
-    name: "克苏鲁鱼",
+    name: "The Fish of Cthulhu",
     id: 2459
   },
   {
-    name: "鱼机器人",
+    name: "Fishotron",
     id: 2460
   },
   {
-    name: "鹰身女妖鱼",
+    name: "Harpyfish",
     id: 2461
   },
   {
-    name: "饥饿鱼",
+    name: "Hungerfish",
     id: 2462
   },
   {
-    name: "脓血鱼",
+    name: "Ichorfish",
     id: 2463
   },
   {
-    name: "宝石鱼",
+    name: "Jewelfish",
     id: 2464
   },
   {
-    name: "幻影鱼",
+    name: "Mirage Fish",
     id: 2465
   },
   {
-    name: "变异雪狐鱼",
+    name: "Mutant Flinxfin",
     id: 2466
   },
   {
-    name: "企鹅鱼",
+    name: "Pengfish",
     id: 2467
   },
   {
-    name: "精灵鱼",
+    name: "Pixiefish",
     id: 2468
   },
   {
-    name: "蜘蛛鱼",
+    name: "Spiderfish",
     id: 2469
   },
   {
-    name: "苔原鳟鱼",
+    name: "Tundra Trout",
     id: 2470
   },
   {
-    name: "独角兽鱼",
+    name: "Unicorn Fish",
     id: 2471
   },
   {
-    name: "向导巫毒鱼",
+    name: "Guide Voodoo Fish",
     id: 2472
   },
   {
-    name: "飞龙尾",
+    name: "Wyverntail",
     id: 2473
   },
   {
-    name: "僵尸鱼",
+    name: "Zombie Fish",
     id: 2474
   },
   {
-    name: "鹅膏菌鳍",
+    name: "Amanita Fungifin",
     id: 2475
   },
   {
-    name: "神仙鱼",
+    name: "Angelfish",
     id: 2476
   },
   {
-    name: "血腥战士",
+    name: "Bloody Manowar",
     id: 2477
   },
   {
-    name: "骨鱼",
+    name: "Bonefish",
     id: 2478
   },
   {
-    name: "兔鱼",
+    name: "Bunnyfish",
     id: 2479
   },
   {
-    name: "金枪鱼须船长",
+    name: "Cap'n Tunabeard",
     id: 2480
   },
   {
-    name: "小丑鱼",
+    name: "Clownfish",
     id: 2481
   },
   {
-    name: "恶魔地狱鱼",
+    name: "Demonic Hellfish",
     id: 2482
   },
   {
-    name: "呆鱼",
+    name: "Derpfish",
     id: 2483
   },
   {
-    name: "猪龙鱼",
+    name: "Fishron",
     id: 2484
   },
   {
-    name: "感染鞘鱼",
+    name: "Infected Scabbardfish",
     id: 2485
   },
   {
-    name: "泥鱼",
+    name: "Mudfish",
     id: 2486
   },
   {
-    name: "史莱姆鱼",
+    name: "Slimefish",
     id: 2487
   },
   {
-    name: "热带梭鱼",
+    name: "Tropical Barracuda",
     id: 2488
   },
   {
-    name: "史莱姆王纪念章",
+    name: "King Slime Trophy",
     id: 2489
   },
   {
-    name: "船瓶",
+    name: "Ship in a Bottle",
     id: 2490
   },
   {
-    name: "硬鞍",
+    name: "Hardy Saddle",
     id: 2491
   },
   {
-    name: "压力板轨道",
+    name: "Pressure Plate Track",
     id: 2492
   },
   {
-    name: "史莱姆王面具",
+    name: "King Slime Mask",
     id: 2493
   },
   {
-    name: "鳍翼",
+    name: "Fin Wings",
     id: 2494
   },
   {
-    name: "藏宝图",
+    name: "Treasure Map",
     id: 2495
   },
   {
-    name: "海草种植盆",
+    name: "Seaweed Planter",
     id: 2496
   },
   {
-    name: "掠夺像素",
+    name: "Pillagin' Me Pixels",
     id: 2497
   },
   {
-    name: "鱼套装面具",
+    name: "Fish Costume Mask",
     id: 2498
   },
   {
-    name: "鱼服上衣",
+    name: "Fish Costume Shirt",
     id: 2499
   },
   {
-    name: "鱼服裙",
+    name: "Fish Costume Finskirt",
     id: 2500
   },
   {
-    name: "姜黄胡须",
+    name: "Ginger Beard",
     id: 2501
   },
   {
-    name: "蜂蜜护目镜",
+    name: "Honeyed Goggles",
     id: 2502
   },
   {
-    name: "针叶木",
+    name: "Boreal Wood",
     id: 2503
   },
   {
-    name: "棕榈木",
+    name: "Palm Wood",
     id: 2504
   },
   {
-    name: "针叶木墙",
+    name: "Boreal Wood Wall",
     id: 2505
   },
   {
-    name: "棕榈木墙",
+    name: "Palm Wood Wall",
     id: 2506
   },
   {
-    name: "针叶木栅栏",
+    name: "Boreal Wood Fence",
     id: 2507
   },
   {
-    name: "棕榈木栅栏",
+    name: "Palm Wood Fence",
     id: 2508
   },
   {
-    name: "针叶木头盔",
+    name: "Boreal Wood Helmet",
     id: 2509
   },
   {
-    name: "针叶木胸甲",
+    name: "Boreal Wood Breastplate",
     id: 2510
   },
   {
-    name: "针叶木护胫",
+    name: "Boreal Wood Greaves",
     id: 2511
   },
   {
-    name: "棕榈木头盔",
+    name: "Palm Wood Helmet",
     id: 2512
   },
   {
-    name: "棕榈木胸甲",
+    name: "Palm Wood Breastplate",
     id: 2513
   },
   {
-    name: "棕榈木护胫",
+    name: "Palm Wood Greaves",
     id: 2514
   },
   {
-    name: "棕榈木弓",
+    name: "Palm Wood Bow",
     id: 2515
   },
   {
-    name: "棕榈木锤",
+    name: "Palm Wood Hammer",
     id: 2516
   },
   {
-    name: "棕榈木剑",
+    name: "Palm Wood Sword",
     id: 2517
   },
   {
-    name: "棕榈木平台",
+    name: "Palm Wood Platform",
     id: 2518
   },
   {
-    name: "棕榈木浴缸",
+    name: "Palm Wood Bathtub",
     id: 2519
   },
   {
-    name: "棕榈木床",
+    name: "Palm Wood Bed",
     id: 2520
   },
   {
-    name: "棕榈木长凳",
+    name: "Palm Wood Bench",
     id: 2521
   },
   {
-    name: "棕榈木烛台",
+    name: "Palm Wood Candelabra",
     id: 2522
   },
   {
-    name: "棕榈木蜡烛",
+    name: "Palm Wood Candle",
     id: 2523
   },
   {
-    name: "棕榈木椅",
+    name: "Palm Wood Chair",
     id: 2524
   },
   {
-    name: "棕榈木吊灯",
+    name: "Palm Wood Chandelier",
     id: 2525
   },
   {
-    name: "棕榈木箱",
+    name: "Palm Wood Chest",
     id: 2526
   },
   {
-    name: "棕榈木沙发",
+    name: "Palm Wood Sofa",
     id: 2527
   },
   {
-    name: "棕榈木门",
+    name: "Palm Wood Door",
     id: 2528
   },
   {
-    name: "棕榈木梳妆台",
+    name: "Palm Wood Dresser",
     id: 2529
   },
   {
-    name: "棕榈木灯笼",
+    name: "Palm Wood Lantern",
     id: 2530
   },
   {
-    name: "棕榈木钢琴",
+    name: "Palm Wood Piano",
     id: 2531
   },
   {
-    name: "棕榈木桌",
+    name: "Palm Wood Table",
     id: 2532
   },
   {
-    name: "棕榈木灯",
+    name: "Palm Wood Lamp",
     id: 2533
   },
   {
-    name: "棕榈木工作台",
+    name: "Palm Wood Work Bench",
     id: 2534
   },
   {
-    name: "魔眼法杖",
+    name: "Optic Staff",
     id: 2535
   },
   {
-    name: "棕榈木书架",
+    name: "Palm Wood Bookcase",
     id: 2536
   },
   {
-    name: "蘑菇浴缸",
+    name: "Mushroom Bathtub",
     id: 2537
   },
   {
-    name: "蘑菇床",
+    name: "Mushroom Bed",
     id: 2538
   },
   {
-    name: "蘑菇长凳",
+    name: "Mushroom Bench",
     id: 2539
   },
   {
-    name: "蘑菇书架",
+    name: "Mushroom Bookcase",
     id: 2540
   },
   {
-    name: "蘑菇烛台",
+    name: "Mushroom Candelabra",
     id: 2541
   },
   {
-    name: "蘑菇蜡烛",
+    name: "Mushroom Candle",
     id: 2542
   },
   {
-    name: "蘑菇吊灯",
+    name: "Mushroom Chandelier",
     id: 2543
   },
   {
-    name: "蘑菇箱",
+    name: "Mushroom Chest",
     id: 2544
   },
   {
-    name: "蘑菇梳妆台",
+    name: "Mushroom Dresser",
     id: 2545
   },
   {
-    name: "蘑菇灯笼",
+    name: "Mushroom Lantern",
     id: 2546
   },
   {
-    name: "蘑菇灯",
+    name: "Mushroom Lamp",
     id: 2547
   },
   {
-    name: "蘑菇钢琴",
+    name: "Mushroom Piano",
     id: 2548
   },
   {
-    name: "蘑菇平台",
+    name: "Mushroom Platform",
     id: 2549
   },
   {
-    name: "蘑菇桌",
+    name: "Mushroom Table",
     id: 2550
   },
   {
-    name: "蜘蛛法杖",
+    name: "Spider Staff",
     id: 2551
   },
   {
-    name: "针叶木浴缸",
+    name: "Boreal Wood Bathtub",
     id: 2552
   },
   {
-    name: "针叶木床",
+    name: "Boreal Wood Bed",
     id: 2553
   },
   {
-    name: "针叶木书架",
+    name: "Boreal Wood Bookcase",
     id: 2554
   },
   {
-    name: "针叶木烛台",
+    name: "Boreal Wood Candelabra",
     id: 2555
   },
   {
-    name: "针叶木蜡烛",
+    name: "Boreal Wood Candle",
     id: 2556
   },
   {
-    name: "针叶木椅",
+    name: "Boreal Wood Chair",
     id: 2557
   },
   {
-    name: "针叶木吊灯",
+    name: "Boreal Wood Chandelier",
     id: 2558
   },
   {
-    name: "针叶木箱",
+    name: "Boreal Wood Chest",
     id: 2559
   },
   {
-    name: "针叶木钟",
+    name: "Boreal Wood Clock",
     id: 2560
   },
   {
-    name: "针叶木门",
+    name: "Boreal Wood Door",
     id: 2561
   },
   {
-    name: "针叶木梳妆台",
+    name: "Boreal Wood Dresser",
     id: 2562
   },
   {
-    name: "针叶木灯",
+    name: "Boreal Wood Lamp",
     id: 2563
   },
   {
-    name: "针叶木灯笼",
+    name: "Boreal Wood Lantern",
     id: 2564
   },
   {
-    name: "针叶木钢琴",
+    name: "Boreal Wood Piano",
     id: 2565
   },
   {
-    name: "针叶木平台",
+    name: "Boreal Wood Platform",
     id: 2566
   },
   {
-    name: "史莱姆浴缸",
+    name: "Slime Bathtub",
     id: 2567
   },
   {
-    name: "史莱姆床",
+    name: "Slime Bed",
     id: 2568
   },
   {
-    name: "史莱姆书架",
+    name: "Slime Bookcase",
     id: 2569
   },
   {
-    name: "史莱姆烛台",
+    name: "Slime Candelabra",
     id: 2570
   },
   {
-    name: "史莱姆蜡烛",
+    name: "Slime Candle",
     id: 2571
   },
   {
-    name: "史莱姆椅",
+    name: "Slime Chair",
     id: 2572
   },
   {
-    name: "史莱姆吊灯",
+    name: "Slime Chandelier",
     id: 2573
   },
   {
-    name: "史莱姆箱",
+    name: "Slime Chest",
     id: 2574
   },
   {
-    name: "史莱姆钟",
+    name: "Slime Clock",
     id: 2575
   },
   {
-    name: "史莱姆门",
+    name: "Slime Door",
     id: 2576
   },
   {
-    name: "史莱姆梳妆台",
+    name: "Slime Dresser",
     id: 2577
   },
   {
-    name: "史莱姆灯",
+    name: "Slime Lamp",
     id: 2578
   },
   {
-    name: "史莱姆灯笼",
+    name: "Slime Lantern",
     id: 2579
   },
   {
-    name: "史莱姆钢琴",
+    name: "Slime Piano",
     id: 2580
   },
   {
-    name: "史莱姆平台",
+    name: "Slime Platform",
     id: 2581
   },
   {
-    name: "史莱姆沙发",
+    name: "Slime Sofa",
     id: 2582
   },
   {
-    name: "史莱姆桌",
+    name: "Slime Table",
     id: 2583
   },
   {
-    name: "海盗法杖",
+    name: "Pirate Staff",
     id: 2584
   },
   {
-    name: "史莱姆钩",
+    name: "Slime Hook",
     id: 2585
   },
   {
-    name: "粘性手榴弹",
+    name: "Sticky Grenade",
     id: 2586
   },
   {
-    name: "魅惑竖琴",
+    name: "Beguiling Lyre",
     id: 2587
   },
   {
-    name: "猪龙鱼公爵面具",
+    name: "Duke Fishron Mask",
     id: 2588
   },
   {
-    name: "猪龙鱼公爵纪念章",
+    name: "Duke Fishron Trophy",
     id: 2589
   },
   {
-    name: "莫洛托夫鸡尾酒",
+    name: "Molotov Cocktail",
     id: 2590
   },
   {
-    name: "骨头钟",
+    name: "Bone Clock",
     id: 2591
   },
   {
-    name: "仙人掌钟",
+    name: "Cactus Clock",
     id: 2592
   },
   {
-    name: "乌木钟",
+    name: "Ebonwood Clock",
     id: 2593
   },
   {
-    name: "冰冻钟",
+    name: "Frozen Clock",
     id: 2594
   },
   {
-    name: "丛林蜥蜴钟",
+    name: "Lihzahrd Clock",
     id: 2595
   },
   {
-    name: "生命木钟",
+    name: "Living Wood Clock",
     id: 2596
   },
   {
-    name: "红木钟",
+    name: "Rich Mahogany Clock",
     id: 2597
   },
   {
-    name: "血肉钟",
+    name: "Flesh Clock",
     id: 2598
   },
   {
-    name: "蘑菇钟",
+    name: "Mushroom Clock",
     id: 2599
   },
   {
-    name: "黑曜石钟",
+    name: "Obsidian Clock",
     id: 2600
   },
   {
-    name: "棕榈木钟",
+    name: "Palm Wood Clock",
     id: 2601
   },
   {
-    name: "珍珠木钟",
+    name: "Pearlwood Clock",
     id: 2602
   },
   {
-    name: "南瓜钟",
+    name: "Pumpkin Clock",
     id: 2603
   },
   {
-    name: "暗影木钟",
+    name: "Shadewood Clock",
     id: 2604
   },
   {
-    name: "阴森钟",
+    name: "Spooky Clock",
     id: 2605
   },
   {
-    name: "天域钟",
+    name: "Skyware Clock",
     id: 2606
   },
   {
-    name: "蜘蛛毒牙",
+    name: "Spider Fang",
     id: 2607
   },
   {
-    name: "猎鹰刃",
+    name: "Falcon Blade",
     id: 2608
   },
   {
-    name: "猪龙鱼之翼",
+    name: "Fishron Wings",
     id: 2609
   },
   {
-    name: "史莱姆枪",
+    name: "Slime Gun",
     id: 2610
   },
   {
-    name: "花链球",
+    name: "Flairoon",
     id: 2611
   },
   {
-    name: "绿色地牢箱",
+    name: "Green Dungeon Chest",
     id: 2612
   },
   {
-    name: "粉色地牢箱",
+    name: "Pink Dungeon Chest",
     id: 2613
   },
   {
-    name: "蓝色地牢箱",
+    name: "Blue Dungeon Chest",
     id: 2614
   },
   {
-    name: "骨头箱",
+    name: "Bone Chest",
     id: 2615
   },
   {
-    name: "仙人掌箱",
+    name: "Cactus Chest",
     id: 2616
   },
   {
-    name: "血肉箱",
+    name: "Flesh Chest",
     id: 2617
   },
   {
-    name: "黑曜石箱",
+    name: "Obsidian Chest",
     id: 2618
   },
   {
-    name: "南瓜箱",
+    name: "Pumpkin Chest",
     id: 2619
   },
   {
-    name: "阴森箱",
+    name: "Spooky Chest",
     id: 2620
   },
   {
-    name: "暴风雨法杖",
+    name: "Tempest Staff",
     id: 2621
   },
   {
-    name: "利刃台风",
+    name: "Razorblade Typhoon",
     id: 2622
   },
   {
-    name: "泡泡枪",
+    name: "Bubble Gun",
     id: 2623
   },
   {
-    name: "海啸",
+    name: "Tsunami",
     id: 2624
   },
   {
-    name: "贝壳",
+    name: "Seashell",
     id: 2625
   },
   {
-    name: "海星",
+    name: "Starfish",
     id: 2626
   },
   {
-    name: "蒸汽朋克平台",
+    name: "Steampunk Platform",
     id: 2627
   },
   {
-    name: "天域平台",
+    name: "Skyware Platform",
     id: 2628
   },
   {
-    name: "生命木平台",
+    name: "Living Wood Platform",
     id: 2629
   },
   {
-    name: "蜂蜜平台",
+    name: "Honey Platform",
     id: 2630
   },
   {
-    name: "天域工作台",
+    name: "Skyware Work Bench",
     id: 2631
   },
   {
-    name: "玻璃工作台",
+    name: "Glass Work Bench",
     id: 2632
   },
   {
-    name: "生命木工作台",
+    name: "Living Wood Work Bench",
     id: 2633
   },
   {
-    name: "血肉沙发",
+    name: "Flesh Sofa",
     id: 2634
   },
   {
-    name: "冰冻沙发",
+    name: "Frozen Sofa",
     id: 2635
   },
   {
-    name: "生命木沙发",
+    name: "Living Wood Sofa",
     id: 2636
   },
   {
-    name: "南瓜梳妆台",
+    name: "Pumpkin Dresser",
     id: 2637
   },
   {
-    name: "蒸汽朋克梳妆台",
+    name: "Steampunk Dresser",
     id: 2638
   },
   {
-    name: "玻璃梳妆台",
+    name: "Glass Dresser",
     id: 2639
   },
   {
-    name: "血肉梳妆台",
+    name: "Flesh Dresser",
     id: 2640
   },
   {
-    name: "南瓜灯笼",
+    name: "Pumpkin Lantern",
     id: 2641
   },
   {
-    name: "黑曜石灯笼",
+    name: "Obsidian Lantern",
     id: 2642
   },
   {
-    name: "南瓜灯",
+    name: "Pumpkin Lamp",
     id: 2643
   },
   {
-    name: "黑曜石灯",
+    name: "Obsidian Lamp",
     id: 2644
   },
   {
-    name: "蓝色地牢灯",
+    name: "Blue Dungeon Lamp",
     id: 2645
   },
   {
-    name: "绿色地牢灯",
+    name: "Green Dungeon Lamp",
     id: 2646
   },
   {
-    name: "粉色地牢灯",
+    name: "Pink Dungeon Lamp",
     id: 2647
   },
   {
-    name: "蜂蜜蜡烛",
+    name: "Honey Candle",
     id: 2648
   },
   {
-    name: "蒸汽朋克蜡烛",
+    name: "Steampunk Candle",
     id: 2649
   },
   {
-    name: "阴森蜡烛",
+    name: "Spooky Candle",
     id: 2650
   },
   {
-    name: "黑曜石蜡烛",
+    name: "Obsidian Candle",
     id: 2651
   },
   {
-    name: "蓝色地牢吊灯",
+    name: "Blue Dungeon Chandelier",
     id: 2652
   },
   {
-    name: "绿色地牢吊灯",
+    name: "Green Dungeon Chandelier",
     id: 2653
   },
   {
-    name: "粉色地牢吊灯",
+    name: "Pink Dungeon Chandelier",
     id: 2654
   },
   {
-    name: "蒸汽朋克吊灯",
+    name: "Steampunk Chandelier",
     id: 2655
   },
   {
-    name: "南瓜吊灯",
+    name: "Pumpkin Chandelier",
     id: 2656
   },
   {
-    name: "黑曜石吊灯",
+    name: "Obsidian Chandelier",
     id: 2657
   },
   {
-    name: "蓝色地牢浴缸",
+    name: "Blue Dungeon Bathtub",
     id: 2658
   },
   {
-    name: "绿色地牢浴缸",
+    name: "Green Dungeon Bathtub",
     id: 2659
   },
   {
-    name: "粉色地牢浴缸",
+    name: "Pink Dungeon Bathtub",
     id: 2660
   },
   {
-    name: "南瓜浴缸",
+    name: "Pumpkin Bathtub",
     id: 2661
   },
   {
-    name: "黑曜石浴缸",
+    name: "Obsidian Bathtub",
     id: 2662
   },
   {
-    name: "金浴缸",
+    name: "Golden Bathtub",
     id: 2663
   },
   {
-    name: "蓝色地牢烛台",
+    name: "Blue Dungeon Candelabra",
     id: 2664
   },
   {
-    name: "绿色地牢烛台",
+    name: "Green Dungeon Candelabra",
     id: 2665
   },
   {
-    name: "粉色地牢烛台",
+    name: "Pink Dungeon Candelabra",
     id: 2666
   },
   {
-    name: "黑曜石烛台",
+    name: "Obsidian Candelabra",
     id: 2667
   },
   {
-    name: "南瓜烛台",
+    name: "Pumpkin Candelabra",
     id: 2668
   },
   {
-    name: "南瓜床",
+    name: "Pumpkin Bed",
     id: 2669
   },
   {
-    name: "南瓜书架",
+    name: "Pumpkin Bookcase",
     id: 2670
   },
   {
-    name: "南瓜钢琴",
+    name: "Pumpkin Piano",
     id: 2671
   },
   {
-    name: "鲨鱼雕像",
+    name: "Shark Statue",
     id: 2672
   },
   {
-    name: "松露虫",
+    name: "Truffle Worm",
     id: 2673
   },
   {
-    name: "学徒诱饵",
+    name: "Apprentice Bait",
     id: 2674
   },
   {
-    name: "熟练诱饵",
+    name: "Journeyman Bait",
     id: 2675
   },
   {
-    name: "大师诱饵",
+    name: "Master Bait",
     id: 2676
   },
   {
-    name: "琥珀宝石墙",
+    name: "Amber Gemspark Wall",
     id: 2677
   },
   {
-    name: "琥珀宝石墙（关闭）",
+    name: "Offline Amber Gemspark Wall",
     id: 2678
   },
   {
-    name: "紫晶宝石墙",
+    name: "Amethyst Gemspark Wall",
     id: 2679
   },
   {
-    name: "紫晶宝石墙（关闭）",
+    name: "Offline Amethyst Gemspark Wall",
     id: 2680
   },
   {
-    name: "钻石宝石墙",
+    name: "Diamond Gemspark Wall",
     id: 2681
   },
   {
-    name: "钻石宝石墙（关闭）",
+    name: "Offline Diamond Gemspark Wall",
     id: 2682
   },
   {
-    name: "翡翠宝石墙",
+    name: "Emerald Gemspark Wall",
     id: 2683
   },
   {
-    name: "翡翠宝石墙（关闭）",
+    name: "Offline Emerald Gemspark Wall",
     id: 2684
   },
   {
-    name: "红玉宝石墙",
+    name: "Ruby Gemspark Wall",
     id: 2685
   },
   {
-    name: "红玉宝石墙（关闭）",
+    name: "Offline Ruby Gemspark Wall",
     id: 2686
   },
   {
-    name: "蓝玉宝石墙",
+    name: "Sapphire Gemspark Wall",
     id: 2687
   },
   {
-    name: "蓝玉宝石墙（关闭）",
+    name: "Offline Sapphire Gemspark Wall",
     id: 2688
   },
   {
-    name: "黄玉宝石墙",
+    name: "Topaz Gemspark Wall",
     id: 2689
   },
   {
-    name: "黄玉宝石墙（关闭）",
+    name: "Offline Topaz Gemspark Wall",
     id: 2690
   },
   {
-    name: "锡板墙",
+    name: "Tin Plating Wall",
     id: 2691
   },
   {
-    name: "锡板",
+    name: "Tin Plating",
     id: 2692
   },
   {
-    name: "瀑布块",
+    name: "Waterfall Block",
     id: 2693
   },
   {
-    name: "熔岩瀑布块",
+    name: "Lavafall Block",
     id: 2694
   },
   {
-    name: "彩纸块",
+    name: "Confetti Block",
     id: 2695
   },
   {
-    name: "彩纸墙",
+    name: "Confetti Wall",
     id: 2696
   },
   {
-    name: "午夜彩纸块",
+    name: "Midnight Confetti Block",
     id: 2697
   },
   {
-    name: "午夜彩纸墙",
+    name: "Midnight Confetti Wall",
     id: 2698
   },
   {
-    name: "武器架",
+    name: "Weapon Rack",
     id: 2699
   },
   {
-    name: "烟花盒",
+    name: "Fireworks Box",
     id: 2700
   },
   {
-    name: "活火块",
+    name: "Living Fire Block",
     id: 2701
   },
   {
-    name: "'0' 雕像",
+    name: "'0' Statue",
     id: 2702
   },
   {
-    name: "'1' 雕像",
+    name: "'1' Statue",
     id: 2703
   },
   {
-    name: "'2' 雕像",
+    name: "'2' Statue",
     id: 2704
   },
   {
-    name: "'3' 雕像",
+    name: "'3' Statue",
     id: 2705
   },
   {
-    name: "'4' 雕像",
+    name: "'4' Statue",
     id: 2706
   },
   {
-    name: "'5' 雕像",
+    name: "'5' Statue",
     id: 2707
   },
   {
-    name: "'6' 雕像",
+    name: "'6' Statue",
     id: 2708
   },
   {
-    name: "'7' 雕像",
+    name: "'7' Statue",
     id: 2709
   },
   {
-    name: "'8' 雕像",
+    name: "'8' Statue",
     id: 2710
   },
   {
-    name: "'9' 雕像",
+    name: "'9' Statue",
     id: 2711
   },
   {
-    name: "'A' 雕像",
+    name: "'A' Statue",
     id: 2712
   },
   {
-    name: "'B' 雕像",
+    name: "'B' Statue",
     id: 2713
   },
   {
-    name: "'C' 雕像",
+    name: "'C' Statue",
     id: 2714
   },
   {
-    name: "'D' 雕像",
+    name: "'D' Statue",
     id: 2715
   },
   {
-    name: "'E' 雕像",
+    name: "'E' Statue",
     id: 2716
   },
   {
-    name: "'F' 雕像",
+    name: "'F' Statue",
     id: 2717
   },
   {
-    name: "'G' 雕像",
+    name: "'G' Statue",
     id: 2718
   },
   {
-    name: "'H' 雕像",
+    name: "'H' Statue",
     id: 2719
   },
   {
-    name: "'I' 雕像",
+    name: "'I' Statue",
     id: 2720
   },
   {
-    name: "'J' 雕像",
+    name: "'J' Statue",
     id: 2721
   },
   {
-    name: "'K' 雕像",
+    name: "'K' Statue",
     id: 2722
   },
   {
-    name: "'L' 雕像",
+    name: "'L' Statue",
     id: 2723
   },
   {
-    name: "'M' 雕像",
+    name: "'M' Statue",
     id: 2724
   },
   {
-    name: "'N' 雕像",
+    name: "'N' Statue",
     id: 2725
   },
   {
-    name: "'O' 雕像",
+    name: "'O' Statue",
     id: 2726
   },
   {
-    name: "'P' 雕像",
+    name: "'P' Statue",
     id: 2727
   },
   {
-    name: "'Q' 雕像",
+    name: "'Q' Statue",
     id: 2728
   },
   {
-    name: "'R' 雕像",
+    name: "'R' Statue",
     id: 2729
   },
   {
-    name: "'S' 雕像",
+    name: "'S' Statue",
     id: 2730
   },
   {
-    name: "'T' 雕像",
+    name: "'T' Statue",
     id: 2731
   },
   {
-    name: "'U' 雕像",
+    name: "'U' Statue",
     id: 2732
   },
   {
-    name: "'V' 雕像",
+    name: "'V' Statue",
     id: 2733
   },
   {
-    name: "'W' 雕像",
+    name: "'W' Statue",
     id: 2734
   },
   {
-    name: "'X' 雕像",
+    name: "'X' Statue",
     id: 2735
   },
   {
-    name: "'Y' 雕像",
+    name: "'Y' Statue",
     id: 2736
   },
   {
-    name: "'Z' 雕像",
+    name: "'Z' Statue",
     id: 2737
   },
   {
-    name: "烟花喷泉",
+    name: "Firework Fountain",
     id: 2738
   },
   {
-    name: "加速轨道",
+    name: "Booster Track",
     id: 2739
   },
   {
-    name: "蚱蜢",
+    name: "Grasshopper",
     id: 2740
   },
   {
-    name: "蚱蜢笼",
+    name: "Grasshopper Cage",
     id: 2741
   },
   {
-    name: "八音盒（地下猩红之地）",
+    name: "Music Box (Underground Crimson)",
     id: 2742
   },
   {
-    name: "仙人掌桌",
+    name: "Cactus Table",
     id: 2743
   },
   {
-    name: "仙人掌平台",
+    name: "Cactus Platform",
     id: 2744
   },
   {
-    name: "针叶木剑",
+    name: "Boreal Wood Sword",
     id: 2745
   },
   {
-    name: "针叶木锤",
+    name: "Boreal Wood Hammer",
     id: 2746
   },
   {
-    name: "针叶木弓",
+    name: "Boreal Wood Bow",
     id: 2747
   },
   {
-    name: "玻璃箱",
+    name: "Glass Chest",
     id: 2748
   },
   {
-    name: "外星法杖",
+    name: "Xeno Staff",
     id: 2749
   },
   {
-    name: "流星法杖",
+    name: "Meteor Staff",
     id: 2750
   },
   {
-    name: "诅咒活火块",
+    name: "Living Cursed Fire Block",
     id: 2751
   },
   {
-    name: "恶魔活火块",
+    name: "Living Demon Fire Block",
     id: 2752
   },
   {
-    name: "霜活火块",
+    name: "Living Frost Fire Block",
     id: 2753
   },
   {
-    name: "灵液活块",
+    name: "Living Ichor Block",
     id: 2754
   },
   {
-    name: "超亮活火块",
+    name: "Living Ultrabright Fire Block",
     id: 2755
   },
   {
-    name: "性别变更药水",
+    name: "Gender Change Potion",
     id: 2756
   },
   {
-    name: "星旋头盔",
+    name: "Vortex Helmet",
     id: 2757
   },
   {
-    name: "星旋胸甲",
+    name: "Vortex Breastplate",
     id: 2758
   },
   {
-    name: "星旋护腿",
+    name: "Vortex Leggings",
     id: 2759
   },
   {
-    name: "星云头盔",
+    name: "Nebula Helmet",
     id: 2760
   },
   {
-    name: "星云胸甲",
+    name: "Nebula Breastplate",
     id: 2761
   },
   {
-    name: "星云护腿",
+    name: "Nebula Leggings",
     id: 2762
   },
   {
-    name: "耀斑头盔",
+    name: "Solar Flare Helmet",
     id: 2763
   },
   {
-    name: "耀斑胸甲",
+    name: "Solar Flare Breastplate",
     id: 2764
   },
   {
-    name: "耀斑护腿",
+    name: "Solar Flare Leggings",
     id: 2765
   },
   {
-    name: "日耀碑牌碎片",
+    name: "Solar Tablet Fragment",
     id: 2766
   },
   {
-    name: "日耀碑牌",
+    name: "Solar Tablet",
     id: 2767
   },
   {
-    name: "钻头控制装置",
+    name: "Drill Containment Unit",
     id: 2768
   },
   {
-    name: "宇宙车钥匙",
+    name: "Cosmic Car Key",
     id: 2769
   },
   {
-    name: "蛾怪之翼",
+    name: "Mothron Wings",
     id: 2770
   },
   {
-    name: "脑干扰器",
+    name: "Brain Scrambler",
     id: 2771
   },
   {
-    name: "星旋钻头",
+    name: "Vortex Drill",
     id: 2774
   },
   {
-    name: "星旋镐",
+    name: "Vortex Pickaxe",
     id: 2776
   },
   {
-    name: "星云钻头",
+    name: "Nebula Drill",
     id: 2779
   },
   {
-    name: "星云镐",
+    name: "Nebula Pickaxe",
     id: 2781
   },
   {
-    name: "耀斑钻头",
+    name: "Solar Flare Drill",
     id: 2784
   },
   {
-    name: "耀斑镐",
+    name: "Solar Flare Pickaxe",
     id: 2786
   },
   {
-    name: "蜂蜜瀑布块",
+    name: "Honeyfall Block",
     id: 2787
   },
   {
-    name: "蜂蜜瀑布墙",
+    name: "Honeyfall Wall",
     id: 2788
   },
   {
-    name: "叶绿砖墙",
+    name: "Chlorophyte Brick Wall",
     id: 2789
   },
   {
-    name: "猩红砖墙",
+    name: "Crimtane Brick Wall",
     id: 2790
   },
   {
-    name: "蘑菇矿护板墙",
+    name: "Shroomite Plating Wall",
     id: 2791
   },
   {
-    name: "叶绿砖",
+    name: "Chlorophyte Brick",
     id: 2792
   },
   {
-    name: "猩红砖",
+    name: "Crimtane Brick",
     id: 2793
   },
   {
-    name: "蘑菇矿护板",
+    name: "Shroomite Plating",
     id: 2794
   },
   {
-    name: "激光机枪",
+    name: "Laser Machinegun",
     id: 2795
   },
   {
-    name: "电圈发射器",
+    name: "Electrosphere Launcher",
     id: 2796
   },
   {
-    name: "外星霰弹枪",
+    name: "Xenopopper",
     id: 2797
   },
   {
-    name: "激光钻头",
+    name: "Laser Drill",
     id: 2798
   },
   {
-    name: "机械标尺",
+    name: "Mechanical Ruler",
     id: 2799
   },
   {
-    name: "反重力钩",
+    name: "Anti-Gravity Hook",
     id: 2800
   },
   {
-    name: "月亮面具",
+    name: "Moon Mask",
     id: 2801
   },
   {
-    name: "太阳面具",
+    name: "Sun Mask",
     id: 2802
   },
   {
-    name: "火星人服装面具",
+    name: "Martian Costume Mask",
     id: 2803
   },
   {
-    name: "火星人服装上衣",
+    name: "Martian Costume Shirt",
     id: 2804
   },
   {
-    name: "火星人服装裤子",
+    name: "Martian Costume Pants",
     id: 2805
   },
   {
-    name: "火星制服头盔",
+    name: "Martian Uniform Helmet",
     id: 2806
   },
   {
-    name: "火星制服上衣",
+    name: "Martian Uniform Torso",
     id: 2807
   },
   {
-    name: "火星制服裤子",
+    name: "Martian Uniform Pants",
     id: 2808
   },
   {
-    name: "火星天文钟",
+    name: "Martian Astro Clock",
     id: 2809
   },
   {
-    name: "火星浴缸",
+    name: "Martian Bathtub",
     id: 2810
   },
   {
-    name: "火星床",
+    name: "Martian Bed",
     id: 2811
   },
   {
-    name: "火星悬浮椅",
+    name: "Martian Hover Chair",
     id: 2812
   },
   {
-    name: "火星吊灯",
+    name: "Martian Chandelier",
     id: 2813
   },
   {
-    name: "火星箱",
+    name: "Martian Chest",
     id: 2814
   },
   {
-    name: "火星门",
+    name: "Martian Door",
     id: 2815
   },
   {
-    name: "火星梳妆台",
+    name: "Martian Dresser",
     id: 2816
   },
   {
-    name: "火星全息书架",
+    name: "Martian Holobookcase",
     id: 2817
   },
   {
-    name: "火星悬浮蜡烛",
+    name: "Martian Hover Candle",
     id: 2818
   },
   {
-    name: "火星灯柱",
+    name: "Martian Lamppost",
     id: 2819
   },
   {
-    name: "火星灯笼",
+    name: "Martian Lantern",
     id: 2820
   },
   {
-    name: "火星钢琴",
+    name: "Martian Piano",
     id: 2821
   },
   {
-    name: "火星平台",
+    name: "Martian Platform",
     id: 2822
   },
   {
-    name: "火星沙发",
+    name: "Martian Sofa",
     id: 2823
   },
   {
-    name: "火星桌",
+    name: "Martian Table",
     id: 2824
   },
   {
-    name: "火星台灯",
+    name: "Martian Table Lamp",
     id: 2825
   },
   {
-    name: "火星工作台",
+    name: "Martian Work Bench",
     id: 2826
   },
   {
-    name: "木水槽",
+    name: "Wooden Sink",
     id: 2827
   },
   {
-    name: "乌木水槽",
+    name: "Ebonwood Sink",
     id: 2828
   },
   {
-    name: "红木水槽",
+    name: "Rich Mahogany Sink",
     id: 2829
   },
   {
-    name: "珍珠木水槽",
+    name: "Pearlwood Sink",
     id: 2830
   },
   {
-    name: "骨头水槽",
+    name: "Bone Sink",
     id: 2831
   },
   {
-    name: "血肉水槽",
+    name: "Flesh Sink",
     id: 2832
   },
   {
-    name: "生命木水槽",
+    name: "Living Wood Sink",
     id: 2833
   },
   {
-    name: "天域水槽",
+    name: "Skyware Sink",
     id: 2834
   },
   {
-    name: "暗影木水槽",
+    name: "Shadewood Sink",
     id: 2835
   },
   {
-    name: "丛林蜥蜴水槽",
+    name: "Lihzahrd Sink",
     id: 2836
   },
   {
-    name: "蓝地牢水槽",
+    name: "Blue Dungeon Sink",
     id: 2837
   },
   {
-    name: "绿地牢水槽",
+    name: "Green Dungeon Sink",
     id: 2838
   },
   {
-    name: "粉地牢水槽",
+    name: "Pink Dungeon Sink",
     id: 2839
   },
   {
-    name: "黑曜石水槽",
+    name: "Obsidian Sink",
     id: 2840
   },
   {
-    name: "金属水槽",
+    name: "Metal Sink",
     id: 2841
   },
   {
-    name: "玻璃水槽",
+    name: "Glass Sink",
     id: 2842
   },
   {
-    name: "金水槽",
+    name: "Golden Sink",
     id: 2843
   },
   {
-    name: "蜂蜜水槽",
+    name: "Honey Sink",
     id: 2844
   },
   {
-    name: "蒸汽朋克水槽",
+    name: "Steampunk Sink",
     id: 2845
   },
   {
-    name: "南瓜水槽",
+    name: "Pumpkin Sink",
     id: 2846
   },
   {
-    name: "阴森水槽",
+    name: "Spooky Sink",
     id: 2847
   },
   {
-    name: "冰冻水槽",
+    name: "Frozen Sink",
     id: 2848
   },
   {
-    name: "王朝水槽",
+    name: "Dynasty Sink",
     id: 2849
   },
   {
-    name: "棕榈木水槽",
+    name: "Palm Wood Sink",
     id: 2850
   },
   {
-    name: "蘑菇水槽",
+    name: "Mushroom Sink",
     id: 2851
   },
   {
-    name: "针叶木水槽",
+    name: "Boreal Wood Sink",
     id: 2852
   },
   {
-    name: "史莱姆水槽",
+    name: "Slime Sink",
     id: 2853
   },
   {
-    name: "仙人掌水槽",
+    name: "Cactus Sink",
     id: 2854
   },
   {
-    name: "火星水槽",
+    name: "Martian Sink",
     id: 2855
   },
   {
-    name: "太阳邪教徒兜帽",
+    name: "Solar Cultist Hood",
     id: 2856
   },
   {
-    name: "月亮邪教徒兜帽",
+    name: "Lunar Cultist Hood",
     id: 2857
   },
   {
-    name: "太阳邪教徒长袍",
+    name: "Solar Cultist Robe",
     id: 2858
   },
   {
-    name: "月亮邪教徒长袍",
+    name: "Lunar Cultist Robe",
     id: 2859
   },
   {
-    name: "火星管道护板",
+    name: "Martian Conduit Plating",
     id: 2860
   },
   {
-    name: "火星管道墙",
+    name: "Martian Conduit Wall",
     id: 2861
   },
   {
-    name: "高科技太阳镜",
+    name: "HiTek Sunglasses",
     id: 2862
   },
   {
-    name: "火星染发剂",
+    name: "Martian Hair Dye",
     id: 2863
   },
   {
-    name: "火星染料",
+    name: "Martian Dye",
     id: 2864
   },
   {
-    name: "火星堡",
+    name: "Castle Marsberg",
     id: 2865
   },
   {
-    name: "火星丽莎",
+    name: "Martia Lisa",
     id: 2866
   },
   {
-    name: "真相就在那里",
+    name: "The Truth Is Up There",
     id: 2867
   },
   {
-    name: "烟雾块",
+    name: "Smoke Block",
     id: 2868
   },
   {
-    name: "生命火焰染料",
+    name: "Living Flame Dye",
     id: 2869
   },
   {
-    name: "生命彩虹染料",
+    name: "Living Rainbow Dye",
     id: 2870
   },
   {
-    name: "暗影染料",
+    name: "Shadow Dye",
     id: 2871
   },
   {
-    name: "负色染料",
+    name: "Negative Dye",
     id: 2872
   },
   {
-    name: "生命海洋染料",
+    name: "Living Ocean Dye",
     id: 2873
   },
   {
-    name: "棕色染料",
+    name: "Brown Dye",
     id: 2874
   },
   {
-    name: "棕黑染料",
+    name: "Brown and Black Dye",
     id: 2875
   },
   {
-    name: "亮棕色染料",
+    name: "Bright Brown Dye",
     id: 2876
   },
   {
-    name: "棕银染料",
+    name: "Brown and Silver Dye",
     id: 2877
   },
   {
-    name: "精灵染料",
+    name: "Wisp Dye",
     id: 2878
   },
   {
-    name: "妖精染料",
+    name: "Pixie Dye",
     id: 2879
   },
   {
-    name: "波涌之刃",
+    name: "Influx Waver",
     id: 2880
   },
   {
-    name: "充能爆破炮",
+    name: "Charged Blaster Cannon",
     id: 2882
   },
   {
-    name: "叶绿染料",
+    name: "Chlorophyte Dye",
     id: 2883
   },
   {
-    name: "独角妖精灵",
+    name: "Unicorn Wisp Dye",
     id: 2884
   },
   {
-    name: "地狱妖精灵",
+    name: "Infernal Wisp Dye",
     id: 2885
   },
   {
-    name: "邪恶粉",
+    name: "Vicious Powder",
     id: 2886
   },
   {
-    name: "邪恶蘑菇",
+    name: "Vicious Mushroom",
     id: 2887
   },
   {
-    name: "蜜蜂膝",
+    name: "The Bee's Knees",
     id: 2888
   },
   {
-    name: "金鸟",
+    name: "Gold Bird",
     id: 2889
   },
   {
-    name: "金兔",
+    name: "Gold Bunny",
     id: 2890
   },
   {
-    name: "金蝴蝶",
+    name: "Gold Butterfly",
     id: 2891
   },
   {
-    name: "金蛙",
+    name: "Gold Frog",
     id: 2892
   },
   {
-    name: "金蚱蜢",
+    name: "Gold Grasshopper",
     id: 2893
   },
   {
-    name: "金老鼠",
+    name: "Gold Mouse",
     id: 2894
   },
   {
-    name: "金蠕虫",
+    name: "Gold Worm",
     id: 2895
   },
   {
-    name: "粘性雷管",
+    name: "Sticky Dynamite",
     id: 2896
   },
   {
-    name: "愤怒捕手旗",
+    name: "Angry Trapper Banner",
     id: 2897
   },
   {
-    name: "装甲维京海盗旗",
+    name: "Armored Viking Banner",
     id: 2898
   },
   {
-    name: "黑史莱姆旗",
+    name: "Black Slime Banner",
     id: 2899
   },
   {
-    name: "蓝装甲骷髅旗",
+    name: "Blue Armored Bones Banner",
     id: 2900
   },
   {
-    name: "蓝邪教徒弓箭手旗",
+    name: "Blue Cultist Archer Banner",
     id: 2901
   },
   {
-    name: "疯狂信徒旗",
+    name: "Lunatic Devotee Banner",
     id: 2902
   },
   {
-    name: "蓝邪教徒战士旗",
+    name: "Blue Cultist Fighter Banner",
     id: 2903
   },
   {
-    name: "骷髅李旗",
+    name: "Bone Lee Banner",
     id: 2904
   },
   {
-    name: "攀爬者旗",
+    name: "Clinger Banner",
     id: 2905
   },
   {
-    name: "胭脂虫旗",
+    name: "Cochineal Beetle Banner",
     id: 2906
   },
   {
-    name: "腐化企鹅旗",
+    name: "Corrupt Penguin Banner",
     id: 2907
   },
   {
-    name: "腐化史莱姆旗",
+    name: "Corrupt Slime Banner",
     id: 2908
   },
   {
-    name: "噬魂怪旗",
+    name: "Corruptor Banner",
     id: 2909
   },
   {
-    name: "猩红史莱姆旗",
+    name: "Crimslime Banner",
     id: 2910
   },
   {
-    name: "诅咒骷髅头旗",
+    name: "Cursed Skull Banner",
     id: 2911
   },
   {
-    name: "青绿甲虫旗",
+    name: "Cyan Beetle Banner",
     id: 2912
   },
   {
-    name: "吞噬怪旗",
+    name: "Devourer Banner",
     id: 2913
   },
   {
-    name: "魔教徒旗",
+    name: "Diabolist Banner",
     id: 2914
   },
   {
-    name: "骨头医生旗",
+    name: "Doctor Bones Banner",
     id: 2915
   },
   {
-    name: "地牢史莱姆旗",
+    name: "Dungeon Slime Banner",
     id: 2916
   },
   {
-    name: "地牢幽魂旗",
+    name: "Dungeon Spirit Banner",
     id: 2917
   },
   {
-    name: "精灵弓箭手旗",
+    name: "Elf Archer Banner",
     id: 2918
   },
   {
-    name: "精灵直升机旗",
+    name: "Elf Copter Banner",
     id: 2919
   },
   {
-    name: "魔眼旗",
+    name: "Eyezor Banner",
     id: 2920
   },
   {
-    name: "雪花怪旗",
+    name: "Flocko Banner",
     id: 2921
   },
   {
-    name: "幽灵旗",
+    name: "Ghost Banner",
     id: 2922
   },
   {
-    name: "巨型蝙蝠旗",
+    name: "Giant Bat Banner",
     id: 2923
   },
   {
-    name: "巨型诅咒骷髅头旗",
+    name: "Giant Cursed Skull Banner",
     id: 2924
   },
   {
-    name: "巨型飞狐旗",
+    name: "Giant Flying Fox Banner",
     id: 2925
   },
   {
-    name: "姜饼人旗",
+    name: "Gingerbread Man Banner",
     id: 2926
   },
   {
-    name: "哥布林弓箭手旗",
+    name: "Goblin Archer Banner",
     id: 2927
   },
   {
-    name: "绿色史莱姆旗",
+    name: "Green Slime Banner",
     id: 2928
   },
   {
-    name: "无头骑士旗",
+    name: "Headless Horseman Banner",
     id: 2929
   },
   {
-    name: "地狱武装骷髅旗",
+    name: "Hell Armored Bones Banner",
     id: 2930
   },
   {
-    name: "地狱犬旗",
+    name: "Hellhound Banner",
     id: 2931
   },
   {
-    name: "弹跳杰克旗",
+    name: "Hoppin' Jack Banner",
     id: 2932
   },
   {
-    name: "冰雪蝙蝠旗",
+    name: "Ice Bat Banner",
     id: 2933
   },
   {
-    name: "冰雪巨人旗",
+    name: "Ice Golem Banner",
     id: 2934
   },
   {
-    name: "冰雪史莱姆旗",
+    name: "Ice Slime Banner",
     id: 2935
   },
   {
-    name: "脓血粘粘怪旗",
+    name: "Ichor Sticker Banner",
     id: 2936
   },
   {
-    name: "发光蝙蝠旗",
+    name: "Illuminant Bat Banner",
     id: 2937
   },
   {
-    name: "发光史莱姆旗",
+    name: "Illuminant Slime Banner",
     id: 2938
   },
   {
-    name: "丛林蝙蝠旗",
+    name: "Jungle Bat Banner",
     id: 2939
   },
   {
-    name: "丛林史莱姆旗",
+    name: "Jungle Slime Banner",
     id: 2940
   },
   {
-    name: "坎普斯旗",
+    name: "Krampus Banner",
     id: 2941
   },
   {
-    name: "紫胶甲虫旗",
+    name: "Lac Beetle Banner",
     id: 2942
   },
   {
-    name: "熔岩蝙蝠旗",
+    name: "Lava Bat Banner",
     id: 2943
   },
   {
-    name: "熔岩史莱姆旗",
+    name: "Lava Slime Banner",
     id: 2944
   },
   {
-    name: "火星脑干扰者旗",
+    name: "Martian Brain Scrambler Banner",
     id: 2945
   },
   {
-    name: "火星无人机旗",
+    name: "Martian Drone Banner",
     id: 2946
   },
   {
-    name: "火星工程师旗",
+    name: "Martian Engineer Banner",
     id: 2947
   },
   {
-    name: "火星电击枪旗",
+    name: "Martian Gigazapper Banner",
     id: 2948
   },
   {
-    name: "火星灰兵旗",
+    name: "Martian Gray Grunt Banner",
     id: 2949
   },
   {
-    name: "火星军官旗",
+    name: "Martian Officer Banner",
     id: 2950
   },
   {
-    name: "火星射线枪手旗",
+    name: "Martian Ray Gunner Banner",
     id: 2951
   },
   {
-    name: "火星鳞甲枪手旗",
+    name: "Martian Scutlix Gunner Banner",
     id: 2952
   },
   {
-    name: "火星特斯拉炮塔旗",
+    name: "Martian Tesla Turret Banner",
     id: 2953
   },
   {
-    name: "刺头先生旗",
+    name: "Mister Stabby Banner",
     id: 2954
   },
   {
-    name: "史莱姆之母旗",
+    name: "Mother Slime Banner",
     id: 2955
   },
   {
-    name: "死灵法师旗",
+    name: "Necromancer Banner",
     id: 2956
   },
   {
-    name: "胡桃夹子旗",
+    name: "Nutcracker Banner",
     id: 2957
   },
   {
-    name: "圣骑士旗",
+    name: "Paladin Banner",
     id: 2958
   },
   {
-    name: "企鹅旗",
+    name: "Penguin Banner",
     id: 2959
   },
   {
-    name: "粉史莱姆旗",
+    name: "Pinky Banner",
     id: 2960
   },
   {
-    name: "闹鬼家具旗",
+    name: "Poltergeist Banner",
     id: 2961
   },
   {
-    name: "附魔盔甲旗",
+    name: "Possessed Armor Banner",
     id: 2962
   },
   {
-    name: "礼物宝箱怪旗",
+    name: "Present Mimic Banner",
     id: 2963
   },
   {
-    name: "紫色史莱姆旗",
+    name: "Purple Slime Banner",
     id: 2964
   },
   {
-    name: "破旧法师旗",
+    name: "Ragged Caster Banner",
     id: 2965
   },
   {
-    name: "彩虹史莱姆旗",
+    name: "Rainbow Slime Banner",
     id: 2966
   },
   {
-    name: "乌鸦旗",
+    name: "Raven Banner",
     id: 2967
   },
   {
-    name: "红色史莱姆旗",
+    name: "Red Slime Banner",
     id: 2968
   },
   {
-    name: "符文巫师旗",
+    name: "Rune Wizard Banner",
     id: 2969
   },
   {
-    name: "生锈武装骷髅旗",
+    name: "Rusty Armored Bones Banner",
     id: 2970
   },
   {
-    name: "稻草人旗",
+    name: "Scarecrow Banner",
     id: 2971
   },
   {
-    name: "鳞甲怪旗",
+    name: "Scutlix Banner",
     id: 2972
   },
   {
-    name: "骷髅弓箭手旗",
+    name: "Skeleton Archer Banner",
     id: 2973
   },
   {
-    name: "骷髅突击手旗",
+    name: "Skeleton Commando Banner",
     id: 2974
   },
   {
-    name: "骷髅狙击手旗",
+    name: "Skeleton Sniper Banner",
     id: 2975
   },
   {
-    name: "史莱姆之灵旗",
+    name: "Slimer Banner",
     id: 2976
   },
   {
-    name: "抓人草旗",
+    name: "Snatcher Banner",
     id: 2977
   },
   {
-    name: "雪球怪旗",
+    name: "Snow Balla Banner",
     id: 2978
   },
   {
-    name: "雪人暴徒旗",
+    name: "Snowman Gangsta Banner",
     id: 2979
   },
   {
-    name: "尖刺冰雪史莱姆旗",
+    name: "Spiked Ice Slime Banner",
     id: 2980
   },
   {
-    name: "尖刺丛林史莱姆旗",
+    name: "Spiked Jungle Slime Banner",
     id: 2981
   },
   {
-    name: "碎木怪旗",
+    name: "Splinterling Banner",
     id: 2982
   },
   {
-    name: "鱿鱼旗",
+    name: "Squid Banner",
     id: 2983
   },
   {
-    name: "战术骷髅旗",
+    name: "Tactical Skeleton Banner",
     id: 2984
   },
   {
-    name: "新郎旗",
+    name: "The Groom Banner",
     id: 2985
   },
   {
-    name: "蒂姆旗",
+    name: "Tim Banner",
     id: 2986
   },
   {
-    name: "不死矿工旗",
+    name: "Undead Miner Banner",
     id: 2987
   },
   {
-    name: "不死维京海盗旗",
+    name: "Undead Viking Banner",
     id: 2988
   },
   {
-    name: "白邪教徒弓箭手旗",
+    name: "White Cultist Archer Banner",
     id: 2989
   },
   {
-    name: "白邪教徒法师旗",
+    name: "White Cultist Caster Banner",
     id: 2990
   },
   {
-    name: "白邪教徒战士旗",
+    name: "White Cultist Fighter Banner",
     id: 2991
   },
   {
-    name: "黄史莱姆旗",
+    name: "Yellow Slime Banner",
     id: 2992
   },
   {
-    name: "雪人旗",
+    name: "Yeti Banner",
     id: 2993
   },
   {
-    name: "僵尸精灵旗",
+    name: "Zombie Elf Banner",
     id: 2994
   },
   {
-    name: "星火",
+    name: "Sparky",
     id: 2995
   },
   {
-    name: "藤蔓绳",
+    name: "Vine Rope",
     id: 2996
   },
   {
-    name: "虫洞药水",
+    name: "Wormhole Potion",
     id: 2997
   },
   {
-    name: "召唤师徽章",
+    name: "Summoner Emblem",
     id: 2998
   },
   {
-    name: "施法桌",
+    name: "Bewitching Table",
     id: 2999
   },
   {
-    name: "炼药桌",
+    name: "Alchemy Table",
     id: 3000
   },
   {
-    name: "古怪劣酒",
+    name: "Strange Brew",
     id: 3001
   },
   {
-    name: "洞穴探险荧光棒",
+    name: "Spelunker Glowstick",
     id: 3002
   },
   {
-    name: "骨箭",
+    name: "Bone Arrow",
     id: 3003
   },
   {
-    name: "骨火把",
+    name: "Bone Torch",
     id: 3004
   },
   {
-    name: "藤蔓绳圈",
+    name: "Vine Rope Coil",
     id: 3005
   },
   {
-    name: "夺命杖",
+    name: "Life Drain",
     id: 3006
   },
   {
-    name: "飞镖手枪",
+    name: "Dart Pistol",
     id: 3007
   },
   {
-    name: "飞镖步枪",
+    name: "Dart Rifle",
     id: 3008
   },
   {
-    name: "水晶镖",
+    name: "Crystal Dart",
     id: 3009
   },
   {
-    name: "诅咒镖",
+    name: "Cursed Dart",
     id: 3010
   },
   {
-    name: "灵液镖",
+    name: "Ichor Dart",
     id: 3011
   },
   {
-    name: "链刀",
+    name: "Chain Guillotines",
     id: 3012
   },
   {
-    name: "臭虎爪",
+    name: "Fetid Baghnakhs",
     id: 3013
   },
   {
-    name: "爬藤怪法杖",
+    name: "Clinger Staff",
     id: 3014
   },
   {
-    name: "腐臭香囊",
+    name: "Putrid Scent",
     id: 3015
   },
   {
-    name: "血肉指虎",
+    name: "Flesh Knuckles",
     id: 3016
   },
   {
-    name: "花靴",
+    name: "Flower Boots",
     id: 3017
   },
   {
-    name: "种子弯刀",
+    name: "Seedler",
     id: 3018
   },
   {
-    name: "地狱之翼弓",
+    name: "Hellwing Bow",
     id: 3019
   },
   {
-    name: "肌腱钩",
+    name: "Tendon Hook",
     id: 3020
   },
   {
-    name: "荆棘钩",
+    name: "Thorn Hook",
     id: 3021
   },
   {
-    name: "荧光钩",
+    name: "Illuminant Hook",
     id: 3022
   },
   {
-    name: "蠕虫钩",
+    name: "Worm Hook",
     id: 3023
   },
   {
-    name: "斯夫之血",
+    name: "Skiphs' Blood",
     id: 3024
   },
   {
-    name: "紫色泥染",
+    name: "Purple Ooze Dye",
     id: 3025
   },
   {
-    name: "反光银染",
+    name: "Reflective Silver Dye",
     id: 3026
   },
   {
-    name: "反光金染",
+    name: "Reflective Gold Dye",
     id: 3027
   },
   {
-    name: "蓝酸染",
+    name: "Blue Acid Dye",
     id: 3028
   },
   {
-    name: "代达罗斯风暴弓",
+    name: "Daedalus Stormbow",
     id: 3029
   },
   {
-    name: "飞刀",
+    name: "Flying Knife",
     id: 3030
   },
   {
-    name: "无底水桶",
+    name: "Bottomless Water Bucket",
     id: 3031
   },
   {
-    name: "超级吸水海绵",
+    name: "Super Absorbant Sponge",
     id: 3032
   },
   {
-    name: "金戒指",
+    name: "Gold Ring",
     id: 3033
   },
   {
-    name: "钱币戒指",
+    name: "Coin Ring",
     id: 3034
   },
   {
-    name: "贪婪戒指",
+    name: "Greedy Ring",
     id: 3035
   },
   {
-    name: "探鱼器",
+    name: "Fish Finder",
     id: 3036
   },
   {
-    name: "天气收音机",
+    name: "Weather Radio",
     id: 3037
   },
   {
-    name: "冥王染",
+    name: "Hades Dye",
     id: 3038
   },
   {
-    name: "暮光染",
+    name: "Twilight Dye",
     id: 3039
   },
   {
-    name: "酸性染",
+    name: "Acid Dye",
     id: 3040
   },
   {
-    name: "发光蘑菇染",
+    name: "Glowing Mushroom Dye",
     id: 3041
   },
   {
-    name: "相位染",
+    name: "Phase Dye",
     id: 3042
   },
   {
-    name: "魔法灯笼",
+    name: "Magic Lantern",
     id: 3043
   },
   {
-    name: "八音盒（月亮领主）",
+    name: "Music Box (Lunar Boss)",
     id: 3044
   },
   {
-    name: "彩虹火把",
+    name: "Rainbow Torch",
     id: 3045
   },
   {
-    name: "诅咒篝火",
+    name: "Cursed Campfire",
     id: 3046
   },
   {
-    name: "恶魔篝火",
+    name: "Demon Campfire",
     id: 3047
   },
   {
-    name: "冰冻篝火",
+    name: "Frozen Campfire",
     id: 3048
   },
   {
-    name: "灵液篝火",
+    name: "Ichor Campfire",
     id: 3049
   },
   {
-    name: "彩虹篝火",
+    name: "Rainbow Campfire",
     id: 3050
   },
   {
-    name: "水晶碎块",
+    name: "Crystal Vile Shard",
     id: 3051
   },
   {
-    name: "暗影焰弓",
+    name: "Shadowflame Bow",
     id: 3052
   },
   {
-    name: "暗影焰妖娃",
+    name: "Shadowflame Hex Doll",
     id: 3053
   },
   {
-    name: "暗影焰刀",
+    name: "Shadowflame Knife",
     id: 3054
   },
   {
-    name: "橡实",
+    name: "Acorns",
     id: 3055
   },
   {
-    name: "寒潮",
+    name: "Cold Snap",
     id: 3056
   },
   {
-    name: "诅咒圣徒",
+    name: "Cursed Saint",
     id: 3057
   },
   {
-    name: "雪人",
+    name: "Snowfellas",
     id: 3058
   },
   {
-    name: "季节",
+    name: "The Season",
     id: 3059
   },
   {
-    name: "骨铃",
+    name: "Bone Rattle",
     id: 3060
   },
   {
-    name: "建筑师发明背包",
+    name: "Architect Gizmo Pack",
     id: 3061
   },
   {
-    name: "猩红之心",
+    name: "Crimson Heart",
     id: 3062
   },
   {
-    name: "彩虹猫之刃",
+    name: "Meowmere",
     id: 3063
   },
   {
-    name: "附魔日晷",
+    name: "Enchanted Sundial",
     id: 3064
   },
   {
-    name: "狂星之怒",
+    name: "Star Wrath",
     id: 3065
   },
   {
-    name: "平滑大理石块",
+    name: "Smooth Marble Block",
     id: 3066
   },
   {
-    name: "狱石砖墙",
+    name: "Hellstone Brick Wall",
     id: 3067
   },
   {
-    name: "植物纤维绳索宝典",
+    name: "Guide to Plant Fiber Cordage",
     id: 3068
   },
   {
-    name: "火花魔棒",
+    name: "Wand of Sparking",
     id: 3069
   },
   {
-    name: "金鸟笼",
+    name: "Gold Bird Cage",
     id: 3070
   },
   {
-    name: "金兔笼",
+    name: "Gold Bunny Cage",
     id: 3071
   },
   {
-    name: "金蝴蝶罐",
+    name: "Gold Butterfly Jar",
     id: 3072
   },
   {
-    name: "金蛙笼",
+    name: "Gold Frog Cage",
     id: 3073
   },
   {
-    name: "金蚱蜢笼",
+    name: "Gold Grasshopper Cage",
     id: 3074
   },
   {
-    name: "金鼠笼",
+    name: "Gold Mouse Cage",
     id: 3075
   },
   {
-    name: "金蠕虫笼",
+    name: "Gold Worm Cage",
     id: 3076
   },
   {
-    name: "丝绳",
+    name: "Silk Rope",
     id: 3077
   },
   {
-    name: "蛛丝绳",
+    name: "Web Rope",
     id: 3078
   },
   {
-    name: "丝绳圈",
+    name: "Silk Rope Coil",
     id: 3079
   },
   {
-    name: "蛛丝绳圈",
+    name: "Web Rope Coil",
     id: 3080
   },
   {
-    name: "大理石块",
+    name: "Marble Block",
     id: 3081
   },
   {
-    name: "大理石墙",
+    name: "Marble Wall",
     id: 3082
   },
   {
-    name: "光滑大理石墙",
+    name: "Smooth Marble Wall",
     id: 3083
   },
   {
-    name: "雷达",
+    name: "Radar",
     id: 3084
   },
   {
-    name: "金锁盒",
+    name: "Golden Lock Box",
     id: 3085
   },
   {
-    name: "花岗岩块",
+    name: "Granite Block",
     id: 3086
   },
   {
-    name: "光滑花岗岩块",
+    name: "Smooth Granite Block",
     id: 3087
   },
   {
-    name: "花岗岩墙",
+    name: "Granite Wall",
     id: 3088
   },
   {
-    name: "光滑花岗岩墙",
+    name: "Smooth Granite Wall",
     id: 3089
   },
   {
-    name: "皇家凝胶",
+    name: "Royal Gel",
     id: 3090
   },
   {
-    name: "暗影钥匙",
+    name: "Key of Night",
     id: 3091
   },
   {
-    name: "光明钥匙",
+    name: "Key of Light",
     id: 3092
   },
   {
-    name: "草药袋",
+    name: "Herb Bag",
     id: 3093
   },
   {
-    name: "标枪",
+    name: "Javelin",
     id: 3094
   },
   {
-    name: "杀怪计数器",
+    name: "Tally Counter",
     id: 3095
   },
   {
-    name: "六分仪",
+    name: "Sextant",
     id: 3096
   },
   {
-    name: "克苏鲁护盾",
+    name: "Shield of Cthulhu",
     id: 3097
   },
   {
-    name: "屠夫链锯",
+    name: "Butcher's Chainsaw",
     id: 3098
   },
   {
-    name: "秒表",
+    name: "Stopwatch",
     id: 3099
   },
   {
-    name: "陨石砖",
+    name: "Meteorite Brick",
     id: 3100
   },
   {
-    name: "陨石砖墙",
+    name: "Meteorite Brick Wall",
     id: 3101
   },
   {
-    name: "金属探测器",
+    name: "Metal Detector",
     id: 3102
   },
   {
-    name: "无尽箭袋",
+    name: "Endless Quiver",
     id: 3103
   },
   {
-    name: "无尽火枪袋",
+    name: "Endless Musket Pouch",
     id: 3104
   },
   {
-    name: "毒药瓶",
+    name: "Toxic Flask",
     id: 3105
   },
   {
-    name: "变态刀",
+    name: "Psycho Knife",
     id: 3106
   },
   {
-    name: "钉枪",
+    name: "Nail Gun",
     id: 3107
   },
   {
-    name: "钉子",
+    name: "Nail",
     id: 3108
   },
   {
-    name: "夜视头盔",
+    name: "Night Vision Helmet",
     id: 3109
   },
   {
-    name: "天界壳",
+    name: "Celestial Shell",
     id: 3110
   },
   {
-    name: "粉凝胶",
+    name: "Pink Gel",
     id: 3111
   },
   {
-    name: "弹力荧光棒",
+    name: "Bouncy Glowstick",
     id: 3112
   },
   {
-    name: "粉史莱姆块",
+    name: "Pink Slime Block",
     id: 3113
   },
   {
-    name: "粉火把",
+    name: "Pink Torch",
     id: 3114
   },
   {
-    name: "弹力炸弹",
+    name: "Bouncy Bomb",
     id: 3115
   },
   {
-    name: "弹力手榴弹",
+    name: "Bouncy Grenade",
     id: 3116
   },
   {
-    name: "和平蜡烛",
+    name: "Peace Candle",
     id: 3117
   },
   {
-    name: "生命体分析机",
+    name: "Lifeform Analyzer",
     id: 3118
   },
   {
-    name: "每秒伤害计数器",
+    name: "DPS Meter",
     id: 3119
   },
   {
-    name: "渔夫袖珍指南",
+    name: "Fisherman's Pocket Guide",
     id: 3120
   },
   {
-    name: "哥布林数据仪",
+    name: "Goblin Tech",
     id: 3121
   },
   {
@@ -12450,771 +12450,771 @@ export const items: ItemInfo[] = [
     id: 3122
   },
   {
-    name: "个人数字助手",
+    name: "PDA",
     id: 3123
   },
   {
-    name: "手机",
+    name: "Cell Phone",
     id: 3124
   },
   {
-    name: "花岗岩箱",
+    name: "Granite Chest",
     id: 3125
   },
   {
-    name: "陨石钟",
+    name: "Meteorite Clock",
     id: 3126
   },
   {
-    name: "大理石钟",
+    name: "Marble Clock",
     id: 3127
   },
   {
-    name: "花岗岩钟",
+    name: "Granite Clock",
     id: 3128
   },
   {
-    name: "陨石门",
+    name: "Meteorite Door",
     id: 3129
   },
   {
-    name: "大理石",
+    name: "Marble Door",
     id: 3130
   },
   {
-    name: "花岗岩门",
+    name: "Granite Door",
     id: 3131
   },
   {
-    name: "陨石梳妆台",
+    name: "Meteorite Dresser",
     id: 3132
   },
   {
-    name: "大理石梳妆台",
+    name: "Marble Dresser",
     id: 3133
   },
   {
-    name: "花岗岩梳妆台",
+    name: "Granite Dresser",
     id: 3134
   },
   {
-    name: "陨石灯",
+    name: "Meteorite Lamp",
     id: 3135
   },
   {
-    name: "大理石灯",
+    name: "Marble Lamp",
     id: 3136
   },
   {
-    name: "花岗岩灯",
+    name: "Granite Lamp",
     id: 3137
   },
   {
-    name: "陨石灯笼",
+    name: "Meteorite Lantern",
     id: 3138
   },
   {
-    name: "大理石灯笼",
+    name: "Marble Lantern",
     id: 3139
   },
   {
-    name: "花岗岩灯笼",
+    name: "Granite Lantern",
     id: 3140
   },
   {
-    name: "陨石钢琴",
+    name: "Meteorite Piano",
     id: 3141
   },
   {
-    name: "大理石钢琴",
+    name: "Marble Piano",
     id: 3142
   },
   {
-    name: "花岗岩钢琴",
+    name: "Granite Piano",
     id: 3143
   },
   {
-    name: "陨石平台",
+    name: "Meteorite Platform",
     id: 3144
   },
   {
-    name: "大理石平台",
+    name: "Marble Platform",
     id: 3145
   },
   {
-    name: "花岗岩平台",
+    name: "Granite Platform",
     id: 3146
   },
   {
-    name: "陨石水槽",
+    name: "Meteorite Sink",
     id: 3147
   },
   {
-    name: "大理石水槽",
+    name: "Marble Sink",
     id: 3148
   },
   {
-    name: "花岗岩水槽",
+    name: "Granite Sink",
     id: 3149
   },
   {
-    name: "陨石沙发",
+    name: "Meteorite Sofa",
     id: 3150
   },
   {
-    name: "大理石沙发",
+    name: "Marble Sofa",
     id: 3151
   },
   {
-    name: "花岗岩沙发",
+    name: "Granite Sofa",
     id: 3152
   },
   {
-    name: "陨石桌",
+    name: "Meteorite Table",
     id: 3153
   },
   {
-    name: "大理石桌",
+    name: "Marble Table",
     id: 3154
   },
   {
-    name: "花岗岩桌",
+    name: "Granite Table",
     id: 3155
   },
   {
-    name: "陨石工作台",
+    name: "Meteorite Work Bench",
     id: 3156
   },
   {
-    name: "大理石工作台",
+    name: "Marble Work Bench",
     id: 3157
   },
   {
-    name: "花岗岩工作台",
+    name: "Granite Work Bench",
     id: 3158
   },
   {
-    name: "陨石浴缸",
+    name: "Meteorite Bathtub",
     id: 3159
   },
   {
-    name: "大理石浴缸",
+    name: "Marble Bathtub",
     id: 3160
   },
   {
-    name: "花岗岩浴缸",
+    name: "Granite Bathtub",
     id: 3161
   },
   {
-    name: "陨石床",
+    name: "Meteorite Bed",
     id: 3162
   },
   {
-    name: "大理石床",
+    name: "Marble Bed",
     id: 3163
   },
   {
-    name: "花岗岩床",
+    name: "Granite Bed",
     id: 3164
   },
   {
-    name: "陨石书架",
+    name: "Meteorite Bookcase",
     id: 3165
   },
   {
-    name: "大理石书架",
+    name: "Marble Bookcase",
     id: 3166
   },
   {
-    name: "花岗岩书架",
+    name: "Granite Bookcase",
     id: 3167
   },
   {
-    name: "陨石烛台",
+    name: "Meteorite Candelabra",
     id: 3168
   },
   {
-    name: "大理石烛台",
+    name: "Marble Candelabra",
     id: 3169
   },
   {
-    name: "花岗岩烛台",
+    name: "Granite Candelabra",
     id: 3170
   },
   {
-    name: "陨石蜡烛",
+    name: "Meteorite Candle",
     id: 3171
   },
   {
-    name: "大理石蜡烛",
+    name: "Marble Candle",
     id: 3172
   },
   {
-    name: "花岗岩蜡烛",
+    name: "Granite Candle",
     id: 3173
   },
   {
-    name: "陨石椅",
+    name: "Meteorite Chair",
     id: 3174
   },
   {
-    name: "大理石椅",
+    name: "Marble Chair",
     id: 3175
   },
   {
-    name: "花岗岩椅",
+    name: "Granite Chair",
     id: 3176
   },
   {
-    name: "陨石吊灯",
+    name: "Meteorite Chandelier",
     id: 3177
   },
   {
-    name: "大理石吊灯",
+    name: "Marble Chandelier",
     id: 3178
   },
   {
-    name: "花岗岩吊灯",
+    name: "Granite Chandelier",
     id: 3179
   },
   {
-    name: "陨石箱",
+    name: "Meteorite Chest",
     id: 3180
   },
   {
-    name: "大理石箱",
+    name: "Marble Chest",
     id: 3181
   },
   {
-    name: "魔法滴水管",
+    name: "Magic Water Dropper",
     id: 3182
   },
   {
-    name: "金虫网",
+    name: "Golden Bug Net",
     id: 3183
   },
   {
-    name: "魔法熔岩滴管",
+    name: "Magic Lava Dropper",
     id: 3184
   },
   {
-    name: "魔法蜂蜜滴管",
+    name: "Magic Honey Dropper",
     id: 3185
   },
   {
-    name: "空滴管",
+    name: "Empty Dropper",
     id: 3186
   },
   {
-    name: "角斗士头盔",
+    name: "Gladiator Helmet",
     id: 3187
   },
   {
-    name: "角斗士胸甲",
+    name: "Gladiator Breastplate",
     id: 3188
   },
   {
-    name: "角斗士护胫",
+    name: "Gladiator Leggings",
     id: 3189
   },
   {
-    name: "反光染料",
+    name: "Reflective Dye",
     id: 3190
   },
   {
-    name: "附魔夜行者",
+    name: "Enchanted Nightcrawler",
     id: 3191
   },
   {
-    name: "蛆虫",
+    name: "Grubby",
     id: 3192
   },
   {
-    name: "鼻涕虫",
+    name: "Sluggy",
     id: 3193
   },
   {
-    name: "蚜虫",
+    name: "Buggy",
     id: 3194
   },
   {
-    name: "蛆虫汤",
+    name: "Grub Soup",
     id: 3195
   },
   {
-    name: "炸弹鱼",
+    name: "Bomb Fish",
     id: 3196
   },
   {
-    name: "寒霜飞鱼",
+    name: "Frost Daggerfish",
     id: 3197
   },
   {
-    name: "利器站",
+    name: "Sharpening Station",
     id: 3198
   },
   {
-    name: "冰镜",
+    name: "Ice Mirror",
     id: 3199
   },
   {
-    name: "旗鱼靴",
+    name: "Sailfish Boots",
     id: 3200
   },
   {
-    name: "海啸瓶",
+    name: "Tsunami in a Bottle",
     id: 3201
   },
   {
-    name: "训练假人",
+    name: "Target Dummy",
     id: 3202
   },
   {
-    name: "腐化匣",
+    name: "Corrupt Crate",
     id: 3203
   },
   {
-    name: "猩红匣",
+    name: "Crimson Crate",
     id: 3204
   },
   {
-    name: "地牢匣",
+    name: "Dungeon Crate",
     id: 3205
   },
   {
-    name: "天空匣",
+    name: "Sky Crate",
     id: 3206
   },
   {
-    name: "神圣匣",
+    name: "Hallowed Crate",
     id: 3207
   },
   {
-    name: "丛林匣",
+    name: "Jungle Crate",
     id: 3208
   },
   {
-    name: "水晶蛇",
+    name: "Crystal Serpent",
     id: 3209
   },
   {
-    name: "毒弹枪",
+    name: "Toxikarp",
     id: 3210
   },
   {
-    name: "舌锋剑",
+    name: "Bladetongue",
     id: 3211
   },
   {
-    name: "鲨牙项链",
+    name: "Shark Tooth Necklace",
     id: 3212
   },
   {
-    name: "钱币槽",
+    name: "Money Trough",
     id: 3213
   },
   {
-    name: "泡泡",
+    name: "Bubble",
     id: 3214
   },
   {
-    name: "太阳花种植盆",
+    name: "Daybloom Planter Box",
     id: 3215
   },
   {
-    name: "月光草种植盆",
+    name: "Moonglow Planter Box",
     id: 3216
   },
   {
-    name: "死亡草种植盆",
+    name: "Deathweed Planter Box",
     id: 3217
   },
   {
-    name: "死亡草种植盆",
+    name: "Deathweed Planter Box",
     id: 3218
   },
   {
-    name: "闪耀根种植盆",
+    name: "Blinkroot Planter Box",
     id: 3219
   },
   {
-    name: "幌菊种植盆",
+    name: "Waterleaf Planter Box",
     id: 3220
   },
   {
-    name: "寒颤棘种植盆",
+    name: "Shiverthorn Planter Box",
     id: 3221
   },
   {
-    name: "火焰花种植盆",
+    name: "Fireblossom Planter Box",
     id: 3222
   },
   {
-    name: "混乱之脑",
+    name: "Brain of Confusion",
     id: 3223
   },
   {
-    name: "蠕虫围巾",
+    name: "Worm Scarf",
     id: 3224
   },
   {
-    name: "气球河豚鱼",
+    name: "Balloon Pufferfish",
     id: 3225
   },
   {
-    name: "Lazure的瓦尔基里环",
+    name: "Lazure's Valkyrie Circlet",
     id: 3226
   },
   {
-    name: "Lazure的瓦尔基里披风",
+    name: "Lazure's Valkyrie Cloak",
     id: 3227
   },
   {
-    name: "Lazure的屏障平台",
+    name: "Lazure's Barrier Platform",
     id: 3228
   },
   {
-    name: "金十字墓石",
+    name: "Golden Cross Grave Marker",
     id: 3229
   },
   {
-    name: "金墓碑",
+    name: "Golden Tombstone",
     id: 3230
   },
   {
-    name: "金墓标记",
+    name: "Golden Grave Marker",
     id: 3231
   },
   {
-    name: "金墓石",
+    name: "Golden Gravestone",
     id: 3232
   },
   {
-    name: "金墓志铭",
+    name: "Golden Headstone",
     id: 3233
   },
   {
-    name: "水晶块",
+    name: "Crystal Block",
     id: 3234
   },
   {
-    name: "八音盒（火星暴乱）",
+    name: "Music Box (Martian Madness)",
     id: 3235
   },
   {
-    name: "八音盒（海盗入侵）",
+    name: "Music Box (Pirate Invasion)",
     id: 3236
   },
   {
-    name: "八音盒（地狱）",
+    name: "Music Box (Hell)",
     id: 3237
   },
   {
-    name: "水晶块墙",
+    name: "Crystal Block Wall",
     id: 3238
   },
   {
-    name: "活板门",
+    name: "Trap Door",
     id: 3239
   },
   {
-    name: "高门",
+    name: "Tall Gate",
     id: 3240
   },
   {
-    name: "鲨鱼龙气球",
+    name: "Sharkron Balloon",
     id: 3241
   },
   {
-    name: "税收官的帽子",
+    name: "Tax Collector's Hat",
     id: 3242
   },
   {
-    name: "税收官的西装",
+    name: "Tax Collector's Suit",
     id: 3243
   },
   {
-    name: "税收官的裤子",
+    name: "Tax Collector's Pants",
     id: 3244
   },
   {
-    name: "骨头手套",
+    name: "Bone Glove",
     id: 3245
   },
   {
-    name: "服装商上衣",
+    name: "Clothier's Jacket",
     id: 3246
   },
   {
-    name: "服装商裤子",
+    name: "Clothier's Pants",
     id: 3247
   },
   {
-    name: "染料商头巾",
+    name: "Dye Trader's Turban",
     id: 3248
   },
   {
-    name: "致命球法杖",
+    name: "Deadly Sphere Staff",
     id: 3249
   },
   {
-    name: "绿马掌气球",
+    name: "Green Horseshoe Balloon",
     id: 3250
   },
   {
-    name: "琥珀马掌气球",
+    name: "Amber Horseshoe Balloon",
     id: 3251
   },
   {
-    name: "粉马掌气球",
+    name: "Pink Horseshoe Balloon",
     id: 3252
   },
   {
-    name: "熔岩灯",
+    name: "Lava Lamp",
     id: 3253
   },
   {
-    name: "附魔夜行者笼",
+    name: "Enchanted Nightcrawler Cage",
     id: 3254
   },
   {
-    name: "蚜虫笼",
+    name: "Buggy Cage",
     id: 3255
   },
   {
-    name: "蛆虫笼",
+    name: "Grubby Cage",
     id: 3256
   },
   {
-    name: "鼻涕虫笼",
+    name: "Sluggy Cage",
     id: 3257
   },
   {
-    name: "拍拍手",
+    name: "Slap Hand",
     id: 3258
   },
   {
-    name: "暮光染发剂",
+    name: "Twilight Hair Dye",
     id: 3259
   },
   {
-    name: "祝福苹果",
+    name: "Blessed Apple",
     id: 3260
   },
   {
-    name: "幽灵锭",
+    name: "Spectre Bar",
     id: 3261
   },
   {
-    name: "代码1",
+    name: "Code 1",
     id: 3262
   },
   {
-    name: "海盗头巾",
+    name: "Buccaneer Bandana",
     id: 3263
   },
   {
-    name: "海盗上衣",
+    name: "Buccaneer Tunic",
     id: 3264
   },
   {
-    name: "海盗马裤",
+    name: "Buccaneer Pantaloons",
     id: 3265
   },
   {
-    name: "黑曜石牛仔帽",
+    name: "Obsidian Outlaw Hat",
     id: 3266
   },
   {
-    name: "黑曜石长风衣",
+    name: "Obsidian Longcoat",
     id: 3267
   },
   {
-    name: "黑曜石裤子",
+    name: "Obsidian Pants",
     id: 3268
   },
   {
-    name: "美杜莎首级",
+    name: "Medusa Head",
     id: 3269
   },
   {
-    name: "物品框",
+    name: "Item Frame",
     id: 3270
   },
   {
-    name: "沙岩块",
+    name: "Sandstone Block",
     id: 3271
   },
   {
-    name: "硬化沙块",
+    name: "Hardened Sand Block",
     id: 3272
   },
   {
-    name: "沙岩墙",
+    name: "Sandstone Wall",
     id: 3273
   },
   {
-    name: "硬化黑檀沙块",
+    name: "Hardened Ebonsand Block",
     id: 3274
   },
   {
-    name: "硬化猩红沙块",
+    name: "Hardened Crimsand Block",
     id: 3275
   },
   {
-    name: "黑檀沙岩块",
+    name: "Ebonsandstone Block",
     id: 3276
   },
   {
-    name: "猩红沙岩块",
+    name: "Crimsandstone Block",
     id: 3277
   },
   {
-    name: "木悠悠球",
+    name: "Wooden Yoyo",
     id: 3278
   },
   {
-    name: "抑郁",
+    name: "Malaise",
     id: 3279
   },
   {
-    name: "血脉",
+    name: "Artery",
     id: 3280
   },
   {
-    name: "亚马逊",
+    name: "Amazon",
     id: 3281
   },
   {
-    name: "瀑布",
+    name: "Cascade",
     id: 3282
   },
   {
-    name: "吉克",
+    name: "Chik",
     id: 3283
   },
   {
-    name: "代码2",
+    name: "Code 2",
     id: 3284
   },
   {
-    name: "集会",
+    name: "Rally",
     id: 3285
   },
   {
-    name: "叶列茨",
+    name: "Yelets",
     id: 3286
   },
   {
-    name: "红的抛射",
+    name: "Red's Throw",
     id: 3287
   },
   {
-    name: "女武神悠悠球",
+    name: "Valkyrie Yoyo",
     id: 3288
   },
   {
-    name: "阿马洛克",
+    name: "Amarok",
     id: 3289
   },
   {
-    name: "地狱火",
+    name: "Hel-Fire",
     id: 3290
   },
   {
-    name: "北海巨妖",
+    name: "Kraken",
     id: 3291
   },
   {
-    name: "克苏鲁之眼",
+    name: "The Eye of Cthulhu",
     id: 3292
   },
   {
-    name: "红绳",
+    name: "Red String",
     id: 3293
   },
   {
-    name: "橙绳",
+    name: "Orange String",
     id: 3294
   },
   {
-    name: "黄绳",
+    name: "Yellow String",
     id: 3295
   },
   {
-    name: "青柠绳",
+    name: "Lime String",
     id: 3296
   },
   {
-    name: "绿绳",
+    name: "Green String",
     id: 3297
   },
   {
-    name: "蓝绿绳",
+    name: "Teal String",
     id: 3298
   },
   {
-    name: "青绳",
+    name: "Cyan String",
     id: 3299
   },
   {
-    name: "天蓝绳",
+    name: "Sky Blue String",
     id: 3300
   },
   {
-    name: "蓝绳",
+    name: "Blue String",
     id: 3301
   },
   {
-    name: "紫绳",
+    name: "Purple String",
     id: 3302
   },
   {
-    name: "紫罗兰绳",
+    name: "Violet String",
     id: 3303
   },
   {
-    name: "粉绳",
+    name: "Pink String",
     id: 3304
   },
   {
-    name: "棕绳",
+    name: "Brown String",
     id: 3305
   },
   {
-    name: "白绳",
+    name: "White String",
     id: 3306
   },
   {
-    name: "彩虹绳",
+    name: "Rainbow String",
     id: 3307
   },
   {
-    name: "黑绳",
+    name: "Black String",
     id: 3308
   },
   {
-    name: "黑平衡锤",
+    name: "Black Counterweight",
     id: 3309
   },
   {
-    name: "蓝平衡锤",
+    name: "Blue Counterweight",
     id: 3310
   },
   {
-    name: "绿平衡锤",
+    name: "Green Counterweight",
     id: 3311
   },
   {
-    name: "紫平衡锤",
+    name: "Purple Counterweight",
     id: 3312
   },
   {
-    name: "红平衡锤",
+    name: "Red Counterweight",
     id: 3313
   },
   {
-    name: "黄平衡锤",
+    name: "Yellow Counterweight",
     id: 3314
   },
   {
@@ -13222,211 +13222,211 @@ export const items: ItemInfo[] = [
     id: 3315
   },
   {
-    name: "渐变球",
+    name: "Gradient",
     id: 3316
   },
   {
-    name: "英勇球",
+    name: "Valor",
     id: 3317
   },
   {
-    name: "宝藏袋（史莱姆王）",
+    name: "Treasure Bag (King Slime)",
     id: 3318
   },
   {
-    name: "宝藏袋（克苏鲁之眼）",
+    name: "Treasure Bag (Eye of Cthulhu)",
     id: 3319
   },
   {
-    name: "宝藏袋（世界吞噬怪）",
+    name: "Treasure Bag (Eater of Worlds)",
     id: 3320
   },
   {
-    name: "宝藏袋（克苏鲁之脑）",
+    name: "Treasure Bag (Brain of Cthulhu)",
     id: 3321
   },
   {
-    name: "宝藏袋（蜂王）",
+    name: "Treasure Bag (Queen Bee)",
     id: 3322
   },
   {
-    name: "宝藏袋（骷髅王）",
+    name: "Treasure Bag (Skeletron)",
     id: 3323
   },
   {
-    name: "宝藏袋（血肉墙）",
+    name: "Treasure Bag (Wall of Flesh)",
     id: 3324
   },
   {
-    name: "宝藏袋（毁灭者）",
+    name: "Treasure Bag (The Destroyer)",
     id: 3325
   },
   {
-    name: "宝藏袋（双子魔眼）",
+    name: "Treasure Bag (The Twins)",
     id: 3326
   },
   {
-    name: "宝藏袋（机械骷髅王）",
+    name: "Treasure Bag (Skeletron Prime)",
     id: 3327
   },
   {
-    name: "宝藏袋（世纪之花）",
+    name: "Treasure Bag (Plantera)",
     id: 3328
   },
   {
-    name: "宝藏袋（石巨人）",
+    name: "Treasure Bag (Golem)",
     id: 3329
   },
   {
-    name: "宝藏袋（猪龙鱼公爵）",
+    name: "Treasure Bag (Duke Fishron)",
     id: 3330
   },
   {
-    name: "宝藏袋（拜月教邪教徒）",
+    name: "Treasure Bag (Lunatic Cultist)",
     id: 3331
   },
   {
-    name: "宝藏袋（月亮领主）",
+    name: "Treasure Bag (Moon Lord)",
     id: 3332
   },
   {
-    name: "蜂巢背包",
+    name: "Hive Pack",
     id: 3333
   },
   {
-    name: "悠悠球手套",
+    name: "Yoyo Glove",
     id: 3334
   },
   {
-    name: "恶魔之心",
+    name: "Demon Heart",
     id: 3335
   },
   {
-    name: "孢子囊",
+    name: "Spore Sac",
     id: 3336
   },
   {
-    name: "闪亮石",
+    name: "Shiny Stone",
     id: 3337
   },
   {
-    name: "硬化珍珠沙块",
+    name: "Hardened Pearlsand Block",
     id: 3338
   },
   {
-    name: "珍珠沙岩块",
+    name: "Pearlsandstone Block",
     id: 3339
   },
   {
-    name: "硬化沙墙",
+    name: "Hardened Sand Wall",
     id: 3340
   },
   {
-    name: "硬化黑檀沙墙",
+    name: "Hardened Ebonsand Wall",
     id: 3341
   },
   {
-    name: "硬化猩红沙墙",
+    name: "Hardened Crimsand Wall",
     id: 3342
   },
   {
-    name: "硬化珍珠沙墙",
+    name: "Hardened Pearlsand Wall",
     id: 3343
   },
   {
-    name: "黑檀沙岩墙",
+    name: "Ebonsandstone Wall",
     id: 3344
   },
   {
-    name: "猩红沙岩墙",
+    name: "Crimsandstone Wall",
     id: 3345
   },
   {
-    name: "珍珠沙岩墙",
+    name: "Pearlsandstone Wall",
     id: 3346
   },
   {
-    name: "沙漠化石",
+    name: "Desert Fossil",
     id: 3347
   },
   {
-    name: "沙漠化石墙",
+    name: "Desert Fossil Wall",
     id: 3348
   },
   {
-    name: "异域弯刀",
+    name: "Exotic Scimitar",
     id: 3349
   },
   {
-    name: "彩弹枪",
+    name: "Paintball Gun",
     id: 3350
   },
   {
-    name: "优雅手杖",
+    name: "Classy Cane",
     id: 3351
   },
   {
-    name: "时髦剪刀",
+    name: "Stylish Scissors",
     id: 3352
   },
   {
-    name: "机械矿车",
+    name: "Mechanical Cart",
     id: 3353
   },
   {
-    name: "机械车轮片",
+    name: "Mechanical Wheel Piece",
     id: 3354
   },
   {
-    name: "机械货车片",
+    name: "Mechanical Wagon Piece",
     id: 3355
   },
   {
-    name: "机械电池片",
+    name: "Mechanical Battery Piece",
     id: 3356
   },
   {
-    name: "拜月教邪教徒纪念章",
+    name: "Lunatic Cultist Trophy",
     id: 3357
   },
   {
-    name: "火星飞碟纪念章",
+    name: "Martian Saucer Trophy",
     id: 3358
   },
   {
-    name: "荷兰飞盗船纪念章",
+    name: "Flying Dutchman Trophy",
     id: 3359
   },
   {
-    name: "生命红木魔棒",
+    name: "Living Mahogany Wand",
     id: 3360
   },
   {
-    name: "红木树叶魔棒",
+    name: "Rich Mahogany Leaf Wand",
     id: 3361
   },
   {
-    name: "破烂礼服上衣",
+    name: "Fallen Tuxedo Shirt",
     id: 3362
   },
   {
-    name: "破烂礼服裤",
+    name: "Fallen Tuxedo Pants",
     id: 3363
   },
   {
-    name: "壁炉",
+    name: "Fireplace",
     id: 3364
   },
   {
-    name: "烟囱",
+    name: "Chimney",
     id: 3365
   },
   {
-    name: "悠悠球袋",
+    name: "Yoyo Bag",
     id: 3366
   },
   {
-    name: "虾松露",
+    name: "Shrimpy Truffle",
     id: 3367
   },
   {
@@ -13434,1335 +13434,1335 @@ export const items: ItemInfo[] = [
     id: 3368
   },
   {
-    name: "彩纸炮",
+    name: "Confetti Cannon",
     id: 3369
   },
   {
-    name: "八音盒（天塔）",
+    name: "Music Box (The Towers)",
     id: 3370
   },
   {
-    name: "八音盒（哥布林入侵）",
+    name: "Music Box (Goblin Invasion)",
     id: 3371
   },
   {
-    name: "拜月教邪教徒面具",
+    name: "Lunatic Cultist Mask",
     id: 3372
   },
   {
-    name: "月亮领主面具",
+    name: "Moon Lord Mask",
     id: 3373
   },
   {
-    name: "化石头盔",
+    name: "Fossil Helmet",
     id: 3374
   },
   {
-    name: "化石板甲",
+    name: "Fossil Plate",
     id: 3375
   },
   {
-    name: "化石护胫",
+    name: "Fossil Greaves",
     id: 3376
   },
   {
-    name: "琥珀法杖",
+    name: "Amber Staff",
     id: 3377
   },
   {
-    name: "骨投矛",
+    name: "Bone Javelin",
     id: 3378
   },
   {
-    name: "骨飞刀",
+    name: "Bone Throwing Knife",
     id: 3379
   },
   {
-    name: "坚固化石",
+    name: "Sturdy Fossil",
     id: 3380
   },
   {
-    name: "星尘头盔",
+    name: "Stardust Helmet",
     id: 3381
   },
   {
-    name: "星尘板甲",
+    name: "Stardust Plate",
     id: 3382
   },
   {
-    name: "星尘护腿",
+    name: "Stardust Leggings",
     id: 3383
   },
   {
-    name: "传送枪",
+    name: "Portal Gun",
     id: 3384
   },
   {
-    name: "奇异植物",
+    name: "Strange Plant",
     id: 3385
   },
   {
-    name: "奇异植物",
+    name: "Strange Plant",
     id: 3386
   },
   {
-    name: "奇异植物",
+    name: "Strange Plant",
     id: 3387
   },
   {
-    name: "奇异植物",
+    name: "Strange Plant",
     id: 3388
   },
   {
-    name: "泰拉悠悠球",
+    name: "Terrarian",
     id: 3389
   },
   {
-    name: "哥布林巫士旗",
+    name: "Goblin Warlock Banner",
     id: 3390
   },
   {
-    name: "蝾螈旗",
+    name: "Salamander Banner",
     id: 3391
   },
   {
-    name: "巨型卷壳怪旗",
+    name: "Giant Shelly Banner",
     id: 3392
   },
   {
-    name: "爬爬怪旗",
+    name: "Crawdad Banner",
     id: 3393
   },
   {
-    name: "弗里茨旗",
+    name: "Fritz Banner",
     id: 3394
   },
   {
-    name: "深水蛮族旗",
+    name: "Creature From The Deep Banner",
     id: 3395
   },
   {
-    name: "蝇人博士旗",
+    name: "Dr. Man Fly Banner",
     id: 3396
   },
   {
-    name: "蛾怪旗",
+    name: "Mothron Banner",
     id: 3397
   },
   {
-    name: "断手旗",
+    name: "Severed Hand Banner",
     id: 3398
   },
   {
-    name: "附魔剑旗",
+    name: "The Possessed Banner",
     id: 3399
   },
   {
-    name: "屠夫旗",
+    name: "Butcher Banner",
     id: 3400
   },
   {
-    name: "变态人旗",
+    name: "Psycho Banner",
     id: 3401
   },
   {
-    name: "致命球旗",
+    name: "Deadly Sphere Banner",
     id: 3402
   },
   {
-    name: "钉头旗",
+    name: "Nailhead Banner",
     id: 3403
   },
   {
-    name: "毒孢旗",
+    name: "Poisonous Spore Banner",
     id: 3404
   },
   {
-    name: "美杜莎旗",
+    name: "Medusa Banner",
     id: 3405
   },
   {
-    name: "希腊重甲兵旗",
+    name: "Hoplite Banner",
     id: 3406
   },
   {
-    name: "花岗岩精旗",
+    name: "Granite Elemental Banner",
     id: 3407
   },
   {
-    name: "花岗岩巨人旗",
+    name: "Granite Golem Banner",
     id: 3408
   },
   {
-    name: "血腥僵尸旗",
+    name: "Blood Zombie Banner",
     id: 3409
   },
   {
-    name: "滴落者旗",
+    name: "Drippler Banner",
     id: 3410
   },
   {
-    name: "墓穴爬虫旗",
+    name: "Tomb Crawler Banner",
     id: 3411
   },
   {
-    name: "沙虫旗",
+    name: "Dune Splicer Banner",
     id: 3412
   },
   {
-    name: "蚁狮蜂旗",
+    name: "Antlion Swarmer Banner",
     id: 3413
   },
   {
-    name: "蚁狮冲锋者旗",
+    name: "Antlion Charger Banner",
     id: 3414
   },
   {
-    name: "食尸鬼旗",
+    name: "Ghoul Banner",
     id: 3415
   },
   {
-    name: "拉弥亚旗",
+    name: "Lamia Banner",
     id: 3416
   },
   {
-    name: "沙漠幽魂旗",
+    name: "Desert Spirit Banner",
     id: 3417
   },
   {
-    name: "蛇蜥怪旗",
+    name: "Basilisk Banner",
     id: 3418
   },
   {
-    name: "沙贼旗",
+    name: "Sand Poacher Banner",
     id: 3419
   },
   {
-    name: "观星者旗",
+    name: "Stargazer Banner",
     id: 3420
   },
   {
-    name: "银河织者旗",
+    name: "Milkyway Weaver Banner",
     id: 3421
   },
   {
-    name: "流星头旗",
+    name: "Flow Invader Banner",
     id: 3422
   },
   {
-    name: "闪烁怪旗",
+    name: "Twinkle Popper Banner",
     id: 3423
   },
   {
-    name: "迷你星细胞旗",
+    name: "Mini Star Cell Banner",
     id: 3424
   },
   {
-    name: "星细胞旗",
+    name: "Star Cell Banner",
     id: 3425
   },
   {
-    name: "火怪旗",
+    name: "Corite Banner",
     id: 3426
   },
   {
-    name: "千足蜈蚣旗",
+    name: "Sroller Banner",
     id: 3427
   },
   {
-    name: "爬虫旗",
+    name: "Crawltipede Banner",
     id: 3428
   },
   {
-    name: "龙骑士旗",
+    name: "Drakomire Rider Banner",
     id: 3429
   },
   {
-    name: "龙旗",
+    name: "Drakomire Banner",
     id: 3430
   },
   {
-    name: "月耀旗",
+    name: "Selenian Banner",
     id: 3431
   },
   {
-    name: "预言者旗",
+    name: "Predictor Banner",
     id: 3432
   },
   {
-    name: "吸脑者旗",
+    name: "Brain Suckler Banner",
     id: 3433
   },
   {
-    name: "星云浮怪旗",
+    name: "Nebula Floater Banner",
     id: 3434
   },
   {
-    name: "进化兽旗",
+    name: "Evolution Beast Banner",
     id: 3435
   },
   {
-    name: "外星幼虫旗",
+    name: "Alien Larva Banner",
     id: 3436
   },
   {
-    name: "外星女王旗",
+    name: "Alien Queen Banner",
     id: 3437
   },
   {
-    name: "外星黄蜂旗",
+    name: "Alien Hornet Banner",
     id: 3438
   },
   {
-    name: "星旋兵旗",
+    name: "Vortexian Banner",
     id: 3439
   },
   {
-    name: "风暴潜水者旗",
+    name: "Storm Diver Banner",
     id: 3440
   },
   {
-    name: "海盗船长旗",
+    name: "Pirate Captain Banner",
     id: 3441
   },
   {
-    name: "海盗神射手旗",
+    name: "Pirate Deadeye Banner",
     id: 3442
   },
   {
-    name: "海盗私船旗",
+    name: "Pirate Corsair Banner",
     id: 3443
   },
   {
-    name: "海盗弩手旗",
+    name: "Pirate Crossbower Banner",
     id: 3444
   },
   {
-    name: "火星走兽旗",
+    name: "Martian Walker Banner",
     id: 3445
   },
   {
-    name: "红魔鬼旗",
+    name: "Red Devil Banner",
     id: 3446
   },
   {
-    name: "粉水母旗",
+    name: "Pink Jellyfish Banner",
     id: 3447
   },
   {
-    name: "绿水母旗",
+    name: "Green Jellyfish Banner",
     id: 3448
   },
   {
-    name: "暗黑木乃伊旗",
+    name: "Dark Mummy Banner",
     id: 3449
   },
   {
-    name: "光明木乃伊旗",
+    name: "Light Mummy Banner",
     id: 3450
   },
   {
-    name: "愤怒骷髅旗",
+    name: "Angry Bones Banner",
     id: 3451
   },
   {
-    name: "冰龟旗",
+    name: "Ice Tortoise Banner",
     id: 3452
   },
   {
-    name: "伤害增强器",
+    name: "Damage Booster",
     id: 3453
   },
   {
-    name: "生命增强器",
+    name: "Life Booster",
     id: 3454
   },
   {
-    name: "魔力增强器",
+    name: "Mana Booster",
     id: 3455
   },
   {
-    name: "星旋碎片",
+    name: "Vortex Fragment",
     id: 3456
   },
   {
-    name: "星云碎片",
+    name: "Nebula Fragment",
     id: 3457
   },
   {
-    name: "日耀碎片",
+    name: "Solar Fragment",
     id: 3458
   },
   {
-    name: "星尘碎片",
+    name: "Stardust Fragment",
     id: 3459
   },
   {
-    name: "夜明矿",
+    name: "Luminite",
     id: 3460
   },
   {
-    name: "夜明砖",
+    name: "Luminite Brick",
     id: 3461
   },
   {
-    name: "星尘钻头",
+    name: "Stardust Drill",
     id: 3464
   },
   {
-    name: "星尘镐",
+    name: "Stardust Pickaxe",
     id: 3466
   },
   {
-    name: "夜明锭",
+    name: "Luminite Bar",
     id: 3467
   },
   {
-    name: "日耀之翼",
+    name: "Solar Wings",
     id: 3468
   },
   {
-    name: "星旋强化翼",
+    name: "Vortex Booster",
     id: 3469
   },
   {
-    name: "星云斗篷",
+    name: "Nebula Mantle",
     id: 3470
   },
   {
-    name: "星尘之翼",
+    name: "Stardust Wings",
     id: 3471
   },
   {
-    name: "夜明砖墙",
+    name: "Luminite Brick Wall",
     id: 3472
   },
   {
-    name: "日耀喷发剑",
+    name: "Solar Eruption",
     id: 3473
   },
   {
-    name: "星尘细胞法杖",
+    name: "Stardust Cell Staff",
     id: 3474
   },
   {
-    name: "星旋机枪",
+    name: "Vortex Beater",
     id: 3475
   },
   {
-    name: "星云奥秘",
+    name: "Nebula Arcanum",
     id: 3476
   },
   {
-    name: "血水",
+    name: "Blood Water",
     id: 3477
   },
   {
-    name: "婚礼面纱",
+    name: "Wedding Veil",
     id: 3478
   },
   {
-    name: "婚礼礼服",
+    name: "Wedding Dress",
     id: 3479
   },
   {
-    name: "铂金弓",
+    name: "Platinum Bow",
     id: 3480
   },
   {
-    name: "铂金锤",
+    name: "Platinum Hammer",
     id: 3481
   },
   {
-    name: "铂金斧",
+    name: "Platinum Axe",
     id: 3482
   },
   {
-    name: "铂金短剑",
+    name: "Platinum Shortsword",
     id: 3483
   },
   {
-    name: "铂金宽剑",
+    name: "Platinum Broadsword",
     id: 3484
   },
   {
-    name: "铂金镐",
+    name: "Platinum Pickaxe",
     id: 3485
   },
   {
-    name: "钨弓",
+    name: "Tungsten Bow",
     id: 3486
   },
   {
-    name: "钨锤",
+    name: "Tungsten Hammer",
     id: 3487
   },
   {
-    name: "钨斧",
+    name: "Tungsten Axe",
     id: 3488
   },
   {
-    name: "钨短剑",
+    name: "Tungsten Shortsword",
     id: 3489
   },
   {
-    name: "钨宽剑",
+    name: "Tungsten Broadsword",
     id: 3490
   },
   {
-    name: "钨镐",
+    name: "Tungsten Pickaxe",
     id: 3491
   },
   {
-    name: "铅弓",
+    name: "Lead Bow",
     id: 3492
   },
   {
-    name: "铅锤",
+    name: "Lead Hammer",
     id: 3493
   },
   {
-    name: "铅斧",
+    name: "Lead Axe",
     id: 3494
   },
   {
-    name: "铅短剑",
+    name: "Lead Shortsword",
     id: 3495
   },
   {
-    name: "铅宽剑",
+    name: "Lead Broadsword",
     id: 3496
   },
   {
-    name: "铅镐",
+    name: "Lead Pickaxe",
     id: 3497
   },
   {
-    name: "锡弓",
+    name: "Tin Bow",
     id: 3498
   },
   {
-    name: "锡锤",
+    name: "Tin Hammer",
     id: 3499
   },
   {
-    name: "锡斧",
+    name: "Tin Axe",
     id: 3500
   },
   {
-    name: "锡短剑",
+    name: "Tin Shortsword",
     id: 3501
   },
   {
-    name: "锡宽剑",
+    name: "Tin Broadsword",
     id: 3502
   },
   {
-    name: "锡镐",
+    name: "Tin Pickaxe",
     id: 3503
   },
   {
-    name: "铜弓",
+    name: "Copper Bow",
     id: 3504
   },
   {
-    name: "铜锤",
+    name: "Copper Hammer",
     id: 3505
   },
   {
-    name: "铜斧",
+    name: "Copper Axe",
     id: 3506
   },
   {
-    name: "铜短剑",
+    name: "Copper Shortsword",
     id: 3507
   },
   {
-    name: "铜宽剑",
+    name: "Copper Broadsword",
     id: 3508
   },
   {
-    name: "铜镐",
+    name: "Copper Pickaxe",
     id: 3509
   },
   {
-    name: "银弓",
+    name: "Silver Bow",
     id: 3510
   },
   {
-    name: "银锤",
+    name: "Silver Hammer",
     id: 3511
   },
   {
-    name: "银斧",
+    name: "Silver Axe",
     id: 3512
   },
   {
-    name: "银短剑",
+    name: "Silver Shortsword",
     id: 3513
   },
   {
-    name: "银宽剑",
+    name: "Silver Broadsword",
     id: 3514
   },
   {
-    name: "银镐",
+    name: "Silver Pickaxe",
     id: 3515
   },
   {
-    name: "金弓",
+    name: "Gold Bow",
     id: 3516
   },
   {
-    name: "金锤",
+    name: "Gold Hammer",
     id: 3517
   },
   {
-    name: "金斧",
+    name: "Gold Axe",
     id: 3518
   },
   {
-    name: "金短剑",
+    name: "Gold Shortsword",
     id: 3519
   },
   {
-    name: "金宽剑",
+    name: "Gold Broadsword",
     id: 3520
   },
   {
-    name: "金镐",
+    name: "Gold Pickaxe",
     id: 3521
   },
   {
-    name: "日耀链锯斧",
+    name: "Solar Flare Hamaxe",
     id: 3522
   },
   {
-    name: "星旋链锯斧",
+    name: "Vortex Hamaxe",
     id: 3523
   },
   {
-    name: "星云链锯斧",
+    name: "Nebula Hamaxe",
     id: 3524
   },
   {
-    name: "星尘链锯斧",
+    name: "Stardust Hamaxe",
     id: 3525
   },
   {
-    name: "日耀染料",
+    name: "Solar Dye",
     id: 3526
   },
   {
-    name: "星云染料",
+    name: "Nebula Dye",
     id: 3527
   },
   {
-    name: "星旋染料",
+    name: "Vortex Dye",
     id: 3528
   },
   {
-    name: "星尘染料",
+    name: "Stardust Dye",
     id: 3529
   },
   {
-    name: "虚空染料",
+    name: "Void Dye",
     id: 3530
   },
   {
-    name: "星尘之龙法杖",
+    name: "Stardust Dragon Staff",
     id: 3531
   },
   {
-    name: "培根",
+    name: "Bacon",
     id: 3532
   },
   {
-    name: "流沙染料",
+    name: "Shifting Sands Dye",
     id: 3533
   },
   {
-    name: "幻象染料",
+    name: "Mirage Dye",
     id: 3534
   },
   {
-    name: "流动的珍珠沙染料",
+    name: "Shifting Pearlsands Dye",
     id: 3535
   },
   {
-    name: "星旋纪念章",
+    name: "Vortex Monolith",
     id: 3536
   },
   {
-    name: "星云纪念章",
+    name: "Nebula Monolith",
     id: 3537
   },
   {
-    name: "星尘纪念章",
+    name: "Stardust Monolith",
     id: 3538
   },
   {
-    name: "日耀纪念章",
+    name: "Solar Monolith",
     id: 3539
   },
   {
-    name: "幻影弓",
+    name: "Phantasm",
     id: 3540
   },
   {
-    name: "终极棱镜",
+    name: "Last Prism",
     id: 3541
   },
   {
-    name: "星云烈焰",
+    name: "Nebula Blaze",
     id: 3542
   },
   {
-    name: "破晓之光",
+    name: "Daybreak",
     id: 3543
   },
   {
-    name: "超级治疗药水",
+    name: "Super Healing Potion",
     id: 3544
   },
   {
-    name: "引爆器",
+    name: "Detonator",
     id: 3545
   },
   {
-    name: "喜庆弹射器",
+    name: "Celebration",
     id: 3546
   },
   {
-    name: "弹力雷管",
+    name: "Bouncy Dynamite",
     id: 3547
   },
   {
-    name: "快乐手榴弹",
+    name: "Happy Grenade",
     id: 3548
   },
   {
-    name: "远古操纵机",
+    name: "Ancient Manipulator",
     id: 3549
   },
   {
-    name: "火焰和银染料",
+    name: "Flame and Silver Dye",
     id: 3550
   },
   {
-    name: "绿色火焰和银染料",
+    name: "Green Flame and Silver Dye",
     id: 3551
   },
   {
-    name: "蓝色火焰和银染料",
+    name: "Blue Flame and Silver Dye",
     id: 3552
   },
   {
-    name: "反光铜染料",
+    name: "Reflective Copper Dye",
     id: 3553
   },
   {
-    name: "反光黑曜石染料",
+    name: "Reflective Obsidian Dye",
     id: 3554
   },
   {
-    name: "反光金属染料",
+    name: "Reflective Metal Dye",
     id: 3555
   },
   {
-    name: "午夜彩虹染料",
+    name: "Midnight Rainbow Dye",
     id: 3556
   },
   {
-    name: "黑白染料",
+    name: "Black and White Dye",
     id: 3557
   },
   {
-    name: "亮银染料",
+    name: "Bright Silver Dye",
     id: 3558
   },
   {
-    name: "银黑染料",
+    name: "Silver and Black Dye",
     id: 3559
   },
   {
-    name: "红色酸性染料",
+    name: "Red Acid Dye",
     id: 3560
   },
   {
-    name: "凝胶染料",
+    name: "Gel Dye",
     id: 3561
   },
   {
-    name: "粉凝胶染料",
+    name: "Pink Gel Dye",
     id: 3562
   },
   {
-    name: "红松鼠",
+    name: "Red Squirrel",
     id: 3563
   },
   {
-    name: "金松鼠",
+    name: "Gold Squirrel",
     id: 3564
   },
   {
-    name: "红松鼠笼",
+    name: "Red Squirrel Cage",
     id: 3565
   },
   {
-    name: "金松鼠笼",
+    name: "Gold Squirrel Cage",
     id: 3566
   },
   {
-    name: "夜明弹",
+    name: "Luminite Bullet",
     id: 3567
   },
   {
-    name: "夜明箭",
+    name: "Luminite Arrow",
     id: 3568
   },
   {
-    name: "月亮传送门法杖",
+    name: "Lunar Portal Staff",
     id: 3569
   },
   {
-    name: "月亮耀斑",
+    name: "Lunar Flare",
     id: 3570
   },
   {
-    name: "彩虹水晶法杖",
+    name: "Rainbow Crystal Staff",
     id: 3571
   },
   {
-    name: "月亮钩爪",
+    name: "Lunar Hook",
     id: 3572
   },
   {
-    name: "日耀碎片块",
+    name: "Solar Fragment Block",
     id: 3573
   },
   {
-    name: "星旋碎片块",
+    name: "Vortex Fragment Block",
     id: 3574
   },
   {
-    name: "星云碎片块",
+    name: "Nebula Fragment Block",
     id: 3575
   },
   {
-    name: "星尘碎片块",
+    name: "Stardust Fragment Block",
     id: 3576
   },
   {
-    name: "可疑触手",
+    name: "Suspicious Looking Tentacle",
     id: 3577
   },
   {
-    name: "Yoraiz0r的制服",
+    name: "Yoraiz0r's Uniform",
     id: 3578
   },
   {
-    name: "Yoraiz0r的裙子",
+    name: "Yoraiz0r's Skirt",
     id: 3579
   },
   {
-    name: "Yoraiz0r的魔法",
+    name: "Yoraiz0r's Spell",
     id: 3580
   },
   {
-    name: "Yoraiz0r的怒容",
+    name: "Yoraiz0r's Scowl",
     id: 3581
   },
   {
-    name: "Jim的翅膀",
+    name: "Jim's Wings",
     id: 3582
   },
   {
-    name: "Yoraiz0r的染色护目镜",
+    name: "Yoraiz0r's Recolored Goggles",
     id: 3583
   },
   {
-    name: "生命叶墙",
+    name: "Living Leaf Wall",
     id: 3584
   },
   {
-    name: "Skiphs的面具",
+    name: "Skiphs' Mask",
     id: 3585
   },
   {
-    name: "Skiphs的皮肤",
+    name: "Skiphs' Skin",
     id: 3586
   },
   {
-    name: "Skiphs的熊屁股",
+    name: "Skiphs' Bear Butt",
     id: 3587
   },
   {
-    name: "Skiphs的爪子",
+    name: "Skiphs' Paws",
     id: 3588
   },
   {
-    name: "Loki的头盔",
+    name: "Loki's Helmet",
     id: 3589
   },
   {
-    name: "Loki的胸甲",
+    name: "Loki's Breastplate",
     id: 3590
   },
   {
-    name: "Loki的护胫",
+    name: "Loki's Greaves",
     id: 3591
   },
   {
-    name: "Loki的翅膀",
+    name: "Loki's Wings",
     id: 3592
   },
   {
-    name: "沙史莱姆旗",
+    name: "Sand Slime Banner",
     id: 3593
   },
   {
-    name: "海蜗牛旗",
+    name: "Sea Snail Banner",
     id: 3594
   },
   {
-    name: "月亮领主纪念章",
+    name: "Moon Lord Trophy",
     id: 3595
   },
   {
-    name: "不是小孩，也不是乌贼",
+    name: "Not a Kid, nor a Squid",
     id: 3596
   },
   {
-    name: "燃烧地狱染料",
+    name: "Burning Hades Dye",
     id: 3597
   },
   {
-    name: "阴森染料",
+    name: "Grim Dye",
     id: 3598
   },
   {
-    name: "Loki的染料",
+    name: "Loki's Dye",
     id: 3599
   },
   {
-    name: "暗影焰地狱染料",
+    name: "Shadowflame Hades Dye",
     id: 3600
   },
   {
-    name: "天界符",
+    name: "Celestial Sigil",
     id: 3601
   },
   {
-    name: "逻辑门灯（关）",
+    name: "Logic Gate Lamp (Off)",
     id: 3602
   },
   {
-    name: "逻辑门（与）",
+    name: "Logic Gate (AND)",
     id: 3603
   },
   {
-    name: "逻辑门（或）",
+    name: "Logic Gate (OR)",
     id: 3604
   },
   {
-    name: "逻辑门（与非）",
+    name: "Logic Gate (NAND)",
     id: 3605
   },
   {
-    name: "逻辑门（或非）",
+    name: "Logic Gate (NOR)",
     id: 3606
   },
   {
-    name: "逻辑门（异或）",
+    name: "Logic Gate (XOR)",
     id: 3607
   },
   {
-    name: "逻辑门（同或）",
+    name: "Logic Gate (XNOR)",
     id: 3608
   },
   {
-    name: "传送带（顺时针）",
+    name: "Conveyor Belt (Clockwise)",
     id: 3609
   },
   {
-    name: "传送带（逆时针）",
+    name: "Conveyor Belt (Counter Clockwise)",
     id: 3610
   },
   {
-    name: "宏伟蓝图",
+    name: "The Grand Design",
     id: 3611
   },
   {
-    name: "黄色扳手",
+    name: "Yellow Wrench",
     id: 3612
   },
   {
-    name: "逻辑传感器（白天）",
+    name: "Logic Sensor (Day)",
     id: 3613
   },
   {
-    name: "逻辑传感器（夜晚）",
+    name: "Logic Sensor (Night)",
     id: 3614
   },
   {
-    name: "逻辑传感器（玩家在上）",
+    name: "Logic Sensor (Player Above)",
     id: 3615
   },
   {
-    name: "接线盒",
+    name: "Junction Box",
     id: 3616
   },
   {
-    name: "广播盒",
+    name: "Announcement Box",
     id: 3617
   },
   {
-    name: "逻辑门灯（开）",
+    name: "Logic Gate Lamp (On)",
     id: 3618
   },
   {
-    name: "机械透镜",
+    name: "Mechanical Lens",
     id: 3619
   },
   {
-    name: "致动棒",
+    name: "Actuation Rod",
     id: 3620
   },
   {
-    name: "红队方块",
+    name: "Red Team Block",
     id: 3621
   },
   {
-    name: "红队平台",
+    name: "Red Team Platform",
     id: 3622
   },
   {
-    name: "静态钩爪",
+    name: "Static Hook",
     id: 3623
   },
   {
-    name: "压力器",
+    name: "Presserator",
     id: 3624
   },
   {
-    name: "五彩扳手",
+    name: "Multicolor Wrench",
     id: 3625
   },
   {
-    name: "粉色加权压力板",
+    name: "Pink Weighted Pressure Plate",
     id: 3626
   },
   {
-    name: "工程头盔",
+    name: "Engineering Helmet",
     id: 3627
   },
   {
-    name: "同伴方块",
+    name: "Companion Cube",
     id: 3628
   },
   {
-    name: "电线灯泡",
+    name: "Wire Bulb",
     id: 3629
   },
   {
-    name: "橙色加权压力板",
+    name: "Orange Weighted Pressure Plate",
     id: 3630
   },
   {
-    name: "紫色加权压力板",
+    name: "Purple Weighted Pressure Plate",
     id: 3631
   },
   {
-    name: "青色加权压力板",
+    name: "Cyan Weighted Pressure Plate",
     id: 3632
   },
   {
-    name: "绿队方块",
+    name: "Green Team Block",
     id: 3633
   },
   {
-    name: "蓝队方块",
+    name: "Blue Team Block",
     id: 3634
   },
   {
-    name: "黄队方块",
+    name: "Yellow Team Block",
     id: 3635
   },
   {
-    name: "粉队方块",
+    name: "Pink Team Block",
     id: 3636
   },
   {
-    name: "白队方块",
+    name: "White Team Block",
     id: 3637
   },
   {
-    name: "绿队平台",
+    name: "Green Team Platform",
     id: 3638
   },
   {
-    name: "蓝队平台",
+    name: "Blue Team Platform",
     id: 3639
   },
   {
-    name: "黄队平台",
+    name: "Yellow Team Platform",
     id: 3640
   },
   {
-    name: "粉队平台",
+    name: "Pink Team Platform",
     id: 3641
   },
   {
-    name: "白队平台",
+    name: "White Team Platform",
     id: 3642
   },
   {
-    name: "大琥珀",
+    name: "Large Amber",
     id: 3643
   },
   {
-    name: "红宝石锁",
+    name: "Ruby Gem Lock",
     id: 3644
   },
   {
-    name: "蓝宝石锁",
+    name: "Sapphire Gem Lock",
     id: 3645
   },
   {
-    name: "翡翠锁",
+    name: "Emerald Gem Lock",
     id: 3646
   },
   {
-    name: "黄玉锁",
+    name: "Topaz Gem Lock",
     id: 3647
   },
   {
-    name: "紫晶锁",
+    name: "Amethyst Gem Lock",
     id: 3648
   },
   {
-    name: "钻石锁",
+    name: "Diamond Gem Lock",
     id: 3649
   },
   {
-    name: "琥珀锁",
+    name: "Amber Gem Lock",
     id: 3650
   },
   {
-    name: "松鼠雕像",
+    name: "Squirrel Statue",
     id: 3651
   },
   {
-    name: "蝴蝶雕像",
+    name: "Butterfly Statue",
     id: 3652
   },
   {
-    name: "蠕虫雕像",
+    name: "Worm Statue",
     id: 3653
   },
   {
-    name: "萤火虫雕像",
+    name: "Firefly Statue",
     id: 3654
   },
   {
-    name: "蝎子雕像",
+    name: "Scorpion Statue",
     id: 3655
   },
   {
-    name: "蜗牛雕像",
+    name: "Snail Statue",
     id: 3656
   },
   {
-    name: "蚱蜢雕像",
+    name: "Grasshopper Statue",
     id: 3657
   },
   {
-    name: "老鼠雕像",
+    name: "Mouse Statue",
     id: 3658
   },
   {
-    name: "鸭子雕像",
+    name: "Duck Statue",
     id: 3659
   },
   {
-    name: "企鹅雕像",
+    name: "Penguin Statue",
     id: 3660
   },
   {
-    name: "青蛙雕像",
+    name: "Frog Statue",
     id: 3661
   },
   {
-    name: "臭虫雕像",
+    name: "Buggy Statue",
     id: 3662
   },
   {
-    name: "逻辑门灯（故障）",
+    name: "Logic Gate Lamp (Faulty)",
     id: 3663
   },
   {
-    name: "传送枪站",
+    name: "Portal Gun Station",
     id: 3664
   },
   {
-    name: "机关宝箱",
+    name: "Trapped Chest",
     id: 3665
   },
   {
-    name: "机关金宝箱",
+    name: "Trapped Gold Chest",
     id: 3666
   },
   {
-    name: "机关暗影宝箱",
+    name: "Trapped Shadow Chest",
     id: 3667
   },
   {
-    name: "机关乌木宝箱",
+    name: "Trapped Ebonwood Chest",
     id: 3668
   },
   {
-    name: "机关红木宝箱",
+    name: "Trapped Rich Mahogany Chest",
     id: 3669
   },
   {
-    name: "机关珍珠木宝箱",
+    name: "Trapped Pearlwood Chest",
     id: 3670
   },
   {
-    name: "机关常春藤宝箱",
+    name: "Trapped Ivy Chest",
     id: 3671
   },
   {
-    name: "机关冰冻宝箱",
+    name: "Trapped Frozen Chest",
     id: 3672
   },
   {
-    name: "机关生命木宝箱",
+    name: "Trapped Living Wood Chest",
     id: 3673
   },
   {
-    name: "机关天域宝箱",
+    name: "Trapped Skyware Chest",
     id: 3674
   },
   {
-    name: "机关暗影木宝箱",
+    name: "Trapped Shadewood Chest",
     id: 3675
   },
   {
-    name: "机关蛛网宝箱",
+    name: "Trapped Web Covered Chest",
     id: 3676
   },
   {
-    name: "机关丛林蜥蜴宝箱",
+    name: "Trapped Lihzahrd Chest",
     id: 3677
   },
   {
-    name: "机关水中宝箱",
+    name: "Trapped Water Chest",
     id: 3678
   },
   {
-    name: "机关丛林宝箱",
+    name: "Trapped Jungle Chest",
     id: 3679
   },
   {
-    name: "机关腐化宝箱",
+    name: "Trapped Corruption Chest",
     id: 3680
   },
   {
-    name: "机关猩红宝箱",
+    name: "Trapped Crimson Chest",
     id: 3681
   },
   {
-    name: "机关神圣宝箱",
+    name: "Trapped Hallowed Chest",
     id: 3682
   },
   {
-    name: "机关冰雪宝箱",
+    name: "Trapped Ice Chest",
     id: 3683
   },
   {
-    name: "机关王朝宝箱",
+    name: "Trapped Dynasty Chest",
     id: 3684
   },
   {
-    name: "机关蜂蜜宝箱",
+    name: "Trapped Honey Chest",
     id: 3685
   },
   {
-    name: "机关蒸汽朋克宝箱",
+    name: "Trapped Steampunk Chest",
     id: 3686
   },
   {
-    name: "机关棕榈木宝箱",
+    name: "Trapped Palm Wood Chest",
     id: 3687
   },
   {
-    name: "机关蘑菇宝箱",
+    name: "Trapped Mushroom Chest",
     id: 3688
   },
   {
-    name: "机关针叶木宝箱",
+    name: "Trapped Boreal Wood Chest",
     id: 3689
   },
   {
-    name: "机关史莱姆宝箱",
+    name: "Trapped Slime Chest",
     id: 3690
   },
   {
-    name: "机关绿色地牢宝箱",
+    name: "Trapped Green Dungeon Chest",
     id: 3691
   },
   {
-    name: "机关粉色地牢宝箱",
+    name: "Trapped Pink Dungeon Chest",
     id: 3692
   },
   {
-    name: "机关蓝色地牢宝箱",
+    name: "Trapped Blue Dungeon Chest",
     id: 3693
   },
   {
-    name: "机关骨头宝箱",
+    name: "Trapped Bone Chest",
     id: 3694
   },
   {
-    name: "机关仙人掌宝箱",
+    name: "Trapped Cactus Chest",
     id: 3695
   },
   {
-    name: "机关血肉宝箱",
+    name: "Trapped Flesh Chest",
     id: 3696
   },
   {
-    name: "机关黑曜石宝箱",
+    name: "Trapped Obsidian Chest",
     id: 3697
   },
   {
-    name: "机关南瓜宝箱",
+    name: "Trapped Pumpkin Chest",
     id: 3698
   },
   {
-    name: "机关阴森宝箱",
+    name: "Trapped Spooky Chest",
     id: 3699
   },
   {
-    name: "机关玻璃宝箱",
+    name: "Trapped Glass Chest",
     id: 3700
   },
   {
-    name: "机关火星宝箱",
+    name: "Trapped Martian Chest",
     id: 3701
   },
   {
-    name: "机关陨石宝箱",
+    name: "Trapped Meteorite Chest",
     id: 3702
   },
   {
-    name: "机关花岗岩宝箱",
+    name: "Trapped Granite Chest",
     id: 3703
   },
   {
-    name: "机关大理石宝箱",
+    name: "Trapped Marble Chest",
     id: 3704
   },
   {
@@ -14774,567 +14774,567 @@ export const items: ItemInfo[] = [
     id: 3706
   },
   {
-    name: "青绿压力板",
+    name: "Teal Pressure Pad",
     id: 3707
   },
   {
-    name: "爬墙蜘蛛雕像",
+    name: "Wall Creeper Statue",
     id: 3708
   },
   {
-    name: "独角兽雕像",
+    name: "Unicorn Statue",
     id: 3709
   },
   {
-    name: "滴落怪雕像",
+    name: "Drippler Statue",
     id: 3710
   },
   {
-    name: "幻灵雕像",
+    name: "Wraith Statue",
     id: 3711
   },
   {
-    name: "骨头骷髅雕像",
+    name: "Bone Skeleton Statue",
     id: 3712
   },
   {
-    name: "亡灵维京海盗雕像",
+    name: "Undead Viking Statue",
     id: 3713
   },
   {
-    name: "美杜莎雕像",
+    name: "Medusa Statue",
     id: 3714
   },
   {
-    name: "鹰身女妖雕像",
+    name: "Harpy Statue",
     id: 3715
   },
   {
-    name: "猪龙雕像",
+    name: "Pigron Statue",
     id: 3716
   },
   {
-    name: "希腊重甲步兵雕像",
+    name: "Hoplite Statue",
     id: 3717
   },
   {
-    name: "花岗岩巨人雕像",
+    name: "Granite Golem Statue",
     id: 3718
   },
   {
-    name: "武装僵尸雕像",
+    name: "Armed Zombie Statue",
     id: 3719
   },
   {
-    name: "血腥僵尸雕像",
+    name: "Blood Zombie Statue",
     id: 3720
   },
   {
-    name: "渔夫渔具袋",
+    name: "Angler Tackle Bag",
     id: 3721
   },
   {
-    name: "间歇泉",
+    name: "Geyser",
     id: 3722
   },
   {
-    name: "超亮篝火",
+    name: "Ultrabright Campfire",
     id: 3723
   },
   {
-    name: "骨头篝火",
+    name: "Bone Campfire",
     id: 3724
   },
   {
-    name: "像素盒",
+    name: "Pixel Box",
     id: 3725
   },
   {
-    name: "液体感应器（水）",
+    name: "Liquid Sensor (Water)",
     id: 3726
   },
   {
-    name: "液体感应器（熔岩）",
+    name: "Liquid Sensor (Lava)",
     id: 3727
   },
   {
-    name: "液体感应器（蜂蜜）",
+    name: "Liquid Sensor (Honey)",
     id: 3728
   },
   {
-    name: "液体感应器（任意）",
+    name: "Liquid Sensor (Any)",
     id: 3729
   },
   {
-    name: "一捆派对气球",
+    name: "Bundled Party Balloons",
     id: 3730
   },
   {
-    name: "气球动物",
+    name: "Balloon Animal",
     id: 3731
   },
   {
-    name: "派对帽",
+    name: "Party Hat",
     id: 3732
   },
   {
-    name: "傻傻向日葵花瓣",
+    name: "Silly Sunflower Petals",
     id: 3733
   },
   {
-    name: "傻傻向日葵花顶",
+    name: "Silly Sunflower Tops",
     id: 3734
   },
   {
-    name: "傻傻向日葵花底",
+    name: "Silly Sunflower Bottoms",
     id: 3735
   },
   {
-    name: "傻傻粉气球",
+    name: "Silly Pink Balloon",
     id: 3736
   },
   {
-    name: "傻傻紫气球",
+    name: "Silly Purple Balloon",
     id: 3737
   },
   {
-    name: "傻傻绿气球",
+    name: "Silly Green Balloon",
     id: 3738
   },
   {
-    name: "蓝飘带",
+    name: "Blue Streamer",
     id: 3739
   },
   {
-    name: "绿飘带",
+    name: "Green Streamer",
     id: 3740
   },
   {
-    name: "粉飘带",
+    name: "Pink Streamer",
     id: 3741
   },
   {
-    name: "傻傻气球机",
+    name: "Silly Balloon Machine",
     id: 3742
   },
   {
-    name: "傻傻系带气球（粉）",
+    name: "Silly Tied Balloon (Pink)",
     id: 3743
   },
   {
-    name: "傻傻系带气球（紫）",
+    name: "Silly Tied Balloon (Purple)",
     id: 3744
   },
   {
-    name: "傻傻系带气球（绿）",
+    name: "Silly Tied Balloon (Green)",
     id: 3745
   },
   {
-    name: "猪龙彩罐",
+    name: "Pigronata",
     id: 3746
   },
   {
-    name: "派对中心",
+    name: "Party Center",
     id: 3747
   },
   {
-    name: "傻傻系带气球束",
+    name: "Silly Tied Bundle of Balloons",
     id: 3748
   },
   {
-    name: "派对礼物",
+    name: "Party Present",
     id: 3749
   },
   {
-    name: "蛋糕块",
+    name: "Slice of Cake",
     id: 3750
   },
   {
-    name: "齿轮墙",
+    name: "Cog Wall",
     id: 3751
   },
   {
-    name: "落沙墙",
+    name: "Sandfall Wall",
     id: 3752
   },
   {
-    name: "落雪墙",
+    name: "Snowfall Wall",
     id: 3753
   },
   {
-    name: "落沙块",
+    name: "Sandfall Block",
     id: 3754
   },
   {
-    name: "落雪块",
+    name: "Snowfall Block",
     id: 3755
   },
   {
-    name: "雪云",
+    name: "Snow Cloud",
     id: 3756
   },
   {
-    name: "佩德企鹅兜帽",
+    name: "Pedguin's Hood",
     id: 3757
   },
   {
-    name: "佩德企鹅夹克",
+    name: "Pedguin's Jacket",
     id: 3758
   },
   {
-    name: "佩德企鹅裤",
+    name: "Pedguin's Trousers",
     id: 3759
   },
   {
-    name: "傻傻粉气球墙",
+    name: "Silly Pink Balloon Wall",
     id: 3760
   },
   {
-    name: "傻傻紫气球墙",
+    name: "Silly Purple Balloon Wall",
     id: 3761
   },
   {
-    name: "傻傻绿气球墙",
+    name: "Silly Green Balloon Wall",
     id: 3762
   },
   {
-    name: "0x33的飞行员风镜",
+    name: "0x33's Aviators",
     id: 3763
   },
   {
-    name: "蓝相位剑",
+    name: "Blue Phasesaber",
     id: 3764
   },
   {
-    name: "红相位剑",
+    name: "Red Phasesaber",
     id: 3765
   },
   {
-    name: "绿相位剑",
+    name: "Green Phasesaber",
     id: 3766
   },
   {
-    name: "紫相位剑",
+    name: "Purple Phasesaber",
     id: 3767
   },
   {
-    name: "白相位剑",
+    name: "White Phasesaber",
     id: 3768
   },
   {
-    name: "黄相位剑",
+    name: "Yellow Phasesaber",
     id: 3769
   },
   {
-    name: "神灯诅咒",
+    name: "Djinn's Curse",
     id: 3770
   },
   {
-    name: "远古号角",
+    name: "Ancient Horn",
     id: 3771
   },
   {
-    name: "颌骨剑",
+    name: "Mandible Blade",
     id: 3772
   },
   {
-    name: "远古头饰",
+    name: "Ancient Headdress",
     id: 3773
   },
   {
-    name: "远古服装",
+    name: "Ancient Garments",
     id: 3774
   },
   {
-    name: "远古裤",
+    name: "Ancient Slacks",
     id: 3775
   },
   {
-    name: "禁忌面具",
+    name: "Forbidden Mask",
     id: 3776
   },
   {
-    name: "禁忌长袍",
+    name: "Forbidden Robes",
     id: 3777
   },
   {
-    name: "禁忌裹腿",
+    name: "Forbidden Treads",
     id: 3778
   },
   {
-    name: "神灵烈焰",
+    name: "Spirit Flame",
     id: 3779
   },
   {
-    name: "沙尘精旗帜",
+    name: "Sand Elemental Banner",
     id: 3780
   },
   {
-    name: "袖珍镜",
+    name: "Pocket Mirror",
     id: 3781
   },
   {
-    name: "魔法沙漏",
+    name: "Magic Sand Dropper",
     id: 3782
   },
   {
-    name: "禁戒碎片",
+    name: "Forbidden Fragment",
     id: 3783
   },
   {
-    name: "拉弥亚尾",
+    name: "Lamia Tail",
     id: 3784
   },
   {
-    name: "拉弥亚裹布",
+    name: "Lamia Wraps",
     id: 3785
   },
   {
-    name: "拉弥亚面具",
+    name: "Lamia Mask",
     id: 3786
   },
   {
-    name: "裂天剑",
+    name: "Sky Fracture",
     id: 3787
   },
   {
-    name: "玛瑙爆破枪",
+    name: "Onyx Blaster",
     id: 3788
   },
   {
-    name: "沙鲨旗帜",
+    name: "Sand Shark Banner",
     id: 3789
   },
   {
-    name: "噬骨者旗帜",
+    name: "Bone Biter Banner",
     id: 3790
   },
   {
-    name: "戮血者旗帜",
+    name: "Flesh Reaver Banner",
     id: 3791
   },
   {
-    name: "晶碎者旗帜",
+    name: "Crystal Thresher Banner",
     id: 3792
   },
   {
-    name: "愤怒翻滚怪旗帜",
+    name: "Angry Tumbler Banner",
     id: 3793
   },
   {
-    name: "远古布匹",
+    name: "Ancient Cloth",
     id: 3794
   },
   {
-    name: "沙漠神灯",
+    name: "Desert Spirit Lamp",
     id: 3795
   },
   {
-    name: "八音盒（沙尘暴）",
+    name: "Music Box (Sandstorm)",
     id: 3796
   },
   {
-    name: "学徒帽",
+    name: "Apprentice's Hat",
     id: 3797
   },
   {
-    name: "学徒长袍",
+    name: "Apprentice's Robe",
     id: 3798
   },
   {
-    name: "学徒裤",
+    name: "Apprentice's Trousers",
     id: 3799
   },
   {
-    name: "侍卫大头盔",
+    name: "Squire's Great Helm",
     id: 3800
   },
   {
-    name: "侍卫板甲",
+    name: "Squire's Plating",
     id: 3801
   },
   {
-    name: "侍卫护胫",
+    name: "Squire's Greaves",
     id: 3802
   },
   {
-    name: "女猎人假发",
+    name: "Huntress's Wig",
     id: 3803
   },
   {
-    name: "女猎人上衣",
+    name: "Huntress's Jerkin",
     id: 3804
   },
   {
-    name: "女猎人裤",
+    name: "Huntress's Pants",
     id: 3805
   },
   {
-    name: "武僧浓眉秃头帽",
+    name: "Monk's Bushy Brow Bald Cap",
     id: 3806
   },
   {
-    name: "武僧衣",
+    name: "Monk's Shirt",
     id: 3807
   },
   {
-    name: "武僧裤",
+    name: "Monk's Pants",
     id: 3808
   },
   {
-    name: "学徒围巾",
+    name: "Apprentice's Scarf",
     id: 3809
   },
   {
-    name: "侍卫护盾",
+    name: "Squire's Shield",
     id: 3810
   },
   {
-    name: "女猎人圆盾",
+    name: "Huntress's Buckler",
     id: 3811
   },
   {
-    name: "武僧腰带",
+    name: "Monk's Belt",
     id: 3812
   },
   {
-    name: "防御者熔炉",
+    name: "Defender's Forge",
     id: 3813
   },
   {
-    name: "战争桌",
+    name: "War Table",
     id: 3814
   },
   {
-    name: "战争桌旗",
+    name: "War Table Banner",
     id: 3815
   },
   {
-    name: "永恒水晶座",
+    name: "Eternia Crystal Stand",
     id: 3816
   },
   {
-    name: "护卫奖章",
+    name: "Defender Medal",
     id: 3817
   },
   {
-    name: "爆炸烈焰魔杖",
+    name: "Flameburst Rod",
     id: 3818
   },
   {
-    name: "爆炸烈焰手杖",
+    name: "Flameburst Cane",
     id: 3819
   },
   {
-    name: "爆炸烈焰法杖",
+    name: "Flameburst Staff",
     id: 3820
   },
   {
-    name: "麦芽酒投掷器",
+    name: "Ale Tosser",
     id: 3821
   },
   {
-    name: "埃特尼亚魔力",
+    name: "Etherian Mana",
     id: 3822
   },
   {
-    name: "地狱烙印",
+    name: "Brand of the Inferno",
     id: 3823
   },
   {
-    name: "弩车魔杖",
+    name: "Ballista Rod",
     id: 3824
   },
   {
-    name: "弩车手杖",
+    name: "Ballista Cane",
     id: 3825
   },
   {
-    name: "弩车法杖",
+    name: "Ballista Staff",
     id: 3826
   },
   {
-    name: "飞龙",
+    name: "Flying Dragon",
     id: 3827
   },
   {
-    name: "埃特尼亚水晶",
+    name: "Eternia Crystal",
     id: 3828
   },
   {
-    name: "闪电光环魔杖",
+    name: "Lightning Aura Rod",
     id: 3829
   },
   {
-    name: "闪电光环手杖",
+    name: "Lightning Aura Cane",
     id: 3830
   },
   {
-    name: "闪电光环法杖",
+    name: "Lightning Aura Staff",
     id: 3831
   },
   {
-    name: "爆炸机关魔杖",
+    name: "Explosive Trap Rod",
     id: 3832
   },
   {
-    name: "爆炸机关手杖",
+    name: "Explosive Trap Cane",
     id: 3833
   },
   {
-    name: "爆炸机关法杖",
+    name: "Explosive Trap Staff",
     id: 3834
   },
   {
-    name: "瞌睡章鱼",
+    name: "Sleepy Octopod",
     id: 3835
   },
   {
-    name: "恐怖关刀",
+    name: "Ghastly Glaive",
     id: 3836
   },
   {
-    name: "埃特尼亚哥布林炸弹兵旗",
+    name: "Etherian Goblin Bomber Banner",
     id: 3837
   },
   {
-    name: "埃特尼亚哥布林旗",
+    name: "Etherian Goblin Banner",
     id: 3838
   },
   {
-    name: "远古骷髅旗",
+    name: "Old One's Skeleton Banner",
     id: 3839
   },
   {
-    name: "小龙旗",
+    name: "Drakin Banner",
     id: 3840
   },
   {
-    name: "小鬼滑翔怪旗",
+    name: "Kobold Glider Banner",
     id: 3841
   },
   {
-    name: "小鬼旗",
+    name: "Kobold Banner",
     id: 3842
   },
   {
-    name: "枯萎兽旗",
+    name: "Wither Beast Banner",
     id: 3843
   },
   {
-    name: "埃特尼亚飞龙旗",
+    name: "Etherian Wyvern Banner",
     id: 3844
   },
   {
-    name: "埃特尼亚标枪投手旗",
+    name: "Etherian Javelin Thrower Banner",
     id: 3845
   },
   {
-    name: "埃特尼亚萤火虫旗",
+    name: "Etherian Lightning Bug Banner",
     id: 3846
   },
   {
-    name: "无限智慧巨著",
+    name: "Tome of Infinite Wisdom",
     id: 3852
   },
   {
@@ -15342,4611 +15342,4611 @@ export const items: ItemInfo[] = [
     id: 3853
   },
   {
-    name: "幻影凤凰",
+    name: "Phantom Phoenix",
     id: 3854
   },
   {
-    name: "猫蛋",
+    name: "Gato Egg",
     id: 3855
   },
   {
-    name: "小爬行者蛋",
+    name: "Creeper Egg",
     id: 3856
   },
   {
-    name: "龙蛋",
+    name: "Dragon Egg",
     id: 3857
   },
   {
-    name: "天龙之怒",
+    name: "Sky Dragon's Fury",
     id: 3858
   },
   {
-    name: "空中祸害",
+    name: "Aerial Bane",
     id: 3859
   },
   {
-    name: "宝藏袋（双足翼龙）",
+    name: "Treasure Bag (Betsy)",
     id: 3860
   },
   {
-    name: "双足翼龙面具",
+    name: "Betsy Mask",
     id: 3863
   },
   {
-    name: "黑暗魔法师面具",
+    name: "Dark Mage Mask",
     id: 3864
   },
   {
-    name: "食人魔面具",
+    name: "Ogre Mask",
     id: 3865
   },
   {
-    name: "双足翼龙纪念章",
+    name: "Betsy Trophy",
     id: 3866
   },
   {
-    name: "黑暗魔法师纪念章",
+    name: "Dark Mage Trophy",
     id: 3867
   },
   {
-    name: "食人魔纪念章",
+    name: "Ogre Trophy",
     id: 3868
   },
   {
-    name: "八音盒（旧日军团）",
+    name: "Music Box (Old One's Army)",
     id: 3869
   },
   {
-    name: "双足翼龙怒气",
+    name: "Betsy's Wrath",
     id: 3870
   },
   {
-    name: "英灵殿骑士头盔",
+    name: "Valhalla Knight's Helm",
     id: 3871
   },
   {
-    name: "英灵殿骑士胸甲",
+    name: "Valhalla Knight's Breastplate",
     id: 3872
   },
   {
-    name: "英灵殿骑士护胫",
+    name: "Valhalla Knight's Greaves",
     id: 3873
   },
   {
-    name: "暗黑艺术家帽",
+    name: "Dark Artist's Hat",
     id: 3874
   },
   {
-    name: "暗黑艺术家长袍",
+    name: "Dark Artist's Robes",
     id: 3875
   },
   {
-    name: "暗黑艺术家护腿",
+    name: "Dark Artist's Leggings",
     id: 3876
   },
   {
-    name: "红帽兜",
+    name: "Red Riding Hood",
     id: 3877
   },
   {
-    name: "红衣连衣裙",
+    name: "Red Riding Dress",
     id: 3878
   },
   {
-    name: "红护腿",
+    name: "Red Riding Leggings",
     id: 3879
   },
   {
-    name: "渗透忍者头盔",
+    name: "Shinobi Infiltrator's Helmet",
     id: 3880
   },
   {
-    name: "渗透忍者上衣",
+    name: "Shinobi Infiltrator's Torso",
     id: 3881
   },
   {
-    name: "渗透忍者裤",
+    name: "Shinobi Infiltrator's Pants",
     id: 3882
   },
   {
-    name: "双足翼龙之翼",
+    name: "Betsy's Wings",
     id: 3883
   },
   {
-    name: "水晶箱",
+    name: "Crystal Chest",
     id: 3884
   },
   {
-    name: "金箱",
+    name: "Golden Chest",
     id: 3885
   },
   {
-    name: "机关水晶箱",
+    name: "Trapped Crystal Chest",
     id: 3886
   },
   {
-    name: "机关金箱",
+    name: "Trapped Golden Chest",
     id: 3887
   },
   {
-    name: "水晶门",
+    name: "Crystal Door",
     id: 3888
   },
   {
-    name: "水晶椅",
+    name: "Crystal Chair",
     id: 3889
   },
   {
-    name: "水晶蜡烛",
+    name: "Crystal Candle",
     id: 3890
   },
   {
-    name: "水晶灯笼",
+    name: "Crystal Lantern",
     id: 3891
   },
   {
-    name: "水晶灯",
+    name: "Crystal Lamp",
     id: 3892
   },
   {
-    name: "水晶烛台",
+    name: "Crystal Candelabra",
     id: 3893
   },
   {
-    name: "水晶吊灯",
+    name: "Crystal Chandelier",
     id: 3894
   },
   {
-    name: "水晶浴缸",
+    name: "Crystal Bathtub",
     id: 3895
   },
   {
-    name: "水晶水槽",
+    name: "Crystal Sink",
     id: 3896
   },
   {
-    name: "水晶床",
+    name: "Crystal Bed",
     id: 3897
   },
   {
-    name: "水晶钟",
+    name: "Crystal Clock",
     id: 3898
   },
   {
-    name: "日盘钟",
+    name: "Sunplate Clock",
     id: 3899
   },
   {
-    name: "蓝地牢钟",
+    name: "Blue Dungeon Clock",
     id: 3900
   },
   {
-    name: "绿地牢钟",
+    name: "Green Dungeon Clock",
     id: 3901
   },
   {
-    name: "粉地牢钟",
+    name: "Pink Dungeon Clock",
     id: 3902
   },
   {
-    name: "水晶平台",
+    name: "Crystal Platform",
     id: 3903
   },
   {
-    name: "金平台",
+    name: "Golden Platform",
     id: 3904
   },
   {
-    name: "王朝木平台",
+    name: "Dynasty Wood Platform",
     id: 3905
   },
   {
-    name: "丛林蜥蜴平台",
+    name: "Lihzahrd Platform",
     id: 3906
   },
   {
-    name: "血肉平台",
+    name: "Flesh Platform",
     id: 3907
   },
   {
-    name: "冰冻平台",
+    name: "Frozen Platform",
     id: 3908
   },
   {
-    name: "水晶工作台",
+    name: "Crystal Work Bench",
     id: 3909
   },
   {
-    name: "金工作台",
+    name: "Golden Work Bench",
     id: 3910
   },
   {
-    name: "水晶梳妆台",
+    name: "Crystal Dresser",
     id: 3911
   },
   {
-    name: "王朝梳妆台",
+    name: "Dynasty Dresser",
     id: 3912
   },
   {
-    name: "冰冻梳妆台",
+    name: "Frozen Dresser",
     id: 3913
   },
   {
-    name: "生命木梳妆台",
+    name: "Living Wood Dresser",
     id: 3914
   },
   {
-    name: "水晶钢琴",
+    name: "Crystal Piano",
     id: 3915
   },
   {
-    name: "王朝钢琴",
+    name: "Dynasty Piano",
     id: 3916
   },
   {
-    name: "水晶书架",
+    name: "Crystal Bookcase",
     id: 3917
   },
   {
-    name: "水晶沙发",
+    name: "Crystal Sofa",
     id: 3918
   },
   {
-    name: "王朝沙发",
+    name: "Dynasty Sofa",
     id: 3919
   },
   {
-    name: "水晶桌",
+    name: "Crystal Table",
     id: 3920
   },
   {
-    name: "Arkhalis兜帽",
+    name: "Arkhalis' Hood",
     id: 3921
   },
   {
-    name: "Arkhalis紧身衣",
+    name: "Arkhalis' Bodice",
     id: 3922
   },
   {
-    name: "Arkhalis紧身裤",
+    name: "Arkhalis' Tights",
     id: 3923
   },
   {
-    name: "Arkhalis光之翼",
+    name: "Arkhalis' Lightwings",
     id: 3924
   },
   {
-    name: "Leinfors护发器",
+    name: "Leinfors' Hair Protector",
     id: 3925
   },
   {
-    name: "Leinfors过度风格",
+    name: "Leinfors' Excessive Style",
     id: 3926
   },
   {
-    name: "Leinfors花哨裤子",
+    name: "Leinfors' Fancypants",
     id: 3927
   },
   {
-    name: "Leinfors抓握斗篷",
+    name: "Leinfors' Prehensile Cloak",
     id: 3928
   },
   {
-    name: "Leinfors奢华洗发水",
+    name: "Leinfors' Luxury Shampoo",
     id: 3929
   },
   {
-    name: "喜庆弹射器Mk2",
+    name: "Celebration Mk2",
     id: 3930
   },
   {
-    name: "蜘蛛浴缸",
+    name: "Spider Bathtub",
     id: 3931
   },
   {
-    name: "蜘蛛床",
+    name: "Spider Bed",
     id: 3932
   },
   {
-    name: "蜘蛛书架",
+    name: "Spider Bookcase",
     id: 3933
   },
   {
-    name: "蜘蛛梳妆台",
+    name: "Spider Dresser",
     id: 3934
   },
   {
-    name: "蜘蛛烛台",
+    name: "Spider Candelabra",
     id: 3935
   },
   {
-    name: "蜘蛛蜡烛",
+    name: "Spider Candle",
     id: 3936
   },
   {
-    name: "蜘蛛椅",
+    name: "Spider Chair",
     id: 3937
   },
   {
-    name: "蜘蛛吊灯",
+    name: "Spider Chandelier",
     id: 3938
   },
   {
-    name: "蜘蛛箱",
+    name: "Spider Chest",
     id: 3939
   },
   {
-    name: "蜘蛛钟",
+    name: "Spider Clock",
     id: 3940
   },
   {
-    name: "蜘蛛门",
+    name: "Spider Door",
     id: 3941
   },
   {
-    name: "蜘蛛灯",
+    name: "Spider Lamp",
     id: 3942
   },
   {
-    name: "蜘蛛灯笼",
+    name: "Spider Lantern",
     id: 3943
   },
   {
-    name: "蜘蛛钢琴",
+    name: "Spider Piano",
     id: 3944
   },
   {
-    name: "蜘蛛平台",
+    name: "Spider Platform",
     id: 3945
   },
   {
-    name: "蜘蛛水槽",
+    name: "Spider Sink",
     id: 3946
   },
   {
-    name: "蜘蛛沙发",
+    name: "Spider Sofa",
     id: 3947
   },
   {
-    name: "蜘蛛桌",
+    name: "Spider Table",
     id: 3948
   },
   {
-    name: "蜘蛛工作台",
+    name: "Spider Work Bench",
     id: 3949
   },
   {
-    name: "机关蜘蛛箱",
+    name: "Trapped Spider Chest",
     id: 3950
   },
   {
-    name: "铁砖",
+    name: "Iron Brick",
     id: 3951
   },
   {
-    name: "铁砖墙",
+    name: "Iron Brick Wall",
     id: 3952
   },
   {
-    name: "铅砖",
+    name: "Lead Brick",
     id: 3953
   },
   {
-    name: "铅砖墙",
+    name: "Lead Brick Wall",
     id: 3954
   },
   {
-    name: "病变块",
+    name: "Lesion Block",
     id: 3955
   },
   {
-    name: "病变块墙",
+    name: "Lesion Block Wall",
     id: 3956
   },
   {
-    name: "病变平台",
+    name: "Lesion Platform",
     id: 3957
   },
   {
-    name: "病变浴缸",
+    name: "Lesion Bathtub",
     id: 3958
   },
   {
-    name: "病变床",
+    name: "Lesion Bed",
     id: 3959
   },
   {
-    name: "病变书架",
+    name: "Lesion Bookcase",
     id: 3960
   },
   {
-    name: "病变烛台",
+    name: "Lesion Candelabra",
     id: 3961
   },
   {
-    name: "病变蜡烛",
+    name: "Lesion Candle",
     id: 3962
   },
   {
-    name: "病变椅",
+    name: "Lesion Chair",
     id: 3963
   },
   {
-    name: "病变吊灯",
+    name: "Lesion Chandelier",
     id: 3964
   },
   {
-    name: "病变箱",
+    name: "Lesion Chest",
     id: 3965
   },
   {
-    name: "病变钟",
+    name: "Lesion Clock",
     id: 3966
   },
   {
-    name: "病变门",
+    name: "Lesion Door",
     id: 3967
   },
   {
-    name: "病变梳妆台",
+    name: "Lesion Dresser",
     id: 3968
   },
   {
-    name: "病变灯",
+    name: "Lesion Lamp",
     id: 3969
   },
   {
-    name: "病变灯笼",
+    name: "Lesion Lantern",
     id: 3970
   },
   {
-    name: "病变钢琴",
+    name: "Lesion Piano",
     id: 3971
   },
   {
-    name: "病变水槽",
+    name: "Lesion Sink",
     id: 3972
   },
   {
-    name: "病变沙发",
+    name: "Lesion Sofa",
     id: 3973
   },
   {
-    name: "病变桌",
+    name: "Lesion Table",
     id: 3974
   },
   {
-    name: "病变工作台",
+    name: "Lesion Work Bench",
     id: 3975
   },
   {
-    name: "机关病变箱",
+    name: "Trapped Lesion Chest",
     id: 3976
   },
   {
-    name: "帽架",
+    name: "Hat Rack",
     id: 3977
   },
   {
-    name: "珍珠木匣",
+    name: "Pearlwood Crate",
     id: 3979
   },
   {
-    name: "秘银匣",
+    name: "Mythril Crate",
     id: 3980
   },
   {
-    name: "钛金匣",
+    name: "Titanium Crate",
     id: 3981
   },
   {
-    name: "污秽匣",
+    name: "Defiled Crate",
     id: 3982
   },
   {
-    name: "血匣",
+    name: "Hematic Crate",
     id: 3983
   },
   {
-    name: "栅栏匣",
+    name: "Stockade Crate",
     id: 3984
   },
   {
-    name: "天蓝匣",
+    name: "Azure Crate",
     id: 3985
   },
   {
-    name: "神圣匣",
+    name: "Divine Crate",
     id: 3986
   },
   {
-    name: "荆棘匣",
+    name: "Bramble Crate",
     id: 3987
   },
   {
-    name: "死人宝箱",
+    name: "Dead Man's Chest",
     id: 3988
   },
   {
-    name: "高尔夫球",
+    name: "Golf Ball",
     id: 3989
   },
   {
-    name: "两栖靴",
+    name: "Amphibian Boots",
     id: 3990
   },
   {
-    name: "奥术花",
+    name: "Arcane Flower",
     id: 3991
   },
   {
-    name: "狂战士手套",
+    name: "Berserker's Glove",
     id: 3992
   },
   {
-    name: "仙灵靴",
+    name: "Fairy Boots",
     id: 3993
   },
   {
-    name: "蛙蹼",
+    name: "Frog Flipper",
     id: 3994
   },
   {
-    name: "青蛙装备",
+    name: "Frog Gear",
     id: 3995
   },
   {
-    name: "蛙蹼",
+    name: "Frog Webbing",
     id: 3996
   },
   {
-    name: "冰冻盾",
+    name: "Frozen Shield",
     id: 3997
   },
   {
-    name: "英雄盾",
+    name: "Hero Shield",
     id: 3998
   },
   {
-    name: "岩浆骷髅头",
+    name: "Magma Skull",
     id: 3999
   },
   {
-    name: "磁花",
+    name: "Magnet Flower",
     id: 4000
   },
   {
-    name: "魔力斗篷",
+    name: "Mana Cloak",
     id: 4001
   },
   {
-    name: "熔火箭袋",
+    name: "Molten Quiver",
     id: 4002
   },
   {
-    name: "熔火骷髅头玫瑰",
+    name: "Molten Skull Rose",
     id: 4003
   },
   {
-    name: "黑曜石骷髅头玫瑰",
+    name: "Obsidian Skull Rose",
     id: 4004
   },
   {
-    name: "侦察镜",
+    name: "Recon Scope",
     id: 4005
   },
   {
-    name: "潜行者箭袋",
+    name: "Stalker's Quiver",
     id: 4006
   },
   {
-    name: "毒刺项链",
+    name: "Stinger Necklace",
     id: 4007
   },
   {
-    name: "超亮头盔",
+    name: "Ultrabright Helmet",
     id: 4008
   },
   {
-    name: "苹果",
+    name: "Apple",
     id: 4009
   },
   {
-    name: "苹果派",
+    name: "Apple Pie",
     id: 4011
   },
   {
-    name: "香蕉船",
+    name: "Banana Split",
     id: 4012
   },
   {
-    name: "烧烤肋排",
+    name: "BBQ Ribs",
     id: 4013
   },
   {
-    name: "兔肉煲",
+    name: "Bunny Stew",
     id: 4014
   },
   {
-    name: "汉堡",
+    name: "Burger",
     id: 4015
   },
   {
-    name: "鸡块",
+    name: "Chicken Nugget",
     id: 4016
   },
   {
-    name: "巧克力曲奇",
+    name: "Chocolate Chip Cookie",
     id: 4017
   },
   {
-    name: "奶油苏打水",
+    name: "Cream Soda",
     id: 4018
   },
   {
-    name: "蜗牛",
+    name: "Escargot",
     id: 4019
   },
   {
-    name: "煎蛋",
+    name: "Fried Egg",
     id: 4020
   },
   {
-    name: "薯条",
+    name: "Fries",
     id: 4021
   },
   {
-    name: "黄金盛宴",
+    name: "Golden Delight",
     id: 4022
   },
   {
-    name: "葡萄",
+    name: "Grapes",
     id: 4023
   },
   {
-    name: "烤松鼠",
+    name: "Grilled Squirrel",
     id: 4024
   },
   {
-    name: "热狗",
+    name: "Hotdog",
     id: 4025
   },
   {
-    name: "冰淇淋",
+    name: "Ice Cream",
     id: 4026
   },
   {
-    name: "奶昔",
+    name: "Milkshake",
     id: 4027
   },
   {
-    name: "玉米片",
+    name: "Nachos",
     id: 4028
   },
   {
-    name: "披萨",
+    name: "Pizza",
     id: 4029
   },
   {
-    name: "薯片",
+    name: "Potato Chips",
     id: 4030
   },
   {
-    name: "烤鸟",
+    name: "Roasted Bird",
     id: 4031
   },
   {
-    name: "烤鸭",
+    name: "Roasted Duck",
     id: 4032
   },
   {
-    name: "炒蛙腿",
+    name: "Sauteed Frog Legs",
     id: 4033
   },
   {
-    name: "海鲜大餐",
+    name: "Seafood Dinner",
     id: 4034
   },
   {
-    name: "虾仁三明治",
+    name: "Shrimp Po' Boy",
     id: 4035
   },
   {
-    name: "意大利面",
+    name: "Spaghetti",
     id: 4036
   },
   {
-    name: "牛排",
+    name: "Steak",
     id: 4037
   },
   {
-    name: "熔火护身符",
+    name: "Molten Charm",
     id: 4038
   },
   {
-    name: "高尔夫球杆（铁杆）",
+    name: "Golf Club (Iron)",
     id: 4039
   },
   {
-    name: "高尔夫球洞",
+    name: "Golf Cup",
     id: 4040
   },
   {
-    name: "蓝花种子",
+    name: "Blue Flower Seeds",
     id: 4041
   },
   {
-    name: "品红花种子",
+    name: "Magenta Flower Seeds",
     id: 4042
   },
   {
-    name: "粉花种子",
+    name: "Pink Flower Seeds",
     id: 4043
   },
   {
-    name: "红花种子",
+    name: "Red Flower Seeds",
     id: 4044
   },
   {
-    name: "黄万寿菊种子",
+    name: "Yellow Flower Seeds",
     id: 4045
   },
   {
-    name: "紫罗兰种子",
+    name: "Violet Flower Seeds",
     id: 4046
   },
   {
-    name: "白花种子",
+    name: "White Flower Seeds",
     id: 4047
   },
   {
-    name: "高茎草种子",
+    name: "Tall Grass Seeds",
     id: 4048
   },
   {
-    name: "割草机",
+    name: "Lawn Mower",
     id: 4049
   },
   {
-    name: "猩红石砖",
+    name: "Crimstone Brick",
     id: 4050
   },
   {
-    name: "平滑沙岩",
+    name: "Smooth Sandstone",
     id: 4051
   },
   {
-    name: "猩红石砖墙",
+    name: "Crimstone Brick Wall",
     id: 4052
   },
   {
-    name: "平滑沙岩墙",
+    name: "Smooth Sandstone Wall",
     id: 4053
   },
   {
-    name: "血月纪念章",
+    name: "Blood Moon Monolith",
     id: 4054
   },
   {
-    name: "沙丘行者靴",
+    name: "Dunerider Boots",
     id: 4055
   },
   {
-    name: "远古凿子",
+    name: "Ancient Chisel",
     id: 4056
   },
   {
-    name: "雨歌",
+    name: "Rain Song",
     id: 4057
   },
   {
-    name: "化石镐",
+    name: "Fossil Pickaxe",
     id: 4059
   },
   {
-    name: "超级星星炮",
+    name: "Super Star Shooter",
     id: 4060
   },
   {
-    name: "风暴矛",
+    name: "Storm Spear",
     id: 4061
   },
   {
-    name: "雷霆法杖",
+    name: "Thunder Zapper",
     id: 4062
   },
   {
-    name: "架子鼓",
+    name: "Drum Set",
     id: 4063
   },
   {
-    name: "野餐桌",
+    name: "Picnic Table",
     id: 4064
   },
   {
-    name: "精致野餐桌",
+    name: "Fancy Picnic Table",
     id: 4065
   },
   {
-    name: "沙漠矿车",
+    name: "Desert Minecart",
     id: 4066
   },
   {
-    name: "鲤鱼矿车",
+    name: "Minecarp",
     id: 4067
   },
   {
-    name: "粉仙灵",
+    name: "Pink Fairy",
     id: 4068
   },
   {
-    name: "绿仙灵",
+    name: "Green Fairy",
     id: 4069
   },
   {
-    name: "蓝仙灵",
+    name: "Blue Fairy",
     id: 4070
   },
   {
-    name: "榧螺壳",
+    name: "Junonia Shell",
     id: 4071
   },
   {
-    name: "闪电涡螺壳",
+    name: "Lightning Whelk Shell",
     id: 4072
   },
   {
-    name: "郁金香螺壳",
+    name: "Tulip Shell",
     id: 4073
   },
   {
-    name: "风车",
+    name: "Pin Wheel",
     id: 4074
   },
   {
-    name: "风向标",
+    name: "Weather Vane",
     id: 4075
   },
   {
-    name: "虚空保险库",
+    name: "Void Vault",
     id: 4076
   },
   {
-    name: "八音盒（海洋之夜）",
+    name: "Music Box (Ocean Night)",
     id: 4077
   },
   {
-    name: "八音盒（史莱姆雨）",
+    name: "Music Box (Slime Rain)",
     id: 4078
   },
   {
-    name: "八音盒（太空白天）",
+    name: "Music Box (Space Day)",
     id: 4079
   },
   {
-    name: "八音盒（城镇白天）",
+    name: "Music Box (Town Day)",
     id: 4080
   },
   {
-    name: "八音盒（城镇夜晚）",
+    name: "Music Box (Town Night)",
     id: 4081
   },
   {
-    name: "八音盒（大风天）",
+    name: "Music Box (Windy Day)",
     id: 4082
   },
   {
-    name: "白色大头针旗",
+    name: "White Pin Flag",
     id: 4083
   },
   {
-    name: "红色大头针旗",
+    name: "Red Pin Flag",
     id: 4084
   },
   {
-    name: "绿色大头针旗",
+    name: "Green Pin Flag",
     id: 4085
   },
   {
-    name: "蓝色大头针旗",
+    name: "Blue Pin Flag",
     id: 4086
   },
   {
-    name: "黄色大头针旗",
+    name: "Yellow Pin Flag",
     id: 4087
   },
   {
-    name: "紫色大头针旗",
+    name: "Purple Pin Flag",
     id: 4088
   },
   {
-    name: "高尔夫球座",
+    name: "Golf Tee",
     id: 4089
   },
   {
-    name: "贝壳堆",
+    name: "Shell Pile",
     id: 4090
   },
   {
-    name: "反传送门块",
+    name: "Anti-Portal Block",
     id: 4091
   },
   {
-    name: "高尔夫球杆（推杆）",
+    name: "Golf Club (Putter)",
     id: 4092
   },
   {
-    name: "高尔夫球杆（挖起杆）",
+    name: "Golf Club (Wedge)",
     id: 4093
   },
   {
-    name: "高尔夫球杆（木杆）",
+    name: "Golf Club (Driver)",
     id: 4094
   },
   {
-    name: "高尔夫口哨",
+    name: "Golf Whistle",
     id: 4095
   },
   {
-    name: "乌木马桶",
+    name: "Ebonwood Toilet",
     id: 4096
   },
   {
-    name: "红木马桶",
+    name: "Rich Mahogany Toilet",
     id: 4097
   },
   {
-    name: "珍珠木马桶",
+    name: "Pearlwood Toilet",
     id: 4098
   },
   {
-    name: "生命木马桶",
+    name: "Living Wood Toilet",
     id: 4099
   },
   {
-    name: "仙人掌马桶",
+    name: "Cactus Toilet",
     id: 4100
   },
   {
-    name: "骨头马桶",
+    name: "Bone Toilet",
     id: 4101
   },
   {
-    name: "血肉马桶",
+    name: "Flesh Toilet",
     id: 4102
   },
   {
-    name: "蘑菇马桶",
+    name: "Mushroom Toilet",
     id: 4103
   },
   {
-    name: "天域马桶",
+    name: "Skyware Toilet",
     id: 4104
   },
   {
-    name: "暗影木马桶",
+    name: "Shadewood Toilet",
     id: 4105
   },
   {
-    name: "丛林蜥蜴马桶",
+    name: "Lihzahrd Toilet",
     id: 4106
   },
   {
-    name: "蓝地牢马桶",
+    name: "Blue Dungeon Toilet",
     id: 4107
   },
   {
-    name: "绿地牢马桶",
+    name: "Green Dungeon Toilet",
     id: 4108
   },
   {
-    name: "粉地牢马桶",
+    name: "Pink Dungeon Toilet",
     id: 4109
   },
   {
-    name: "黑曜石马桶",
+    name: "Obsidian Toilet",
     id: 4110
   },
   {
-    name: "冰冻马桶",
+    name: "Frozen Toilet",
     id: 4111
   },
   {
-    name: "玻璃马桶",
+    name: "Glass Toilet",
     id: 4112
   },
   {
-    name: "蜂蜜马桶",
+    name: "Honey Toilet",
     id: 4113
   },
   {
-    name: "蒸汽朋克马桶",
+    name: "Steampunk Toilet",
     id: 4114
   },
   {
-    name: "南瓜马桶",
+    name: "Pumpkin Toilet",
     id: 4115
   },
   {
-    name: "阴森马桶",
+    name: "Spooky Toilet",
     id: 4116
   },
   {
-    name: "王朝马桶",
+    name: "Dynasty Toilet",
     id: 4117
   },
   {
-    name: "棕榈木马桶",
+    name: "Palm Wood Toilet",
     id: 4118
   },
   {
-    name: "针叶木马桶",
+    name: "Boreal Wood Toilet",
     id: 4119
   },
   {
-    name: "史莱姆马桶",
+    name: "Slime Toilet",
     id: 4120
   },
   {
-    name: "火星马桶",
+    name: "Martian Toilet",
     id: 4121
   },
   {
-    name: "花岗岩马桶",
+    name: "Granite Toilet",
     id: 4122
   },
   {
-    name: "大理石马桶",
+    name: "Marble Toilet",
     id: 4123
   },
   {
-    name: "水晶马桶",
+    name: "Crystal Toilet",
     id: 4124
   },
   {
-    name: "蜘蛛马桶",
+    name: "Spider Toilet",
     id: 4125
   },
   {
-    name: "病变马桶",
+    name: "Lesion Toilet",
     id: 4126
   },
   {
-    name: "钻石马桶",
+    name: "Diamond Toilet",
     id: 4127
   },
   {
-    name: "女仆帽",
+    name: "Maid Bonnet",
     id: 4128
   },
   {
-    name: "女仆裙",
+    name: "Maid Dress",
     id: 4129
   },
   {
-    name: "女仆鞋",
+    name: "Maid Shoes",
     id: 4130
   },
   {
-    name: "虚空袋",
+    name: "Void Bag",
     id: 4131
   },
   {
-    name: "粉色女仆帽",
+    name: "Pink Maid Bonnet",
     id: 4132
   },
   {
-    name: "粉色女仆裙",
+    name: "Pink Maid Dress",
     id: 4133
   },
   {
-    name: "粉色女仆鞋",
+    name: "Pink Maid Shoes",
     id: 4134
   },
   {
-    name: "乡村俱乐部帽",
+    name: "Country Club Cap",
     id: 4135
   },
   {
-    name: "乡村俱乐部背心",
+    name: "Country Club Vest",
     id: 4136
   },
   {
-    name: "乡村俱乐部裤",
+    name: "Country Club Trousers",
     id: 4137
   },
   {
-    name: "乡村俱乐部遮阳帽",
+    name: "Country Club Visor",
     id: 4138
   },
   {
-    name: "蜘蛛巢块",
+    name: "Spider Nest Block",
     id: 4139
   },
   {
-    name: "蜘蛛巢墙",
+    name: "Spider Nest Wall",
     id: 4140
   },
   {
-    name: "陨石马桶",
+    name: "Meteorite Toilet",
     id: 4141
   },
   {
-    name: "腐化室",
+    name: "Decay Chamber",
     id: 4142
   },
   {
-    name: "泰拉魔刃",
+    name: "Terragrim",
     id: 4144
   },
   {
-    name: "日耀浴缸",
+    name: "Solar Bathtub",
     id: 4145
   },
   {
-    name: "日耀床",
+    name: "Solar Bed",
     id: 4146
   },
   {
-    name: "日耀书架",
+    name: "Solar Bookcase",
     id: 4147
   },
   {
-    name: "日耀梳妆台",
+    name: "Solar Dresser",
     id: 4148
   },
   {
-    name: "日耀烛台",
+    name: "Solar Candelabra",
     id: 4149
   },
   {
-    name: "日耀蜡烛",
+    name: "Solar Candle",
     id: 4150
   },
   {
-    name: "日耀椅",
+    name: "Solar Chair",
     id: 4151
   },
   {
-    name: "日耀吊灯",
+    name: "Solar Chandelier",
     id: 4152
   },
   {
-    name: "日耀箱",
+    name: "Solar Chest",
     id: 4153
   },
   {
-    name: "日耀钟",
+    name: "Solar Clock",
     id: 4154
   },
   {
-    name: "日耀门",
+    name: "Solar Door",
     id: 4155
   },
   {
-    name: "日耀灯",
+    name: "Solar Lamp",
     id: 4156
   },
   {
-    name: "日耀灯笼",
+    name: "Solar Lantern",
     id: 4157
   },
   {
-    name: "日耀钢琴",
+    name: "Solar Piano",
     id: 4158
   },
   {
-    name: "日耀平台",
+    name: "Solar Platform",
     id: 4159
   },
   {
-    name: "日耀水槽",
+    name: "Solar Sink",
     id: 4160
   },
   {
-    name: "日耀沙发",
+    name: "Solar Sofa",
     id: 4161
   },
   {
-    name: "日耀桌",
+    name: "Solar Table",
     id: 4162
   },
   {
-    name: "日耀工作台",
+    name: "Solar Work Bench",
     id: 4163
   },
   {
-    name: "机关日耀箱",
+    name: "Trapped Solar Chest",
     id: 4164
   },
   {
-    name: "日耀马桶",
+    name: "Solar Toilet",
     id: 4165
   },
   {
-    name: "星旋浴缸",
+    name: "Vortex Bathtub",
     id: 4166
   },
   {
-    name: "星旋床",
+    name: "Vortex Bed",
     id: 4167
   },
   {
-    name: "星旋书架",
+    name: "Vortex Bookcase",
     id: 4168
   },
   {
-    name: "星旋梳妆台",
+    name: "Vortex Dresser",
     id: 4169
   },
   {
-    name: "星旋烛台",
+    name: "Vortex Candelabra",
     id: 4170
   },
   {
-    name: "星旋蜡烛",
+    name: "Vortex Candle",
     id: 4171
   },
   {
-    name: "星旋椅",
+    name: "Vortex Chair",
     id: 4172
   },
   {
-    name: "星旋吊灯",
+    name: "Vortex Chandelier",
     id: 4173
   },
   {
-    name: "星旋箱",
+    name: "Vortex Chest",
     id: 4174
   },
   {
-    name: "星旋钟",
+    name: "Vortex Clock",
     id: 4175
   },
   {
-    name: "星旋门",
+    name: "Vortex Door",
     id: 4176
   },
   {
-    name: "星旋灯",
+    name: "Vortex Lamp",
     id: 4177
   },
   {
-    name: "星旋灯笼",
+    name: "Vortex Lantern",
     id: 4178
   },
   {
-    name: "星旋钢琴",
+    name: "Vortex Piano",
     id: 4179
   },
   {
-    name: "星旋平台",
+    name: "Vortex Platform",
     id: 4180
   },
   {
-    name: "星旋水槽",
+    name: "Vortex Sink",
     id: 4181
   },
   {
-    name: "星旋沙发",
+    name: "Vortex Sofa",
     id: 4182
   },
   {
-    name: "星旋桌",
+    name: "Vortex Table",
     id: 4183
   },
   {
-    name: "星旋工作台",
+    name: "Vortex Work Bench",
     id: 4184
   },
   {
-    name: "机关星旋箱",
+    name: "Trapped Vortex Chest",
     id: 4185
   },
   {
-    name: "星旋马桶",
+    name: "Vortex Toilet",
     id: 4186
   },
   {
-    name: "星云浴缸",
+    name: "Nebula Bathtub",
     id: 4187
   },
   {
-    name: "星云床",
+    name: "Nebula Bed",
     id: 4188
   },
   {
-    name: "星云书架",
+    name: "Nebula Bookcase",
     id: 4189
   },
   {
-    name: "星云梳妆台",
+    name: "Nebula Dresser",
     id: 4190
   },
   {
-    name: "星云烛台",
+    name: "Nebula Candelabra",
     id: 4191
   },
   {
-    name: "星云蜡烛",
+    name: "Nebula Candle",
     id: 4192
   },
   {
-    name: "星云椅",
+    name: "Nebula Chair",
     id: 4193
   },
   {
-    name: "星云吊灯",
+    name: "Nebula Chandelier",
     id: 4194
   },
   {
-    name: "星云箱",
+    name: "Nebula Chest",
     id: 4195
   },
   {
-    name: "星云钟",
+    name: "Nebula Clock",
     id: 4196
   },
   {
-    name: "星云门",
+    name: "Nebula Door",
     id: 4197
   },
   {
-    name: "星云灯",
+    name: "Nebula Lamp",
     id: 4198
   },
   {
-    name: "星云灯笼",
+    name: "Nebula Lantern",
     id: 4199
   },
   {
-    name: "星云钢琴",
+    name: "Nebula Piano",
     id: 4200
   },
   {
-    name: "星云平台",
+    name: "Nebula Platform",
     id: 4201
   },
   {
-    name: "星云水槽",
+    name: "Nebula Sink",
     id: 4202
   },
   {
-    name: "星云沙发",
+    name: "Nebula Sofa",
     id: 4203
   },
   {
-    name: "星云桌",
+    name: "Nebula Table",
     id: 4204
   },
   {
-    name: "星云工作台",
+    name: "Nebula Work Bench",
     id: 4205
   },
   {
-    name: "机关星云箱",
+    name: "Trapped Nebula Chest",
     id: 4206
   },
   {
-    name: "星云马桶",
+    name: "Nebula Toilet",
     id: 4207
   },
   {
-    name: "星尘浴缸",
+    name: "Stardust Bathtub",
     id: 4208
   },
   {
-    name: "星尘床",
+    name: "Stardust Bed",
     id: 4209
   },
   {
-    name: "星尘书架",
+    name: "Stardust Bookcase",
     id: 4210
   },
   {
-    name: "星尘梳妆台",
+    name: "Stardust Dresser",
     id: 4211
   },
   {
-    name: "星尘烛台",
+    name: "Stardust Candelabra",
     id: 4212
   },
   {
-    name: "星尘蜡烛",
+    name: "Stardust Candle",
     id: 4213
   },
   {
-    name: "星尘椅",
+    name: "Stardust Chair",
     id: 4214
   },
   {
-    name: "星尘吊灯",
+    name: "Stardust Chandelier",
     id: 4215
   },
   {
-    name: "星尘箱",
+    name: "Stardust Chest",
     id: 4216
   },
   {
-    name: "星尘钟",
+    name: "Stardust Clock",
     id: 4217
   },
   {
-    name: "星尘门",
+    name: "Stardust Door",
     id: 4218
   },
   {
-    name: "星尘灯",
+    name: "Stardust Lamp",
     id: 4219
   },
   {
-    name: "星尘灯笼",
+    name: "Stardust Lantern",
     id: 4220
   },
   {
-    name: "星尘钢琴",
+    name: "Stardust Piano",
     id: 4221
   },
   {
-    name: "星尘平台",
+    name: "Stardust Platform",
     id: 4222
   },
   {
-    name: "星尘水槽",
+    name: "Stardust Sink",
     id: 4223
   },
   {
-    name: "星尘沙发",
+    name: "Stardust Sofa",
     id: 4224
   },
   {
-    name: "星尘桌",
+    name: "Stardust Table",
     id: 4225
   },
   {
-    name: "星尘工作台",
+    name: "Stardust Work Bench",
     id: 4226
   },
   {
-    name: "机关星尘箱",
+    name: "Trapped Stardust Chest",
     id: 4227
   },
   {
-    name: "星尘马桶",
+    name: "Stardust Toilet",
     id: 4228
   },
   {
-    name: "日耀砖",
+    name: "Solar Brick",
     id: 4229
   },
   {
-    name: "星旋砖",
+    name: "Vortex Brick",
     id: 4230
   },
   {
-    name: "星云砖",
+    name: "Nebula Brick",
     id: 4231
   },
   {
-    name: "星尘砖",
+    name: "Stardust Brick",
     id: 4232
   },
   {
-    name: "日耀砖墙",
+    name: "Solar Brick Wall",
     id: 4233
   },
   {
-    name: "星旋砖墙",
+    name: "Vortex Brick Wall",
     id: 4234
   },
   {
-    name: "星云砖墙",
+    name: "Nebula Brick Wall",
     id: 4235
   },
   {
-    name: "星尘砖墙",
+    name: "Stardust Brick Wall",
     id: 4236
   },
   {
-    name: "八音盒（白天混音）",
+    name: "Music Box (Day Remix)",
     id: 4237
   },
   {
-    name: "裂纹蓝砖",
+    name: "Cracked Blue Brick",
     id: 4238
   },
   {
-    name: "裂纹绿砖",
+    name: "Cracked Green Brick",
     id: 4239
   },
   {
-    name: "裂纹粉砖",
+    name: "Cracked Pink Brick",
     id: 4240
   },
   {
-    name: "野花种子",
+    name: "Wild Flower Seeds",
     id: 4241
   },
   {
-    name: "黑色高尔夫球",
+    name: "Black Golf Ball",
     id: 4242
   },
   {
-    name: "蓝色高尔夫球",
+    name: "Blue Golf Ball",
     id: 4243
   },
   {
-    name: "棕色高尔夫球",
+    name: "Brown Golf Ball",
     id: 4244
   },
   {
-    name: "青色高尔夫球",
+    name: "Cyan Golf Ball",
     id: 4245
   },
   {
-    name: "绿色高尔夫球",
+    name: "Green Golf Ball",
     id: 4246
   },
   {
-    name: "黄绿色高尔夫球",
+    name: "Lime Golf Ball",
     id: 4247
   },
   {
-    name: "橙色高尔夫球",
+    name: "Orange Golf Ball",
     id: 4248
   },
   {
-    name: "粉色高尔夫球",
+    name: "Pink Golf Ball",
     id: 4249
   },
   {
-    name: "紫色高尔夫球",
+    name: "Purple Golf Ball",
     id: 4250
   },
   {
-    name: "红色高尔夫球",
+    name: "Red Golf Ball",
     id: 4251
   },
   {
-    name: "天蓝色高尔夫球",
+    name: "Sky Blue Golf Ball",
     id: 4252
   },
   {
-    name: "蓝绿色高尔夫球",
+    name: "Teal Golf Ball",
     id: 4253
   },
   {
-    name: "紫罗兰色高尔夫球",
+    name: "Violet Golf Ball",
     id: 4254
   },
   {
-    name: "黄色高尔夫球",
+    name: "Yellow Golf Ball",
     id: 4255
   },
   {
-    name: "琥珀长袍",
+    name: "Amber Robe",
     id: 4256
   },
   {
-    name: "琥珀钩爪",
+    name: "Amber Hook",
     id: 4257
   },
   {
-    name: "橙相位剑",
+    name: "Orange Phaseblade",
     id: 4258
   },
   {
-    name: "橙光剑",
+    name: "Orange Phasesaber",
     id: 4259
   },
   {
-    name: "橙花窗玻璃",
+    name: "Orange Stained Glass",
     id: 4260
   },
   {
-    name: "橙压力板",
+    name: "Orange Pressure Plate",
     id: 4261
   },
   {
-    name: "耍蛇者笛",
+    name: "Snake Charmer's Flute",
     id: 4262
   },
   {
-    name: "魔法海螺",
+    name: "Magic Conch",
     id: 4263
   },
   {
-    name: "高尔夫球车钥匙",
+    name: "Golf Cart Keys",
     id: 4264
   },
   {
-    name: "高尔夫箱",
+    name: "Golf Chest",
     id: 4265
   },
   {
-    name: "机关高尔夫箱",
+    name: "Trapped Golf Chest",
     id: 4266
   },
   {
-    name: "沙岩箱",
+    name: "Sandstone Chest",
     id: 4267
   },
   {
-    name: "机关沙岩箱",
+    name: "Trapped Sandstone Chest",
     id: 4268
   },
   {
-    name: "血红法杖",
+    name: "Sanguine Staff",
     id: 4269
   },
   {
-    name: "血荆棘",
+    name: "Blood Thorn",
     id: 4270
   },
   {
-    name: "血泪",
+    name: "Bloody Tear",
     id: 4271
   },
   {
-    name: "滴滴怪致残者",
+    name: "Drippler Crippler",
     id: 4272
   },
   {
-    name: "吸血鬼青蛙法杖",
+    name: "Vampire Frog Staff",
     id: 4273
   },
   {
-    name: "金金鱼",
+    name: "Gold Goldfish",
     id: 4274
   },
   {
-    name: "金鱼缸",
+    name: "Gold Fish Bowl",
     id: 4275
   },
   {
-    name: "芭丝特雕像",
+    name: "Bast Statue",
     id: 4276
   },
   {
-    name: "金色星光块",
+    name: "Gold Starry Block",
     id: 4277
   },
   {
-    name: "蓝色星光块",
+    name: "Blue Starry Block",
     id: 4278
   },
   {
-    name: "金色星光墙",
+    name: "Gold Starry Wall",
     id: 4279
   },
   {
-    name: "蓝色星光墙",
+    name: "Blue Starry Wall",
     id: 4280
   },
   {
-    name: "雀杖",
+    name: "Finch Staff",
     id: 4281
   },
   {
-    name: "杏子",
+    name: "Apricot",
     id: 4282
   },
   {
-    name: "香蕉",
+    name: "Banana",
     id: 4283
   },
   {
-    name: "黑加仑",
+    name: "Blackcurrant",
     id: 4284
   },
   {
-    name: "血橙",
+    name: "Blood Orange",
     id: 4285
   },
   {
-    name: "樱桃",
+    name: "Cherry",
     id: 4286
   },
   {
-    name: "椰子",
+    name: "Coconut",
     id: 4287
   },
   {
-    name: "火龙果",
+    name: "Dragon Fruit",
     id: 4288
   },
   {
-    name: "接骨木果",
+    name: "Elderberry",
     id: 4289
   },
   {
-    name: "西柚",
+    name: "Grapefruit",
     id: 4290
   },
   {
-    name: "柠檬",
+    name: "Lemon",
     id: 4291
   },
   {
-    name: "芒果",
+    name: "Mango",
     id: 4292
   },
   {
-    name: "桃子",
+    name: "Peach",
     id: 4293
   },
   {
-    name: "菠萝",
+    name: "Pineapple",
     id: 4294
   },
   {
-    name: "李子",
+    name: "Plum",
     id: 4295
   },
   {
-    name: "红毛丹",
+    name: "Rambutan",
     id: 4296
   },
   {
-    name: "杨桃",
+    name: "Star Fruit",
     id: 4297
   },
   {
-    name: "沙岩浴缸",
+    name: "Sandstone Bathtub",
     id: 4298
   },
   {
-    name: "沙岩床",
+    name: "Sandstone Bed",
     id: 4299
   },
   {
-    name: "沙岩书架",
+    name: "Sandstone Bookcase",
     id: 4300
   },
   {
-    name: "沙岩梳妆台",
+    name: "Sandstone Dresser",
     id: 4301
   },
   {
-    name: "沙岩烛台",
+    name: "Sandstone Candelabra",
     id: 4302
   },
   {
-    name: "沙岩蜡烛",
+    name: "Sandstone Candle",
     id: 4303
   },
   {
-    name: "沙岩椅",
+    name: "Sandstone Chair",
     id: 4304
   },
   {
-    name: "沙岩吊灯",
+    name: "Sandstone Chandelier",
     id: 4305
   },
   {
-    name: "沙岩钟",
+    name: "Sandstone Clock",
     id: 4306
   },
   {
-    name: "沙岩门",
+    name: "Sandstone Door",
     id: 4307
   },
   {
-    name: "沙岩灯",
+    name: "Sandstone Lamp",
     id: 4308
   },
   {
-    name: "沙岩灯笼",
+    name: "Sandstone Lantern",
     id: 4309
   },
   {
-    name: "沙岩钢琴",
+    name: "Sandstone Piano",
     id: 4310
   },
   {
-    name: "沙岩平台",
+    name: "Sandstone Platform",
     id: 4311
   },
   {
-    name: "沙岩水槽",
+    name: "Sandstone Sink",
     id: 4312
   },
   {
-    name: "沙岩沙发",
+    name: "Sandstone Sofa",
     id: 4313
   },
   {
-    name: "沙岩桌",
+    name: "Sandstone Table",
     id: 4314
   },
   {
-    name: "沙岩工作台",
+    name: "Sandstone Work Bench",
     id: 4315
   },
   {
-    name: "沙岩马桶",
+    name: "Sandstone Toilet",
     id: 4316
   },
   {
-    name: "出血斧",
+    name: "Haemorrhaxe",
     id: 4317
   },
   {
-    name: "虚空天塔柱",
+    name: "Void Monolith",
     id: 4318
   },
   {
-    name: "箭头标牌",
+    name: "Arrow Sign",
     id: 4319
   },
   {
-    name: "彩绘箭头标牌",
+    name: "Painted Arrow Sign",
     id: 4320
   },
   {
-    name: "游戏大师夹克",
+    name: "Master Gamer's Jacket",
     id: 4321
   },
   {
-    name: "游戏大师裤",
+    name: "Master Gamer's Pants",
     id: 4322
   },
   {
-    name: "星星公主皇冠",
+    name: "Star Princess Crown",
     id: 4323
   },
   {
-    name: "星星公主裙",
+    name: "Star Princess Dress",
     id: 4324
   },
   {
-    name: "鱼饵投掷器",
+    name: "Chum Caster",
     id: 4325
   },
   {
-    name: "盘子",
+    name: "Plate",
     id: 4326
   },
   {
-    name: "黑蜻蜓罐",
+    name: "Black Dragonfly Jar",
     id: 4327
   },
   {
-    name: "蓝蜻蜓罐",
+    name: "Blue Dragonfly Jar",
     id: 4328
   },
   {
-    name: "绿蜻蜓罐",
+    name: "Green Dragonfly Jar",
     id: 4329
   },
   {
-    name: "橙蜻蜓罐",
+    name: "Orange Dragonfly Jar",
     id: 4330
   },
   {
-    name: "红蜻蜓罐",
+    name: "Red Dragonfly Jar",
     id: 4331
   },
   {
-    name: "黄蜻蜓罐",
+    name: "Yellow Dragonfly Jar",
     id: 4332
   },
   {
-    name: "金蜻蜓罐",
+    name: "Gold Dragonfly Jar",
     id: 4333
   },
   {
-    name: "黑蜻蜓",
+    name: "Black Dragonfly",
     id: 4334
   },
   {
-    name: "蓝蜻蜓",
+    name: "Blue Dragonfly",
     id: 4335
   },
   {
-    name: "绿蜻蜓",
+    name: "Green Dragonfly",
     id: 4336
   },
   {
-    name: "橙蜻蜓",
+    name: "Orange Dragonfly",
     id: 4337
   },
   {
-    name: "红蜻蜓",
+    name: "Red Dragonfly",
     id: 4338
   },
   {
-    name: "黄蜻蜓",
+    name: "Yellow Dragonfly",
     id: 4339
   },
   {
-    name: "金蜻蜓",
+    name: "Gold Dragonfly",
     id: 4340
   },
   {
-    name: "梯凳",
+    name: "Step Stool",
     id: 4341
   },
   {
-    name: "蜻蜓雕像",
+    name: "Dragonfly Statue",
     id: 4342
   },
   {
-    name: "纸飞机",
+    name: "Paper Airplane",
     id: 4343
   },
   {
-    name: "白纸飞机",
+    name: "White Paper Airplane",
     id: 4344
   },
   {
-    name: "蠕虫罐头",
+    name: "Can Of Worms",
     id: 4345
   },
   {
-    name: "负重石",
+    name: "Encumbering Stone",
     id: 4346
   },
   {
-    name: "灰冲击枪",
+    name: "Gray Zapinator",
     id: 4347
   },
   {
-    name: "橙冲击枪",
+    name: "Orange Zapinator",
     id: 4348
   },
   {
-    name: "绿苔藓",
+    name: "Green Moss",
     id: 4349
   },
   {
-    name: "棕苔藓",
+    name: "Brown Moss",
     id: 4350
   },
   {
-    name: "红苔藓",
+    name: "Red Moss",
     id: 4351
   },
   {
-    name: "蓝苔藓",
+    name: "Blue Moss",
     id: 4352
   },
   {
-    name: "紫苔藓",
+    name: "Purple Moss",
     id: 4353
   },
   {
-    name: "熔岩苔藓",
+    name: "Lava Moss",
     id: 4354
   },
   {
-    name: "巨石雕像",
+    name: "Boulder Statue",
     id: 4355
   },
   {
-    name: "八音盒（旅途开始）",
+    name: "Music Box (Journey's Beginning)",
     id: 4356
   },
   {
-    name: "八音盒（暴风雨）",
+    name: "Music Box (Storm)",
     id: 4357
   },
   {
-    name: "八音盒（墓地）",
+    name: "Music Box (Graveyard)",
     id: 4358
   },
   {
-    name: "海鸥",
+    name: "Seagull",
     id: 4359
   },
   {
-    name: "海鸥雕像",
+    name: "Seagull Statue",
     id: 4360
   },
   {
-    name: "瓢虫",
+    name: "Ladybug",
     id: 4361
   },
   {
-    name: "金瓢虫",
+    name: "Gold Ladybug",
     id: 4362
   },
   {
-    name: "蛆虫",
+    name: "Maggot",
     id: 4363
   },
   {
-    name: "蛆虫笼",
+    name: "Maggot Cage",
     id: 4364
   },
   {
-    name: "天界魔棒",
+    name: "Celestial Wand",
     id: 4365
   },
   {
-    name: "桉树汁",
+    name: "Eucalyptus Sap",
     id: 4366
   },
   {
-    name: "蓝色风筝",
+    name: "Blue Kite",
     id: 4367
   },
   {
-    name: "蓝黄风筝",
+    name: "Blue and Yellow Kite",
     id: 4368
   },
   {
-    name: "红色风筝",
+    name: "Red Kite",
     id: 4369
   },
   {
-    name: "红黄风筝",
+    name: "Red and Yellow Kite",
     id: 4370
   },
   {
-    name: "黄色风筝",
+    name: "Yellow Kite",
     id: 4371
   },
   {
-    name: "常春藤",
+    name: "Ivy",
     id: 4372
   },
   {
-    name: "鳉鱼",
+    name: "Pupfish",
     id: 4373
   },
   {
-    name: "䴙䴘",
+    name: "Grebe",
     id: 4374
   },
   {
-    name: "老鼠",
+    name: "Rat",
     id: 4375
   },
   {
-    name: "老鼠笼",
+    name: "Rat Cage",
     id: 4376
   },
   {
-    name: "氪苔藓",
+    name: "Krypton Moss",
     id: 4377
   },
   {
-    name: "氙苔藓",
+    name: "Xenon Moss",
     id: 4378
   },
   {
-    name: "双足翼龙风筝",
+    name: "Wyvern Kite",
     id: 4379
   },
   {
-    name: "瓢虫笼",
+    name: "Ladybug Cage",
     id: 4380
   },
   {
-    name: "血雨弓",
+    name: "Blood Rain Bow",
     id: 4381
   },
   {
-    name: "高级战斗技术",
+    name: "Advanced Combat Techniques",
     id: 4382
   },
   {
-    name: "沙漠火把",
+    name: "Desert Torch",
     id: 4383
   },
   {
-    name: "珊瑚火把",
+    name: "Coral Torch",
     id: 4384
   },
   {
-    name: "腐化火把",
+    name: "Corrupt Torch",
     id: 4385
   },
   {
-    name: "猩红火把",
+    name: "Crimson Torch",
     id: 4386
   },
   {
-    name: "神圣火把",
+    name: "Hallowed Torch",
     id: 4387
   },
   {
-    name: "丛林火把",
+    name: "Jungle Torch",
     id: 4388
   },
   {
-    name: "氩苔藓",
+    name: "Argon Moss",
     id: 4389
   },
   {
-    name: "滚动仙人掌",
+    name: "Rolling Cactus",
     id: 4390
   },
   {
-    name: "薄冰",
+    name: "Thin Ice",
     id: 4391
   },
   {
-    name: "回声块",
+    name: "Echo Block",
     id: 4392
   },
   {
-    name: "圣甲虫鱼",
+    name: "Scarab Fish",
     id: 4393
   },
   {
-    name: "蝎子鱼",
+    name: "Scorpio Fish",
     id: 4394
   },
   {
-    name: "猫头鹰",
+    name: "Owl",
     id: 4395
   },
   {
-    name: "猫头鹰笼",
+    name: "Owl Cage",
     id: 4396
   },
   {
-    name: "猫头鹰雕像",
+    name: "Owl Statue",
     id: 4397
   },
   {
-    name: "鳉鱼碗",
+    name: "Pupfish Bowl",
     id: 4398
   },
   {
-    name: "金瓢虫笼",
+    name: "Gold Ladybug Cage",
     id: 4399
   },
   {
-    name: "晶洞",
+    name: "Geode",
     id: 4400
   },
   {
-    name: "比目鱼",
+    name: "Flounder",
     id: 4401
   },
   {
-    name: "岩龙虾",
+    name: "Rock Lobster",
     id: 4402
   },
   {
-    name: "龙虾尾",
+    name: "Lobster Tail",
     id: 4403
   },
   {
-    name: "救生圈",
+    name: "Inner Tube",
     id: 4404
   },
   {
-    name: "冰冻板条箱",
+    name: "Frozen Crate",
     id: 4405
   },
   {
-    name: "针叶木板条箱",
+    name: "Boreal Crate",
     id: 4406
   },
   {
-    name: "绿洲板条箱",
+    name: "Oasis Crate",
     id: 4407
   },
   {
-    name: "幻象板条箱",
+    name: "Mirage Crate",
     id: 4408
   },
   {
-    name: "幽灵护目镜",
+    name: "Spectre Goggles",
     id: 4409
   },
   {
-    name: "牡蛎",
+    name: "Oyster",
     id: 4410
   },
   {
-    name: "去壳牡蛎",
+    name: "Shucked Oyster",
     id: 4411
   },
   {
-    name: "白珍珠",
+    name: "White Pearl",
     id: 4412
   },
   {
-    name: "黑珍珠",
+    name: "Black Pearl",
     id: 4413
   },
   {
-    name: "粉珍珠",
+    name: "Pink Pearl",
     id: 4414
   },
   {
-    name: "石门",
+    name: "Stone Door",
     id: 4415
   },
   {
-    name: "石平台",
+    name: "Stone Platform",
     id: 4416
   },
   {
-    name: "绿洲喷泉",
+    name: "Oasis Water Fountain",
     id: 4417
   },
   {
-    name: "水黾",
+    name: "Water Strider",
     id: 4418
   },
   {
-    name: "金水黾",
+    name: "Gold Water Strider",
     id: 4419
   },
   {
-    name: "草坪火烈鸟",
+    name: "Lawn Flamingo",
     id: 4420
   },
   {
-    name: "八音盒（地下丛林）",
+    name: "Music Box (Underground Jungle)",
     id: 4421
   },
   {
-    name: "格栅",
+    name: "Grate",
     id: 4422
   },
   {
-    name: "圣甲虫炸弹",
+    name: "Scarab Bomb",
     id: 4423
   },
   {
-    name: "锻铁栅栏",
+    name: "Wrought Iron Fence",
     id: 4424
   },
   {
-    name: "鲨鱼饵",
+    name: "Shark Bait",
     id: 4425
   },
   {
-    name: "蜜蜂矿车",
+    name: "Bee Minecart",
     id: 4426
   },
   {
-    name: "瓢虫矿车",
+    name: "Ladybug Minecart",
     id: 4427
   },
   {
-    name: "猪龙矿车",
+    name: "Pigron Minecart",
     id: 4428
   },
   {
-    name: "向日葵矿车",
+    name: "Sunflower Minecart",
     id: 4429
   },
   {
-    name: "盆栽森林雪松",
+    name: "Potted Forest Cedar",
     id: 4430
   },
   {
-    name: "盆栽丛林雪松",
+    name: "Potted Jungle Cedar",
     id: 4431
   },
   {
-    name: "盆栽神圣雪松",
+    name: "Potted Hallow Cedar",
     id: 4432
   },
   {
-    name: "盆栽森林树",
+    name: "Potted Forest Tree",
     id: 4433
   },
   {
-    name: "盆栽丛林树",
+    name: "Potted Jungle Tree",
     id: 4434
   },
   {
-    name: "盆栽神圣树",
+    name: "Potted Hallow Tree",
     id: 4435
   },
   {
-    name: "盆栽森林棕榈",
+    name: "Potted Forest Palm",
     id: 4436
   },
   {
-    name: "盆栽丛林棕榈",
+    name: "Potted Jungle Palm",
     id: 4437
   },
   {
-    name: "盆栽神圣棕榈",
+    name: "Potted Hallow Palm",
     id: 4438
   },
   {
-    name: "盆栽森林竹",
+    name: "Potted Forest Bamboo",
     id: 4439
   },
   {
-    name: "盆栽丛林竹",
+    name: "Potted Jungle Bamboo",
     id: 4440
   },
   {
-    name: "盆栽神圣竹",
+    name: "Potted Hallow Bamboo",
     id: 4441
   },
   {
-    name: "圣甲虫钓竿",
+    name: "Scarab Fishing Rod",
     id: 4442
   },
   {
-    name: "恶魔地狱矿车",
+    name: "Demonic Hellcart",
     id: 4443
   },
   {
-    name: "女巫扫帚",
+    name: "Witch's Broom",
     id: 4444
   },
   {
-    name: "集束火箭 I",
+    name: "Cluster Rocket I",
     id: 4445
   },
   {
-    name: "集束火箭 II",
+    name: "Cluster Rocket II",
     id: 4446
   },
   {
-    name: "湿火箭",
+    name: "Wet Rocket",
     id: 4447
   },
   {
-    name: "熔岩火箭",
+    name: "Lava Rocket",
     id: 4448
   },
   {
-    name: "蜂蜜火箭",
+    name: "Honey Rocket",
     id: 4449
   },
   {
-    name: "蘑菇矿车",
+    name: "Shroom Minecart",
     id: 4450
   },
   {
-    name: "紫晶矿车",
+    name: "Amethyst Minecart",
     id: 4451
   },
   {
-    name: "黄玉矿车",
+    name: "Topaz Minecart",
     id: 4452
   },
   {
-    name: "蓝玉矿车",
+    name: "Sapphire Minecart",
     id: 4453
   },
   {
-    name: "翡翠矿车",
+    name: "Emerald Minecart",
     id: 4454
   },
   {
-    name: "红玉矿车",
+    name: "Ruby Minecart",
     id: 4455
   },
   {
-    name: "钻石矿车",
+    name: "Diamond Minecart",
     id: 4456
   },
   {
-    name: "迷你核弹 I",
+    name: "Mini Nuke I",
     id: 4457
   },
   {
-    name: "迷你核弹 II",
+    name: "Mini Nuke II",
     id: 4458
   },
   {
-    name: "干火箭",
+    name: "Dry Rocket",
     id: 4459
   },
   {
-    name: "沙堡桶",
+    name: "Sandcastle Bucket",
     id: 4460
   },
   {
-    name: "乌龟笼",
+    name: "Turtle Cage",
     id: 4461
   },
   {
-    name: "丛林龟笼",
+    name: "Jungle Turtle Cage",
     id: 4462
   },
   {
-    name: "短剑",
+    name: "Gladius",
     id: 4463
   },
   {
-    name: "乌龟",
+    name: "Turtle",
     id: 4464
   },
   {
-    name: "丛林龟",
+    name: "Jungle Turtle",
     id: 4465
   },
   {
-    name: "乌龟雕像",
+    name: "Turtle Statue",
     id: 4466
   },
   {
-    name: "琥珀矿车",
+    name: "Amber Minecart",
     id: 4467
   },
   {
-    name: "甲虫矿车",
+    name: "Beetle Minecart",
     id: 4468
   },
   {
-    name: "彩虹猫矿车",
+    name: "Meowmere Minecart",
     id: 4469
   },
   {
-    name: "派对矿车",
+    name: "Party Wagon",
     id: 4470
   },
   {
-    name: "荷兰飞盗船",
+    name: "The Dutchman",
     id: 4471
   },
   {
-    name: "蒸汽朋克矿车",
+    name: "Steampunk Minecart",
     id: 4472
   },
   {
-    name: "䴙䴘笼",
+    name: "Grebe Cage",
     id: 4473
   },
   {
-    name: "海鸥笼",
+    name: "Seagull Cage",
     id: 4474
   },
   {
-    name: "水黾笼",
+    name: "Water Strider Cage",
     id: 4475
   },
   {
-    name: "金水黾笼",
+    name: "Gold Water Strider Cage",
     id: 4476
   },
   {
-    name: "初级幸运药水",
+    name: "Lesser Luck Potion",
     id: 4477
   },
   {
-    name: "幸运药水",
+    name: "Luck Potion",
     id: 4478
   },
   {
-    name: "高级幸运药水",
+    name: "Greater Luck Potion",
     id: 4479
   },
   {
-    name: "海马",
+    name: "Seahorse",
     id: 4480
   },
   {
-    name: "海马笼",
+    name: "Seahorse Cage",
     id: 4481
   },
   {
-    name: "金海马",
+    name: "Gold Seahorse",
     id: 4482
   },
   {
-    name: "金海马笼",
+    name: "Gold Seahorse Cage",
     id: 4483
   },
   {
-    name: "1/2秒计时器",
+    name: "1/2 Second Timer",
     id: 4484
   },
   {
-    name: "1/4秒计时器",
+    name: "1/4 Second Timer",
     id: 4485
   },
   {
-    name: "魔石墙",
+    name: "Ebonstone Wall",
     id: 4486
   },
   {
-    name: "泥墙",
+    name: "Mud Wall",
     id: 4487
   },
   {
-    name: "珍珠石墙",
+    name: "Pearlstone Wall",
     id: 4488
   },
   {
-    name: "雪墙",
+    name: "Snow Wall",
     id: 4489
   },
   {
-    name: "紫晶石墙",
+    name: "Amethyst Stone Wall",
     id: 4490
   },
   {
-    name: "黄玉石墙",
+    name: "Topaz Stone Wall",
     id: 4491
   },
   {
-    name: "蓝玉石墙",
+    name: "Sapphire Stone Wall",
     id: 4492
   },
   {
-    name: "翡翠石墙",
+    name: "Emerald Stone Wall",
     id: 4493
   },
   {
-    name: "红玉石墙",
+    name: "Ruby Stone Wall",
     id: 4494
   },
   {
-    name: "钻石石墙",
+    name: "Diamond Stone Wall",
     id: 4495
   },
   {
-    name: "绿色苔藓墙",
+    name: "Green Mossy Wall",
     id: 4496
   },
   {
-    name: "棕色苔藓墙",
+    name: "Brown Mossy Wall",
     id: 4497
   },
   {
-    name: "红色苔藓墙",
+    name: "Red Mossy Wall",
     id: 4498
   },
   {
-    name: "蓝色苔藓墙",
+    name: "Blue Mossy Wall",
     id: 4499
   },
   {
-    name: "紫色苔藓墙",
+    name: "Purple Mossy Wall",
     id: 4500
   },
   {
-    name: "岩石土墙",
+    name: "Rocky Dirt Wall",
     id: 4501
   },
   {
-    name: "旧石墙",
+    name: "Old Stone Wall",
     id: 4502
   },
   {
-    name: "蜘蛛墙",
+    name: "Spider Wall",
     id: 4503
   },
   {
-    name: "腐化草墙",
+    name: "Corrupt Grass Wall",
     id: 4504
   },
   {
-    name: "神圣草墙",
+    name: "Hallowed Grass Wall",
     id: 4505
   },
   {
-    name: "冰墙",
+    name: "Ice Wall",
     id: 4506
   },
   {
-    name: "黑曜石墙",
+    name: "Obsidian Wall",
     id: 4507
   },
   {
-    name: "猩红草墙",
+    name: "Crimson Grass Wall",
     id: 4508
   },
   {
-    name: "猩红石墙",
+    name: "Crimstone Wall",
     id: 4509
   },
   {
-    name: "洞穴土墙",
+    name: "Cave Dirt Wall",
     id: 4510
   },
   {
-    name: "粗糙土墙",
+    name: "Rough Dirt Wall",
     id: 4511
   },
   {
-    name: "崎岖石墙",
+    name: "Craggy Stone Wall",
     id: 4512
   },
   {
-    name: "腐化生长墙",
+    name: "Corrupt Growth Wall",
     id: 4513
   },
   {
-    name: "腐化团块墙",
+    name: "Corrupt Mass Wall",
     id: 4514
   },
   {
-    name: "腐化脓疱墙",
+    name: "Corrupt Pustule Wall",
     id: 4515
   },
   {
-    name: "腐化卷须墙",
+    name: "Corrupt Tendril Wall",
     id: 4516
   },
   {
-    name: "猩红硬皮墙",
+    name: "Crimson Crust Wall",
     id: 4517
   },
   {
-    name: "猩红痂皮墙",
+    name: "Crimson Scab Wall",
     id: 4518
   },
   {
-    name: "猩红尖牙墙",
+    name: "Crimson Teeth Wall",
     id: 4519
   },
   {
-    name: "猩红水疱墙",
+    name: "Crimson Blister Wall",
     id: 4520
   },
   {
-    name: "层状土墙",
+    name: "Layered Dirt Wall",
     id: 4521
   },
   {
-    name: "崩落土墙",
+    name: "Crumbling Dirt Wall",
     id: 4522
   },
   {
-    name: "开裂土墙",
+    name: "Cracked Dirt Wall",
     id: 4523
   },
   {
-    name: "波纹土墙",
+    name: "Wavy Dirt Wall",
     id: 4524
   },
   {
-    name: "神圣棱柱墙",
+    name: "Hallowed Prism Wall",
     id: 4525
   },
   {
-    name: "神圣洞穴墙",
+    name: "Hallowed Cavern Wall",
     id: 4526
   },
   {
-    name: "神圣碎片墙",
+    name: "Hallowed Shard Wall",
     id: 4527
   },
   {
-    name: "神圣水晶墙",
+    name: "Hallowed Crystalline Wall",
     id: 4528
   },
   {
-    name: "地衣石墙",
+    name: "Lichen Stone Wall",
     id: 4529
   },
   {
-    name: "多叶丛林墙",
+    name: "Leafy Jungle Wall",
     id: 4530
   },
   {
-    name: "常春藤石墙",
+    name: "Ivy Stone Wall",
     id: 4531
   },
   {
-    name: "丛林藤蔓墙",
+    name: "Jungle Vine Wall",
     id: 4532
   },
   {
-    name: "余烬墙",
+    name: "Ember Wall",
     id: 4533
   },
   {
-    name: "煤渣墙",
+    name: "Cinder Wall",
     id: 4534
   },
   {
-    name: "岩浆墙",
+    name: "Magma Wall",
     id: 4535
   },
   {
-    name: "闷烧石墙",
+    name: "Smouldering Stone Wall",
     id: 4536
   },
   {
-    name: "风化石墙",
+    name: "Worn Stone Wall",
     id: 4537
   },
   {
-    name: "钟乳石墙",
+    name: "Stalactite Stone Wall",
     id: 4538
   },
   {
-    name: "斑驳石墙",
+    name: "Mottled Stone Wall",
     id: 4539
   },
   {
-    name: "碎裂石墙",
+    name: "Fractured Stone Wall",
     id: 4540
   },
   {
-    name: "新娘旗",
+    name: "The Bride Banner",
     id: 4541
   },
   {
-    name: "僵尸人鱼旗",
+    name: "Zombie Merman Banner",
     id: 4542
   },
   {
-    name: "游荡眼球鱼旗",
+    name: "Wandering Eye Fish Banner",
     id: 4543
   },
   {
-    name: "血乌贼旗",
+    name: "Blood Squid Banner",
     id: 4544
   },
   {
-    name: "血鳗鱼旗",
+    name: "Blood Eel Banner",
     id: 4545
   },
   {
-    name: "血猎鲨旗",
+    name: "Hemogoblin Shark Banner",
     id: 4546
   },
   {
-    name: "大型竹子",
+    name: "Large Bamboo",
     id: 4547
   },
   {
-    name: "大型竹子墙",
+    name: "Large Bamboo Wall",
     id: 4548
   },
   {
-    name: "恶魔角",
+    name: "Demon Horns",
     id: 4549
   },
   {
-    name: "竹叶",
+    name: "Bamboo Leaf",
     id: 4550
   },
   {
-    name: "地狱蛋糕块",
+    name: "Slice of Hell Cake",
     id: 4551
   },
   {
-    name: "造雾机",
+    name: "Fog Machine",
     id: 4552
   },
   {
-    name: "等离子灯",
+    name: "Plasma Lamp",
     id: 4553
   },
   {
-    name: "大理石柱",
+    name: "Marble Column",
     id: 4554
   },
   {
-    name: "厨师帽",
+    name: "Chef Hat",
     id: 4555
   },
   {
-    name: "厨师服",
+    name: "Chef Uniform",
     id: 4556
   },
   {
-    name: "厨师裤",
+    name: "Chef Pants",
     id: 4557
   },
   {
-    name: "星星发夹",
+    name: "Star Hairpin",
     id: 4558
   },
   {
-    name: "爱心发夹",
+    name: "Heart Hairpin",
     id: 4559
   },
   {
-    name: "兔耳朵",
+    name: "Bunny Ears",
     id: 4560
   },
   {
-    name: "恶魔角",
+    name: "Devil Horns",
     id: 4561
   },
   {
-    name: "软呢帽",
+    name: "Fedora",
     id: 4562
   },
   {
-    name: "假独角兽角",
+    name: "Fake Unicorn Horn",
     id: 4563
   },
   {
-    name: "竹子",
+    name: "Bamboo",
     id: 4564
   },
   {
-    name: "竹子墙",
+    name: "Bamboo Wall",
     id: 4565
   },
   {
-    name: "竹浴缸",
+    name: "Bamboo Bathtub",
     id: 4566
   },
   {
-    name: "竹床",
+    name: "Bamboo Bed",
     id: 4567
   },
   {
-    name: "竹书架",
+    name: "Bamboo Bookcase",
     id: 4568
   },
   {
-    name: "竹梳妆台",
+    name: "Bamboo Dresser",
     id: 4569
   },
   {
-    name: "竹烛台",
+    name: "Bamboo Candelabra",
     id: 4570
   },
   {
-    name: "竹蜡烛",
+    name: "Bamboo Candle",
     id: 4571
   },
   {
-    name: "竹椅",
+    name: "Bamboo Chair",
     id: 4572
   },
   {
-    name: "竹吊灯",
+    name: "Bamboo Chandelier",
     id: 4573
   },
   {
-    name: "竹箱",
+    name: "Bamboo Chest",
     id: 4574
   },
   {
-    name: "竹钟",
+    name: "Bamboo Clock",
     id: 4575
   },
   {
-    name: "竹门",
+    name: "Bamboo Door",
     id: 4576
   },
   {
-    name: "竹灯",
+    name: "Bamboo Lamp",
     id: 4577
   },
   {
-    name: "竹灯笼",
+    name: "Bamboo Lantern",
     id: 4578
   },
   {
-    name: "竹钢琴",
+    name: "Bamboo Piano",
     id: 4579
   },
   {
-    name: "竹平台",
+    name: "Bamboo Platform",
     id: 4580
   },
   {
-    name: "竹水槽",
+    name: "Bamboo Sink",
     id: 4581
   },
   {
-    name: "竹沙发",
+    name: "Bamboo Sofa",
     id: 4582
   },
   {
-    name: "竹桌",
+    name: "Bamboo Table",
     id: 4583
   },
   {
-    name: "竹工作台",
+    name: "Bamboo Work Bench",
     id: 4584
   },
   {
-    name: "机关竹箱",
+    name: "Trapped Bamboo Chest",
     id: 4585
   },
   {
-    name: "竹马桶",
+    name: "Bamboo Toilet",
     id: 4586
   },
   {
-    name: "破旧高尔夫球杆（铁杆）",
+    name: "Worn Golf Club (Iron)",
     id: 4587
   },
   {
-    name: "破旧高尔夫球杆（推杆）",
+    name: "Worn Golf Club (Putter)",
     id: 4588
   },
   {
-    name: "破旧高尔夫球杆（挖起杆）",
+    name: "Worn Golf Club (Wedge)",
     id: 4589
   },
   {
-    name: "破旧高尔夫球杆（木杆）",
+    name: "Worn Golf Club (Driver)",
     id: 4590
   },
   {
-    name: "花哨高尔夫球杆（铁杆）",
+    name: "Fancy Golf Club (Iron)",
     id: 4591
   },
   {
-    name: "花哨高尔夫球杆（推杆）",
+    name: "Fancy Golf Club (Putter)",
     id: 4592
   },
   {
-    name: "花哨高尔夫球杆（挖起杆）",
+    name: "Fancy Golf Club (Wedge)",
     id: 4593
   },
   {
-    name: "花哨高尔夫球杆（木杆）",
+    name: "Fancy Golf Club (Driver)",
     id: 4594
   },
   {
-    name: "高级高尔夫球杆（铁杆）",
+    name: "Premium Golf Club (Iron)",
     id: 4595
   },
   {
-    name: "高级高尔夫球杆（推杆）",
+    name: "Premium Golf Club (Putter)",
     id: 4596
   },
   {
-    name: "高级高尔夫球杆（挖起杆）",
+    name: "Premium Golf Club (Wedge)",
     id: 4597
   },
   {
-    name: "高级高尔夫球杆（木杆）",
+    name: "Premium Golf Club (Driver)",
     id: 4598
   },
   {
-    name: "青铜高尔夫奖杯",
+    name: "Bronze Golf Trophy",
     id: 4599
   },
   {
-    name: "白银高尔夫奖杯",
+    name: "Silver Golf Trophy",
     id: 4600
   },
   {
-    name: "黄金高尔夫奖杯",
+    name: "Gold Golf Trophy",
     id: 4601
   },
   {
-    name: "恐惧鹦鹉螺旗",
+    name: "Dreadnautilus Banner",
     id: 4602
   },
   {
-    name: "小鸟拨浪鼓",
+    name: "Birdie Rattle",
     id: 4603
   },
   {
-    name: "异域咀嚼玩具",
+    name: "Exotic Chew Toy",
     id: 4604
   },
   {
-    name: "炫彩花蜜",
+    name: "Bedazzled Nectar",
     id: 4605
   },
   {
-    name: "八音盒（丛林夜晚）",
+    name: "Music Box (Jungle Night)",
     id: 4606
   },
   {
-    name: "沙漠虎杖",
+    name: "Desert Tiger Staff",
     id: 4607
   },
   {
-    name: "鱼饵桶",
+    name: "Chum Bucket",
     id: 4608
   },
   {
-    name: "花园侏儒",
+    name: "Garden Gnome",
     id: 4609
   },
   {
-    name: "骨蛇风筝",
+    name: "Bone Serpent Kite",
     id: 4610
   },
   {
-    name: "吞世怪风筝",
+    name: "World Feeder Kite",
     id: 4611
   },
   {
-    name: "兔兔风筝",
+    name: "Bunny Kite",
     id: 4612
   },
   {
-    name: "猪龙风筝",
+    name: "Pigron Kite",
     id: 4613
   },
   {
-    name: "苹果汁",
+    name: "Apple Juice",
     id: 4614
   },
   {
-    name: "葡萄汁",
+    name: "Grape Juice",
     id: 4615
   },
   {
-    name: "柠檬水",
+    name: "Lemonade",
     id: 4616
   },
   {
-    name: "冰冻香蕉代基里",
+    name: "Frozen Banana Daiquiri",
     id: 4617
   },
   {
-    name: "桃子桑格利亚",
+    name: "Peach Sangria",
     id: 4618
   },
   {
-    name: "椰林飘香",
+    name: "Pi?a Colada",
     id: 4619
   },
   {
-    name: "热带奶昔",
+    name: "Tropical Smoothie",
     id: 4620
   },
   {
-    name: "血腥莫斯卡托",
+    name: "Bloody Moscato",
     id: 4621
   },
   {
-    name: "暗黑奶昔",
+    name: "Smoothie of Darkness",
     id: 4622
   },
   {
-    name: "虹彩潘趣酒",
+    name: "Prismatic Punch",
     id: 4623
   },
   {
-    name: "果汁",
+    name: "Fruit Juice",
     id: 4624
   },
   {
-    name: "水果沙拉",
+    name: "Fruit Salad",
     id: 4625
   },
   {
-    name: "安德鲁斯芬克斯",
+    name: "Andrew Sphinx",
     id: 4626
   },
   {
-    name: "警惕蚁狮",
+    name: "Watchful Antlion",
     id: 4627
   },
   {
-    name: "燃烧之魂",
+    name: "Burning Spirit",
     id: 4628
   },
   {
-    name: "死亡之颚",
+    name: "Jaws of Death",
     id: 4629
   },
   {
-    name: "史莱姆之沙",
+    name: "The Sands of Slime",
     id: 4630
   },
   {
-    name: "蛇，我恨蛇",
+    name: "Snakes, I Hate Snakes",
     id: 4631
   },
   {
-    name: "沙上之生",
+    name: "Life Above the Sand",
     id: 4632
   },
   {
-    name: "绿洲",
+    name: "Oasis",
     id: 4633
   },
   {
-    name: "保存的史前",
+    name: "Prehistory Preserved",
     id: 4634
   },
   {
-    name: "古代碑刻",
+    name: "Ancient Tablet",
     id: 4635
   },
   {
-    name: "乌鲁鲁",
+    name: "Uluru",
     id: 4636
   },
   {
-    name: "参观金字塔",
+    name: "Visiting the Pyramids",
     id: 4637
   },
   {
-    name: "绷带男孩",
+    name: "Bandage Boy",
     id: 4638
   },
   {
-    name: "神之眼",
+    name: "Divine Eye",
     id: 4639
   },
   {
-    name: "紫晶石块",
+    name: "Amethyst Stone Block",
     id: 4640
   },
   {
-    name: "黄玉石块",
+    name: "Topaz Stone Block",
     id: 4641
   },
   {
-    name: "蓝玉石块",
+    name: "Sapphire Stone Block",
     id: 4642
   },
   {
-    name: "翡翠石块",
+    name: "Emerald Stone Block",
     id: 4643
   },
   {
-    name: "红玉石块",
+    name: "Ruby Stone Block",
     id: 4644
   },
   {
-    name: "钻石石块",
+    name: "Diamond Stone Block",
     id: 4645
   },
   {
-    name: "琥珀石块",
+    name: "Amber Stone Block",
     id: 4646
   },
   {
-    name: "琥珀石墙",
+    name: "Amber Stone Wall",
     id: 4647
   },
   {
-    name: "食人怪风筝",
+    name: "Man Eater Kite",
     id: 4648
   },
   {
-    name: "蓝水母风筝",
+    name: "Blue Jellyfish Kite",
     id: 4649
   },
   {
-    name: "粉水母风筝",
+    name: "Pink Jellyfish Kite",
     id: 4650
   },
   {
-    name: "鲨鱼风筝",
+    name: "Shark Kite",
     id: 4651
   },
   {
-    name: "超级英雄面具",
+    name: "Superhero Mask",
     id: 4652
   },
   {
-    name: "超级英雄服",
+    name: "Superhero Costume",
     id: 4653
   },
   {
-    name: "超级英雄紧身裤",
+    name: "Superhero Tights",
     id: 4654
   },
   {
-    name: "粉仙灵罐",
+    name: "Pink Fairy Jar",
     id: 4655
   },
   {
-    name: "绿仙灵罐",
+    name: "Green Fairy Jar",
     id: 4656
   },
   {
-    name: "蓝仙灵罐",
+    name: "Blue Fairy Jar",
     id: 4657
   },
   {
-    name: "滚动的绿茵",
+    name: "The Rolling Greens",
     id: 4658
   },
   {
-    name: "静止球体研究",
+    name: "Study of a Ball at Rest",
     id: 4659
   },
   {
-    name: "看球！",
+    name: "Fore!",
     id: 4660
   },
   {
-    name: "倒影的二重性",
+    name: "The Duplicity of Reflections",
     id: 4661
   },
   {
-    name: "雾缚染料",
+    name: "Fogbound Dye",
     id: 4662
   },
   {
-    name: "血浴染料",
+    name: "Bloodbath Dye",
     id: 4663
   },
   {
-    name: "漂亮粉裙",
+    name: "Pretty Pink Dress",
     id: 4664
   },
   {
-    name: "漂亮粉长袜",
+    name: "Pretty Pink Stockings",
     id: 4665
   },
   {
-    name: "漂亮粉缎带",
+    name: "Pretty Pink Ribbon",
     id: 4666
   },
   {
-    name: "竹篱笆",
+    name: "Bamboo Fence",
     id: 4667
   },
   {
-    name: "发光涂料",
+    name: "Illuminant Coating",
     id: 4668
   },
   {
-    name: "沙鲨风筝",
+    name: "Sand Shark Kite",
     id: 4669
   },
   {
-    name: "腐化兔兔风筝",
+    name: "Corrupt Bunny Kite",
     id: 4670
   },
   {
-    name: "毒化兔兔风筝",
+    name: "Vicious Bunny Kite",
     id: 4671
   },
   {
-    name: "皮鞭",
+    name: "Leather Whip",
     id: 4672
   },
   {
-    name: "鼓槌",
+    name: "Drumstick",
     id: 4673
   },
   {
-    name: "金鱼风筝",
+    name: "Goldfish Kite",
     id: 4674
   },
   {
-    name: "愤怒捕手风筝",
+    name: "Angry Trapper Kite",
     id: 4675
   },
   {
-    name: "锦鲤风筝",
+    name: "Koi Kite",
     id: 4676
   },
   {
-    name: "千足蜈蚣风筝",
+    name: "Crawltipede Kite",
     id: 4677
   },
   {
-    name: "迪朗达尔",
+    name: "Durendal",
     id: 4678
   },
   {
-    name: "晨星",
+    name: "Morning Star",
     id: 4679
   },
   {
-    name: "暗黑收割",
+    name: "Dark Harvest",
     id: 4680
   },
   {
-    name: "光谱风筝",
+    name: "Spectrum Kite",
     id: 4681
   },
   {
-    name: "放飞鸽子",
+    name: "Release Doves",
     id: 4682
   },
   {
-    name: "游荡眼球风筝",
+    name: "Wandering Eye Kite",
     id: 4683
   },
   {
-    name: "独角兽风筝",
+    name: "Unicorn Kite",
     id: 4684
   },
   {
-    name: "掘墓者帽",
+    name: "Gravedigger Hat",
     id: 4685
   },
   {
-    name: "掘墓者外套",
+    name: "Gravedigger Coat",
     id: 4686
   },
   {
-    name: "愤怒蒲公英旗",
+    name: "Angry Dandelion Banner",
     id: 4687
   },
   {
-    name: "地精旗",
+    name: "Gnome Banner",
     id: 4688
   },
   {
-    name: "沙漠篝火",
+    name: "Desert Campfire",
     id: 4689
   },
   {
-    name: "珊瑚篝火",
+    name: "Coral Campfire",
     id: 4690
   },
   {
-    name: "腐化篝火",
+    name: "Corrupt Campfire",
     id: 4691
   },
   {
-    name: "猩红篝火",
+    name: "Crimson Campfire",
     id: 4692
   },
   {
-    name: "神圣篝火",
+    name: "Hallowed Campfire",
     id: 4693
   },
   {
-    name: "丛林篝火",
+    name: "Jungle Campfire",
     id: 4694
   },
   {
-    name: "瓶装光之魂",
+    name: "Soul of Light in a Bottle",
     id: 4695
   },
   {
-    name: "瓶装暗影之魂",
+    name: "Soul of Night in a Bottle",
     id: 4696
   },
   {
-    name: "瓶装飞翔之魂",
+    name: "Soul of Flight in a Bottle",
     id: 4697
   },
   {
-    name: "瓶装视域之魂",
+    name: "Soul of Sight in a Bottle",
     id: 4698
   },
   {
-    name: "瓶装力量之魂",
+    name: "Soul of Might in a Bottle",
     id: 4699
   },
   {
-    name: "瓶装恐惧之魂",
+    name: "Soul of Fright in a Bottle",
     id: 4700
   },
   {
-    name: "泥芽",
+    name: "Mud Bud",
     id: 4701
   },
   {
-    name: "释放灯笼",
+    name: "Release Lantern",
     id: 4702
   },
   {
-    name: "四管霰弹枪",
+    name: "Quad-Barrel Shotgun",
     id: 4703
   },
   {
-    name: "葬礼帽",
+    name: "Funeral Hat",
     id: 4704
   },
   {
-    name: "葬礼大衣",
+    name: "Funeral Coat",
     id: 4705
   },
   {
-    name: "葬礼裤",
+    name: "Funeral Pants",
     id: 4706
   },
   {
-    name: "悲剧伞",
+    name: "Tragic Umbrella",
     id: 4707
   },
   {
-    name: "维多利亚哥特帽",
+    name: "Victorian Goth Hat",
     id: 4708
   },
   {
-    name: "维多利亚哥特裙",
+    name: "Victorian Goth Dress",
     id: 4709
   },
   {
-    name: "破旧木牌",
+    name: "Tattered Wood Sign",
     id: 4710
   },
   {
-    name: "掘墓人之铲",
+    name: "Gravedigger's Shovel",
     id: 4711
   },
   {
-    name: "沙漠宝箱",
+    name: "Desert Chest",
     id: 4712
   },
   {
-    name: "机关沙漠宝箱",
+    name: "Trapped Desert Chest",
     id: 4713
   },
   {
-    name: "沙漠钥匙",
+    name: "Desert Key",
     id: 4714
   },
   {
-    name: "恒星调谐",
+    name: "Stellar Tune",
     id: 4715
   },
   {
-    name: "软体动物口哨",
+    name: "Mollusk Whistle",
     id: 4716
   },
   {
-    name: "针叶木梁",
+    name: "Boreal Beam",
     id: 4717
   },
   {
-    name: "红木梁",
+    name: "Rich Mahogany Beam",
     id: 4718
   },
   {
-    name: "花岗岩柱",
+    name: "Granite Column",
     id: 4719
   },
   {
-    name: "沙岩柱",
+    name: "Sandstone Column",
     id: 4720
   },
   {
-    name: "蘑菇梁",
+    name: "Mushroom Beam",
     id: 4721
   },
   {
-    name: "永夜",
+    name: "Nevermore",
     id: 4723
   },
   {
-    name: "重生",
+    name: "Reborn",
     id: 4724
   },
   {
-    name: "墓地",
+    name: "Graveyard",
     id: 4725
   },
   {
-    name: "幽灵显现",
+    name: "Ghost Manifestation",
     id: 4726
   },
   {
-    name: "邪恶亡灵",
+    name: "Wicked Undead",
     id: 4727
   },
   {
-    name: "血腥高脚杯",
+    name: "Bloody Goblet",
     id: 4728
   },
   {
-    name: "静物",
+    name: "Still Life",
     id: 4729
   },
   {
-    name: "Ghostar的无限八",
+    name: "Ghostar's Infinity Eight",
     id: 4730
   },
   {
-    name: "泰拉马桶",
+    name: "Terra Toilet",
     id: 4731
   },
   {
-    name: "Ghostar的灵魂罐",
+    name: "Ghostar's Soul Jar",
     id: 4732
   },
   {
-    name: "Ghostar的服装",
+    name: "Ghostar's Garb",
     id: 4733
   },
   {
-    name: "Ghostar的紧身裤",
+    name: "Ghostar's Tights",
     id: 4734
   },
   {
-    name: "保险丝球",
+    name: "Ball O' Fuse Wire",
     id: 4735
   },
   {
-    name: "满月吱吱响玩具",
+    name: "Full Moon Squeaky Toy",
     id: 4736
   },
   {
-    name: "华丽暗影钥匙",
+    name: "Ornate Shadow Key",
     id: 4737
   },
   {
-    name: "蝇人博士面具",
+    name: "Dr. Man Fly Mask",
     id: 4738
   },
   {
-    name: "蝇人博士的实验服",
+    name: "Dr. Man Fly's Lab Coat",
     id: 4739
   },
   {
-    name: "屠夫面具",
+    name: "Butcher Mask",
     id: 4740
   },
   {
-    name: "屠夫的血迹围裙",
+    name: "Butcher's Bloodstained Apron",
     id: 4741
   },
   {
-    name: "屠夫的血迹裤",
+    name: "Butcher's Bloodstained Pants",
     id: 4742
   },
   {
-    name: "足球",
+    name: "Football",
     id: 4743
   },
   {
-    name: "猎人斗篷",
+    name: "Hunter Cloak",
     id: 4744
   },
   {
-    name: "棺材矿车",
+    name: "Coffin Minecart",
     id: 4745
   },
   {
-    name: "Safeman的毯子披风",
+    name: "Safeman's Blanket Cape",
     id: 4746
   },
   {
-    name: "Safeman的晴天",
+    name: "Safeman's Sunny Day",
     id: 4747
   },
   {
-    name: "Safeman的太阳裙",
+    name: "Safeman's Sun Dress",
     id: 4748
   },
   {
-    name: "Safeman的粉色紧身裤",
+    name: "Safeman's Pink Leggings",
     id: 4749
   },
   {
-    name: "FoodBarbarian的破旧龙翼",
+    name: "FoodBarbarian's Tattered Dragon Wings",
     id: 4750
   },
   {
-    name: "FoodBarbarian的角盔",
+    name: "FoodBarbarian's Horned Helm",
     id: 4751
   },
   {
-    name: "FoodBarbarian的野狼肩甲",
+    name: "FoodBarbarian's Wild Wolf Spaulders",
     id: 4752
   },
   {
-    name: "FoodBarbarian的野蛮胫甲",
+    name: "FoodBarbarian's Savage Greaves",
     id: 4753
   },
   {
-    name: "Grox The Great的翅膀",
+    name: "Grox The Great's Wings",
     id: 4754
   },
   {
-    name: "Grox The Great的角兜帽",
+    name: "Grox The Great's Horned Cowl",
     id: 4755
   },
   {
-    name: "Grox The Great的胸甲",
+    name: "Grox The Great's Chestplate",
     id: 4756
   },
   {
-    name: "Grox The Great的胫甲",
+    name: "Grox The Great's Greaves",
     id: 4757
   },
   {
-    name: "刃杖",
+    name: "Blade Staff",
     id: 4758
   },
   {
-    name: "松鼠钩",
+    name: "Squirrel Hook",
     id: 4759
   },
   {
-    name: "联合盾牌",
+    name: "Sergeant United Shield",
     id: 4760
   },
   {
-    name: "石巨人头",
+    name: "Rock Golem Head",
     id: 4761
   },
   {
-    name: "小动物洗发水",
+    name: "Critter Shampoo",
     id: 4762
   },
   {
-    name: "挖掘鼹鼠矿车",
+    name: "Digging Molecart",
     id: 4763
   },
   {
-    name: "蘑菇回旋镖",
+    name: "Shroomerang",
     id: 4764
   },
   {
-    name: "树球",
+    name: "Tree Globe",
     id: 4765
   },
   {
-    name: "世界球",
+    name: "World Globe",
     id: 4766
   },
   {
-    name: "小动物友谊指南",
+    name: "Guide to Critter Companionship",
     id: 4767
   },
   {
-    name: "狗耳朵",
+    name: "Dog Ears",
     id: 4768
   },
   {
-    name: "狗尾巴",
+    name: "Dog Tail",
     id: 4769
   },
   {
-    name: "狐狸耳朵",
+    name: "Fox Ears",
     id: 4770
   },
   {
-    name: "狐狸尾巴",
+    name: "Fox Tail",
     id: 4771
   },
   {
-    name: "蜥蜴耳朵",
+    name: "Lizard Ears",
     id: 4772
   },
   {
-    name: "蜥蜴尾巴",
+    name: "Lizard Tail",
     id: 4773
   },
   {
-    name: "熊猫耳朵",
+    name: "Panda Ears",
     id: 4774
   },
   {
-    name: "兔尾巴",
+    name: "Bunny Tail",
     id: 4775
   },
   {
-    name: "仙灵荧光棒",
+    name: "Fairy Glowstick",
     id: 4776
   },
   {
-    name: "闪电胡萝卜",
+    name: "Lightning Carrot",
     id: 4777
   },
   {
-    name: "虹彩染料",
+    name: "Prismatic Dye",
     id: 4778
   },
   {
-    name: "蘑菇帽",
+    name: "Mushroom Hat",
     id: 4779
   },
   {
-    name: "蘑菇背心",
+    name: "Mushroom Vest",
     id: 4780
   },
   {
-    name: "蘑菇裤",
+    name: "Mushroom Pants",
     id: 4781
   },
   {
-    name: "宝藏袋（光之女皇）",
+    name: "Treasure Bag (Empress of Light)",
     id: 4782
   },
   {
-    name: "光之女皇纪念章",
+    name: "Empress of Light Trophy",
     id: 4783
   },
   {
-    name: "光之女皇面具",
+    name: "Empress of Light Mask",
     id: 4784
   },
   {
-    name: "沾满灰尘的生皮鞍",
+    name: "Dusty Rawhide Saddle",
     id: 4785
   },
   {
-    name: "皇家镀金鞍",
+    name: "Royal Gilded Saddle",
     id: 4786
   },
   {
-    name: "黑色镶钉鞍",
+    name: "Black Studded Saddle",
     id: 4787
   },
   {
-    name: "骑枪",
+    name: "Jousting Lance",
     id: 4788
   },
   {
-    name: "暗影骑枪",
+    name: "Shadow Jousting Lance",
     id: 4789
   },
   {
-    name: "神圣骑枪",
+    name: "Hallowed Jousting Lance",
     id: 4790
   },
   {
-    name: "弹簧跳跳杆",
+    name: "Pogo Stick",
     id: 4791
   },
   {
-    name: "黑斑",
+    name: "The Black Spot",
     id: 4792
   },
   {
-    name: "妖术树枝",
+    name: "Hexxed Branch",
     id: 4793
   },
   {
-    name: "玩具坦克",
+    name: "Toy Tank",
     id: 4794
   },
   {
-    name: "山羊骷髅头",
+    name: "Goat Skull",
     id: 4795
   },
   {
-    name: "暗黑法师的魔法书",
+    name: "Dark Mage's Tome",
     id: 4796
   },
   {
-    name: "皇家美味",
+    name: "Royal Delight",
     id: 4797
   },
   {
-    name: "可疑咧嘴眼球",
+    name: "Suspicious Grinning Eye",
     id: 4798
   },
   {
-    name: "扭动的残骸",
+    name: "Writhing Remains",
     id: 4799
   },
   {
-    name: "罐中脑",
+    name: "Brain in a Jar",
     id: 4800
   },
   {
-    name: "被附身骷髅头",
+    name: "Possessed Skull",
     id: 4801
   },
   {
-    name: "闪闪发光的蜂蜜",
+    name: "Sparkling Honey",
     id: 4802
   },
   {
-    name: "已停用探测器",
+    name: "Deactivated Probe",
     id: 4803
   },
   {
-    name: "一对眼球",
+    name: "Pair of Eyeballs",
     id: 4804
   },
   {
-    name: "机械骷髅头",
+    name: "Robotic Skull",
     id: 4805
   },
   {
-    name: "世纪之花幼苗",
+    name: "Plantera Seedling",
     id: 4806
   },
   {
-    name: "守护者石巨人",
+    name: "Guardian Golem",
     id: 4807
   },
   {
-    name: "海中猪肉",
+    name: "Pork of the Sea",
     id: 4808
   },
   {
-    name: "碑牌碎片",
+    name: "Tablet Fragment",
     id: 4809
   },
   {
-    name: "月亮乌贼碎片",
+    name: "Piece of Moon Squid",
     id: 4810
   },
   {
-    name: "光明之珠",
+    name: "Jewel of Light",
     id: 4811
   },
   {
-    name: "南瓜香薰蜡烛",
+    name: "Pumpkin Scented Candle",
     id: 4812
   },
   {
-    name: "灌木星星",
+    name: "Shrub Star",
     id: 4813
   },
   {
-    name: "冰霜皇冠",
+    name: "Frozen Crown",
     id: 4814
   },
   {
-    name: "宇宙滑板",
+    name: "Cosmic Skateboard",
     id: 4815
   },
   {
-    name: "食人魔棍棒",
+    name: "Ogre's Club",
     id: 4816
   },
   {
-    name: "双足翼龙蛋",
+    name: "Betsy's Egg",
     id: 4817
   },
   {
-    name: "战斗扳手",
+    name: "Combat Wrench",
     id: 4818
   },
   {
-    name: "恶魔海螺",
+    name: "Demon Conch",
     id: 4819
   },
   {
-    name: "无底熔岩桶",
+    name: "Bottomless Lava Bucket",
     id: 4820
   },
   {
-    name: "防熔岩虫网",
+    name: "Lavaproof Bug Net",
     id: 4821
   },
   {
-    name: "烈焰行者靴",
+    name: "Flame Waker Boots",
     id: 4822
   },
   {
-    name: "女皇之翼",
+    name: "Empress Wings",
     id: 4823
   },
   {
-    name: "湿炸弹",
+    name: "Wet Bomb",
     id: 4824
   },
   {
-    name: "熔岩炸弹",
+    name: "Lava Bomb",
     id: 4825
   },
   {
-    name: "蜂蜜炸弹",
+    name: "Honey Bomb",
     id: 4826
   },
   {
-    name: "干炸弹",
+    name: "Dry Bomb",
     id: 4827
   },
   {
-    name: "过热的血",
+    name: "Superheated Blood",
     id: 4828
   },
   {
-    name: "猫许可证",
+    name: "Cat License",
     id: 4829
   },
   {
-    name: "狗许可证",
+    name: "Dog License",
     id: 4830
   },
   {
-    name: "紫晶松鼠",
+    name: "Amethyst Squirrel",
     id: 4831
   },
   {
-    name: "黄玉松鼠",
+    name: "Topaz Squirrel",
     id: 4832
   },
   {
-    name: "蓝玉松鼠",
+    name: "Sapphire Squirrel",
     id: 4833
   },
   {
-    name: "翡翠松鼠",
+    name: "Emerald Squirrel",
     id: 4834
   },
   {
-    name: "红玉松鼠",
+    name: "Ruby Squirrel",
     id: 4835
   },
   {
-    name: "钻石松鼠",
+    name: "Diamond Squirrel",
     id: 4836
   },
   {
-    name: "琥珀松鼠",
+    name: "Amber Squirrel",
     id: 4837
   },
   {
-    name: "紫晶兔",
+    name: "Amethyst Bunny",
     id: 4838
   },
   {
-    name: "黄玉兔",
+    name: "Topaz Bunny",
     id: 4839
   },
   {
-    name: "蓝玉兔",
+    name: "Sapphire Bunny",
     id: 4840
   },
   {
-    name: "翡翠兔",
+    name: "Emerald Bunny",
     id: 4841
   },
   {
-    name: "红玉兔",
+    name: "Ruby Bunny",
     id: 4842
   },
   {
-    name: "钻石兔",
+    name: "Diamond Bunny",
     id: 4843
   },
   {
-    name: "琥珀兔",
+    name: "Amber Bunny",
     id: 4844
   },
   {
-    name: "地狱蝴蝶",
+    name: "Hell Butterfly",
     id: 4845
   },
   {
-    name: "地狱蝴蝶罐",
+    name: "Hell Butterfly Jar",
     id: 4846
   },
   {
-    name: "熔岩蝇",
+    name: "Lavafly",
     id: 4847
   },
   {
-    name: "瓶装熔岩蝇",
+    name: "Lavafly in a Bottle",
     id: 4848
   },
   {
-    name: "岩浆蜗牛",
+    name: "Magma Snail",
     id: 4849
   },
   {
-    name: "岩浆蜗牛笼",
+    name: "Magma Snail Cage",
     id: 4850
   },
   {
-    name: "黄玉宝石果",
+    name: "Topaz Gemcorn",
     id: 4851
   },
   {
-    name: "紫晶宝石果",
+    name: "Amethyst Gemcorn",
     id: 4852
   },
   {
-    name: "蓝玉宝石果",
+    name: "Sapphire Gemcorn",
     id: 4853
   },
   {
-    name: "翡翠宝石果",
+    name: "Emerald Gemcorn",
     id: 4854
   },
   {
-    name: "红玉宝石果",
+    name: "Ruby Gemcorn",
     id: 4855
   },
   {
-    name: "钻石宝石果",
+    name: "Diamond Gemcorn",
     id: 4856
   },
   {
-    name: "琥珀宝石果",
+    name: "Amber Gemcorn",
     id: 4857
   },
   {
-    name: "挂盆",
+    name: "Hanging Pot",
     id: 4858
   },
   {
-    name: "挂盆太阳花",
+    name: "Hanging Daybloom",
     id: 4859
   },
   {
-    name: "挂盆月光草",
+    name: "Hanging Moonglow",
     id: 4860
   },
   {
-    name: "挂盆幌菊",
+    name: "Hanging Waterleaf",
     id: 4861
   },
   {
-    name: "挂盆寒颤棘",
+    name: "Hanging Shiverthorn",
     id: 4862
   },
   {
-    name: "挂盆闪耀根",
+    name: "Hanging Blinkroot",
     id: 4863
   },
   {
-    name: "挂盆腐化草",
+    name: "Hanging Corrupt Deathweed",
     id: 4864
   },
   {
-    name: "挂盆猩红草",
+    name: "Hanging Crimson Deathweed",
     id: 4865
   },
   {
-    name: "挂盆火焰花",
+    name: "Hanging Fireblossom",
     id: 4866
   },
   {
-    name: "挂盆火盆",
+    name: "Hanging Brazier",
     id: 4867
   },
   {
-    name: "迷你火山",
+    name: "Mini Volcano",
     id: 4868
   },
   {
-    name: "大型火山",
+    name: "Large Volcano",
     id: 4869
   },
   {
-    name: "回忆药水",
+    name: "Potion of Return",
     id: 4870
   },
   {
-    name: "樱花树苗",
+    name: "Sakura Sapling",
     id: 4871
   },
   {
-    name: "熔岩吸收海绵",
+    name: "Lava Absorbant Sponge",
     id: 4872
   },
   {
-    name: "神圣兜帽",
+    name: "Hallowed Hood",
     id: 4873
   },
   {
-    name: "地狱火踏靴",
+    name: "Hellfire Treads",
     id: 4874
   },
   {
-    name: "丛林晶塔",
+    name: "Jungle Pylon",
     id: 4875
   },
   {
-    name: "森林晶塔",
+    name: "Forest Pylon",
     id: 4876
   },
   {
-    name: "黑曜石匣",
+    name: "Obsidian Crate",
     id: 4877
   },
   {
-    name: "狱石匣",
+    name: "Hellstone Crate",
     id: 4878
   },
   {
-    name: "黑曜石锁盒",
+    name: "Obsidian Lock Box",
     id: 4879
   },
   {
-    name: "熔岩蛇缸",
+    name: "Lava Serpent Bowl",
     id: 4880
   },
   {
-    name: "防熔岩钓钩",
+    name: "Lavaproof Fishing Hook",
     id: 4881
   },
   {
-    name: "紫晶兔笼",
+    name: "Amethyst Bunny Cage",
     id: 4882
   },
   {
-    name: "黄玉兔笼",
+    name: "Topaz Bunny Cage",
     id: 4883
   },
   {
-    name: "蓝玉兔笼",
+    name: "Sapphire Bunny Cage",
     id: 4884
   },
   {
-    name: "翡翠兔笼",
+    name: "Emerald Bunny Cage",
     id: 4885
   },
   {
-    name: "红玉兔笼",
+    name: "Ruby Bunny Cage",
     id: 4886
   },
   {
-    name: "钻石兔笼",
+    name: "Diamond Bunny Cage",
     id: 4887
   },
   {
-    name: "琥珀兔笼",
+    name: "Amber Bunny Cage",
     id: 4888
   },
   {
-    name: "紫晶松鼠笼",
+    name: "Amethyst Squirrel Cage",
     id: 4889
   },
   {
-    name: "黄玉松鼠笼",
+    name: "Topaz Squirrel Cage",
     id: 4890
   },
   {
-    name: "蓝玉松鼠笼",
+    name: "Sapphire Squirrel Cage",
     id: 4891
   },
   {
-    name: "翡翠松鼠笼",
+    name: "Emerald Squirrel Cage",
     id: 4892
   },
   {
-    name: "红玉松鼠笼",
+    name: "Ruby Squirrel Cage",
     id: 4893
   },
   {
-    name: "钻石松鼠笼",
+    name: "Diamond Squirrel Cage",
     id: 4894
   },
   {
-    name: "琥珀松鼠笼",
+    name: "Amber Squirrel Cage",
     id: 4895
   },
   {
-    name: "远古神圣面具",
+    name: "Ancient Hallowed Mask",
     id: 4896
   },
   {
-    name: "远古神圣头盔",
+    name: "Ancient Hallowed Helmet",
     id: 4897
   },
   {
-    name: "远古神圣头饰",
+    name: "Ancient Hallowed Headgear",
     id: 4898
   },
   {
-    name: "远古神圣兜帽",
+    name: "Ancient Hallowed Hood",
     id: 4899
   },
   {
-    name: "远古神圣板甲",
+    name: "Ancient Hallowed Plate Mail",
     id: 4900
   },
   {
-    name: "远古神圣护胫",
+    name: "Ancient Hallowed Greaves",
     id: 4901
   },
   {
-    name: "盆栽岩浆棕榈",
+    name: "Potted Magma Palm",
     id: 4902
   },
   {
-    name: "盆栽硫磺灌木",
+    name: "Potted Brimstone Bush",
     id: 4903
   },
   {
-    name: "盆栽火焰荆棘",
+    name: "Potted Fire Brambles",
     id: 4904
   },
   {
-    name: "盆栽熔岩球茎",
+    name: "Potted Lava Bulb",
     id: 4905
   },
   {
-    name: "盆栽余烬卷须",
+    name: "Potted Ember Tendrils",
     id: 4906
   },
   {
-    name: "黄柳树苗",
+    name: "Yellow Willow Sapling",
     id: 4907
   },
   {
-    name: "土炸弹",
+    name: "Dirt Bomb",
     id: 4908
   },
   {
-    name: "粘性土炸弹",
+    name: "Sticky Dirt Bomb",
     id: 4909
   },
   {
-    name: "兔兔许可证",
+    name: "Bunny License",
     id: 4910
   },
   {
-    name: "冷鞭",
+    name: "Cool Whip",
     id: 4911
   },
   {
-    name: "鞭炮",
+    name: "Firecracker",
     id: 4912
   },
   {
-    name: "荆鞭",
+    name: "Snapthorn",
     id: 4913
   },
   {
-    name: "万花筒",
+    name: "Kaleidoscope",
     id: 4914
   },
   {
-    name: "钨子弹",
+    name: "Tungsten Bullet",
     id: 4915
   },
   {
-    name: "神圣晶塔",
+    name: "Hallow Pylon",
     id: 4916
   },
   {
-    name: "洞穴晶塔",
+    name: "Cavern Pylon",
     id: 4917
   },
   {
-    name: "海洋晶塔",
+    name: "Ocean Pylon",
     id: 4918
   },
   {
-    name: "沙漠晶塔",
+    name: "Desert Pylon",
     id: 4919
   },
   {
-    name: "雪原晶塔",
+    name: "Snow Pylon",
     id: 4920
   },
   {
-    name: "蘑菇晶塔",
+    name: "Mushroom Pylon",
     id: 4921
   },
   {
-    name: "洞穴喷泉",
+    name: "Cavern Water Fountain",
     id: 4922
   },
   {
-    name: "星光",
+    name: "Starlight",
     id: 4923
   },
   {
-    name: "克苏鲁之眼圣物",
+    name: "Eye of Cthulhu Relic",
     id: 4924
   },
   {
-    name: "世界吞噬者圣物",
+    name: "Eater of Worlds Relic",
     id: 4925
   },
   {
-    name: "克苏鲁之脑圣物",
+    name: "Brain of Cthulhu Relic",
     id: 4926
   },
   {
-    name: "骷髅王圣物",
+    name: "Skeletron Relic",
     id: 4927
   },
   {
-    name: "蜂后圣物",
+    name: "Queen Bee Relic",
     id: 4928
   },
   {
-    name: "史莱姆王圣物",
+    name: "King Slime Relic",
     id: 4929
   },
   {
-    name: "血肉墙圣物",
+    name: "Wall of Flesh Relic",
     id: 4930
   },
   {
-    name: "双子魔眼圣物",
+    name: "Twins Relic",
     id: 4931
   },
   {
-    name: "毁灭者圣物",
+    name: "Destroyer Relic",
     id: 4932
   },
   {
-    name: "机械骷髅王圣物",
+    name: "Skeletron Prime Relic",
     id: 4933
   },
   {
-    name: "世纪之花圣物",
+    name: "Plantera Relic",
     id: 4934
   },
   {
-    name: "石巨人圣物",
+    name: "Golem Relic",
     id: 4935
   },
   {
-    name: "猪龙鱼公爵圣物",
+    name: "Duke Fishron Relic",
     id: 4936
   },
   {
-    name: "疯狂教徒圣物",
+    name: "Lunatic Cultist Relic",
     id: 4937
   },
   {
-    name: "月亮领主圣物",
+    name: "Moon Lord Relic",
     id: 4938
   },
   {
-    name: "火星飞碟圣物",
+    name: "Martian Saucer Relic",
     id: 4939
   },
   {
-    name: "荷兰飞盗船圣物",
+    name: "Flying Dutchman Relic",
     id: 4940
   },
   {
-    name: "哀木圣物",
+    name: "Mourning Wood Relic",
     id: 4941
   },
   {
-    name: "南瓜王圣物",
+    name: "Pumpking Relic",
     id: 4942
   },
   {
-    name: "冰雪女王圣物",
+    name: "Ice Queen Relic",
     id: 4943
   },
   {
-    name: "常绿尖叫怪圣物",
+    name: "Everscream Relic",
     id: 4944
   },
   {
-    name: "圣诞坦克圣物",
+    name: "Santa-NK1 Relic",
     id: 4945
   },
   {
-    name: "黑暗魔法师圣物",
+    name: "Dark Mage Relic",
     id: 4946
   },
   {
-    name: "食人魔圣物",
+    name: "Ogre Relic",
     id: 4947
   },
   {
-    name: "双足翼龙圣物",
+    name: "Betsy Relic",
     id: 4948
   },
   {
-    name: "光之女皇圣物",
+    name: "Empress of Light Relic",
     id: 4949
   },
   {
-    name: "史莱姆皇后圣物",
+    name: "Queen Slime Relic",
     id: 4950
   },
   {
-    name: "万能晶塔",
+    name: "Universal Pylon",
     id: 4951
   },
   {
-    name: "夜光",
+    name: "Nightglow",
     id: 4952
   },
   {
-    name: "黄昏",
+    name: "Eventide",
     id: 4953
   },
   {
-    name: "天界星盘",
+    name: "Celestial Starboard",
     id: 4954
   },
   {
-    name: "兔兔栖息架",
+    name: "Rabbit Perch",
     id: 4955
   },
   {
-    name: "天顶剑",
+    name: "Zenith",
     id: 4956
   },
   {
-    name: "宝藏袋（史莱姆皇后）",
+    name: "Treasure Bag (Queen Slime)",
     id: 4957
   },
   {
-    name: "史莱姆皇后纪念章",
+    name: "Queen Slime Trophy",
     id: 4958
   },
   {
-    name: "史莱姆皇后面具",
+    name: "Queen Slime Mask",
     id: 4959
   },
   {
-    name: "皇家美味",
+    name: "Regal Delicacy",
     id: 4960
   },
   {
-    name: "七彩草蛉",
+    name: "Prismatic Lacewing",
     id: 4961
   },
   {
-    name: "石质装饰板",
+    name: "Stone Accent Slab",
     id: 4962
   },
   {
-    name: "松露虫笼",
+    name: "Truffle Worm Cage",
     id: 4963
   },
   {
-    name: "七彩草蛉罐",
+    name: "Prismatic Lacewing Jar",
     id: 4964
   },
   {
-    name: "石巨人旗帜",
+    name: "Rock Golem Banner",
     id: 4965
   },
   {
-    name: "血木乃伊旗帜",
+    name: "Blood Mummy Banner",
     id: 4966
   },
   {
-    name: "孢子骷髅旗帜",
+    name: "Spore Skeleton Banner",
     id: 4967
   },
   {
-    name: "孢子蝙蝠旗帜",
+    name: "Spore Bat Banner",
     id: 4968
   },
   {
-    name: "蚁狮幼虫旗帜",
+    name: "Antlion Larva Banner",
     id: 4969
   },
   {
-    name: "恶毒兔兔旗帜",
+    name: "Vicious Bunny Banner",
     id: 4970
   },
   {
-    name: "恶毒金鱼旗帜",
+    name: "Vicious Goldfish Banner",
     id: 4971
   },
   {
-    name: "恶毒企鹅旗帜",
+    name: "Vicious Penguin Banner",
     id: 4972
   },
   {
-    name: "腐化宝箱怪旗帜",
+    name: "Corrupt Mimic Banner",
     id: 4973
   },
   {
-    name: "猩红宝箱怪旗帜",
+    name: "Crimson Mimic Banner",
     id: 4974
   },
   {
-    name: "神圣宝箱怪旗帜",
+    name: "Hallowed Mimic Banner",
     id: 4975
   },
   {
-    name: "苔藓黄蜂旗帜",
+    name: "Moss Hornet Banner",
     id: 4976
   },
   {
-    name: "游荡眼球怪旗帜",
+    name: "Wandering Eye Banner",
     id: 4977
   },
   {
-    name: "雏翼",
+    name: "Fledgling Wings",
     id: 4978
   },
   {
-    name: "音乐盒（史莱姆皇后）",
+    name: "Music Box (Queen Slime)",
     id: 4979
   },
   {
-    name: "dissonance钩爪",
+    name: "Hook of Dissonance",
     id: 4980
   },
   {
-    name: "明胶女式鞍",
+    name: "Gelatinous Pillion",
     id: 4981
   },
   {
-    name: "水晶刺客兜帽",
+    name: "Crystal Assassin Hood",
     id: 4982
   },
   {
-    name: "水晶刺客上衣",
+    name: "Crystal Assassin Shirt",
     id: 4983
   },
   {
-    name: "水晶刺客裤",
+    name: "Crystal Assassin Pants",
     id: 4984
   },
   {
-    name: "音乐盒（光之女皇）",
+    name: "Music Box (Empress Of Light)",
     id: 4985
   },
   {
-    name: "闪耀史莱姆气球",
+    name: "Sparkle Slime Balloon",
     id: 4986
   },
   {
-    name: "挥发明胶",
+    name: "Volatile Gelatin",
     id: 4987
   },
   {
-    name: "明胶水晶",
+    name: "Gelatin Crystal",
     id: 4988
   },
   {
-    name: "翱翔徽章",
+    name: "Soaring Insignia",
     id: 4989
   },
   {
-    name: "音乐盒（猪龙鱼公爵）",
+    name: "Music Box (Duke Fishron)",
     id: 4990
   },
   {
-    name: "音乐盒（清晨之雨）",
+    name: "Music Box (Morning Rain)",
     id: 4991
   },
   {
-    name: "音乐盒（备选标题）",
+    name: "Music Box (Alt Title)",
     id: 4992
   },
   {
-    name: "Chippy的沙发",
+    name: "Chippy's Couch",
     id: 4993
   },
   {
-    name: "蓝色毕业帽",
+    name: "Blue Graduation Cap",
     id: 4994
   },
   {
-    name: "栗色毕业帽",
+    name: "Maroon Graduation Cap",
     id: 4995
   },
   {
-    name: "黑色毕业帽",
+    name: "Black Graduation Cap",
     id: 4996
   },
   {
-    name: "蓝色毕业袍",
+    name: "Blue Graduation Gown",
     id: 4997
   },
   {
-    name: "栗色毕业袍",
+    name: "Maroon Graduation Gown",
     id: 4998
   },
   {
-    name: "黑色毕业袍",
+    name: "Black Graduation Gown",
     id: 4999
   },
   {
-    name: "泰拉闪耀靴",
+    name: "Terraspark Boots",
     id: 5000
   },
   {
-    name: "月亮领主腿",
+    name: "Moon Lord Legs",
     id: 5001
   },
   {
-    name: "海洋匣",
+    name: "Ocean Crate",
     id: 5002
   },
   {
-    name: "海边匣",
+    name: "Seaside Crate",
     id: 5003
   },
   {
-    name: "獾的帽子",
+    name: "Badger's Hat",
     id: 5004
   },
   {
-    name: "泰拉棱镜",
+    name: "Terraprisma",
     id: 5005
   },
   {
-    name: "音乐盒（地下沙漠）",
+    name: "Music Box (Underground Desert)",
     id: 5006
   },
   {
-    name: "死人毛衣",
+    name: "Dead Man's Sweater",
     id: 5007
   },
   {
-    name: "茶壶",
+    name: "Teapot",
     id: 5008
   },
   {
-    name: "茶杯",
+    name: "Teacup",
     id: 5009
   },
   {
-    name: "宝藏磁铁",
+    name: "Treasure Magnet",
     id: 5010
   },
   {
-    name: "狼牙棒",
+    name: "Mace",
     id: 5011
   },
   {
-    name: "烈焰狼牙棒",
+    name: "Flaming Mace",
     id: 5012
   },
   {
@@ -19954,1179 +19954,1179 @@ export const items: ItemInfo[] = [
     id: 5013
   },
   {
-    name: "异界版八音盒（雨）",
+    name: "Otherworldly Music Box (Rain)",
     id: 5014
   },
   {
-    name: "异界版八音盒（地表白天）",
+    name: "Otherworldly Music Box (Overworld Day)",
     id: 5015
   },
   {
-    name: "异界版八音盒（夜晚）",
+    name: "Otherworldly Music Box (Night)",
     id: 5016
   },
   {
-    name: "异界版八音盒（地下）",
+    name: "Otherworldly Music Box (Underground)",
     id: 5017
   },
   {
-    name: "异界版八音盒（沙漠）",
+    name: "Otherworldly Music Box (Desert)",
     id: 5018
   },
   {
-    name: "异界版八音盒（海洋）",
+    name: "Otherworldly Music Box (Ocean)",
     id: 5019
   },
   {
-    name: "异界版八音盒（蘑菇）",
+    name: "Otherworldly Music Box (Mushrooms)",
     id: 5020
   },
   {
-    name: "异界版八音盒（地牢）",
+    name: "Otherworldly Music Box (Dungeon)",
     id: 5021
   },
   {
-    name: "异界版八音盒（太空）",
+    name: "Otherworldly Music Box (Space)",
     id: 5022
   },
   {
-    name: "异界版八音盒（地狱）",
+    name: "Otherworldly Music Box (Underworld)",
     id: 5023
   },
   {
-    name: "异界版八音盒（雪原）",
+    name: "Otherworldly Music Box (Snow)",
     id: 5024
   },
   {
-    name: "异界版八音盒（腐化）",
+    name: "Otherworldly Music Box (Corruption)",
     id: 5025
   },
   {
-    name: "异界版八音盒（地下腐化）",
+    name: "Otherworldly Music Box (Underground Corruption)",
     id: 5026
   },
   {
-    name: "异界版八音盒（猩红）",
+    name: "Otherworldly Music Box (Crimson)",
     id: 5027
   },
   {
-    name: "异界版八音盒（地下猩红）",
+    name: "Otherworldly Music Box (Underground Crimson)",
     id: 5028
   },
   {
-    name: "异界版八音盒（冰雪）",
+    name: "Otherworldly Music Box (Ice)",
     id: 5029
   },
   {
-    name: "异界版八音盒（地下神圣）",
+    name: "Otherworldly Music Box (Underground Hallow)",
     id: 5030
   },
   {
-    name: "异界版八音盒（恐怖）",
+    name: "Otherworldly Music Box (Eerie)",
     id: 5031
   },
   {
-    name: "异界版八音盒（Boss 2）",
+    name: "Otherworldly Music Box (Boss 2)",
     id: 5032
   },
   {
-    name: "异界版八音盒（Boss 1）",
+    name: "Otherworldly Music Box (Boss 1)",
     id: 5033
   },
   {
-    name: "异界版八音盒（入侵）",
+    name: "Otherworldly Music Box (Invasion)",
     id: 5034
   },
   {
-    name: "异界版八音盒（天塔）",
+    name: "Otherworldly Music Box (The Towers)",
     id: 5035
   },
   {
-    name: "异界版八音盒（月亮领主）",
+    name: "Otherworldly Music Box (Lunar Boss)",
     id: 5036
   },
   {
-    name: "异界版八音盒（世纪之花）",
+    name: "Otherworldly Music Box (Plantera)",
     id: 5037
   },
   {
-    name: "异界版八音盒（丛林）",
+    name: "Otherworldly Music Box (Jungle)",
     id: 5038
   },
   {
-    name: "异界版八音盒（血肉墙）",
+    name: "Otherworldly Music Box (Wall of Flesh)",
     id: 5039
   },
   {
-    name: "异界版八音盒（神圣）",
+    name: "Otherworldly Music Box (Hallow)",
     id: 5040
   },
   {
-    name: "盒装牛奶",
+    name: "Carton of Milk",
     id: 5041
   },
   {
-    name: "咖啡",
+    name: "Coffee",
     id: 5042
   },
   {
-    name: "火把神的恩宠",
+    name: "Torch God's Favor",
     id: 5043
   },
   {
-    name: "八音盒（旅途终点）",
+    name: "Music Box (Journey's End)",
     id: 5044
   },
   {
-    name: "瘟疫使者头骨",
+    name: "Plaguebringer's Skull",
     id: 5045
   },
   {
-    name: "瘟疫使者斗篷",
+    name: "Plaguebringer's Cloak",
     id: 5046
   },
   {
-    name: "瘟疫使者靴",
+    name: "Plaguebringer's Treads",
     id: 5047
   },
   {
-    name: "流浪者阵笠",
+    name: "Wandering Jingasa",
     id: 5048
   },
   {
-    name: "流浪者浴衣",
+    name: "Wandering Yukata",
     id: 5049
   },
   {
-    name: "流浪者木屐",
+    name: "Wandering Geta",
     id: 5050
   },
   {
-    name: "永恒旅者兜帽",
+    name: "Timeless Traveler's Hood",
     id: 5051
   },
   {
-    name: "永恒旅者斗篷",
+    name: "Timeless Traveler's Cloak",
     id: 5052
   },
   {
-    name: "永恒旅者鞋",
+    name: "Timeless Traveler's Footwear",
     id: 5053
   },
   {
-    name: "花冠守护头盔",
+    name: "Floret Protector Helmet",
     id: 5054
   },
   {
-    name: "花冠守护上衣",
+    name: "Floret Protector Shirt",
     id: 5055
   },
   {
-    name: "花冠守护裤",
+    name: "Floret Protector Pants",
     id: 5056
   },
   {
-    name: "摩羯座头盔",
+    name: "Capricorn Helmet",
     id: 5057
   },
   {
-    name: "摩羯座胸甲",
+    name: "Capricorn Chestplate",
     id: 5058
   },
   {
-    name: "摩羯座蹄",
+    name: "Capricorn Hooves",
     id: 5059
   },
   {
-    name: "摩羯座尾巴",
+    name: "Capricorn Tail",
     id: 5060
   },
   {
-    name: "视频面罩",
+    name: "Video Visage",
     id: 5061
   },
   {
-    name: "激光夹克",
+    name: "Lazer Blazer",
     id: 5062
   },
   {
-    name: "细条纹裤",
+    name: "Pinstripe Pants",
     id: 5063
   },
   {
-    name: "防熔岩渔具袋",
+    name: "Lavaproof Tackle Bag",
     id: 5064
   },
   {
-    name: "共鸣权杖",
+    name: "Resonance Scepter",
     id: 5065
   },
   {
-    name: "蜂巢",
+    name: "Bee Hive",
     id: 5066
   },
   {
-    name: "蚁狮卵",
+    name: "Antlion Eggs",
     id: 5067
   },
   {
-    name: "雪狐毛皮大衣",
+    name: "Flinx Fur Coat",
     id: 5068
   },
   {
-    name: "雪狐法杖",
+    name: "Flinx Staff",
     id: 5069
   },
   {
-    name: "雪狐毛",
+    name: "Flinx Fur",
     id: 5070
   },
   {
-    name: "皇家头饰",
+    name: "Royal Tiara",
     id: 5071
   },
   {
-    name: "皇家上衣",
+    name: "Royal Blouse",
     id: 5072
   },
   {
-    name: "皇家连衣裙",
+    name: "Royal Dress",
     id: 5073
   },
   {
-    name: "脊椎骨鞭",
+    name: "Spinal Tap",
     id: 5074
   },
   {
-    name: "彩虹光标",
+    name: "Rainbow Cursor",
     id: 5075
   },
   {
-    name: "皇家权杖",
+    name: "Royal Scepter",
     id: 5076
   },
   {
-    name: "玻璃拖鞋",
+    name: "Glass Slipper",
     id: 5077
   },
   {
-    name: "王子制服",
+    name: "Prince Uniform",
     id: 5078
   },
   {
-    name: "王子裤",
+    name: "Prince Pants",
     id: 5079
   },
   {
-    name: "王子披风",
+    name: "Prince Cape",
     id: 5080
   },
   {
-    name: "盆栽水晶蕨",
+    name: "Potted Crystal Fern",
     id: 5081
   },
   {
-    name: "盆栽水晶螺旋",
+    name: "Potted Crystal Spiral",
     id: 5082
   },
   {
-    name: "盆栽水晶泪滴",
+    name: "Potted Crystal Teardrop",
     id: 5083
   },
   {
-    name: "盆栽水晶树",
+    name: "Potted Crystal Tree",
     id: 5084
   },
   {
-    name: "公主64",
+    name: "Princess 64",
     id: 5085
   },
   {
-    name: "少女画像",
+    name: "Painting of a Lass",
     id: 5086
   },
   {
-    name: "神圣之暗",
+    name: "Dark Side of the Hallow",
     id: 5087
   },
   {
-    name: "伯尼的纽扣",
+    name: "Bernie's Button",
     id: 5088
   },
   {
-    name: "格罗姆的花",
+    name: "Glommer's Flower",
     id: 5089
   },
   {
-    name: "独眼巨鹿眼球",
+    name: "Deerclops Eyeball",
     id: 5090
   },
   {
-    name: "怪物肉",
+    name: "Monster Meat",
     id: 5091
   },
   {
-    name: "怪物千层面",
+    name: "Monster Lasagna",
     id: 5092
   },
   {
-    name: "蛙腿三明治",
+    name: "Froggle Bunwich",
     id: 5093
   },
   {
-    name: "触手尖刺",
+    name: "Tentacle Spike",
     id: 5094
   },
   {
-    name: "露西斧",
+    name: "Lucy the Axe",
     id: 5095
   },
   {
-    name: "火腿棍",
+    name: "Ham Bat",
     id: 5096
   },
   {
-    name: "蝙蝠棍",
+    name: "Bat Bat",
     id: 5097
   },
   {
-    name: "眼骨",
+    name: "Eye Bone",
     id: 5098
   },
   {
-    name: "花环",
+    name: "Garland",
     id: 5099
   },
   {
-    name: "骨盔",
+    name: "Bone Helm",
     id: 5100
   },
   {
-    name: "眼球伞",
+    name: "Eyebrella",
     id: 5101
   },
   {
-    name: "绅士马甲",
+    name: "Gentleman's Vest",
     id: 5102
   },
   {
-    name: "绅士长裤",
+    name: "Gentleman's Trousers",
     id: 5103
   },
   {
-    name: "绅士胡须",
+    name: "Gentleman's Beard",
     id: 5104
   },
   {
-    name: "绅士长胡须",
+    name: "Gentleman's Long Beard",
     id: 5105
   },
   {
-    name: "绅士华丽胡须",
+    name: "Gentleman's Magnificent Beard",
     id: 5106
   },
   {
-    name: "魔光护符",
+    name: "Magiluminescence",
     id: 5107
   },
   {
-    name: "独眼巨鹿纪念章",
+    name: "Deerclops Trophy",
     id: 5108
   },
   {
-    name: "独眼巨鹿面具",
+    name: "Deerclops Mask",
     id: 5109
   },
   {
-    name: "独眼巨鹿圣物",
+    name: "Deerclops Relic",
     id: 5110
   },
   {
-    name: "宝藏袋（独眼巨鹿）",
+    name: "Treasure Bag (Deerclops)",
     id: 5111
   },
   {
-    name: "八音盒（独眼巨鹿）",
+    name: "Music Box (Deerclops)",
     id: 5112
   },
   {
-    name: "收音机",
+    name: "Radio Thing",
     id: 5113
   },
   {
-    name: "阿比盖尔的花",
+    name: "Abigail's Flower",
     id: 5114
   },
   {
-    name: "纵火者毛衣",
+    name: "Firestarter's Sweater",
     id: 5115
   },
   {
-    name: "纵火者短裙",
+    name: "Firestarter's Skirt",
     id: 5116
   },
   {
-    name: "屁鸣号角",
+    name: "Pew-matic Horn",
     id: 5117
   },
   {
-    name: "天气痛苦",
+    name: "Weather Pain",
     id: 5118
   },
   {
-    name: "猎犬炮",
+    name: "Houndius Shootius",
     id: 5119
   },
   {
-    name: "鹿角",
+    name: "Deer Thing",
     id: 5120
   },
   {
-    name: "绅士科学家",
+    name: "The Gentleman Scientist",
     id: 5121
   },
   {
-    name: "纵火者",
+    name: "The Firestarter",
     id: 5122
   },
   {
-    name: "丧亲者",
+    name: "The Bereaved",
     id: 5123
   },
   {
-    name: "大力士",
+    name: "The Strongman",
     id: 5124
   },
   {
-    name: "屁车",
+    name: "Fart Kart",
     id: 5125
   },
   {
-    name: "创造之手",
+    name: "Hand Of Creation",
     id: 5126
   },
   {
-    name: "氖苔藓",
+    name: "Neon Moss",
     id: 5127
   },
   {
-    name: "氦苔藓",
+    name: "Helium Moss",
     id: 5128
   },
   {
-    name: "蝇饵",
+    name: "Flymeal",
     id: 5129
   },
   {
-    name: "莉莉丝的项链",
+    name: "Lilith's Necklace",
     id: 5130
   },
   {
-    name: "华丽甜点",
+    name: "Resplendent Dessert",
     id: 5131
   },
   {
-    name: "臭虫",
+    name: "Stinkbug",
     id: 5132
   },
   {
-    name: "臭虫笼",
+    name: "Stinkbug Cage",
     id: 5133
   },
   {
-    name: "地形改造者",
+    name: "Terraformer",
     id: 5134
   },
   {
-    name: "毒镖陷阱",
+    name: "Venom Dart Trap",
     id: 5135
   },
   {
-    name: "沃尔克尔夫耳朵",
+    name: "Vulkelf Ears",
     id: 5136
   },
   {
-    name: "臭虫阻挡器",
+    name: "Stinkbug Blocker",
     id: 5137
   },
   {
-    name: "幽灵臭虫阻挡器",
+    name: "Ghostly Stinkbug Blocker",
     id: 5138
   },
   {
-    name: "钓鱼浮标",
+    name: "Fishing Bobber",
     id: 5139
   },
   {
-    name: "发光钓鱼浮标",
+    name: "Glowing Fishing Bobber",
     id: 5140
   },
   {
-    name: "熔岩苔藓钓鱼浮标",
+    name: "Lava Moss Fishing Bobber",
     id: 5141
   },
   {
-    name: "氪苔藓钓鱼浮标",
+    name: "Krypton Moss Fishing Bobber",
     id: 5142
   },
   {
-    name: "氙苔藓钓鱼浮标",
+    name: "Xenon Moss Fishing Bobber",
     id: 5143
   },
   {
-    name: "氩苔藓钓鱼浮标",
+    name: "Argon Moss Fishing Bobber",
     id: 5144
   },
   {
-    name: "氖苔藓钓鱼浮标",
+    name: "Neon Moss Fishing Bobber",
     id: 5145
   },
   {
-    name: "氦苔藓钓鱼浮标",
+    name: "Helium Moss Fishing Bobber",
     id: 5146
   },
   {
-    name: "冰霜魔杖",
+    name: "Wand of Frosting",
     id: 5147
   },
   {
-    name: "礁石浴缸",
+    name: "Reef Bathtub",
     id: 5148
   },
   {
-    name: "礁石床",
+    name: "Reef Bed",
     id: 5149
   },
   {
-    name: "礁石书架",
+    name: "Reef Bookcase",
     id: 5150
   },
   {
-    name: "礁石梳妆台",
+    name: "Reef Dresser",
     id: 5151
   },
   {
-    name: "礁石烛台",
+    name: "Reef Candelabra",
     id: 5152
   },
   {
-    name: "礁石蜡烛",
+    name: "Reef Candle",
     id: 5153
   },
   {
-    name: "礁石椅",
+    name: "Reef Chair",
     id: 5154
   },
   {
-    name: "礁石吊灯",
+    name: "Reef Chandelier",
     id: 5155
   },
   {
-    name: "礁石箱",
+    name: "Reef Chest",
     id: 5156
   },
   {
-    name: "礁石钟",
+    name: "Reef Clock",
     id: 5157
   },
   {
-    name: "礁石门",
+    name: "Reef Door",
     id: 5158
   },
   {
-    name: "礁石灯",
+    name: "Reef Lamp",
     id: 5159
   },
   {
-    name: "礁石灯笼",
+    name: "Reef Lantern",
     id: 5160
   },
   {
-    name: "礁石钢琴",
+    name: "Reef Piano",
     id: 5161
   },
   {
-    name: "礁石平台",
+    name: "Reef Platform",
     id: 5162
   },
   {
-    name: "礁石水槽",
+    name: "Reef Sink",
     id: 5163
   },
   {
-    name: "礁石沙发",
+    name: "Reef Sofa",
     id: 5164
   },
   {
-    name: "礁石桌",
+    name: "Reef Table",
     id: 5165
   },
   {
-    name: "礁石工作台",
+    name: "Reef Work Bench",
     id: 5166
   },
   {
-    name: "受困礁石箱",
+    name: "Trapped Reef Chest",
     id: 5167
   },
   {
-    name: "暗礁马桶",
+    name: "Reef Toilet",
     id: 5168
   },
   {
-    name: "气球浴缸",
+    name: "Balloon Bathtub",
     id: 5169
   },
   {
-    name: "气球床",
+    name: "Balloon Bed",
     id: 5170
   },
   {
-    name: "气球书架",
+    name: "Balloon Bookcase",
     id: 5171
   },
   {
-    name: "气球梳妆台",
+    name: "Balloon Dresser",
     id: 5172
   },
   {
-    name: "气球烛台",
+    name: "Balloon Candelabra",
     id: 5173
   },
   {
-    name: "气球蜡烛",
+    name: "Balloon Candle",
     id: 5174
   },
   {
-    name: "气球椅",
+    name: "Balloon Chair",
     id: 5175
   },
   {
-    name: "气球吊灯",
+    name: "Balloon Chandelier",
     id: 5176
   },
   {
-    name: "气球箱",
+    name: "Balloon Chest",
     id: 5177
   },
   {
-    name: "气球钟",
+    name: "Balloon Clock",
     id: 5178
   },
   {
-    name: "气球门",
+    name: "Balloon Door",
     id: 5179
   },
   {
-    name: "气球灯",
+    name: "Balloon Lamp",
     id: 5180
   },
   {
-    name: "气球灯笼",
+    name: "Balloon Lantern",
     id: 5181
   },
   {
-    name: "气球钢琴",
+    name: "Balloon Piano",
     id: 5182
   },
   {
-    name: "气球平台",
+    name: "Balloon Platform",
     id: 5183
   },
   {
-    name: "气球水槽",
+    name: "Balloon Sink",
     id: 5184
   },
   {
-    name: "气球沙发",
+    name: "Balloon Sofa",
     id: 5185
   },
   {
-    name: "气球桌",
+    name: "Balloon Table",
     id: 5186
   },
   {
-    name: "气球工作台",
+    name: "Balloon Work Bench",
     id: 5187
   },
   {
-    name: "机关气球箱",
+    name: "Trapped Balloon Chest",
     id: 5188
   },
   {
-    name: "气球马桶",
+    name: "Balloon Toilet",
     id: 5189
   },
   {
-    name: "灰烬木浴缸",
+    name: "Ash Wood Bathtub",
     id: 5190
   },
   {
-    name: "灰烬木床",
+    name: "Ash Wood Bed",
     id: 5191
   },
   {
-    name: "灰烬木书架",
+    name: "Ash Wood Bookcase",
     id: 5192
   },
   {
-    name: "灰烬木梳妆台",
+    name: "Ash Wood Dresser",
     id: 5193
   },
   {
-    name: "灰烬木烛台",
+    name: "Ash Wood Candelabra",
     id: 5194
   },
   {
-    name: "灰烬木蜡烛",
+    name: "Ash Wood Candle",
     id: 5195
   },
   {
-    name: "灰烬木椅",
+    name: "Ash Wood Chair",
     id: 5196
   },
   {
-    name: "灰烬木吊灯",
+    name: "Ash Wood Chandelier",
     id: 5197
   },
   {
-    name: "灰烬木箱",
+    name: "Ash Wood Chest",
     id: 5198
   },
   {
-    name: "灰烬木钟",
+    name: "Ash Wood Clock",
     id: 5199
   },
   {
-    name: "灰烬木门",
+    name: "Ash Wood Door",
     id: 5200
   },
   {
-    name: "灰烬木灯",
+    name: "Ash Wood Lamp",
     id: 5201
   },
   {
-    name: "灰烬木灯笼",
+    name: "Ash Wood Lantern",
     id: 5202
   },
   {
-    name: "灰烬木钢琴",
+    name: "Ash Wood Piano",
     id: 5203
   },
   {
-    name: "灰烬木平台",
+    name: "Ash Wood Platform",
     id: 5204
   },
   {
-    name: "灰烬木水槽",
+    name: "Ash Wood Sink",
     id: 5205
   },
   {
-    name: "灰烬木沙发",
+    name: "Ash Wood Sofa",
     id: 5206
   },
   {
-    name: "灰烬木桌",
+    name: "Ash Wood Table",
     id: 5207
   },
   {
-    name: "灰烬木工作台",
+    name: "Ash Wood Work Bench",
     id: 5208
   },
   {
-    name: "机关灰烬木箱",
+    name: "Trapped Ash Wood Chest",
     id: 5209
   },
   {
-    name: "灰烬木马桶",
+    name: "Ash Wood Toilet",
     id: 5210
   },
   {
-    name: "生物群落透视药水",
+    name: "Biome Sight Potion",
     id: 5211
   },
   {
-    name: "绯红金刚鹦鹉",
+    name: "Scarlet Macaw",
     id: 5212
   },
   {
-    name: "绯红金刚鹦鹉笼",
+    name: "Scarlet Macaw Cage",
     id: 5213
   },
   {
-    name: "灰烬草种子",
+    name: "Ash Grass Seeds",
     id: 5214
   },
   {
-    name: "灰烬木",
+    name: "Ash Wood",
     id: 5215
   },
   {
-    name: "灰烬木墙",
+    name: "Ash Wood Wall",
     id: 5216
   },
   {
-    name: "灰烬木栅栏",
+    name: "Ash Wood Fence",
     id: 5217
   },
   {
-    name: "被遗弃者",
+    name: "Outcast",
     id: 5218
   },
   {
-    name: "仙灵向导",
+    name: "Fairy Guides",
     id: 5219
   },
   {
-    name: "炼药的恐怖之夜",
+    name: "A Horrible Night for Alchemy",
     id: 5220
   },
   {
-    name: "清晨狩猎",
+    name: "Morning Hunt",
     id: 5221
   },
   {
-    name: "可疑的闪亮",
+    name: "Suspiciously Sparkly",
     id: 5222
   },
   {
-    name: "安魂曲",
+    name: "Requiem",
     id: 5223
   },
   {
-    name: "猫之剑",
+    name: "Cat Sword",
     id: 5224
   },
   {
-    name: "卡戈的召唤",
+    name: "Kargoh's Summon",
     id: 5225
   },
   {
-    name: "高音",
+    name: "High Pitch",
     id: 5226
   },
   {
-    name: "泰拉瑞亚人的机器",
+    name: "A Machine for Terrarians",
     id: 5227
   },
   {
-    name: "泰拉刃编年史",
+    name: "Terra Blade Chronicles",
     id: 5228
   },
   {
-    name: "本尼·沃霍尔",
+    name: "Benny Warhol",
     id: 5229
   },
   {
-    name: "蜥蜴王",
+    name: "Lizard King",
     id: 5230
   },
   {
-    name: "我的儿子",
+    name: "My Son",
     id: 5231
   },
   {
-    name: "二元性",
+    name: "Duality",
     id: 5232
   },
   {
-    name: "秒差距伙伴",
+    name: "Parsec Pals",
     id: 5233
   },
   {
-    name: "奉献的遗迹",
+    name: "Remnants of Devotion",
     id: 5234
   },
   {
-    name: "并非迷失在天堂",
+    name: "Not So Lost In Paradise",
     id: 5235
   },
   {
-    name: "眼之共鸣",
+    name: "Ocular Resonance",
     id: 5236
   },
   {
-    name: "邪恶之翼",
+    name: "Wings of Evil",
     id: 5237
   },
   {
-    name: "星座",
+    name: "Constellation",
     id: 5238
   },
   {
-    name: "眼魔头",
+    name: "Eyezorhead",
     id: 5239
   },
   {
-    name: "红海之惧",
+    name: "Dread of the Red Sea",
     id: 5240
   },
   {
-    name: "不要吃邪恶蘑菇！",
+    name: "Do Not Eat the Vile Mushroom!",
     id: 5241
   },
   {
-    name: "蓝虎尤玛",
+    name: "Yuuma, The Blue Tiger",
     id: 5242
   },
   {
-    name: "月亮人公司",
+    name: "Moonman & Company",
     id: 5243
   },
   {
-    name: "伊斯拉波尼的阳光",
+    name: "Sunshine of Israpony",
     id: 5244
   },
   {
-    name: "纯净",
+    name: "Purity",
     id: 5245
   },
   {
-    name: "足够先进",
+    name: "Sufficiently Advanced",
     id: 5246
   },
   {
-    name: "奇异生长",
+    name: "Strange Growth",
     id: 5247
   },
   {
-    name: "快乐小树",
+    name: "Happy Little Tree",
     id: 5248
   },
   {
-    name: "奇怪的死家伙",
+    name: "Strange Dead Fellows",
     id: 5249
   },
   {
-    name: "秘密",
+    name: "Secrets",
     id: 5250
   },
   {
-    name: "雷电",
+    name: "Thunderbolt",
     id: 5251
   },
   {
-    name: "地壳学",
+    name: "Crustography",
     id: 5252
   },
   {
-    name: "狼人",
+    name: "The Werewolf",
     id: 5253
   },
   {
-    name: "来自天堂的祝福",
+    name: "Blessing from the Heavens",
     id: 5254
   },
   {
-    name: "爱在垃圾桶",
+    name: "Love is in the Trash Slot",
     id: 5255
   },
   {
-    name: "尖牙",
+    name: "Fangs",
     id: 5256
   },
   {
-    name: "国王万岁",
+    name: "Hail to the King",
     id: 5257
   },
   {
-    name: "看清世界的本质",
+    name: "See The World For What It Is",
     id: 5258
   },
   {
-    name: "潜伏之物",
+    name: "What Lurks Below",
     id: 5259
   },
   {
-    name: "失控了",
+    name: "This Is Getting Out Of Hand",
     id: 5260
   },
   {
-    name: "伙伴",
+    name: "Buddies",
     id: 5261
   },
   {
-    name: "午夜太阳",
+    name: "Midnight Sun",
     id: 5262
   },
   {
-    name: "沙发梗",
+    name: "Couch Gag",
     id: 5263
   },
   {
-    name: "沉默的鱼",
+    name: "Silent Fish",
     id: 5264
   },
   {
-    name: "公爵",
+    name: "The Duke",
     id: 5265
   },
   {
-    name: "皇室浪漫",
+    name: "Royal Romance",
     id: 5266
   },
   {
-    name: "生物发光",
+    name: "Bioluminescence",
     id: 5267
   },
   {
-    name: "野花",
+    name: "Wildflowers",
     id: 5268
   },
   {
-    name: "维京航行",
+    name: "Viking Voyage",
     id: 5269
   },
   {
-    name: "彩虹桥",
+    name: "Bifrost",
     id: 5270
   },
   {
-    name: "心田",
+    name: "Heartlands",
     id: 5271
   },
   {
-    name: "森林巨魔",
+    name: "Forest Troll",
     id: 5272
   },
   {
-    name: "北极光",
+    name: "Aurora Borealis",
     id: 5273
   },
   {
-    name: "湖中女士",
+    name: "Lady Of The Lake",
     id: 5274
   },
   {
-    name: "乔家可乐",
+    name: "Joja Cola",
     id: 5275
   },
   {
-    name: "星之果实",
+    name: "Stardrop",
     id: 5276
   },
   {
-    name: "辣胡椒",
+    name: "Spicy Pepper",
     id: 5277
   },
   {
-    name: "石榴",
+    name: "Pomegranate",
     id: 5278
   },
   {
-    name: "灰烬木头盔",
+    name: "Ash Wood Helmet",
     id: 5279
   },
   {
-    name: "灰烬木胸甲",
+    name: "Ash Wood Breastplate",
     id: 5280
   },
   {
-    name: "灰烬木护胫",
+    name: "Ash Wood Greaves",
     id: 5281
   },
   {
-    name: "灰烬木弓",
+    name: "Ash Wood Bow",
     id: 5282
   },
   {
-    name: "灰烬木锤",
+    name: "Ash Wood Hammer",
     id: 5283
   },
   {
-    name: "灰烬木剑",
+    name: "Ash Wood Sword",
     id: 5284
   },
   {
-    name: "月亮球",
+    name: "Moon Globe",
     id: 5285
   },
   {
-    name: "修复的生命水晶",
+    name: "Repaired Life Crystal",
     id: 5286
   },
   {
-    name: "修复的魔力水晶",
+    name: "Repaired Mana Crystal",
     id: 5287
   },
   {
-    name: "泰拉屁屁车",
+    name: "Terra Fart Kart",
     id: 5288
   },
   {
-    name: "矿车升级套件",
+    name: "Minecart Upgrade Kit",
     id: 5289
   },
   {
-    name: "吉姆的帽子",
+    name: "Jim's Cap",
     id: 5290
   },
   {
-    name: "回声墙",
+    name: "Echo Wall",
     id: 5291
   },
   {
-    name: "回声平台",
+    name: "Echo Platform",
     id: 5292
   },
   {
-    name: "蘑菇火把",
+    name: "Mushroom Torch",
     id: 5293
   },
   {
-    name: "蜂巢击掌",
+    name: "Hive-Five",
     id: 5294
   },
   {
-    name: "再生之斧",
+    name: "Axe of Regrowth",
     id: 5295
   },
   {
-    name: "叶绿提炼机",
+    name: "Chlorophyte Extractinator",
     id: 5296
   },
   {
-    name: "蓝鸡蛋",
+    name: "Blue Chicken Egg",
     id: 5297
   },
   {
-    name: "三回旋镖",
+    name: "Trimarang",
     id: 5298
   },
   {
-    name: "蘑菇篝火",
+    name: "Mushroom Campfire",
     id: 5299
   },
   {
-    name: "蓝金刚鹦鹉",
+    name: "Blue Macaw",
     id: 5300
   },
   {
-    name: "蓝金刚鹦鹉笼",
+    name: "Blue Macaw Cage",
     id: 5301
   },
   {
-    name: "无底蜂蜜桶",
+    name: "Bottomless Honey Bucket",
     id: 5302
   },
   {
-    name: "蜂蜜吸收海绵",
+    name: "Honey Absorbant Sponge",
     id: 5303
   },
   {
-    name: "超级吸收海绵",
+    name: "Ultra Absorbant Sponge",
     id: 5304
   },
   {
-    name: "哥布林耳朵",
+    name: "Goblorc Ears",
     id: 5305
   },
   {
-    name: "礁石块",
+    name: "Reef Block",
     id: 5306
   },
   {
-    name: "礁石墙",
+    name: "Reef Wall",
     id: 5307
   },
   {
@@ -21134,1287 +21134,1287 @@ export const items: ItemInfo[] = [
     id: 5308
   },
   {
-    name: "环境保护指南",
+    name: "Guide to Environmental Preservation",
     id: 5309
   },
   {
-    name: "公主风格",
+    name: "Princess Style",
     id: 5310
   },
   {
-    name: "犀鸟",
+    name: "Toucan",
     id: 5311
   },
   {
-    name: "黄玄凤鹦鹉",
+    name: "Yellow Cockatiel",
     id: 5312
   },
   {
-    name: "灰玄凤鹦鹉",
+    name: "Gray Cockatiel",
     id: 5313
   },
   {
-    name: "犀鸟笼",
+    name: "Toucan Cage",
     id: 5314
   },
   {
-    name: "黄玄凤鹦鹉笼",
+    name: "Yellow Cockatiel Cage",
     id: 5315
   },
   {
-    name: "灰玄凤鹦鹉笼",
+    name: "Gray Cockatiel Cage",
     id: 5316
   },
   {
-    name: "金刚鹦鹉雕像",
+    name: "Macaw Statue",
     id: 5317
   },
   {
-    name: "犀鸟雕像",
+    name: "Toucan Statue",
     id: 5318
   },
   {
-    name: "玄凤鹦鹉雕像",
+    name: "Cockatiel Statue",
     id: 5319
   },
   {
-    name: "装饰用治疗药水",
+    name: "Decorative Healing Potion",
     id: 5320
   },
   {
-    name: "装饰用魔力药水",
+    name: "Decorative Mana Potion",
     id: 5321
   },
   {
-    name: "暗影蜡烛",
+    name: "Shadow Candle",
     id: 5322
   },
   {
-    name: "和平共处指南",
+    name: "Guide to Peaceful Coexistence",
     id: 5323
   },
   {
-    name: "碎石机（小型）",
+    name: "Rubblemaker (Small)",
     id: 5324
   },
   {
-    name: "封闭的虚空袋",
+    name: "Closed Void Bag",
     id: 5325
   },
   {
-    name: "工匠面包",
+    name: "Artisan Loaf",
     id: 5326
   },
   {
-    name: "TNT桶",
+    name: "TNT Barrel",
     id: 5327
   },
   {
-    name: "宝箱锁",
+    name: "Chest Lock",
     id: 5328
   },
   {
-    name: "废墟制造器（中型）",
+    name: "Rubblemaker (Medium)",
     id: 5329
   },
   {
-    name: "废墟制造器（大型）",
+    name: "Rubblemaker (Large)",
     id: 5330
   },
   {
-    name: "一捆马掌气球",
+    name: "Bundle of Horseshoe Balloons",
     id: 5331
   },
   {
-    name: "斯派福毛绒玩具",
+    name: "Spiffo Plush",
     id: 5332
   },
   {
-    name: "发光郁金香",
+    name: "Glow Tulip",
     id: 5333
   },
   {
-    name: "奥库瑞姆剃刀",
+    name: "Ocram's Razor",
     id: 5334
   },
   {
-    name: "和谐法杖",
+    name: "Rod of Harmony",
     id: 5335
   },
   {
-    name: "高级战斗技术：第二卷",
+    name: "Advanced Combat Techniques: Volume Two",
     id: 5336
   },
   {
-    name: "生命水晶",
+    name: "Vital Crystal",
     id: 5337
   },
   {
-    name: "神盾果",
+    name: "Aegis Fruit",
     id: 5338
   },
   {
-    name: "奥术水晶",
+    name: "Arcane Crystal",
     id: 5339
   },
   {
-    name: "银河珍珠",
+    name: "Galaxy Pearl",
     id: 5340
   },
   {
-    name: "胶质蠕虫",
+    name: "Gummy Worm",
     id: 5341
   },
   {
-    name: "神馔",
+    name: "Ambrosia",
     id: 5342
   },
   {
-    name: "商贩背包",
+    name: "Peddler's Satchel",
     id: 5343
   },
   {
-    name: "回声涂料",
+    name: "Echo Coating",
     id: 5344
   },
   {
-    name: "回声室",
+    name: "Echo Chamber",
     id: 5345
   },
   {
-    name: "毒气陷阱",
+    name: "Gas Trap",
     id: 5346
   },
   {
-    name: "以太方尖碑",
+    name: "Aether Monolith",
     id: 5347
   },
   {
-    name: "微光箭",
+    name: "Shimmer Arrow",
     id: 5348
   },
   {
-    name: "以太块",
+    name: "Aetherium Block",
     id: 5349
   },
   {
-    name: "仙灵",
+    name: "Faeling",
     id: 5350
   },
   {
-    name: "瓶中的仙灵",
+    name: "Faeling in a Bottle",
     id: 5351
   },
   {
-    name: "微光史莱姆旗",
+    name: "Shimmer Slime Banner",
     id: 5352
   },
   {
-    name: "以太火把",
+    name: "Aether Torch",
     id: 5353
   },
   {
-    name: "反光墨镜",
+    name: "Reflective Shades",
     id: 5354
   },
   {
-    name: "虹彩斗篷",
+    name: "Chromatic Cloak",
     id: 5355
   },
   {
-    name: "用过的毒气陷阱",
+    name: "Used Gas Trap",
     id: 5356
   },
   {
-    name: "以太篝火",
+    name: "Aether Campfire",
     id: 5357
   },
   {
-    name: "贝壳电话（家）",
+    name: "Shellphone (Home)",
     id: 5358
   },
   {
-    name: "贝壳电话（出生点）",
+    name: "Shellphone (Spawn)",
     id: 5359
   },
   {
-    name: "贝壳电话（海洋）",
+    name: "Shellphone (Ocean)",
     id: 5360
   },
   {
-    name: "贝壳电话（地狱）",
+    name: "Shellphone (Underworld)",
     id: 5361
   },
   {
-    name: "八音盒（以太）",
+    name: "Music Box (Aether)",
     id: 5362
   },
   {
-    name: "感染蜘蛛墙",
+    name: "Infested Spider Wall",
     id: 5363
   },
   {
-    name: "无底微光桶",
+    name: "Bottomless Shimmer Bucket",
     id: 5364
   },
   {
-    name: "诅咒蓝砖墙",
+    name: "Cursed Blue Brick Wall",
     id: 5365
   },
   {
-    name: "诅咒蓝板墙",
+    name: "Cursed Blue Slab Wall",
     id: 5366
   },
   {
-    name: "诅咒蓝瓦墙",
+    name: "Cursed Blue Tiled Wall",
     id: 5367
   },
   {
-    name: "诅咒粉砖墙",
+    name: "Cursed Pink Brick Wall",
     id: 5368
   },
   {
-    name: "诅咒粉板墙",
+    name: "Cursed Pink Slab Wall",
     id: 5369
   },
   {
-    name: "诅咒粉瓦墙",
+    name: "Cursed Pink Tiled Wall",
     id: 5370
   },
   {
-    name: "诅咒绿砖墙",
+    name: "Cursed Green Brick Wall",
     id: 5371
   },
   {
-    name: "诅咒绿板墙",
+    name: "Cursed Green Slab Wall",
     id: 5372
   },
   {
-    name: "诅咒绿瓦墙",
+    name: "Cursed Green Tiled Wall",
     id: 5373
   },
   {
-    name: "危险沙岩墙",
+    name: "Treacherous Sandstone Wall",
     id: 5374
   },
   {
-    name: "危险硬化沙墙",
+    name: "Treacherous Hardened Sand Wall",
     id: 5375
   },
   {
-    name: "禁忌丛林蜥蜴砖墙",
+    name: "Forbidden Lihzahrd Brick Wall",
     id: 5376
   },
   {
-    name: "勘探照明弹",
+    name: "Spelunker Flare",
     id: 5377
   },
   {
-    name: "诅咒照明弹",
+    name: "Cursed Flare",
     id: 5378
   },
   {
-    name: "彩虹照明弹",
+    name: "Rainbow Flare",
     id: 5379
   },
   {
-    name: "微光照明弹",
+    name: "Shimmer Flare",
     id: 5380
   },
   {
-    name: "附魔月晷",
+    name: "Enchanted Moondial",
     id: 5381
   },
   {
-    name: "华夫饼烘烤模",
+    name: "Waffle's Iron",
     id: 5382
   },
   {
-    name: "弹力巨石",
+    name: "Bouncy Boulder",
     id: 5383
   },
   {
-    name: "生命水晶巨石",
+    name: "Life Crystal Boulder",
     id: 5384
   },
   {
-    name: "眩晕的稀有壁虎切斯特",
+    name: "Dizzy's Rare Gecko Chester",
     id: 5385
   },
   {
-    name: "雷布罗连帽衫",
+    name: "Raynbro's Hoodie",
     id: 5386
   },
   {
-    name: "雷布罗裤子",
+    name: "Raynbro's Pants",
     id: 5387
   },
   {
-    name: "太阳之眼",
+    name: "Eye of the Sun",
     id: 5388
   },
   {
-    name: "芝士披萨海报",
+    name: "Cheesy Pizza Poster",
     id: 5389
   },
   {
-    name: "雷布罗兜帽",
+    name: "Raynbro's Hood",
     id: 5390
   },
   {
-    name: "卸负石",
+    name: "Uncumbering Stone",
     id: 5391
   },
   {
-    name: "黄溶液",
+    name: "Yellow Solution",
     id: 5392
   },
   {
-    name: "白溶液",
+    name: "White Solution",
     id: 5393
   },
   {
-    name: "棕溶液",
+    name: "Brown Solution",
     id: 5394
   },
   {
-    name: "臭臭",
+    name: "Poo",
     id: 5395
   },
   {
-    name: "臭臭墙",
+    name: "Poo Wall",
     id: 5396
   },
   {
-    name: "以太墙",
+    name: "Aetherium Wall",
     id: 5397
   },
   {
-    name: "以太砖",
+    name: "Aetherium Brick",
     id: 5398
   },
   {
-    name: "以太砖墙",
+    name: "Aetherium Brick Wall",
     id: 5399
   },
   {
-    name: "最脏的块",
+    name: "The Dirtiest Block",
     id: 5400
   },
   {
-    name: "月锈砖",
+    name: "Lunar Rust Brick",
     id: 5401
   },
   {
-    name: "暗天砖",
+    name: "Dark Celestial Brick",
     id: 5402
   },
   {
-    name: "星芒砖",
+    name: "Astra Brick",
     id: 5403
   },
   {
-    name: "宇宙余烬砖",
+    name: "Cosmic Ember Brick",
     id: 5404
   },
   {
-    name: "冰核砖",
+    name: "Cryocore Brick",
     id: 5405
   },
   {
-    name: "水银砖",
+    name: "Mercury Brick",
     id: 5406
   },
   {
-    name: "星皇砖",
+    name: "Star Royale Brick",
     id: 5407
   },
   {
-    name: "天铸砖",
+    name: "Heavenforge Brick",
     id: 5408
   },
   {
-    name: "月锈砖墙",
+    name: "Lunar Rust Brick Wall",
     id: 5409
   },
   {
-    name: "暗天砖墙",
+    name: "Dark Celestial Brick Wall",
     id: 5410
   },
   {
-    name: "星尘砖墙",
+    name: "Astra Brick Wall",
     id: 5411
   },
   {
-    name: "宇宙余烬砖墙",
+    name: "Cosmic Ember Brick Wall",
     id: 5412
   },
   {
-    name: "冰核砖墙",
+    name: "Cryocore Brick Wall",
     id: 5413
   },
   {
-    name: "水银砖墙",
+    name: "Mercury Brick Wall",
     id: 5414
   },
   {
-    name: "星皇砖墙",
+    name: "Star Royale Brick Wall",
     id: 5415
   },
   {
-    name: "天铸砖墙",
+    name: "Heavenforge Brick Wall",
     id: 5416
   },
   {
-    name: "远古蓝砖",
+    name: "Ancient Blue Brick",
     id: 5417
   },
   {
-    name: "远古蓝砖墙",
+    name: "Ancient Blue Brick Wall",
     id: 5418
   },
   {
-    name: "远古绿砖",
+    name: "Ancient Green Brick",
     id: 5419
   },
   {
-    name: "远古绿砖墙",
+    name: "Ancient Green Brick Wall",
     id: 5420
   },
   {
-    name: "远古粉砖",
+    name: "Ancient Pink Brick",
     id: 5421
   },
   {
-    name: "远古粉砖墙",
+    name: "Ancient Pink Brick Wall",
     id: 5422
   },
   {
-    name: "远古金砖",
+    name: "Ancient Gold Brick",
     id: 5423
   },
   {
-    name: "远古金砖墙",
+    name: "Ancient Gold Brick Wall",
     id: 5424
   },
   {
-    name: "远古银砖",
+    name: "Ancient Silver Brick",
     id: 5425
   },
   {
-    name: "远古银砖墙",
+    name: "Ancient Silver Brick Wall",
     id: 5426
   },
   {
-    name: "远古铜砖",
+    name: "Ancient Copper Brick",
     id: 5427
   },
   {
-    name: "远古铜砖墙",
+    name: "Ancient Copper Brick Wall",
     id: 5428
   },
   {
-    name: "远古钴砖",
+    name: "Ancient Cobalt Brick",
     id: 5429
   },
   {
-    name: "远古钴砖墙",
+    name: "Ancient Cobalt Brick Wall",
     id: 5430
   },
   {
-    name: "远古秘银砖",
+    name: "Ancient Mythril Brick",
     id: 5431
   },
   {
-    name: "远古秘银砖墙",
+    name: "Ancient Mythril Brick Wall",
     id: 5432
   },
   {
-    name: "远古黑曜石砖",
+    name: "Ancient Obsidian Brick",
     id: 5433
   },
   {
-    name: "远古黑曜石砖墙",
+    name: "Ancient Obsidian Brick Wall",
     id: 5434
   },
   {
-    name: "远古狱石砖",
+    name: "Ancient Hellstone Brick",
     id: 5435
   },
   {
-    name: "远古狱石砖墙",
+    name: "Ancient Hellstone Brick Wall",
     id: 5436
   },
   {
-    name: "贝壳电话",
+    name: "Shellphone",
     id: 5437
   },
   {
-    name: "肥料",
+    name: "Fertilizer",
     id: 5438
   },
   {
-    name: "熔岩苔藓砖",
+    name: "Lava Moss Brick",
     id: 5439
   },
   {
-    name: "氩苔藓砖",
+    name: "Argon Moss Brick",
     id: 5440
   },
   {
-    name: "氪苔藓砖",
+    name: "Krypton Moss Brick",
     id: 5441
   },
   {
-    name: "氙苔藓砖",
+    name: "Xenon Moss Brick",
     id: 5442
   },
   {
-    name: "氖苔藓砖",
+    name: "Neon Moss Brick",
     id: 5443
   },
   {
-    name: "氦苔藓砖",
+    name: "Helium Moss Brick",
     id: 5444
   },
   {
-    name: "熔岩苔藓砖墙",
+    name: "Lava Moss Brick Wall",
     id: 5445
   },
   {
-    name: "氩苔藓砖墙",
+    name: "Argon Moss Brick Wall",
     id: 5446
   },
   {
-    name: "氪苔藓砖墙",
+    name: "Krypton Moss Brick Wall",
     id: 5447
   },
   {
-    name: "氙苔藓砖墙",
+    name: "Xenon Moss Brick Wall",
     id: 5448
   },
   {
-    name: "氖苔藓砖墙",
+    name: "Neon Moss Brick Wall",
     id: 5449
   },
   {
-    name: "氦苔藓砖墙",
+    name: "Helium Moss Brick Wall",
     id: 5450
   },
   {
-    name: "夸德赛车无人机",
+    name: "Kwad Racer Drone",
     id: 5451
   },
   {
-    name: "FPV护目镜",
+    name: "FPV Goggles",
     id: 5452
   },
   {
-    name: "小动物友谊指南（未激活）",
+    name: "Guide to Critter Companionship (Inactive)",
     id: 5453
   },
   {
-    name: "环境保护指南（未激活）",
+    name: "Guide to Environmental Preservation (Inactive)",
     id: 5454
   },
   {
-    name: "和平共处指南（未激活）",
+    name: "Guide to Peaceful Coexistence (Inactive)",
     id: 5455
   },
   {
-    name: "蘑菇法杖",
+    name: "Mushroom Staff",
     id: 5456
   },
   {
-    name: "斩首者之颅",
+    name: "The Beheaded's Head",
     id: 5457
   },
   {
-    name: "斩首者胸甲",
+    name: "The Beheaded's Cuirass",
     id: 5458
   },
   {
-    name: "斩首者护腿",
+    name: "The Beheaded's Trousers",
     id: 5459
   },
   {
-    name: "桶式发射器",
+    name: "Barrel Launcher",
     id: 5460
   },
   {
-    name: "杀戮卡组",
+    name: "Killing Deck",
     id: 5461
   },
   {
-    name: "燧石",
+    name: "Flint",
     id: 5462
   },
   {
-    name: "藤壶法杖",
+    name: "Barnacle Staff",
     id: 5463
   },
   {
-    name: "小强强",
+    name: "Mitey-Titey",
     id: 5464
   },
   {
-    name: "公羊符文",
+    name: "Ram Rune",
     id: 5465
   },
   {
-    name: "群集手榴弹",
+    name: "Swarm Grenade",
     id: 5466
   },
   {
-    name: "仿制恶魔祭坛",
+    name: "Replica Demon Altar",
     id: 5467
   },
   {
-    name: "仿制猩红祭坛",
+    name: "Replica Crimson Altar",
     id: 5468
   },
   {
-    name: "仿制暗影珠",
+    name: "Replica Shadow Orb",
     id: 5469
   },
   {
-    name: "仿制猩红之心",
+    name: "Replica Crimson Heart",
     id: 5470
   },
   {
-    name: "装饰蛛网",
+    name: "Decorative Cobweb",
     id: 5471
   },
   {
-    name: "物品瓶",
+    name: "Item Flask",
     id: 5472
   },
   {
-    name: "蛛丝鞭",
+    name: "Cobwhip",
     id: 5473
   },
   {
-    name: "灵魂灾祸",
+    name: "Soulscourge",
     id: 5474
   },
   {
-    name: "血管撕裂",
+    name: "Vasculash",
     id: 5475
   },
   {
-    name: "星陨",
+    name: "Starcrash",
     id: 5476
   },
   {
-    name: "粗俗的花之展示",
+    name: "Vulgar Display of Flower",
     id: 5477
   },
   {
-    name: "电鳗",
+    name: "Electric Eel",
     id: 5478
   },
   {
-    name: "星座",
+    name: "Constellation",
     id: 5479
   },
   {
-    name: "附身",
+    name: "Possession",
     id: 5480
   },
   {
-    name: "便携式窑炉",
+    name: "Portable Kiln",
     id: 5481
   },
   {
-    name: "炼金瓶",
+    name: "Alchemy Flask",
     id: 5482
   },
   {
-    name: "蜂后",
+    name: "Queen of Bees",
     id: 5483
   },
   {
-    name: "牛铃",
+    name: "Cow Bell",
     id: 5484
   },
   {
-    name: "鸡符",
+    name: "Chicken Charm",
     id: 5485
   },
   {
-    name: "寂静之海",
+    name: "The Sea of Silence",
     id: 5486
   },
   {
-    name: "异界英雄",
+    name: "Heroes From Another World",
     id: 5487
   },
   {
-    name: "结晶",
+    name: "Crystallize",
     id: 5488
   },
   {
-    name: "生命吞噬者",
+    name: "Eater Of Life",
     id: 5489
   },
   {
-    name: "巴西的天空",
+    name: "Brasilian Skies",
     id: 5490
   },
   {
-    name: "瓦林斯科伦的冬天",
+    name: "Winter At Varingskollen",
     id: 5491
   },
   {
-    name: "魔法微光滴管",
+    name: "Magic Shimmer Dropper",
     id: 5492
   },
   {
-    name: "微光落块",
+    name: "Shimmerfall Block",
     id: 5493
   },
   {
-    name: "微光落墙",
+    name: "Shimmerfall Wall",
     id: 5494
   },
   {
-    name: "微光枪",
+    name: "Shimmer Gun",
     id: 5495
   },
   {
-    name: "丛林果汁",
+    name: "Jungle Juice",
     id: 5496
   },
   {
-    name: "粉旗",
+    name: "Pink Banner",
     id: 5497
   },
   {
-    name: "白旗",
+    name: "White Banner",
     id: 5498
   },
   {
-    name: "青蛙项圈",
+    name: "Froggy Neckband",
     id: 5499
   },
   {
-    name: "山羊簇",
+    name: "Goat's Tuft",
     id: 5500
   },
   {
-    name: "旧伴挂坠盒",
+    name: "Old Companion Locket",
     id: 5501
   },
   {
-    name: "猫铃铛",
+    name: "Cat Chime",
     id: 5502
   },
   {
-    name: "狗项圈",
+    name: "Dog Collar",
     id: 5503
   },
   {
-    name: "火鸡垂肉项链",
+    name: "Turkey Wattle Necklace",
     id: 5504
   },
   {
-    name: "恶毒哥布林的尖刺",
+    name: "Mean Goblin's Spikes",
     id: 5505
   },
   {
-    name: "乌鸦喙",
+    name: "Crow's Beak",
     id: 5506
   },
   {
-    name: "气球珠",
+    name: "Balloony Beads",
     id: 5507
   },
   {
-    name: "凶残老刺",
+    name: "Grim Old Barb",
     id: 5508
   },
   {
-    name: "吸血鬼吊坠",
+    name: "Vampire Pendant",
     id: 5509
   },
   {
-    name: "屠夫的神秘头骨",
+    name: "Slasher's Mysterious Skull",
     id: 5510
   },
   {
-    name: "河豚",
+    name: "Pufferfish",
     id: 5511
   },
   {
-    name: "河豚笼",
+    name: "Pufferfish Cage",
     id: 5512
   },
   {
-    name: "河豚虾",
+    name: "Puffer Shrimp",
     id: 5513
   },
   {
-    name: "彩虹巨石",
+    name: "Rainbow Boulder",
     id: 5514
   },
   {
-    name: "月亮领主躯干",
+    name: "Moon Lord Torso",
     id: 5515
   },
   {
-    name: "便便巨石",
+    name: "Poo Boulder",
     id: 5516
   },
   {
-    name: "粪角",
+    name: "Faecorn",
     id: 5517
   },
   {
-    name: "灌注肥料",
+    name: "Infused Fertilizer",
     id: 5518
   },
   {
-    name: "斧回旋镖",
+    name: "Axearang",
     id: 5519
   },
   {
-    name: "熔岩巨石",
+    name: "Lava Boulder",
     id: 5520
   },
   {
-    name: "蜘蛛巨石",
+    name: "Spider Boulder",
     id: 5521
   },
   {
-    name: "幽灵巨石",
+    name: "Ghoulder",
     id: 5522
   },
   {
-    name: "友善巨石",
+    name: "Friendly Boulder",
     id: 5523
   },
   {
-    name: "叶绿面罩",
+    name: "Chlorophyte Visor",
     id: 5524
   },
   {
-    name: "诅咒牧笛",
+    name: "Cursed Piper Flute",
     id: 5525
   },
   {
-    name: "猪鲨链球",
+    name: "Flairon",
     id: 5526
   },
   {
-    name: "海洋与梦境",
+    name: "Of Sea and Dreams",
     id: 5527
   },
   {
-    name: "符文精灵",
+    name: "The Runic Pixie",
     id: 5528
   },
   {
-    name: "野兽旗帜",
+    name: "Banner of the Beast",
     id: 5529
   },
   {
-    name: "火柴人 vs 泰拉泰拉",
+    name: "Stickman vs Terr Terr",
     id: 5530
   },
   {
-    name: "舒适窗户",
+    name: "Cozy Window",
     id: 5531
   },
   {
-    name: "恶魔祭坛",
+    name: "Demon Altar",
     id: 5532
   },
   {
-    name: "猩红祭坛",
+    name: "Crimson Altar",
     id: 5533
   },
   {
-    name: "仙女颈链",
+    name: "Fairy Choker",
     id: 5534
   },
   {
-    name: "粉相位剑",
+    name: "Pink Phaseblade",
     id: 5535
   },
   {
-    name: "粉相位刃",
+    name: "Pink Phasesaber",
     id: 5536
   },
   {
-    name: "焦黑鱼",
+    name: "Blackened Fish",
     id: 5537
   },
   {
-    name: "八音盒（蜂王）",
+    name: "Music Box (Queen Bee)",
     id: 5538
   },
   {
-    name: "八音盒（双子魔眼）",
+    name: "Music Box (The Twins)",
     id: 5539
   },
   {
-    name: "魔法线",
+    name: "Magic String",
     id: 5540
   },
   {
-    name: "悠悠球袋",
+    name: "Magic Yoyo Bag",
     id: 5541
   },
   {
-    name: "冰冻炸弹",
+    name: "Freeze Bomb",
     id: 5542
   },
   {
-    name: "减压球",
+    name: "Stress Ball",
     id: 5543
   },
   {
-    name: "云平台",
+    name: "Cloud Platform",
     id: 5544
   },
   {
-    name: "覆苔生命木墙",
+    name: "Overgrown Living Wood Wall",
     id: 5545
   },
   {
-    name: "天然土墙",
+    name: "Natural Dirt Wall",
     id: 5546
   },
   {
-    name: "串线平衡锤",
+    name: "Strung Counterweight",
     id: 5547
   },
   {
-    name: "以太浴缸",
+    name: "Aetherium Bathtub",
     id: 5548
   },
   {
-    name: "以太床",
+    name: "Aetherium Bed",
     id: 5549
   },
   {
-    name: "以太书架",
+    name: "Aetherium Bookcase",
     id: 5550
   },
   {
-    name: "以太梳妆台",
+    name: "Aetherium Dresser",
     id: 5551
   },
   {
-    name: "以太烛台",
+    name: "Aetherium Candelabra",
     id: 5552
   },
   {
-    name: "以太蜡烛",
+    name: "Aetherium Candle",
     id: 5553
   },
   {
-    name: "以太椅",
+    name: "Aetherium Chair",
     id: 5554
   },
   {
-    name: "以太吊灯",
+    name: "Aetherium Chandelier",
     id: 5555
   },
   {
-    name: "以太箱",
+    name: "Aetherium Chest",
     id: 5556
   },
   {
-    name: "以太钟",
+    name: "Aetherium Clock",
     id: 5557
   },
   {
-    name: "以太门",
+    name: "Aetherium Door",
     id: 5558
   },
   {
-    name: "以太灯",
+    name: "Aetherium Lamp",
     id: 5559
   },
   {
-    name: "以太灯笼",
+    name: "Aetherium Lantern",
     id: 5560
   },
   {
-    name: "以太钢琴",
+    name: "Aetherium Piano",
     id: 5561
   },
   {
-    name: "以太平台",
+    name: "Aetherium Platform",
     id: 5562
   },
   {
-    name: "以太水槽",
+    name: "Aetherium Sink",
     id: 5563
   },
   {
-    name: "以太沙发",
+    name: "Aetherium Sofa",
     id: 5564
   },
   {
-    name: "以太桌",
+    name: "Aetherium Table",
     id: 5565
   },
   {
-    name: "以太工作台",
+    name: "Aetherium Work Bench",
     id: 5566
   },
   {
-    name: "机关以太箱",
+    name: "Trapped Aetherium Chest",
     id: 5567
   },
   {
-    name: "以太马桶",
+    name: "Aetherium Toilet",
     id: 5568
   },
   {
-    name: "熔岩云",
+    name: "Lava Cloud",
     id: 5569
   },
   {
-    name: "星云",
+    name: "Star Cloud",
     id: 5570
   },
   {
-    name: "彩虹云",
+    name: "Rainbow Cloud",
     id: 5571
   },
   {
-    name: "泥球",
+    name: "Mud Ball",
     id: 5572
   },
   {
-    name: "火把神风味",
+    name: "Torch God's Flavor",
     id: 5573
   },
   {
-    name: "幸运三叶草",
+    name: "Lucky Clover",
     id: 5574
   },
   {
-    name: "枯萎三叶草",
+    name: "Wilted Clover",
     id: 5575
   },
   {
-    name: "乌鸦羽毛",
+    name: "Raven Feather",
     id: 5576
   },
   {
-    name: "漂亮镜子",
+    name: "Pretty Mirror",
     id: 5577
   },
   {
-    name: "八音盒（史莱姆王）",
+    name: "Music Box (King Slime)",
     id: 5578
   },
   {
-    name: "八音盒（替代蜂王）",
+    name: "Music Box (Alt Queen Bee)",
     id: 5579
   },
   {
-    name: "八音盒（拜月教邪教徒）",
+    name: "Music Box (Lunatic Cultist)",
     id: 5580
   },
   {
-    name: "八音盒（机械骷髅王）",
+    name: "Music Box (Skeletron Prime)",
     id: 5581
   },
   {
-    name: "八音盒（毁灭者）",
+    name: "Music Box (The Destroyer)",
     id: 5582
   },
   {
-    name: "鸡骨头面甲",
+    name: "Chicken Bones' Visor",
     id: 5583
   },
   {
-    name: "鸡骨头背心",
+    name: "Chicken Bones' Vest",
     id: 5584
   },
   {
-    name: "鸡骨头裤",
+    name: "Chicken Bones' Pants",
     id: 5585
   },
   {
-    name: "鸡骨头之翼",
+    name: "Chicken Bones' Wings",
     id: 5586
   },
   {
-    name: "鸡骨头长袍",
+    name: "Chicken Bones' Robe",
     id: 5587
   },
   {
-    name: "探矿者头盔",
+    name: "Prospector Helmet",
     id: 5588
   },
   {
-    name: "探矿者上衣",
+    name: "Prospector Shirt",
     id: 5589
   },
   {
-    name: "探矿者裤",
+    name: "Prospector Pants",
     id: 5590
   },
   {
-    name: "船长帽",
+    name: "Captain Hat",
     id: 5591
   },
   {
-    name: "船长背心",
+    name: "Captain Vest",
     id: 5592
   },
   {
-    name: "船长裤",
+    name: "Captain Pants",
     id: 5593
   },
   {
-    name: "强力炸弹",
+    name: "Power Bomb",
     id: 5594
   },
   {
-    name: "粘性强力炸弹",
+    name: "Sticky Power Bomb",
     id: 5595
   },
   {
-    name: "焊接面罩",
+    name: "Welding Mask",
     id: 5596
   },
   {
-    name: "夜之护符",
+    name: "Amulet of the Night",
     id: 5597
   },
   {
-    name: "CRT纪念章",
+    name: "CRT Monolith",
     id: 5598
   },
   {
-    name: "复古纪念章",
+    name: "Retro Monolith",
     id: 5599
   },
   {
-    name: "蓝色旱冰鞋",
+    name: "Blue Roller Skates",
     id: 5600
   },
   {
-    name: "坠落之星浴缸",
+    name: "Fallen Star Bathtub",
     id: 5601
   },
   {
-    name: "坠落之星床",
+    name: "Fallen Star Bed",
     id: 5602
   },
   {
-    name: "坠落之星书架",
+    name: "Fallen Star Bookcase",
     id: 5603
   },
   {
-    name: "坠落之星梳妆台",
+    name: "Fallen Star Dresser",
     id: 5604
   },
   {
-    name: "坠落之星烛台",
+    name: "Fallen Star Candelabra",
     id: 5605
   },
   {
-    name: "坠落之星蜡烛",
+    name: "Fallen Star Candle",
     id: 5606
   },
   {
-    name: "坠落之星椅",
+    name: "Fallen Star Chair",
     id: 5607
   },
   {
-    name: "坠落之星吊灯",
+    name: "Fallen Star Chandelier",
     id: 5608
   },
   {
-    name: "坠落之星箱",
+    name: "Fallen Star Chest",
     id: 5609
   },
   {
-    name: "坠落之星钟",
+    name: "Fallen Star Clock",
     id: 5610
   },
   {
-    name: "坠落之星门",
+    name: "Fallen Star Door",
     id: 5611
   },
   {
-    name: "坠落之星灯",
+    name: "Fallen Star Lamp",
     id: 5612
   },
   {
-    name: "坠落之星灯笼",
+    name: "Fallen Star Lantern",
     id: 5613
   },
   {
-    name: "坠落之星钢琴",
+    name: "Fallen Star Piano",
     id: 5614
   },
   {
-    name: "坠落之星平台",
+    name: "Fallen Star Platform",
     id: 5615
   },
   {
-    name: "坠落之星水槽",
+    name: "Fallen Star Sink",
     id: 5616
   },
   {
-    name: "坠落之星沙发",
+    name: "Fallen Star Sofa",
     id: 5617
   },
   {
-    name: "坠落之星桌",
+    name: "Fallen Star Table",
     id: 5618
   },
   {
-    name: "坠落之星工作台",
+    name: "Fallen Star Work Bench",
     id: 5619
   },
   {
-    name: "机关坠落之星箱",
+    name: "Trapped Fallen Star Chest",
     id: 5620
   },
   {
-    name: "坠落之星马桶",
+    name: "Fallen Star Toilet",
     id: 5621
   },
   {
-    name: "坠落之星块",
+    name: "Fallen Star Block",
     id: 5622
   },
   {
-    name: "坠落之星墙",
+    name: "Fallen Star Wall",
     id: 5623
   },
   {
-    name: "Chippy的头盔",
+    name: "Chippy's Helmet",
     id: 5624
   },
   {
-    name: "Chippy的胸甲",
+    name: "Chippy's Chestplate",
     id: 5625
   },
   {
-    name: "Chippy的护胫",
+    name: "Chippy's Greaves",
     id: 5626
   },
   {
-    name: "Chippy的斗篷",
+    name: "Chippy's Cloak",
     id: 5627
   },
   {
-    name: "Chippy的头带",
+    name: "Chippy's Headband",
     id: 5628
   },
   {
-    name: "橡实弹弓",
+    name: "Acorn Slingshot",
     id: 5629
   },
   {
@@ -22446,107 +22446,107 @@ export const items: ItemInfo[] = [
     id: 5636
   },
   {
-    name: "八音盒（世界吞噬者）",
+    name: "Music Box (Eater of Worlds)",
     id: 5637
   },
   {
-    name: "八音盒（火把神）",
+    name: "Music Box (Torch God)",
     id: 5638
   },
   {
-    name: "八音盒（替代火把神）",
+    name: "Music Box (Alt Torch God)",
     id: 5639
   },
   {
-    name: "绿色旱冰鞋",
+    name: "Green Roller Skates",
     id: 5640
   },
   {
-    name: "经典旱冰鞋",
+    name: "Classic Roller Skates",
     id: 5641
   },
   {
-    name: "派对旱冰鞋",
+    name: "Party Roller Skates",
     id: 5642
   },
   {
-    name: "彩虹荧光棒",
+    name: "Rainbow Glowstick",
     id: 5643
   },
   {
-    name: "占卜球",
+    name: "Scrying Orb",
     id: 5644
   },
   {
-    name: "岩石糖果",
+    name: "Rock Candy",
     id: 5645
   },
   {
-    name: "蓝色比基尼上衣",
+    name: "Blue Bikini Top",
     id: 5646
   },
   {
-    name: "蓝色比基尼下装",
+    name: "Blue Bikini Bottom",
     id: 5647
   },
   {
-    name: "红色泳衣",
+    name: "Red Swimsuit",
     id: 5648
   },
   {
-    name: "绿色泳裤",
+    name: "Green Swimshorts",
     id: 5649
   },
   {
-    name: "灰色泳裤",
+    name: "Gray Swimshorts",
     id: 5650
   },
   {
-    name: "虎鲸旗",
+    name: "Orca Banner",
     id: 5651
   },
   {
-    name: "地狱晶塔",
+    name: "Underworld Pylon",
     id: 5652
   },
   {
-    name: "以太晶塔",
+    name: "Aether Pylon",
     id: 5653
   },
   {
-    name: "友善彩虹滚石",
+    name: "Friendly Rainbow Boulder",
     id: 5654
   },
   {
-    name: "电影放映机",
+    name: "Film Projector",
     id: 5655
   },
   {
-    name: "英雄之帽",
+    name: "Heroicis' Hat",
     id: 5656
   },
   {
-    name: "英雄之衣",
+    name: "Heroicis' Coat",
     id: 5657
   },
   {
-    name: "英雄之裤",
+    name: "Heroicis' Pants",
     id: 5658
   },
   {
-    name: "英雄之翼",
+    name: "Heroicis' Wings",
     id: 5659
   },
   {
-    name: "神圣王冠",
+    name: "Hallowed Crown",
     id: 5660
   },
   {
-    name: "英雄之翼（未激活）",
+    name: "Heroicis' Wings (Inactive)",
     id: 5661
   },
   {
-    name: "附魔仙尘",
+    name: "Enchanted Pixie Dust",
     id: 5662
   },
   {
@@ -22574,1043 +22574,1043 @@ export const items: ItemInfo[] = [
     id: 5668
   },
   {
-    name: "真铜短剑",
+    name: "True Copper Shortsword",
     id: 5669
   },
   {
-    name: "彩虹相位剑",
+    name: "Rainbow Phaseblade",
     id: 5670
   },
   {
-    name: "彩虹相位刃",
+    name: "Rainbow Phasesaber",
     id: 5671
   },
   {
-    name: "图书馆骷髅旗",
+    name: "Librarian Skeleton Banner",
     id: 5672
   },
   {
-    name: "水矢书模仿旗",
+    name: "Water Bolt Mimic Banner",
     id: 5673
   },
   {
-    name: "暗红团队方块",
+    name: "Dull Red Team Block",
     id: 5674
   },
   {
-    name: "暗绿团队方块",
+    name: "Dull Green Team Block",
     id: 5675
   },
   {
-    name: "暗蓝团队方块",
+    name: "Dull Blue Team Block",
     id: 5676
   },
   {
-    name: "暗黄团队方块",
+    name: "Dull Yellow Team Block",
     id: 5677
   },
   {
-    name: "暗粉团队方块",
+    name: "Dull Pink Team Block",
     id: 5678
   },
   {
-    name: "暗白团队方块",
+    name: "Dull White Team Block",
     id: 5679
   },
   {
-    name: "淡紫暮色发夹",
+    name: "Lilac Dusk Hairclip",
     id: 5680
   },
   {
-    name: "淡紫暮色连衣裙",
+    name: "Lilac Dusk Dress",
     id: 5681
   },
   {
-    name: "淡紫暮色裙",
+    name: "Lilac Dusk Skirt",
     id: 5682
   },
   {
-    name: "Kazzymodus兜帽",
+    name: "Kazzymodus' Hood",
     id: 5683
   },
   {
-    name: "Kazzymodus胸甲",
+    name: "Kazzymodus' Chestpiece",
     id: 5684
   },
   {
-    name: "Kazzymodus护腿",
+    name: "Kazzymodus' Leggings",
     id: 5685
   },
   {
-    name: "Kazzymodus之翼",
+    name: "Kazzymodus' Wings",
     id: 5686
   },
   {
-    name: "史莱姆长矛",
+    name: "Slime Spear",
     id: 5687
   },
   {
-    name: "史莱姆鞭",
+    name: "Slime Whip",
     id: 5688
   },
   {
-    name: "灵木浴缸",
+    name: "Feywood Bathtub",
     id: 5689
   },
   {
-    name: "灵木床",
+    name: "Feywood Bed",
     id: 5690
   },
   {
-    name: "灵木书架",
+    name: "Feywood Bookcase",
     id: 5691
   },
   {
-    name: "灵木梳妆台",
+    name: "Feywood Dresser",
     id: 5692
   },
   {
-    name: "灵木烛台",
+    name: "Feywood Candelabra",
     id: 5693
   },
   {
-    name: "灵木蜡烛",
+    name: "Feywood Candle",
     id: 5694
   },
   {
-    name: "灵木椅",
+    name: "Feywood Chair",
     id: 5695
   },
   {
-    name: "灵木吊灯",
+    name: "Feywood Chandelier",
     id: 5696
   },
   {
-    name: "灵木箱",
+    name: "Feywood Chest",
     id: 5697
   },
   {
-    name: "灵木钟",
+    name: "Feywood Clock",
     id: 5698
   },
   {
-    name: "灵木门",
+    name: "Feywood Door",
     id: 5699
   },
   {
-    name: "灵木灯",
+    name: "Feywood Lamp",
     id: 5700
   },
   {
-    name: "灵木灯笼",
+    name: "Feywood Lantern",
     id: 5701
   },
   {
-    name: "灵木钢琴",
+    name: "Feywood Piano",
     id: 5702
   },
   {
-    name: "灵木平台",
+    name: "Feywood Platform",
     id: 5703
   },
   {
-    name: "灵木水槽",
+    name: "Feywood Sink",
     id: 5704
   },
   {
-    name: "灵木沙发",
+    name: "Feywood Sofa",
     id: 5705
   },
   {
-    name: "灵木桌",
+    name: "Feywood Table",
     id: 5706
   },
   {
-    name: "灵木工作台",
+    name: "Feywood Work Bench",
     id: 5707
   },
   {
-    name: "机关灵木箱",
+    name: "Trapped Feywood Chest",
     id: 5708
   },
   {
-    name: "灵木马桶",
+    name: "Feywood Toilet",
     id: 5709
   },
   {
-    name: "灵木",
+    name: "Feywood",
     id: 5710
   },
   {
-    name: "灵木墙",
+    name: "Feywood Wall",
     id: 5711
   },
   {
-    name: "神圣浴缸",
+    name: "Hallowed Bathtub",
     id: 5712
   },
   {
-    name: "神圣床",
+    name: "Hallowed Bed",
     id: 5713
   },
   {
-    name: "神圣书架",
+    name: "Hallowed Bookcase",
     id: 5714
   },
   {
-    name: "神圣梳妆台",
+    name: "Hallowed Dresser",
     id: 5715
   },
   {
-    name: "神圣烛台",
+    name: "Hallowed Candelabra",
     id: 5716
   },
   {
-    name: "神圣蜡烛",
+    name: "Hallowed Candle",
     id: 5717
   },
   {
-    name: "神圣椅",
+    name: "Hallowed Chair",
     id: 5718
   },
   {
-    name: "神圣吊灯",
+    name: "Hallowed Chandelier",
     id: 5719
   },
   {
-    name: "华丽神圣箱",
+    name: "Fancy Hallowed Chest",
     id: 5720
   },
   {
-    name: "神圣钟",
+    name: "Hallowed Clock",
     id: 5721
   },
   {
-    name: "神圣门",
+    name: "Hallowed Door",
     id: 5722
   },
   {
-    name: "神圣灯",
+    name: "Hallowed Lamp",
     id: 5723
   },
   {
-    name: "神圣灯笼",
+    name: "Hallowed Lantern",
     id: 5724
   },
   {
-    name: "神圣钢琴",
+    name: "Hallowed Piano",
     id: 5725
   },
   {
-    name: "神圣平台",
+    name: "Hallowed Platform",
     id: 5726
   },
   {
-    name: "神圣水槽",
+    name: "Hallowed Sink",
     id: 5727
   },
   {
-    name: "神圣沙发",
+    name: "Hallowed Sofa",
     id: 5728
   },
   {
-    name: "神圣桌",
+    name: "Hallowed Table",
     id: 5729
   },
   {
-    name: "神圣工作台",
+    name: "Hallowed Work Bench",
     id: 5730
   },
   {
-    name: "机关华丽神圣箱",
+    name: "Trapped Fancy Hallowed Chest",
     id: 5731
   },
   {
-    name: "神圣马桶",
+    name: "Hallowed Toilet",
     id: 5732
   },
   {
-    name: "神圣砖",
+    name: "Hallowed Brick",
     id: 5733
   },
   {
-    name: "神圣砖墙",
+    name: "Hallowed Brick Wall",
     id: 5734
   },
   {
-    name: "苍白金属胸甲",
+    name: "Pal Metal Chestplate",
     id: 5735
   },
   {
-    name: "苍白金属护腿",
+    name: "Pal Metal Leggings",
     id: 5736
   },
   {
-    name: "奇皮的斗篷（未激活）",
+    name: "Chippy's Cloak (Inactive)",
     id: 5737
   },
   {
-    name: "墙赛车",
+    name: "Wall Racer Car",
     id: 5738
   },
   {
-    name: "哥特浴缸",
+    name: "Gothic Bathtub",
     id: 5739
   },
   {
-    name: "哥特床",
+    name: "Gothic Bed",
     id: 5740
   },
   {
-    name: "哥特梳妆台",
+    name: "Gothic Dresser",
     id: 5741
   },
   {
-    name: "哥特烛台",
+    name: "Gothic Candelabra",
     id: 5742
   },
   {
-    name: "哥特蜡烛",
+    name: "Gothic Candle",
     id: 5743
   },
   {
-    name: "哥特吊灯",
+    name: "Gothic Chandelier",
     id: 5744
   },
   {
-    name: "哥特箱",
+    name: "Gothic Chest",
     id: 5745
   },
   {
-    name: "哥特钟",
+    name: "Gothic Clock",
     id: 5746
   },
   {
-    name: "哥特门",
+    name: "Gothic Door",
     id: 5747
   },
   {
-    name: "哥特灯",
+    name: "Gothic Lamp",
     id: 5748
   },
   {
-    name: "哥特灯笼",
+    name: "Gothic Lantern",
     id: 5749
   },
   {
-    name: "哥特钢琴",
+    name: "Gothic Piano",
     id: 5750
   },
   {
-    name: "哥特平台",
+    name: "Gothic Platform",
     id: 5751
   },
   {
-    name: "哥特水槽",
+    name: "Gothic Sink",
     id: 5752
   },
   {
-    name: "哥特沙发",
+    name: "Gothic Sofa",
     id: 5753
   },
   {
-    name: "机关哥特箱",
+    name: "Trapped Gothic Chest",
     id: 5754
   },
   {
-    name: "哥特马桶",
+    name: "Gothic Toilet",
     id: 5755
   },
   {
-    name: "魔矿浴缸",
+    name: "Demonite Bathtub",
     id: 5756
   },
   {
-    name: "魔矿床",
+    name: "Demonite Bed",
     id: 5757
   },
   {
-    name: "魔矿书架",
+    name: "Demonite Bookcase",
     id: 5758
   },
   {
-    name: "魔矿烛台",
+    name: "Demonite Candelabra",
     id: 5759
   },
   {
-    name: "魔矿蜡烛",
+    name: "Demonite Candle",
     id: 5760
   },
   {
-    name: "魔矿椅",
+    name: "Demonite Chair",
     id: 5761
   },
   {
-    name: "魔矿吊灯",
+    name: "Demonite Chandelier",
     id: 5762
   },
   {
-    name: "魔矿箱",
+    name: "Demonite Chest",
     id: 5763
   },
   {
-    name: "魔矿钟",
+    name: "Demonite Clock",
     id: 5764
   },
   {
-    name: "魔矿门",
+    name: "Demonite Door",
     id: 5765
   },
   {
-    name: "魔矿梳妆台",
+    name: "Demonite Dresser",
     id: 5766
   },
   {
-    name: "魔矿灯",
+    name: "Demonite Lamp",
     id: 5767
   },
   {
-    name: "魔矿灯笼",
+    name: "Demonite Lantern",
     id: 5768
   },
   {
-    name: "魔矿钢琴",
+    name: "Demonite Piano",
     id: 5769
   },
   {
-    name: "魔矿平台",
+    name: "Demonite Platform",
     id: 5770
   },
   {
-    name: "魔矿水槽",
+    name: "Demonite Sink",
     id: 5771
   },
   {
-    name: "魔矿沙发",
+    name: "Demonite Sofa",
     id: 5772
   },
   {
-    name: "魔矿桌",
+    name: "Demonite Table",
     id: 5773
   },
   {
-    name: "魔矿马桶",
+    name: "Demonite Toilet",
     id: 5774
   },
   {
-    name: "魔矿工作台",
+    name: "Demonite Work Bench",
     id: 5775
   },
   {
-    name: "机关魔矿箱",
+    name: "Trapped Demonite Chest",
     id: 5776
   },
   {
-    name: "猩红矿浴缸",
+    name: "Crimtane Bathtub",
     id: 5777
   },
   {
-    name: "猩红矿床",
+    name: "Crimtane Bed",
     id: 5778
   },
   {
-    name: "猩红矿书架",
+    name: "Crimtane Bookcase",
     id: 5779
   },
   {
-    name: "猩红矿烛台",
+    name: "Crimtane Candelabra",
     id: 5780
   },
   {
-    name: "猩红矿蜡烛",
+    name: "Crimtane Candle",
     id: 5781
   },
   {
-    name: "猩红矿椅",
+    name: "Crimtane Chair",
     id: 5782
   },
   {
-    name: "猩红矿吊灯",
+    name: "Crimtane Chandelier",
     id: 5783
   },
   {
-    name: "猩红矿箱",
+    name: "Crimtane Chest",
     id: 5784
   },
   {
-    name: "猩红矿钟",
+    name: "Crimtane Clock",
     id: 5785
   },
   {
-    name: "猩红矿门",
+    name: "Crimtane Door",
     id: 5786
   },
   {
-    name: "猩红矿梳妆台",
+    name: "Crimtane Dresser",
     id: 5787
   },
   {
-    name: "猩红矿灯",
+    name: "Crimtane Lamp",
     id: 5788
   },
   {
-    name: "猩红矿灯笼",
+    name: "Crimtane Lantern",
     id: 5789
   },
   {
-    name: "猩红矿钢琴",
+    name: "Crimtane Piano",
     id: 5790
   },
   {
-    name: "猩红矿平台",
+    name: "Crimtane Platform",
     id: 5791
   },
   {
-    name: "猩红矿水槽",
+    name: "Crimtane Sink",
     id: 5792
   },
   {
-    name: "猩红矿沙发",
+    name: "Crimtane Sofa",
     id: 5793
   },
   {
-    name: "猩红矿桌",
+    name: "Crimtane Table",
     id: 5794
   },
   {
-    name: "猩红矿马桶",
+    name: "Crimtane Toilet",
     id: 5795
   },
   {
-    name: "猩红矿工作台",
+    name: "Crimtane Work Bench",
     id: 5796
   },
   {
-    name: "机关猩红矿箱",
+    name: "Trapped Crimtane Chest",
     id: 5797
   },
   {
-    name: "雪浴缸",
+    name: "Snow Bathtub",
     id: 5798
   },
   {
-    name: "雪床",
+    name: "Snow Bed",
     id: 5799
   },
   {
-    name: "雪书架",
+    name: "Snow Bookcase",
     id: 5800
   },
   {
-    name: "雪烛台",
+    name: "Snow Candelabra",
     id: 5801
   },
   {
-    name: "雪蜡烛",
+    name: "Snow Candle",
     id: 5802
   },
   {
-    name: "雪椅",
+    name: "Snow Chair",
     id: 5803
   },
   {
-    name: "雪吊灯",
+    name: "Snow Chandelier",
     id: 5804
   },
   {
-    name: "雪箱",
+    name: "Snow Chest",
     id: 5805
   },
   {
-    name: "雪钟",
+    name: "Snow Clock",
     id: 5806
   },
   {
-    name: "雪门",
+    name: "Snow Door",
     id: 5807
   },
   {
-    name: "雪梳妆台",
+    name: "Snow Dresser",
     id: 5808
   },
   {
-    name: "雪灯",
+    name: "Snow Lamp",
     id: 5809
   },
   {
-    name: "雪灯笼",
+    name: "Snow Lantern",
     id: 5810
   },
   {
-    name: "雪钢琴",
+    name: "Snow Piano",
     id: 5811
   },
   {
-    name: "雪平台",
+    name: "Snow Platform",
     id: 5812
   },
   {
-    name: "雪水槽",
+    name: "Snow Sink",
     id: 5813
   },
   {
-    name: "雪沙发",
+    name: "Snow Sofa",
     id: 5814
   },
   {
-    name: "雪桌",
+    name: "Snow Table",
     id: 5815
   },
   {
-    name: "雪马桶",
+    name: "Snow Toilet",
     id: 5816
   },
   {
-    name: "雪工作台",
+    name: "Snow Work Bench",
     id: 5817
   },
   {
-    name: "机关雪箱",
+    name: "Trapped Snow Chest",
     id: 5818
   },
   {
-    name: "雪狐毛浴缸",
+    name: "Flinx Fur Bathtub",
     id: 5819
   },
   {
-    name: "雪狐毛床",
+    name: "Flinx Fur Bed",
     id: 5820
   },
   {
-    name: "雪狐毛书架",
+    name: "Flinx Fur Bookcase",
     id: 5821
   },
   {
-    name: "雪狐毛烛台",
+    name: "Flinx Fur Candelabra",
     id: 5822
   },
   {
-    name: "雪狐毛蜡烛",
+    name: "Flinx Fur Candle",
     id: 5823
   },
   {
-    name: "雪狐毛椅",
+    name: "Flinx Fur Chair",
     id: 5824
   },
   {
-    name: "雪狐毛吊灯",
+    name: "Flinx Fur Chandelier",
     id: 5825
   },
   {
-    name: "雪狐毛箱",
+    name: "Flinx Fur Chest",
     id: 5826
   },
   {
-    name: "雪狐毛钟",
+    name: "Flinx Fur Clock",
     id: 5827
   },
   {
-    name: "雪狐毛门",
+    name: "Flinx Fur Door",
     id: 5828
   },
   {
-    name: "雪狐毛梳妆台",
+    name: "Flinx Fur Dresser",
     id: 5829
   },
   {
-    name: "雪狐毛灯",
+    name: "Flinx Fur Lamp",
     id: 5830
   },
   {
-    name: "雪狐毛灯笼",
+    name: "Flinx Fur Lantern",
     id: 5831
   },
   {
-    name: "雪狐毛钢琴",
+    name: "Flinx Fur Piano",
     id: 5832
   },
   {
-    name: "雪狐毛平台",
+    name: "Flinx Fur Platform",
     id: 5833
   },
   {
-    name: "雪狐毛水槽",
+    name: "Flinx Fur Sink",
     id: 5834
   },
   {
-    name: "雪狐毛沙发",
+    name: "Flinx Fur Sofa",
     id: 5835
   },
   {
-    name: "雪狐毛桌",
+    name: "Flinx Fur Table",
     id: 5836
   },
   {
-    name: "雪狐毛马桶",
+    name: "Flinx Fur Toilet",
     id: 5837
   },
   {
-    name: "雪狐毛工作台",
+    name: "Flinx Fur Work Bench",
     id: 5838
   },
   {
-    name: "机关雪狐毛箱",
+    name: "Trapped Flinx Fur Chest",
     id: 5839
   },
   {
-    name: "松树浴缸",
+    name: "Pine Bathtub",
     id: 5840
   },
   {
-    name: "松树床",
+    name: "Pine Bed",
     id: 5841
   },
   {
-    name: "松树书架",
+    name: "Pine Bookcase",
     id: 5842
   },
   {
-    name: "松树烛台",
+    name: "Pine Candelabra",
     id: 5843
   },
   {
-    name: "松树蜡烛",
+    name: "Pine Candle",
     id: 5844
   },
   {
-    name: "松树吊灯",
+    name: "Pine Chandelier",
     id: 5845
   },
   {
-    name: "松树箱",
+    name: "Pine Chest",
     id: 5846
   },
   {
-    name: "松树钟",
+    name: "Pine Clock",
     id: 5847
   },
   {
-    name: "松树梳妆台",
+    name: "Pine Dresser",
     id: 5848
   },
   {
-    name: "松树灯",
+    name: "Pine Lamp",
     id: 5849
   },
   {
-    name: "松树灯笼",
+    name: "Pine Lantern",
     id: 5850
   },
   {
-    name: "松树钢琴",
+    name: "Pine Piano",
     id: 5851
   },
   {
-    name: "松树平台",
+    name: "Pine Platform",
     id: 5852
   },
   {
-    name: "松树水槽",
+    name: "Pine Sink",
     id: 5853
   },
   {
-    name: "松树沙发",
+    name: "Pine Sofa",
     id: 5854
   },
   {
-    name: "松树马桶",
+    name: "Pine Toilet",
     id: 5855
   },
   {
-    name: "松树工作台",
+    name: "Pine Work Bench",
     id: 5856
   },
   {
-    name: "机关松树箱",
+    name: "Trapped Pine Chest",
     id: 5857
   },
   {
-    name: "复活节浴缸",
+    name: "Easter Bathtub",
     id: 5858
   },
   {
-    name: "复活节床",
+    name: "Easter Bed",
     id: 5859
   },
   {
-    name: "复活节书架",
+    name: "Easter Bookcase",
     id: 5860
   },
   {
-    name: "复活节烛台",
+    name: "Easter Candelabra",
     id: 5861
   },
   {
-    name: "复活节蜡烛",
+    name: "Easter Candle",
     id: 5862
   },
   {
-    name: "复活节椅",
+    name: "Easter Chair",
     id: 5863
   },
   {
-    name: "复活节吊灯",
+    name: "Easter Chandelier",
     id: 5864
   },
   {
-    name: "复活节箱",
+    name: "Easter Chest",
     id: 5865
   },
   {
-    name: "复活节钟",
+    name: "Easter Clock",
     id: 5866
   },
   {
-    name: "复活节门",
+    name: "Easter Door",
     id: 5867
   },
   {
-    name: "复活节梳妆台",
+    name: "Easter Dresser",
     id: 5868
   },
   {
-    name: "复活节灯",
+    name: "Easter Lamp",
     id: 5869
   },
   {
-    name: "复活节灯笼",
+    name: "Easter Lantern",
     id: 5870
   },
   {
-    name: "复活节钢琴",
+    name: "Easter Piano",
     id: 5871
   },
   {
-    name: "复活节平台",
+    name: "Easter Platform",
     id: 5872
   },
   {
-    name: "复活节水槽",
+    name: "Easter Sink",
     id: 5873
   },
   {
-    name: "复活节沙发",
+    name: "Easter Sofa",
     id: 5874
   },
   {
-    name: "复活节桌",
+    name: "Easter Table",
     id: 5875
   },
   {
-    name: "复活节马桶",
+    name: "Easter Toilet",
     id: 5876
   },
   {
-    name: "复活节工作台",
+    name: "Easter Work Bench",
     id: 5877
   },
   {
-    name: "机关复活节箱",
+    name: "Trapped Easter Chest",
     id: 5878
   },
   {
-    name: "石浴缸",
+    name: "Stone Bathtub",
     id: 5879
   },
   {
-    name: "石床",
+    name: "Stone Bed",
     id: 5880
   },
   {
-    name: "石书架",
+    name: "Stone Bookcase",
     id: 5881
   },
   {
-    name: "石烛台",
+    name: "Stone Candelabra",
     id: 5882
   },
   {
-    name: "石蜡烛",
+    name: "Stone Candle",
     id: 5883
   },
   {
-    name: "石椅",
+    name: "Stone Chair",
     id: 5884
   },
   {
-    name: "石吊灯",
+    name: "Stone Chandelier",
     id: 5885
   },
   {
-    name: "石箱",
+    name: "Stone Chest",
     id: 5886
   },
   {
-    name: "石钟",
+    name: "Stone Clock",
     id: 5887
   },
   {
-    name: "石梳妆台",
+    name: "Stone Dresser",
     id: 5888
   },
   {
-    name: "石灯",
+    name: "Stone Lamp",
     id: 5889
   },
   {
-    name: "石灯笼",
+    name: "Stone Lantern",
     id: 5890
   },
   {
-    name: "石钢琴",
+    name: "Stone Piano",
     id: 5891
   },
   {
-    name: "石水槽",
+    name: "Stone Sink",
     id: 5892
   },
   {
-    name: "石沙发",
+    name: "Stone Sofa",
     id: 5893
   },
   {
-    name: "石桌",
+    name: "Stone Table",
     id: 5894
   },
   {
-    name: "石马桶",
+    name: "Stone Toilet",
     id: 5895
   },
   {
-    name: "石工作台",
+    name: "Stone Work Bench",
     id: 5896
   },
   {
-    name: "机关石箱",
+    name: "Trapped Stone Chest",
     id: 5897
   },
   {
-    name: "水母浴缸",
+    name: "Jellyfish Bathtub",
     id: 5898
   },
   {
-    name: "水母床",
+    name: "Jellyfish Bed",
     id: 5899
   },
   {
-    name: "水母书架",
+    name: "Jellyfish Bookcase",
     id: 5900
   },
   {
-    name: "水母烛台",
+    name: "Jellyfish Candelabra",
     id: 5901
   },
   {
-    name: "水母蜡烛",
+    name: "Jellyfish Candle",
     id: 5902
   },
   {
-    name: "水母椅",
+    name: "Jellyfish Chair",
     id: 5903
   },
   {
-    name: "水母吊灯",
+    name: "Jellyfish Chandelier",
     id: 5904
   },
   {
-    name: "水母箱",
+    name: "Jellyfish Chest",
     id: 5905
   },
   {
-    name: "水母钟",
+    name: "Jellyfish Clock",
     id: 5906
   },
   {
-    name: "水母门",
+    name: "Jellyfish Door",
     id: 5907
   },
   {
-    name: "水母梳妆台",
+    name: "Jellyfish Dresser",
     id: 5908
   },
   {
-    name: "水母灯",
+    name: "Jellyfish Lamp",
     id: 5909
   },
   {
-    name: "水母灯笼",
+    name: "Jellyfish Lantern",
     id: 5910
   },
   {
-    name: "水母钢琴",
+    name: "Jellyfish Piano",
     id: 5911
   },
   {
-    name: "水母平台",
+    name: "Jellyfish Platform",
     id: 5912
   },
   {
-    name: "水母水槽",
+    name: "Jellyfish Sink",
     id: 5913
   },
   {
-    name: "水母沙发",
+    name: "Jellyfish Sofa",
     id: 5914
   },
   {
-    name: "水母桌",
+    name: "Jellyfish Table",
     id: 5915
   },
   {
-    name: "水母马桶",
+    name: "Jellyfish Toilet",
     id: 5916
   },
   {
-    name: "水母工作台",
+    name: "Jellyfish Work Bench",
     id: 5917
   },
   {
-    name: "机关水母箱",
+    name: "Trapped Jellyfish Chest",
     id: 5918
   },
   {
-    name: "松树墙",
+    name: "Pine Tree Wall",
     id: 5919
   },
   {
-    name: "复活节块",
+    name: "Easter Block",
     id: 5920
   },
   {
-    name: "复活节墙",
+    name: "Easter Wall",
     id: 5921
   },
   {
-    name: "哥特砖",
+    name: "Gothic Brick",
     id: 5922
   },
   {
-    name: "哥特砖墙",
+    name: "Gothic Brick Wall",
     id: 5923
   },
   {
-    name: "雪狐毛块",
+    name: "Flinx Fur Block",
     id: 5924
   },
   {
-    name: "雪狐毛墙",
+    name: "Flinx Fur Wall",
     id: 5925
   },
   {
-    name: "水母块",
+    name: "Jellyfish Block",
     id: 5926
   },
   {
-    name: "水母墙",
+    name: "Jellyfish Wall",
     id: 5927
   },
   {
-    name: "碎玩具砖",
+    name: "Toybreaker Brick",
     id: 5928
   },
   {
@@ -23618,855 +23618,855 @@ export const items: ItemInfo[] = [
     id: 5929
   },
   {
-    name: "松木",
+    name: "Pine Wood",
     id: 5930
   },
   {
-    name: "松木墙",
+    name: "Pine Wood Wall",
     id: 5931
   },
   {
-    name: "鸟妖浴缸",
+    name: "Harpy Bathtub",
     id: 5932
   },
   {
-    name: "鸟妖床",
+    name: "Harpy Bed",
     id: 5933
   },
   {
-    name: "鸟妖书架",
+    name: "Harpy Bookcase",
     id: 5934
   },
   {
-    name: "鸟妖烛台",
+    name: "Harpy Candelabra",
     id: 5935
   },
   {
-    name: "鸟妖蜡烛",
+    name: "Harpy Candle",
     id: 5936
   },
   {
-    name: "鸟妖椅",
+    name: "Harpy Chair",
     id: 5937
   },
   {
-    name: "鸟妖吊灯",
+    name: "Harpy Chandelier",
     id: 5938
   },
   {
-    name: "鸟妖箱",
+    name: "Harpy Chest",
     id: 5939
   },
   {
-    name: "鸟妖钟",
+    name: "Harpy Clock",
     id: 5940
   },
   {
-    name: "鸟妖门",
+    name: "Harpy Door",
     id: 5941
   },
   {
-    name: "鸟妖梳妆台",
+    name: "Harpy Dresser",
     id: 5942
   },
   {
-    name: "鸟妖灯",
+    name: "Harpy Lamp",
     id: 5943
   },
   {
-    name: "鸟妖灯笼",
+    name: "Harpy Lantern",
     id: 5944
   },
   {
-    name: "鸟妖钢琴",
+    name: "Harpy Piano",
     id: 5945
   },
   {
-    name: "鸟妖平台",
+    name: "Harpy Platform",
     id: 5946
   },
   {
-    name: "鸟妖水槽",
+    name: "Harpy Sink",
     id: 5947
   },
   {
-    name: "鸟妖沙发",
+    name: "Harpy Sofa",
     id: 5948
   },
   {
-    name: "鸟妖桌",
+    name: "Harpy Table",
     id: 5949
   },
   {
-    name: "鸟妖马桶",
+    name: "Harpy Toilet",
     id: 5950
   },
   {
-    name: "鸟妖工作台",
+    name: "Harpy Work Bench",
     id: 5951
   },
   {
-    name: "机关鸟妖箱",
+    name: "Trapped Harpy Chest",
     id: 5952
   },
   {
-    name: "鸟妖块",
+    name: "Harpy Block",
     id: 5953
   },
   {
-    name: "鸟妖墙",
+    name: "Harpy Wall",
     id: 5954
   },
   {
-    name: "云浴缸",
+    name: "Cloud Bathtub",
     id: 5955
   },
   {
-    name: "云床",
+    name: "Cloud Bed",
     id: 5956
   },
   {
-    name: "云书架",
+    name: "Cloud Bookcase",
     id: 5957
   },
   {
-    name: "云烛台",
+    name: "Cloud Candelabra",
     id: 5958
   },
   {
-    name: "云蜡烛",
+    name: "Cloud Candle",
     id: 5959
   },
   {
-    name: "云椅",
+    name: "Cloud Chair",
     id: 5960
   },
   {
-    name: "云吊灯",
+    name: "Cloud Chandelier",
     id: 5961
   },
   {
-    name: "云箱",
+    name: "Cloud Chest",
     id: 5962
   },
   {
-    name: "云钟",
+    name: "Cloud Clock",
     id: 5963
   },
   {
-    name: "云门",
+    name: "Cloud Door",
     id: 5964
   },
   {
-    name: "云梳妆台",
+    name: "Cloud Dresser",
     id: 5965
   },
   {
-    name: "云灯",
+    name: "Cloud Lamp",
     id: 5966
   },
   {
-    name: "云灯笼",
+    name: "Cloud Lantern",
     id: 5967
   },
   {
-    name: "云钢琴",
+    name: "Cloud Piano",
     id: 5968
   },
   {
-    name: "云水槽",
+    name: "Cloud Sink",
     id: 5969
   },
   {
-    name: "云沙发",
+    name: "Cloud Sofa",
     id: 5970
   },
   {
-    name: "云桌",
+    name: "Cloud Table",
     id: 5971
   },
   {
-    name: "云马桶",
+    name: "Cloud Toilet",
     id: 5972
   },
   {
-    name: "云工作台",
+    name: "Cloud Work Bench",
     id: 5973
   },
   {
-    name: "机关云箱",
+    name: "Trapped Cloud Chest",
     id: 5974
   },
   {
-    name: "暮光浴缸",
+    name: "Duskware Bathtub",
     id: 5975
   },
   {
-    name: "暮光床",
+    name: "Duskware Bed",
     id: 5976
   },
   {
-    name: "暮光书架",
+    name: "Duskware Bookcase",
     id: 5977
   },
   {
-    name: "暮光烛台",
+    name: "Duskware Candelabra",
     id: 5978
   },
   {
-    name: "暮光蜡烛",
+    name: "Duskware Candle",
     id: 5979
   },
   {
-    name: "暮光椅",
+    name: "Duskware Chair",
     id: 5980
   },
   {
-    name: "暮光吊灯",
+    name: "Duskware Chandelier",
     id: 5981
   },
   {
-    name: "暮光箱",
+    name: "Duskware Chest",
     id: 5982
   },
   {
-    name: "暮光钟",
+    name: "Duskware Clock",
     id: 5983
   },
   {
-    name: "暮光门",
+    name: "Duskware Door",
     id: 5984
   },
   {
-    name: "暮光梳妆台",
+    name: "Duskware Dresser",
     id: 5985
   },
   {
-    name: "暮光灯",
+    name: "Duskware Lamp",
     id: 5986
   },
   {
-    name: "暮光灯笼",
+    name: "Duskware Lantern",
     id: 5987
   },
   {
-    name: "暮光钢琴",
+    name: "Duskware Piano",
     id: 5988
   },
   {
-    name: "暮光平台",
+    name: "Duskware Platform",
     id: 5989
   },
   {
-    name: "暮光水槽",
+    name: "Duskware Sink",
     id: 5990
   },
   {
-    name: "暮光沙发",
+    name: "Duskware Sofa",
     id: 5991
   },
   {
-    name: "暮光桌",
+    name: "Duskware Table",
     id: 5992
   },
   {
-    name: "暮光马桶",
+    name: "Duskware Toilet",
     id: 5993
   },
   {
-    name: "暮光工作台",
+    name: "Duskware Work Bench",
     id: 5994
   },
   {
-    name: "机关暮光箱",
+    name: "Trapped Duskware Chest",
     id: 5995
   },
   {
-    name: "月板块",
+    name: "Moonplate Block",
     id: 5996
   },
   {
-    name: "新月墙",
+    name: "Crescent Wall",
     id: 5997
   },
   {
-    name: "图书馆浴缸",
+    name: "Librarian Bathtub",
     id: 5998
   },
   {
-    name: "图书馆床",
+    name: "Librarian Bed",
     id: 5999
   },
   {
-    name: "图书馆书架",
+    name: "Librarian Bookcase",
     id: 6000
   },
   {
-    name: "图书馆烛台",
+    name: "Librarian Candelabra",
     id: 6001
   },
   {
-    name: "图书馆蜡烛",
+    name: "Librarian Candle",
     id: 6002
   },
   {
-    name: "图书馆椅",
+    name: "Librarian Chair",
     id: 6003
   },
   {
-    name: "图书馆吊灯",
+    name: "Librarian Chandelier",
     id: 6004
   },
   {
-    name: "图书馆箱",
+    name: "Librarian Chest",
     id: 6005
   },
   {
-    name: "图书馆钟",
+    name: "Librarian Clock",
     id: 6006
   },
   {
-    name: "图书馆门",
+    name: "Librarian Door",
     id: 6007
   },
   {
-    name: "图书馆梳妆台",
+    name: "Librarian Dresser",
     id: 6008
   },
   {
-    name: "图书馆灯",
+    name: "Librarian Lamp",
     id: 6009
   },
   {
-    name: "图书馆灯笼",
+    name: "Librarian Lantern",
     id: 6010
   },
   {
-    name: "图书馆钢琴",
+    name: "Librarian Piano",
     id: 6011
   },
   {
-    name: "图书馆平台",
+    name: "Librarian Platform",
     id: 6012
   },
   {
-    name: "图书馆水槽",
+    name: "Librarian Sink",
     id: 6013
   },
   {
-    name: "图书馆沙发",
+    name: "Librarian Sofa",
     id: 6014
   },
   {
-    name: "图书馆桌",
+    name: "Librarian Table",
     id: 6015
   },
   {
-    name: "图书馆马桶",
+    name: "Librarian Toilet",
     id: 6016
   },
   {
-    name: "图书馆工作台",
+    name: "Librarian Work Bench",
     id: 6017
   },
   {
-    name: "机关图书馆箱",
+    name: "Trapped Librarian Chest",
     id: 6018
   },
   {
-    name: "图书馆块",
+    name: "Librarian Block",
     id: 6019
   },
   {
-    name: "图书馆墙",
+    name: "Librarian Wall",
     id: 6020
   },
   {
-    name: "尖刺浴缸",
+    name: "Spike Bathtub",
     id: 6021
   },
   {
-    name: "尖刺床",
+    name: "Spike Bed",
     id: 6022
   },
   {
-    name: "尖刺书架",
+    name: "Spike Bookcase",
     id: 6023
   },
   {
-    name: "尖刺烛台",
+    name: "Spike Candelabra",
     id: 6024
   },
   {
-    name: "尖刺蜡烛",
+    name: "Spike Candle",
     id: 6025
   },
   {
-    name: "尖刺椅",
+    name: "Spike Chair",
     id: 6026
   },
   {
-    name: "尖刺吊灯",
+    name: "Spike Chandelier",
     id: 6027
   },
   {
-    name: "尖刺箱",
+    name: "Spike Chest",
     id: 6028
   },
   {
-    name: "尖刺钟",
+    name: "Spike Clock",
     id: 6029
   },
   {
-    name: "尖刺门",
+    name: "Spike Door",
     id: 6030
   },
   {
-    name: "尖刺梳妆台",
+    name: "Spike Dresser",
     id: 6031
   },
   {
-    name: "尖刺灯",
+    name: "Spike Lamp",
     id: 6032
   },
   {
-    name: "尖刺灯笼",
+    name: "Spike Lantern",
     id: 6033
   },
   {
-    name: "尖刺钢琴",
+    name: "Spike Piano",
     id: 6034
   },
   {
-    name: "尖刺平台",
+    name: "Spike Platform",
     id: 6035
   },
   {
-    name: "尖刺水槽",
+    name: "Spike Sink",
     id: 6036
   },
   {
-    name: "尖刺沙发",
+    name: "Spike Sofa",
     id: 6037
   },
   {
-    name: "尖刺桌",
+    name: "Spike Table",
     id: 6038
   },
   {
-    name: "尖刺马桶",
+    name: "Spike Toilet",
     id: 6039
   },
   {
-    name: "尖刺工作台",
+    name: "Spike Work Bench",
     id: 6040
   },
   {
-    name: "机关尖刺箱",
+    name: "Trapped Spike Chest",
     id: 6041
   },
   {
-    name: "尖刺块",
+    name: "Spike Block",
     id: 6042
   },
   {
-    name: "尖刺墙",
+    name: "Spike Wall",
     id: 6043
   },
   {
-    name: "办公室浴缸",
+    name: "Office Bathtub",
     id: 6044
   },
   {
-    name: "办公室床",
+    name: "Office Bed",
     id: 6045
   },
   {
-    name: "办公室书架",
+    name: "Office Bookcase",
     id: 6046
   },
   {
-    name: "办公室烛台",
+    name: "Office Candelabra",
     id: 6047
   },
   {
-    name: "办公室蜡烛",
+    name: "Office Candle",
     id: 6048
   },
   {
-    name: "办公椅",
+    name: "Office Chair",
     id: 6049
   },
   {
-    name: "办公室吊灯",
+    name: "Office Chandelier",
     id: 6050
   },
   {
-    name: "办公室宝箱",
+    name: "Office Chest",
     id: 6051
   },
   {
-    name: "办公室钟",
+    name: "Office Clock",
     id: 6052
   },
   {
-    name: "办公室门",
+    name: "Office Door",
     id: 6053
   },
   {
-    name: "办公室梳妆台",
+    name: "Office Dresser",
     id: 6054
   },
   {
-    name: "办公室灯",
+    name: "Office Lamp",
     id: 6055
   },
   {
-    name: "办公室灯笼",
+    name: "Office Lantern",
     id: 6056
   },
   {
-    name: "办公室钢琴",
+    name: "Office Piano",
     id: 6057
   },
   {
-    name: "办公室平台",
+    name: "Office Platform",
     id: 6058
   },
   {
-    name: "办公室水槽",
+    name: "Office Sink",
     id: 6059
   },
   {
-    name: "办公室沙发",
+    name: "Office Sofa",
     id: 6060
   },
   {
-    name: "办公室桌",
+    name: "Office Table",
     id: 6061
   },
   {
-    name: "办公室马桶",
+    name: "Office Toilet",
     id: 6062
   },
   {
-    name: "办公室工作台",
+    name: "Office Work Bench",
     id: 6063
   },
   {
-    name: "机关办公室宝箱",
+    name: "Trapped Office Chest",
     id: 6064
   },
   {
-    name: "办公室块",
+    name: "Office Block",
     id: 6065
   },
   {
-    name: "办公室墙",
+    name: "Office Wall",
     id: 6066
   },
   {
-    name: "禁忌浴缸",
+    name: "Forbidden Bathtub",
     id: 6067
   },
   {
-    name: "禁忌床",
+    name: "Forbidden Bed",
     id: 6068
   },
   {
-    name: "禁忌书架",
+    name: "Forbidden Bookcase",
     id: 6069
   },
   {
-    name: "禁忌烛台",
+    name: "Forbidden Candelabra",
     id: 6070
   },
   {
-    name: "禁忌蜡烛",
+    name: "Forbidden Candle",
     id: 6071
   },
   {
-    name: "禁忌椅",
+    name: "Forbidden Chair",
     id: 6072
   },
   {
-    name: "禁忌吊灯",
+    name: "Forbidden Chandelier",
     id: 6073
   },
   {
-    name: "禁忌宝箱",
+    name: "Forbidden Chest",
     id: 6074
   },
   {
-    name: "禁忌钟",
+    name: "Forbidden Clock",
     id: 6075
   },
   {
-    name: "禁忌门",
+    name: "Forbidden Door",
     id: 6076
   },
   {
-    name: "禁忌梳妆台",
+    name: "Forbidden Dresser",
     id: 6077
   },
   {
-    name: "禁忌灯",
+    name: "Forbidden Lamp",
     id: 6078
   },
   {
-    name: "禁忌灯笼",
+    name: "Forbidden Lantern",
     id: 6079
   },
   {
-    name: "禁忌钢琴",
+    name: "Forbidden Piano",
     id: 6080
   },
   {
-    name: "禁忌平台",
+    name: "Forbidden Platform",
     id: 6081
   },
   {
-    name: "禁忌水槽",
+    name: "Forbidden Sink",
     id: 6082
   },
   {
-    name: "禁忌沙发",
+    name: "Forbidden Sofa",
     id: 6083
   },
   {
-    name: "禁忌桌",
+    name: "Forbidden Table",
     id: 6084
   },
   {
-    name: "禁忌马桶",
+    name: "Forbidden Toilet",
     id: 6085
   },
   {
-    name: "禁忌工作台",
+    name: "Forbidden Work Bench",
     id: 6086
   },
   {
-    name: "机关禁忌宝箱",
+    name: "Trapped Forbidden Chest",
     id: 6087
   },
   {
-    name: "禁忌块",
+    name: "Forbidden Block",
     id: 6088
   },
   {
-    name: "禁忌墙",
+    name: "Forbidden Wall",
     id: 6089
   },
   {
-    name: "水族箱浴缸",
+    name: "Aquarium Bathtub",
     id: 6090
   },
   {
-    name: "水族箱床",
+    name: "Aquarium Bed",
     id: 6091
   },
   {
-    name: "水族箱书架",
+    name: "Aquarium Bookcase",
     id: 6092
   },
   {
-    name: "水族箱烛台",
+    name: "Aquarium Candelabra",
     id: 6093
   },
   {
-    name: "水族箱蜡烛",
+    name: "Aquarium Candle",
     id: 6094
   },
   {
-    name: "水族箱椅",
+    name: "Aquarium Chair",
     id: 6095
   },
   {
-    name: "水族箱吊灯",
+    name: "Aquarium Chandelier",
     id: 6096
   },
   {
-    name: "水族箱钟",
+    name: "Aquarium Clock",
     id: 6097
   },
   {
-    name: "水族箱门",
+    name: "Aquarium Door",
     id: 6098
   },
   {
-    name: "水族箱梳妆台",
+    name: "Aquarium Dresser",
     id: 6099
   },
   {
-    name: "水族箱灯",
+    name: "Aquarium Lamp",
     id: 6100
   },
   {
-    name: "水族箱灯笼",
+    name: "Aquarium Lantern",
     id: 6101
   },
   {
-    name: "水族箱钢琴",
+    name: "Aquarium Piano",
     id: 6102
   },
   {
-    name: "水族箱平台",
+    name: "Aquarium Platform",
     id: 6103
   },
   {
-    name: "水族箱水槽",
+    name: "Aquarium Sink",
     id: 6104
   },
   {
-    name: "水族箱沙发",
+    name: "Aquarium Sofa",
     id: 6105
   },
   {
-    name: "水族箱桌",
+    name: "Aquarium Table",
     id: 6106
   },
   {
-    name: "水族箱马桶",
+    name: "Aquarium Toilet",
     id: 6107
   },
   {
-    name: "水族箱工作台",
+    name: "Aquarium Work Bench",
     id: 6108
   },
   {
-    name: "水族箱块",
+    name: "Aquarium Block",
     id: 6109
   },
   {
-    name: "水族箱墙",
+    name: "Aquarium Wall",
     id: 6110
   },
   {
-    name: "巨石浴缸",
+    name: "Boulder Bathtub",
     id: 6111
   },
   {
-    name: "巨石床",
+    name: "Boulder Bed",
     id: 6112
   },
   {
-    name: "巨石书架",
+    name: "Boulder Bookcase",
     id: 6113
   },
   {
-    name: "巨石烛台",
+    name: "Boulder Candelabra",
     id: 6114
   },
   {
-    name: "巨石蜡烛",
+    name: "Boulder Candle",
     id: 6115
   },
   {
-    name: "巨石椅",
+    name: "Boulder Chair",
     id: 6116
   },
   {
-    name: "巨石吊灯",
+    name: "Boulder Chandelier",
     id: 6117
   },
   {
-    name: "巨石宝箱",
+    name: "Boulder Chest",
     id: 6118
   },
   {
-    name: "巨石钟",
+    name: "Boulder Clock",
     id: 6119
   },
   {
-    name: "巨石门",
+    name: "Boulder Door",
     id: 6120
   },
   {
-    name: "巨石梳妆台",
+    name: "Boulder Dresser",
     id: 6121
   },
   {
-    name: "巨石灯",
+    name: "Boulder Lamp",
     id: 6122
   },
   {
-    name: "巨石灯笼",
+    name: "Boulder Lantern",
     id: 6123
   },
   {
-    name: "巨石钢琴",
+    name: "Boulder Piano",
     id: 6124
   },
   {
-    name: "巨石平台",
+    name: "Boulder Platform",
     id: 6125
   },
   {
-    name: "巨石水槽",
+    name: "Boulder Sink",
     id: 6126
   },
   {
-    name: "巨石沙发",
+    name: "Boulder Sofa",
     id: 6127
   },
   {
-    name: "巨石桌",
+    name: "Boulder Table",
     id: 6128
   },
   {
-    name: "巨石马桶",
+    name: "Boulder Toilet",
     id: 6129
   },
   {
-    name: "巨石工作台",
+    name: "Boulder Work Bench",
     id: 6130
   },
   {
-    name: "机关巨石箱",
+    name: "Trapped Boulder Chest",
     id: 6131
   },
   {
-    name: "巨石块",
+    name: "Boulder Block",
     id: 6132
   },
   {
-    name: "巨石墙",
+    name: "Boulder Wall",
     id: 6133
   },
   {
-    name: "尖刺石块",
+    name: "Sharp Spike Block",
     id: 6134
   },
   {
-    name: "恶魔祭坛",
+    name: "Demon Altar",
     id: 6135
   },
   {
-    name: "猩红祭坛",
+    name: "Crimson Altar",
     id: 6136
   },
   {
-    name: "月之符文精灵兜帽",
+    name: "Luna's Runic Pixie Hood",
     id: 6137
   },
   {
-    name: "月之符文精灵上衣",
+    name: "Luna's Runic Pixie Shirt",
     id: 6138
   },
   {
-    name: "月之符文精灵裤",
+    name: "Luna's Runic Pixie Pants",
     id: 6139
   },
   {
-    name: "月之符文精灵之翼",
+    name: "Luna's Runic Pixie Wings",
     id: 6140
   },
   {
-    name: "月之符文精灵披风",
+    name: "Luna's Runic Pixie Cloak",
     id: 6141
   },
   {
-    name: "巨大龙蛋",
+    name: "Huge Dragon Egg",
     id: 6142
   },
   {
@@ -24474,211 +24474,211 @@ export const items: ItemInfo[] = [
     id: 6143
   },
   {
-    name: "音乐盒（骷髅王）",
+    name: "Music Box (Skeletron)",
     id: 6144
   },
   {
-    name: "音乐盒（彩虹巨石）",
+    name: "Music Box (Rainbow Boulder)",
     id: 6145
   },
   {
-    name: "音乐盒（寂静）",
+    name: "Music Box (Silence)",
     id: 6146
   },
   {
-    name: "巨型提基像",
+    name: "Giant Tiki",
     id: 6147
   },
   {
-    name: "忠实的捣蛋猫",
+    name: "Trusty Cattiva",
     id: 6148
   },
   {
-    name: "忠实的燎火狐",
+    name: "Trusty Foxparks",
     id: 6149
   },
   {
-    name: "忠实的疾旋鼬",
+    name: "Trusty Chillet",
     id: 6150
   },
   {
-    name: "忠实的疾旋鼬·炎",
+    name: "Trusty Chillet Ignis",
     id: 6151
   },
   {
-    name: "太阳花法杖",
+    name: "Daybloom Staff",
     id: 6152
   },
   {
-    name: "冰川尖牙",
+    name: "Glacier Fang",
     id: 6153
   },
   {
-    name: "神秘之花",
+    name: "Mystic Bloom",
     id: 6154
   },
   {
-    name: "闪电打击",
+    name: "Lightning Strike",
     id: 6155
   },
   {
-    name: "银护腕",
+    name: "Silver Bracer",
     id: 6156
   },
   {
-    name: "蛇形手环",
+    name: "Snake Band",
     id: 6157
   },
   {
-    name: "莫比乌斯环",
+    name: "Mobius Strip",
     id: 6158
   },
   {
-    name: "邪恶臂环",
+    name: "Wicked Armlet",
     id: 6159
   },
   {
-    name: "锐利刺尖",
+    name: "Razortip",
     id: 6160
   },
   {
-    name: "黏土芽法杖",
+    name: "Clay Bud Staff",
     id: 6161
   },
   {
-    name: "衔尾蛇戒指",
+    name: "Ouroboros Ring",
     id: 6162
   },
   {
-    name: "暮光之握",
+    name: "Twilight Grasp",
     id: 6163
   },
   {
-    name: "毁灭法杖",
+    name: "Ruinous Staff",
     id: 6164
   },
   {
-    name: "剧毒倒刺",
+    name: "Poison Barb",
     id: 6165
   },
   {
-    name: "鹰身女妖护符",
+    name: "Harpy Charm",
     id: 6166
   },
   {
-    name: "啮咬石",
+    name: "Snapping Stone",
     id: 6167
   },
   {
-    name: "混沌转筒",
+    name: "Chaos Cylinder",
     id: 6168
   },
   {
-    name: "混沌转筒（满载）",
+    name: "Chaos Cylinder (Full)",
     id: 6169
   },
   {
-    name: "附魔计时器",
+    name: "Enchanted Timer",
     id: 6170
   },
   {
-    name: "镶宝法杖",
+    name: "Bejeweled Staff",
     id: 6171
   },
   {
-    name: "重型吊索",
+    name: "Heavy Sling",
     id: 6172
   },
   {
-    name: "电弧涌动",
+    name: "Arc Surge",
     id: 6173
   },
   {
-    name: "忠实的钻甲龟",
+    name: "Trusty Digtoise",
     id: 6174
   },
   {
-    name: "侦察兵吊索",
+    name: "Scout's Sling",
     id: 6175
   },
   {
-    name: "圣殿骑士吊索",
+    name: "Templar's Sling",
     id: 6176
   },
   {
-    name: "皇家守卫装具",
+    name: "Royal Guard's Harness",
     id: 6177
   },
   {
-    name: "火山碎屑石",
+    name: "Pyroclastic Stone",
     id: 6178
   },
   {
-    name: "毁灭臂环",
+    name: "Armlet Of Ruin",
     id: 6179
   },
   {
-    name: "炽天使项链",
+    name: "Seraph Necklace",
     id: 6180
   },
   {
-    name: "凤凰箭袋",
+    name: "Phoenix Quiver",
     id: 6181
   },
   {
-    name: "邪恶之爪",
+    name: "Wicked Claws",
     id: 6182
   },
   {
-    name: "银护盾",
+    name: "Silver Shield",
     id: 6183
   },
   {
-    name: "甜蜜倒刺",
+    name: "Sweet Barb",
     id: 6184
   },
   {
-    name: "催化剂手环",
+    name: "Catalyst Band",
     id: 6185
   },
   {
-    name: "德鲁伊蛇斗篷",
+    name: "Druidic Serpent Cloak",
     id: 6186
   },
   {
-    name: "交叉之心项链",
+    name: "Crossed Heart Necklace",
     id: 6187
   },
   {
-    name: "恢复护盾",
+    name: "Restoration Shield",
     id: 6188
   },
   {
-    name: "秘术腰带",
+    name: "Mystic Arts Sash",
     id: 6189
   },
   {
-    name: "旧世界跑酷指南",
+    name: "Guide to Old World Parkour",
     id: 6190
   },
   {
-    name: "小羁绊桃子",
+    name: "Little Kinship Peach",
     id: 6191
   },
   {
-    name: "羁绊桃子",
+    name: "Kinship Peach",
     id: 6192
   },
   {
-    name: "混沌转筒（随机）",
+    name: "Chaos Cylinder (Random)",
     id: 6193
   },
   {
-    name: "混沌转筒（简单）",
+    name: "Chaos Cylinder (Simple)",
     id: 6194
   },
   {
-    name: "旧世界跑酷指南（未激活）",
+    name: "Guide to Old World Parkour (Inactive)",
     id: 6195
   }
 ];

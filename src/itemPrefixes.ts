@@ -5,294 +5,294 @@ export const itemPrefixes: ItemPrefixInfo[] = [
     name: ""
   },
   {
-    name: "巨大"
+    name: "Large"
   },
   {
-    name: "庞大"
+    name: "Massive"
   },
   {
-    name: "危险"
+    name: "Dangerous"
   },
   {
-    name: "凶残"
+    name: "Savage"
   },
   {
-    name: "锋利"
+    name: "Sharp"
   },
   {
-    name: "尖刺"
+    name: "Pointy"
   },
   {
-    name: "微小"
+    name: "Tiny"
   },
   {
-    name: "恐怖"
+    name: "Terrible"
   },
   {
-    name: "小巧"
+    name: "Small"
   },
   {
-    name: "钝"
+    name: "Dull"
   },
   {
-    name: "不幸"
+    name: "Unhappy"
   },
   {
-    name: "笨重"
+    name: "Bulky"
   },
   {
-    name: "可耻"
+    name: "Shameful"
   },
   {
-    name: "沉重"
+    name: "Heavy"
   },
   {
-    name: "轻"
+    name: "Light"
   },
   {
-    name: "精准"
+    name: "Sighted"
   },
   {
-    name: "迅速"
+    name: "Rapid"
   },
   {
-    name: "急速（远程）"
+    name: "Hasty (R)"
   },
   {
-    name: "威慑"
+    name: "Intimidating"
   },
   {
-    name: "致命（远程）"
+    name: "Deadly (R)"
   },
   {
-    name: "忠诚"
+    name: "Staunch"
   },
   {
-    name: "粗劣"
+    name: "Awful"
   },
   {
-    name: "迟缓"
+    name: "Lethargic"
   },
   {
-    name: "笨拙"
+    name: "Awkward"
   },
   {
-    name: "强力"
+    name: "Powerful"
   },
   {
-    name: "神秘"
+    name: "Mystic"
   },
   {
-    name: "熟练"
+    name: "Adept"
   },
   {
-    name: "精良"
+    name: "Masterful"
   },
   {
-    name: "拙劣"
+    name: "Inept"
   },
   {
-    name: "无知"
+    name: "Ignorant"
   },
   {
-    name: "疯狂"
+    name: "Deranged"
   },
   {
-    name: "强烈"
+    name: "Intense"
   },
   {
-    name: "禁忌"
+    name: "Taboo"
   },
   {
-    name: "神圣"
+    name: "Celestial"
   },
   {
-    name: "狂暴"
+    name: "Furious"
   },
   {
-    name: "锐利"
+    name: "Keen"
   },
   {
-    name: "优秀"
+    name: "Superior"
   },
   {
-    name: "有力"
+    name: "Forceful"
   },
   {
-    name: "破碎"
+    name: "Broken"
   },
   {
-    name: "破损"
+    name: "Damaged"
   },
   {
-    name: "粗劣"
+    name: "Shoddy"
   },
   {
-    name: "快速（近战）"
+    name: "Quick (C)"
   },
   {
-    name: "致命（近战）"
+    name: "Deadly (C)"
   },
   {
-    name: "灵活"
+    name: "Agile"
   },
   {
-    name: "敏捷"
+    name: "Nimble"
   },
   {
-    name: "残暴"
+    name: "Murderous"
   },
   {
-    name: "缓慢"
+    name: "Slow"
   },
   {
-    name: "迟钝"
+    name: "Sluggish"
   },
   {
-    name: "懒惰"
+    name: "Lazy"
   },
   {
-    name: "烦人"
+    name: "Annoying"
   },
   {
-    name: "讨厌"
+    name: "Nasty"
   },
   {
-    name: "疯狂"
+    name: "Manic"
   },
   {
-    name: "伤害"
+    name: "Hurtful"
   },
   {
-    name: "强大"
+    name: "Strong"
   },
   {
-    name: "不快"
+    name: "Unpleasant"
   },
   {
-    name: "虚弱"
+    name: "Weak"
   },
   {
-    name: "无情"
+    name: "Ruthless"
   },
   {
-    name: "狂暴"
+    name: "Frenzying"
   },
   {
-    name: "神级"
+    name: "Godly"
   },
   {
-    name: "恶魔"
+    name: "Demonic"
   },
   {
-    name: "狂热"
+    name: "Zealous"
   },
   {
-    name: "坚硬"
+    name: "Hard"
   },
   {
-    name: "守护"
+    name: "Guarding"
   },
   {
-    name: "装甲"
+    name: "Armored"
   },
   {
-    name: "护佑"
+    name: "Warding"
   },
   {
-    name: "奥秘"
+    name: "Arcane"
   },
   {
-    name: "精确"
+    name: "Precise"
   },
   {
-    name: "幸运"
+    name: "Lucky"
   },
   {
-    name: "锯齿"
+    name: "Jagged"
   },
   {
-    name: "尖刺"
+    name: "Spiked"
   },
   {
-    name: "愤怒"
+    name: "Angry"
   },
   {
-    name: "险恶"
+    name: "Menacing"
   },
   {
-    name: "轻快"
+    name: "Brisk"
   },
   {
-    name: "迅速"
+    name: "Fleeting"
   },
   {
-    name: "急速（辅助）"
+    name: "Hasty (A)"
   },
   {
-    name: "快速（辅助）"
+    name: "Quick (A)"
   },
   {
-    name: "狂野"
+    name: "Wild"
   },
   {
-    name: "鲁莽"
+    name: "Rash"
   },
   {
-    name: "无畏"
+    name: "Intrepid"
   },
   {
-    name: "暴力"
+    name: "Violent"
   },
   {
-    name: "传说"
+    name: "Legendary"
   },
   {
-    name: "虚幻"
+    name: "Unreal"
   },
   {
-    name: "神话"
+    name: "Mythical"
   },
   {
-    name: "传说 2"
+    name: "Legendary 2"
   },
   {
-    name: "传奇"
+    name: "Fabled"
   },
   {
-    name: "忠诚"
+    name: "Loyal"
   },
   {
-    name: "值得"
+    name: "Worthy"
   },
   {
-    name: "专注"
+    name: "Focused"
   },
   {
-    name: "耐心"
+    name: "Patient"
   },
   {
-    name: "狂热"
+    name: "Rabid"
   },
   {
-    name: "坏脾气"
+    name: "Ill-Tempered"
   },
   {
-    name: "卑鄙"
+    name: "Petty"
   },
   {
-    name: "衰弱"
+    name: "Feeble"
   },
   {
-    name: "胆小"
+    name: "Skittish"
   },
   {
-    name: "急切"
+    name: "Eager"
   },
   {
-    name: "弹道"
+    name: "Ballistic"
   },
   {
-    name: "挣扎"
+    name: "Scraggling"
   }
 ];

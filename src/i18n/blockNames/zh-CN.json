@@ -10929,5 +10929,8 @@
     "Life Crystals & Fruit": "生命水晶与生命果",
     "Locked Chests": "上锁的宝箱",
     "Spider Caves": "蜘蛛洞"
-  }
+  },
+  "prefixFormat": "‹{PrefixName}›{ItemName}",
+  "prefixVariants": {},
+  "itemGenders": {}
 }

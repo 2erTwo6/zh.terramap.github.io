@@ -97,14 +97,14 @@ describe('generated tables', () => {
 
 describe('block sets', () => {
   it('translates set names by their English name', () => {
-    const names = createBlockNames(zhCN);
+    const names = createBlockNames(zhCN, 'zh-CN');
     expect(names.set('Corruption Blocks')).toBe('腐化方块');
     expect(names.set('Crimson Blocks')).toBe('猩红方块');
     expect(names.set('Hallow Blocks')).toBe('神圣方块');
   });
 
   it('falls back to the English name for sets with no translation', () => {
-    expect(createBlockNames(zhCN).set('Not A Set')).toBe('Not A Set');
+    expect(createBlockNames(zhCN, 'zh-CN').set('Not A Set')).toBe('Not A Set');
     expect(englishBlockNames.set('Corruption Blocks')).toBe('Corruption Blocks');
   });
 

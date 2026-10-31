@@ -1,15 +1,14 @@
-import { CopyOutlined, ExportOutlined } from "@ant-design/icons";
+import { CopyOutlined } from "@ant-design/icons";
 import { App, Button, Descriptions, Typography } from "antd";
 import type { TFunction } from "i18next";
 import { useTranslation } from "react-i18next";
 import { useBlockNames } from "../hooks/useBlockNames";
 import type { BlockNames } from "../lib/blockNames";
-import { isNative, openExternalUrl } from "../lib/native";
 import { getTileDisplayFields, type WorldPosition } from "../lib/tileDisplayFields";
 import { getItemName, getItemText } from "../lib/tileInfo";
 import { buildTileSummary, itemLabels } from "../lib/tileSummary";
-import { wikiUrl } from "../lib/wikiLink";
 import type { WorldItem, WorldTile } from "../types/settings";
+import WikiLink from "./WikiLink";
 
 const POTS_TILE = 28;
 
@@ -27,31 +26,13 @@ const entityTypeKeys: Record<number, string> = {
   10: 'entity_types.critter_anchor',
 };
 
-/** Opens a page on the Terraria wiki; native builds hand it to the system browser. */
-function WikiLink({ name, language, label }: { name: string; language: string; label: string }) {
-  const url = wikiUrl(name, language);
-  return (
-    <Typography.Link
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      onClick={isNative() ? e => { e.preventDefault(); void openExternalUrl(url); } : undefined}
-      title={label}
-      aria-label={label}
-      style={{ marginLeft: 6 }}
-    >
-      <ExportOutlined />
-    </Typography.Link>
-  );
-}
-
 /** The item's text, followed by a link to its wiki page in the language its name is in. */
 function ItemEntry({ item, names, t }: { item: WorldItem; names: BlockNames; t: TFunction }) {
   const name = getItemName(item.id, names);
   return (
     <>
       {getItemText(item, names)}
-      {name && <WikiLink name={name} language={names.language} label={t('wiki_link', { name })} />}
+      {name && <WikiLink key={`${item.id}-${names.language}`} itemId={item.id} name={name} language={names.language} label={t('wiki_link', { name })} />}
     </>
   );
 }

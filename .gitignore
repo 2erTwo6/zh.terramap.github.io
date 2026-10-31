@@ -13,3 +13,5 @@ flatpak-repo/
 flatpak-build/
 native/flatpak/terramap
 native/flatpak/*.png
+
+.wiki-cache/

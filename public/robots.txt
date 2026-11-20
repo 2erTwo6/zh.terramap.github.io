@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://terramap.github.io/sitemap.xml
+Sitemap: https://tr.xn--p8rt33c.top/sitemap.xml

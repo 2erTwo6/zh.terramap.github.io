@@ -28,6 +28,9 @@ import { readPlayerMap, type PlayerMap } from './lib/readPlayerMap';
 import { toWorldPosition } from './lib/tileDisplayFields';
 import { sets } from './sets';
 
+// The descriptive <title> from index.html, which search results show.
+const DEFAULT_TITLE = document.title;
+
 function NotificationBridge({ notificationRef }: { notificationRef: React.RefObject<ReturnType<typeof App.useApp>['notification'] | null> }) {
   const { notification } = App.useApp();
   notificationRef.current = notification;
@@ -188,7 +191,7 @@ export default function AppContent() {
     if (worldFile?.name) {
       document.title = `${worldFile.name} | TerraMap`;
     } else {
-      document.title = 'TerraMap';
+      document.title = DEFAULT_TITLE;
     }
   }, [worldFile]);
 
